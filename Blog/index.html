@@ -2,19 +2,25 @@
 <html>
 	<head>
 		<title>The Blog</title>
+		<meta name="description" content=
+		"Sample entries from The Blog"/>
 		<meta name="robots" content="nofollow"/>
 	</head>
-	<!-- Top Tabs -->
-	<ul>
-		<li class="toplinks"><a href="about.html">About</a></li>
-		<li class="toplinks"><a href="contact.html">Contact</a></li>
-		<li class="toplinks"><a href="archives.html">Archives</a></li>
-		<li class="toplinks"><a href="podcast.html">Podcast</a></li>
-		<li class="toplinks"><a href="donate.html">Donate</a></li>
-	</ul>
+	<!-- Top Tabs  -->
+	<div id="toptabs">
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="archives.html">Archives</a></li>
+			<li><a href="podcast.html">Podcast</a></li>
+			<li><a href="donate.html">Donate</a></li>
+		</ul>
+	</div>
 	<!-- End Top Tabs -->
-	<h1>The Blog</h1>
-	<h2>Sleek. Simple. Minimalistic.</h2>
+	<div id="header">
+		<h1>The Blog</h1>
+		<h2>Sleek. Simple. Minimalistic.</h2>
+	</div>
 	<body>
 		<p class="entry"> 
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis 
@@ -78,5 +84,12 @@
 			<button>Track This</button>
 			<button>Link</button>
 		</span>
+		<footer>
+			<form action="http://www.example.com/subscribe.php">
+			<p>Subscribe to our mailing list:</p>
+			<input type="text" name="email"/>
+			<input type="submit" name="Subscribe"/>
+			</form>
+		</footer>
 	</body>
 </html>
