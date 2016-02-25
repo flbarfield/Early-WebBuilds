@@ -1,0 +1,51 @@
+nav ul li {
+	display: inline-block;
+}
+
+nav {
+	background-color: black;
+	min-height: 60px;
+    position:relative;
+    left: auto;
+    right: auto;
+}
+
+nav ul li a {
+	color: ghostwhite;
+	padding: 1em 1em;
+    display: block;
+    line-height: 2em;
+    background-color: black;
+}
+
+#header {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+body {
+    background-color: cornsilk;
+    border-width: thick;
+    color:
+} 
+
+.entry{
+    margin: 10px auto 10px auto;
+    max-width: 400px;
+    border-style: solid;
+    border-width: thick;
+    padding: 25px
+}
+
+.input{
+    position: relative;
+    left: 50%
+}
+
+#footer {
+    display: inline-block;
+    position: relative;
+    left: 83%; 
+}
+
