@@ -1,7 +1,7 @@
 <!DOCTYPE html/>
 <html>
 <head>
-    <link href="../../normalize.css"/>
+    <link href="../normalize.css"/>
 </head>
 <body>
     <div id="page">
@@ -13,14 +13,46 @@
                     <li>Location</li>
                 </ul>
             </nav>
+            <form action="example.com/search.php" 
+                  method="get">
+                <p>Search:<input type="search" name="search"/></p>
+            </form>
         </header> 
     <div id="banner">
      <p>
         Toolio Inc
      </p>
     </div>
-    
-    
+    <div id="content">
+        <aside id="gallery">
+            <img class="big-image" src="Images/camera_set.jpg"/>
+            <img class="thumbnail" src="Images/colorpencils.jpg"/>
+            <img class="thumbnail" src="Images/knives.jpg"/>
+            <img class="thumbnail" src="Images/bwtools.jpg"/>
+        </aside>
+        <article class="col40">
+            <p class="Heading"> 
+                We got the tools you need!
+            </p>
+            <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lobortis sem nisi, eget venenatis dui vestibulum a. Ut ullamcorper sit amet nisi sit amet volutpat. Etiam a tellus fermentum quam venenatis gravida. Maecenas laoreet augue libero, ac rhoncus odio bibendum vel. Nulla id diam ut erat suscipit gravida at quis quam. Etiam ac ultrices orci. Nullam imperdiet, elit nec porta euismod, neque arcu convallis ante, a bibendum massa magna rutrum justo. Ut et nibh velit. Nam pharetra, purus vitae pellentesque sodales, dui massa egestas mi, eu aliquam justo odio ac ipsum. Proin dictum arcu a lorem bibendum, a tempor erat aliquam. Morbi ac interdum neque, sit amet sagittis orci. Nam quis diam hendrerit, volutpat tellus ut, imperdiet odio. Etiam ac dui nisl.
+            </p>
+            <button>Shop now</button>
+            <button>Learn More</button>
+        </article>
+        <article class="col33">  
+            <p>Popular Products</p>
+            <img src="Images/scissors.jpg"/>
+        </article>
+        <article class="col33">
+            <p>Custom Make</p>
+            <img src="Images/making%20something.jpg"/>
+        </article>
+        <article class="col33">
+            <p>Professional Grade</p>
+            <img src="Images/Welding.jpg"/>
+        </article>
+    </div>
     </div>
 </body>
 </html>
