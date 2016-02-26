@@ -48,6 +48,17 @@ body {
     border-width: thick;
 } 
 
+.image{
+    min-width: 300px;
+    display: block;
+    padding-top: 0em;
+    margin: 1em auto;
+    border-style: ridge;
+    border-width: thick;
+    border-color: black;
+    
+}
+
 .subject {
     margin: 0em;
     font-family: monotype corsiva;
@@ -65,6 +76,7 @@ body {
     border-right: hidden;
     border-top: hidden;
     color: black;
+    border-color: black;
 }
 
 .entry{
