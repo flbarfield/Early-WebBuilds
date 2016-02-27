@@ -3,44 +3,49 @@
 }
 
 #banner{
-/*
-    top-margin: 0em;
-    bottom-margin: 0em;
-*/
     background-color: dodgerblue;
     font-size: 1.5em;
     display: block;
     width: 100%;
     z-index: 10;
     position: fixed;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+#sitename{
+    display: inline;
+    float: left;
+    font-family: arial black;
+    border-right-style: solid;
+    padding-right: .5em
+}
+
+nav span li {
+    color: white;
+    display: inline-block;
+    flat: left; 
+    margin: 1em 0em 0em 11em;
+    font-weight: bold; 
+}
+
+nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
 }
 
 /*
-nav ul{
-    background-color: red;
-}
-
-nav ul li {
-    color: white;
-    display: inline-block;
-    padding: .3em;
-    margin: 0em 6em;
-    font-size: 1.5em;
-}
-
-
 #searchbar{
     background-color: dodgerblue;
     display: block;
+    float: right;
 }
 */
 
-.big-image{
-    margin-top: 7em;
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 2.5%;
-}
 
 .col40{
     width: 30%;
@@ -49,6 +54,19 @@ nav ul li {
     display: inline-block;
     position: relative;
     bottom: 25em;
+}
+
+#gallery{
+    border-style: solid;
+    border-width: thick;
+    clear: both;
+}
+
+.big-image{
+    margin-top: 7em;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2.5%;
 }
 
 #thumbnail {
