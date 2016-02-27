@@ -1,11 +1,18 @@
 <!DOCTYPE html/>
 <html>
 <head>
-    <link href="../normalize.css"/>
+    <link href="../normalize.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
     <div id="page">
         <header>
+            <div id="banner">
+                 <p>
+                    Tool Inc
+                 </p>
+            </div>
+<!--
             <nav>
                 <ul>
                     <li>About</li>
@@ -15,20 +22,19 @@
             </nav>
             <form action="example.com/search.php" 
                   method="get">
-                <p>Search:<input type="search" name="search"/></p>
+                <p id="searchbar">Search:<input type="search" 
+                    name="search"/></p>
             </form>
+-->
         </header> 
-    <div id="banner">
-     <p>
-        Toolio Inc
-     </p>
-    </div>
     <div id="content">
         <aside id="gallery">
             <img class="big-image" src="Images/camera_set.jpg"/>
-            <img class="thumbnail" src="Images/colorpencils.jpg"/>
-            <img class="thumbnail" src="Images/knives.jpg"/>
-            <img class="thumbnail" src="Images/bwtools.jpg"/>
+            <div id="thumbnail">
+                <img id="t1" src="Images/colorpencils.jpg"/>
+                <img id="t2" src="Images/knives.jpg"/>
+                <img id="t3" src="Images/bwtools.jpg"/>
+            </div>
         </aside>
         <article class="col40">
             <p class="Heading"> 
@@ -40,18 +46,18 @@
             <button>Shop now</button>
             <button>Learn More</button>
         </article>
-        <article class="col33">  
+        <section class="col33">  
             <p>Popular Products</p>
             <img src="Images/scissors.jpg"/>
-        </article>
-        <article class="col33">
+        </section>
+        <section class="col33">
             <p>Custom Make</p>
             <img src="Images/making%20something.jpg"/>
-        </article>
-        <article class="col33">
+        </section>
+        <section class="col33">
             <p>Professional Grade</p>
             <img src="Images/Welding.jpg"/>
-        </article>
+        </section>
     </div>
     </div>
 </body>

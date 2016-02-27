@@ -1,0 +1,79 @@
+#page{
+    background-color: lightsteelblue;
+}
+
+#banner{
+/*
+    top-margin: 0em;
+    bottom-margin: 0em;
+*/
+    background-color: dodgerblue;
+    font-size: 1.5em;
+    display: block;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+/*
+nav ul{
+    background-color: red;
+}
+
+nav ul li {
+    color: white;
+    display: inline-block;
+    padding: .3em;
+    margin: 0em 6em;
+    font-size: 1.5em;
+}
+
+
+#searchbar{
+    background-color: dodgerblue;
+    display: block;
+}
+*/
+
+.big-image{
+    margin-top: 7em;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+
+.col40{
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 2.5%;
+    display: inline-block;
+    position: relative;
+    bottom: 25em;
+}
+
+#thumbnail {
+    margin-top: .5em;
+    display: block;
+}
+
+#t1{
+    margin-right: .5em;
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#t2 {
+    margin-right: 5%;
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+}
+
+#t3 {
+    margin-right: 5%;
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+}
