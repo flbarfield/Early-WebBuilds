@@ -10,4 +10,5 @@ but isn't that part of the journey?
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
 1) Product Page: Product selling layout of various tools. Need to come back and finish.
+
 2) Blog: Recalling how to make a layout mocking the style of a simple blog. No further functionality as of right now.   
