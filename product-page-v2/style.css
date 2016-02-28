@@ -1,0 +1,30 @@
+span li {
+    text-align: center;
+}
+
+#gallery{
+    overflow: auto;
+}
+#mainpic {
+    clear: both;
+    float: left;
+}
+
+#thumbnails{
+    margin-top: .5em;
+    clear: both;
+    float: left;
+}
+
+.t1 {
+    margin-right: 17.28%;
+}
+
+.t2 {
+    margin-right: 17.28%
+}
+
+#intro {
+    float: right;
+    overflow: auto;
+}
