@@ -8,7 +8,6 @@ but isn't that part of the journey?
 
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
-~~~~~~~
 
 1) Product Page V2: Redux of the first, except now learning how to use grid formatting.
 
