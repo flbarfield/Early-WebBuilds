@@ -2,9 +2,6 @@ span li {
     text-align: center;
 }
 
-#gallery{
-    overflow: auto;
-}
 #mainpic {
     clear: both;
     float: left;
@@ -24,7 +21,7 @@ span li {
     margin-right: 17.28%
 }
 
-#intro {
+#galtext {
     float: right;
     overflow: auto;
 }
