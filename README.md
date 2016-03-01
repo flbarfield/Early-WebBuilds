@@ -9,7 +9,7 @@ but isn't that part of the journey?
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
-1) Templates: My very first personally satisfying basic layout crafted from the ground up. No images
+1) Templates: My very first personally satisfying basic layout crafted from the ground up. Also starting to incorporate Design principals I'm currently reading about.
 
 2) Product Page V2: Redux of the first, except now learning how to use grid formatting.
 
