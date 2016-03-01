@@ -1,6 +1,6 @@
 nav{
     text-align: right;
-    background-color: 35235D; 
+    background-color: 35235D;
 }
 
 nav li {
@@ -10,32 +10,78 @@ nav li {
 
 nav a{
     text-decoration: none;
-    color: CB2402; 
+    color: DB2464; 
     font-weight: bolder;
 }
 
 nav a:hover{
-    color: DB2464;
+    color: CB2402;
 }
 
 h1 {
     font-size: 5em;
     font-family: book antiqua;
-    background-color: DB2464;
-    color: black;;
+    background-color: CB2402;
+    color: black;
+    margin: 0;
 }
 
 #intro p{
-    
+    font-family: georgia;
+    color: cb6e5b;
+    font-style: oblique;
+    margin-top: 0;
+    margin-left: 2em
 }
 
 h3 {
-    font-family: cursive;
+    font-size: 2em;
+    font-family: book antiqua;
+    text-transform: uppercase;
+    color: DB2464;
+    height: 2.5em;
 }
+
 #page{
     background-color: 35235D; 
 } 
+
+#main p{
+    min-height: 15em;
+    font-family: georgia;
+    font-size: .9em;
+    color: c7219d;
+}
+
 p img {
     height: 10em;
-    width: 10em;        
+    width: 10em;
+    float: right;
+    margin: 1em
+}
+
+#main a {
+    text-decoration: none;
+    color: DB2464; 
+    font-weight: bolder;
+}
+
+#final {
+    margin-top: 3em
+}
+#final h3 {
+    height: 1.5em;
+    margin-bottom: 0;
+    
+}
+
+#final p {
+    font-family: georgia;
+    font-size: .9em;
+    color: c7219d;
+}
+
+footer {
+    height: 3em;
+    background-color: red;
 }
