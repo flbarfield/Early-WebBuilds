@@ -1,0 +1,13 @@
+#searchbar button, input {
+    float: right;
+    margin-top: 2em;
+}
+
+#top h1{
+    padding-top: 0;
+}
+#top nav li {
+    display: inline;
+    padding: .5em;
+    margin-right: .5em;
+}
