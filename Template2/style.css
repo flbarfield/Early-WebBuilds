@@ -1,13 +1,65 @@
+/*
+#page{
+    background-color: 
+
+*/
+
 #searchbar button, input {
     float: right;
     margin-top: 2em;
 }
 
+#searchbar button {
+    background-color: darkorange;
+    color: white;
+    font-weight: bold;
+    margin-left: .5em;
+}
+
+#searchbar input {
+    background-color: 1c1c1c;
+}
+
+#top {
+    background-color: 424242;
+}
+
 #top h1{
     padding-top: 0;
+    color: cfcfcf;
 }
+
+#top nav {
+    background-color: 1c1c1c;
+    height: 3em
+}
+
 #top nav li {
     display: inline;
     padding: .5em;
     margin-right: .5em;
+}
+
+#top nav a {
+    text-decoration: none;
+    font-size: 2em;
+    color: cfcfcf;
+}
+
+#intro {
+    margin-top: 2em;
+    background-color: 424242;
+}
+
+#intro img {
+    float: right;
+    margin-right: -1em;
+}
+
+#intro h1, p {
+    color: cfcfcf;
+}
+
+#intro h1 {
+    font-size: 4em
 }
