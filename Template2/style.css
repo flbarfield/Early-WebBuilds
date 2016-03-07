@@ -25,13 +25,15 @@
 
 #top nav {
     background-color: 1c1c1c;
-    height: 3em
+    height: 3em;
+    text-align: center;
+    height: 2.5em;
 }
 
 #top nav li {
     display: inline;
     padding: .5em;
-    margin-right: .5em;
+    margin-right: 3em;
 }
 
 #top nav a {
@@ -39,7 +41,7 @@
     font-size: 2em;
     color: cfcfcf;
 }
-/******* END TOP NAVIGATION CONTROLS *********/
+/******* END TOP NAVIGATION CONTROLS, START INTRO *********/
 #intro {
     margin-top: 2em;
     background-color: 424242;
@@ -54,11 +56,15 @@
     color: cfcfcf;
 }
 
+#intro p {
+    font-family: 'Roboto', sans-serif;
+}
+
 #intro h1 {
     font-size: 4em
 }
 
-/******* END INTRO ELEMENTS *********/
+/******* END INTRO ELEMENTS, START MAIN *********/
 
 #main {
     margin-top: 4em;
@@ -79,4 +85,19 @@
     color: black;
     max-height: 16em;
     margin-top: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******* END MAIN, START FOOTER *********/
+
+#footer{
+    background-color: 1c1c1c;
+    height: 2.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+#footer a {
+    color: cfcfcf;
+    font-size: 2em;
 }
