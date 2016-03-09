@@ -1,10 +1,10 @@
 #page{
-    background-color: lightblue;
+    background-color: 9A8D7A;
 }
 
 nav {
     width: 100%;
-    background-color: dodgerblue;
+    background-color: 0096FF;
 }
 span li {
     text-align: center;
@@ -18,7 +18,7 @@ span a{
 }
 
 span a:hover{
-    color: orange;
+    color: FFA219;
 }
 
 #gallery {
@@ -29,12 +29,20 @@ span a:hover{
     margin-top: .5em;
 }
 
+#thumbnails img {
+    height: 6em;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    float: left;
+    
+} 
+
 .t1 {
-    margin-right: 17.28%;
+    margin-right: 12.8em;
 }
 
 .t2 {
-    margin-right: 17.28%
+    margin-right: 12.8em;
 }
 
 #intro h1 {
@@ -42,7 +50,8 @@ span a:hover{
 }
 
 #intro p {
-    text-align: justify
+    text-align: justify;
+    color: 
 }
 
 #producttypes h3 {
