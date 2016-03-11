@@ -54,6 +54,16 @@ span a:hover{
     color: 
 }
 
+ button {
+    background-color:0096FF;
+    color: FF9700;
+    font-weight: bold
+}
+
+button:hover {
+    color: white;
+}
+
 #producttypes h3 {
     text-align: center;
 }
