@@ -1,7 +1,38 @@
+#top-banner {
+    background-color: grey;
+    color: azure;
+    margin-bottom: 2em;
+}
+
+nav ol {
+    margin-top: 1.5em;
+}
+
+nav a {
+    color: azure;
+    margin-right: 1.5em;
+    text-decoration: none;
+    padding: .5em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+#init-images {
+    margin-bottom: 2em
+}
+
 #init-images figure {
     margin-right: 6.667% 
 }
+
 #init-images img {
     width: 100%;
-    height: 30em; 
+    height: 25em; 
+}
+
+#description {
+    margin-bottom: 2em;
 }
