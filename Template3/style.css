@@ -4,11 +4,11 @@
     margin-bottom: 2em;
 }
 
-nav ol {
+#top-banner nav ol {
     margin-top: 1.5em;
 }
 
-nav a {
+#top-banner nav a {
     color: azure;
     margin-right: 1.5em;
     text-decoration: none;
@@ -19,6 +19,8 @@ nav a {
 nav a:hover {
     color: aqua;
 }
+
+/*Images and Description*/
 
 #init-images {
     margin-bottom: 2em
@@ -35,4 +37,21 @@ nav a:hover {
 
 #description {
     margin-bottom: 2em;
+}
+
+/* Products */
+
+#product-row {
+    margin-bottom: 2em;
+}
+
+#product-row a{
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+/* Aside Category Links */
+
+#cat-links {
+
 }
