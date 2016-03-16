@@ -53,5 +53,14 @@ nav a:hover {
 /* Aside Category Links */
 
 #cat-links {
+    position: relative;
+    bottom: 34.5em;
+}
 
+#cat-links ul {
+    margin-top: -.8em
+}
+
+#cat-links a {
+    text-decoration: none;
 }
