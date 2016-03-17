@@ -9,10 +9,16 @@ but isn't that part of the journey?
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
-1) Templates: My very first personally satisfying basic layout crafted from the ground up. Also starting to incorporate Design principals I'm currently reading about.
+1) Recalling Javascript: Exercises done along with the Javascript and Jquery book by Jon as a refresher. 
 
-2) Product Page V2: Redux of the first, except now learning how to use grid formatting.
+2) Template 3: Hastily crafted layout #3. This is where I've begun to get good at aligning elements on a page, at least according to my personal computer.
 
-3) Product Page: Aimed for a product page. Decided to scrap it and start fresh due to the fact the code became really messy due to the fact that I hadn't grasped yet how images interact with paragraphs
+3) Template2: Another hastily crafted layout #2 
 
-4) Blog: Recalling how to make a layout mocking the style of a simple blog. No further functionality as of right now.   
+4) Templates: My very first personally satisfying basic layout crafted from the ground up. Also starting to incorporate Design principals I'm currently reading about.
+
+5) Product Page V2: Redux of the first, except now learning how to use grid formatting.
+
+6) Product Page: Aimed for a product page. Decided to scrap it and start fresh due to the fact the code became really messy due to the fact that I hadn't grasped yet how images interact with paragraphs
+
+7) Blog: Recalling how to make a layout mocking the style of a simple blog. No further functionality as of right now.   
