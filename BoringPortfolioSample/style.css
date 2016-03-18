@@ -1,0 +1,28 @@
+#intro {
+    font-size: 2em;
+    text-align: center;
+}
+
+#intro p button {
+    font-size: .7em;
+}
+
+@media screen and (min-width: 700px) {
+    #intro{
+        text-align: left;
+    }
+    
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #intro {
+        
+    }
+    
+    body {
+        background-color: aqua;
+    }
+}
