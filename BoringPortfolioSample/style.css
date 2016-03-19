@@ -1,3 +1,12 @@
+body {
+    background-image: url(images/clouds.jpg);
+}
+
+img {
+    max-width: 2400px;
+    max-height: 3600px;
+}
+
 #intro {
     font-size: 1.4em;
     text-align: center;
@@ -45,6 +54,11 @@
         2/2 grid*/
 }
 
+#feedback-form {
+    margin-top: .5em;
+}
+
+
 #footer {
     height: 3em;
     width: 100%;
@@ -55,6 +69,7 @@
     #intro{
         text-align: left;
     }
+    
     
     body {
         background-color: lightgreen;
