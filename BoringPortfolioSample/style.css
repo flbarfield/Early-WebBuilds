@@ -34,6 +34,23 @@
     margin-top: .5em;
 }
 
+#communications h2 {
+    font-size: 1.5em;
+}
+
+#communications p {
+    font-size: .7em
+    
+    /*    Hide these under buttons on mobile. Requires                 Javascript. I'd like to also organize them in a 
+        2/2 grid*/
+}
+
+#footer {
+    height: 3em;
+    width: 100%;
+    background-color: black;
+}
+
 @media screen and (min-width: 700px) {
     #intro{
         text-align: left;
