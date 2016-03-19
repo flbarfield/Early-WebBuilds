@@ -1,0 +1,55 @@
+#intro {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#intro p button {
+    font-size: .6em;
+}
+
+#project_row1 {
+    width: 100%;
+    font-size: .7em;
+}
+
+#project_row1 img {
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+#project_row1 button {
+    margin-top: .5em;
+}
+
+#project_row2 {
+    width: 100%;
+    font-size: .7em;
+}
+
+#project_row2 img {
+    width: 100%
+}
+
+#project_row2 button {
+    margin-top: .5em;
+}
+
+@media screen and (min-width: 700px) {
+    #intro{
+        text-align: left;
+    }
+    
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #intro {
+        
+    }
+    
+    body {
+        background-color: aqua;
+    }
+}
