@@ -9,7 +9,7 @@ but isn't that part of the journey?
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
-* BoringPortfolioSample: Completing another single-page template, but decided to approuch it from a mobile-first angle this time around.
+* BoringPortfolioSample: Completing another single-page template, but decided to approuch it from a mobile-first angle for the first time. After this - all sites made after this will have different viewports considered.
 
 * Recalling Javascript: Exercises done along with the Javascript and Jquery book by Jon as a refresher. 
 
