@@ -16,6 +16,17 @@ img {
     font-size: .6em;
 }
 
+#project_row1 p, #project_row2 p {
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+#project_row1 button, #project_row2 button {
+    position: relative;
+    left: 37%;
+}
+
 #project_row1 {
     width: 100%;
     font-size: .7em;
