@@ -7,13 +7,24 @@ img {
     max-height: 3600px;
 }
 
+
 #intro {
     font-size: 1.4em;
     text-align: center;
 }
 
-#intro p button {
+#intro a {
     font-size: .6em;
+    font-weight: bold;
+    text-decoration: none;
+    color: 6f87ab;
+    background-color: white;
+    padding: .3em;
+    border-radius: .5em;
+}
+
+#intro a:hover {
+    color: orangered;
 }
 
 #project_row1 p, #project_row2 p {
@@ -22,9 +33,21 @@ img {
     border-radius: 1em;
 }
 
-#project_row1 button, #project_row2 button {
+#project_row1 a, #project_row2 a {
+    font-weight: bold;
+    text-decoration: none;
+    color:  50617b;
+    background-color: white;
+    padding: .3em;
+    border-radius: .5em;
+    border-style: solid;
+    border-color: 6f87ab;
     position: relative;
     left: 37%;
+}
+
+#project_row1 a:hover, #project_row2 a:hover {
+    color: orangered;
 }
 
 #project_row1 {
@@ -37,9 +60,6 @@ img {
     margin-bottom: .5em;
 }
 
-#project_row1 button {
-    margin-top: .5em;
-}
 
 #project_row2 {
     width: 100%;
@@ -50,17 +70,24 @@ img {
     width: 100%
 }
 
-#project_row2 button {
-    margin-top: .5em;
+#communications h2 {
+    font-size: .8em;
+    display: inline-block;
+    margin-right: 10%;
+    color: 50617b;
+    background-color: white;
+    padding: .3em;
+    border-radius: .5em
 }
 
-#communications h2 {
-    font-size: 1.5em;
+#communications h2:hover {
+    color: orangered;
 }
 
 #communications p {
-    font-size: .7em
-    
+    font-size: .7em;
+    display: none;
+    butto
     /*    Hide these under buttons on mobile. Requires                 Javascript. I'd like to also organize them in a 
         2/2 grid*/
 }
@@ -75,6 +102,7 @@ img {
     width: 100%;
     background-color: black;
 }
+
 
 @media screen and (min-width: 700px) {
     #intro{
