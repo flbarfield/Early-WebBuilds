@@ -3,8 +3,8 @@ body {
 }
 
 img {
-    max-width: 2400px;
-    max-height: 3600px;
+    max-width: 500px;
+    max-height: 333px;
 }
 
 
@@ -42,8 +42,6 @@ img {
     border-radius: .5em;
     border-style: solid;
     border-color: 6f87ab;
-    position: relative;
-    left: 37%;
 }
 
 #project_row1 a:hover, #project_row2 a:hover {
@@ -72,12 +70,11 @@ img {
 
 #communications h2 {
     font-size: .8em;
-    display: inline-block;
-    margin-right: 10%;
+    text-align: center;
     color: 50617b;
     background-color: white;
     padding: .3em;
-    border-radius: .5em
+    border-radius: .5em;
 }
 
 #communications h2:hover {
@@ -87,13 +84,19 @@ img {
 #communications p {
     font-size: .7em;
     display: none;
-    butto
     /*    Hide these under buttons on mobile. Requires                 Javascript. I'd like to also organize them in a 
         2/2 grid*/
 }
 
 #feedback-form {
     margin-top: .5em;
+    background-color: c76900;
+    color: 50617b;
+    font-weight: bold;
+}
+
+#feedback-form textarea, #feedback-form input {
+    width: 100%
 }
 
 
@@ -104,14 +107,14 @@ img {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 550px) {
     #intro{
         text-align: left;
     }
     
-    
-    body {
-        background-color: lightgreen;
+    #project_row1, #project_row2 {
+        max-width: 527px;
+        max-height: 445px;
     }
 }
 
