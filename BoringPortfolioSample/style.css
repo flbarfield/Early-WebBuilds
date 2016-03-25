@@ -89,10 +89,18 @@ img {
 }
 
 #feedback-form {
+    width: 100%
+}
+
+
+#feedback-form fieldset {
     margin-top: .5em;
     background-color: c76900;
     color: 50617b;
     font-weight: bold;
+    display: block;
+    max-width: 561px;
+    max-height: 364px;
 }
 
 #feedback-form button:hover {
@@ -103,6 +111,9 @@ img {
     width: 100%
 }
 
+.clearfix {
+    overflow: auto;
+}
 
 #footer {
     height: 3em;
@@ -119,11 +130,22 @@ img {
     #project_row1 p, #project_row2 p {
         max-width: 527px;
         max-height: 445px;
-        margin-right: 2em;
+        margin-right: 1em;
         display: inline-block;
     }
+    
     
     #project_row1, #project_row2 {
         text-align: center;
     }
+    
+    #communications p {
+        display: inline-block;
+        font-weight: bolder;
+    }
+    
+    #communications {
+        margin-top: 2.5em;
+    }
+    
 }
