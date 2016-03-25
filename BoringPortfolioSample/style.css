@@ -95,6 +95,10 @@ img {
     font-weight: bold;
 }
 
+#feedback-form button:hover {
+    color: orangered;
+}
+
 #feedback-form textarea, #feedback-form input {
     width: 100%
 }
@@ -112,18 +116,14 @@ img {
         text-align: left;
     }
     
-    #project_row1, #project_row2 {
+    #project_row1 p, #project_row2 p {
         max-width: 527px;
         max-height: 445px;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    #intro {
-        
+        margin-right: 2em;
+        display: inline-block;
     }
     
-    body {
-        background-color: aqua;
+    #project_row1, #project_row2 {
+        text-align: center;
     }
 }
