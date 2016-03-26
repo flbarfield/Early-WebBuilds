@@ -68,6 +68,10 @@ img {
     width: 100%
 }
 
+#communications {
+    margin-bottom: 3em;
+}
+
 #communications h2 {
     font-size: .8em;
     text-align: center;
@@ -89,7 +93,8 @@ img {
 }
 
 #feedback-form {
-    width: 100%
+    width: 100%;
+    background-color: orangered;
 }
 
 
@@ -101,6 +106,9 @@ img {
     display: block;
     max-width: 561px;
     max-height: 364px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
 }
 
 #feedback-form button:hover {
@@ -125,13 +133,23 @@ img {
 @media screen and (min-width: 550px) {
     #intro{
         text-align: left;
+        font-size: 2em;
     }
     
+    #intro a {
+        font-size: .5em;
+    }
+    
+    
     #project_row1 p, #project_row2 p {
-        max-width: 527px;
+        max-width: 500px;
         max-height: 445px;
         margin-right: 1em;
         display: inline-block;
+    }
+    
+    #project_row1 img, #project_row2 img {
+        display: block;
     }
     
     
