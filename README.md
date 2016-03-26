@@ -11,7 +11,7 @@ Below is a list of things I've attempted to make. Decending order from the proje
 
 * BoringPortfolioSample: This actually wasn't as boring as I expected! Creating another single-page template, but decided to approuch it from a mobile-first angle for the first time. After this - all sites made after this will have different viewports considered for responsive web development.
 
-* Recalling Javascript: Exercises done along with the Javascript and Jquery book by Jon as a refresher. 
+* Recalling Javascript: Exercises done along with the Javascript and Jquery book by Jon as a refresher. !!! Later decided to just make this it's own repository. It has a lot of potential to grow in content until I get to the point where I can regularly integrate it into templates and what not.
 
 * Template 3: Hastily crafted layout #3. This is where I've begun to get good at aligning elements on a page, at least according to my personal computer.
 
