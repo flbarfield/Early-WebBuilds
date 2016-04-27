@@ -1,0 +1,118 @@
+nav ul li {
+	display: inline-block; 
+}
+
+nav {
+	background-color: black;
+	min-height: 4em;
+    position:relative;
+    left: auto;
+    right: auto;
+}
+
+nav ul li a {
+	color: cornsilk;
+	padding: 1em 1em;
+    display: block;
+    line-height: 2em;
+    background-color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a:hover {
+    color:dimgray;
+}
+
+#header {
+    display: block;
+    text-align: center;
+    margin: auto 1em;
+}
+
+h1{
+    font-size: 3em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+h2{
+    padding-top: 0em;
+    margin-top: 0em;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+body {
+    background-color: cornsilk;
+    border-width: thick;
+} 
+
+.image{
+    min-width: 300px;
+    display: block;
+    padding-top: 0em;
+    margin: 1em auto;
+    border-style: ridge;
+    border-width: thick;
+    border-color: black;
+    
+}
+
+.subject {
+    margin: 0em;
+    font-family: monotype corsiva;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: black;
+}
+
+.sub-subject{
+    margin-top: 0em;
+    font-style: italic;
+    border-style: groove;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    color: black;
+    border-color: black;
+}
+
+.entry{
+    color: darkslategrey;
+    border-color: black;
+    margin: 2em auto 0.5em auto;
+    max-width: 30em;
+    min-width: 15em;
+    border-style: solid;
+    border-width: thick;
+    padding: 0em .5em
+}
+
+.input{
+    position: relative;
+    left: 54%;
+}
+
+button{
+    background-color: black;
+    color: cornsilk;
+}
+
+button:hover{
+    color: darkgray;
+}
+
+#footer{
+    font-style: italic;
+    font-weight: bold;
+}
+.sub-button{
+    background-color: black;
+    color: cornsilk;
+}
+
+.textfield{
+    background-color: cornsilk;
+}
