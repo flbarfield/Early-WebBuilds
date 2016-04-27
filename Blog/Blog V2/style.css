@@ -1,0 +1,33 @@
+body {
+    margin: 1em;
+}
+
+nav {
+
+}
+
+nav ul {
+    white-space: nowrap;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 2%;
+    font-size: .8em;
+}
+
+.desktop-subscribe-btn {
+    width: 100%;
+    white-space: nowrap;
+    display: none;
+}
+
+#logo {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#logo h2 {
+    margin-top: -1.2em;
+    font-size: .8em
+} 
