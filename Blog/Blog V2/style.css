@@ -1,6 +1,9 @@
 body {
     margin: 1em;
+    background-color: rgb(251, 244, 217)	
 }
+
+/*NAVIGATION*/
 
 nav {
 
@@ -12,8 +15,17 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 2%;
+    margin: 0 .5%;
     font-size: .8em;
+    padding: .4em;
+    background-color: rgb(252, 229, 142);
+    color: rgb(127, 116, 72);
+    font-weight: 600;
+    border-radius: .3em;
+}
+
+nav li:hover {
+    background-color: rgb(255, 248, 220);
 }
 
 .desktop-subscribe-btn {
@@ -22,12 +34,56 @@ nav li {
     display: none;
 }
 
+/*MAIN LOGO*/
+
 #logo {
     margin-top: 2em;
     margin-bottom: 3em;
+    text-align: center;
 }
 
 #logo h2 {
     margin-top: -1.2em;
     font-size: .8em
 } 
+
+/*ENTRIES*/
+
+.entry {
+    background-color: rgb(170, 166, 147);
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: .4em;
+    max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: .5em;
+}
+
+.header {
+    text-align: center;
+    border-bottom-style: ridge;
+    border-width: thin;
+    border-color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.entry h2 {
+    margin-top: -1.5em;
+    font-size: .9em
+}
+
+.btn-controls button {
+    margin-right: .2em;
+    background-color: rgb(252, 229, 142);
+    color: rgb(127, 116, 72);
+    font-weight: 700;
+    border-radius: .4em;
+}
