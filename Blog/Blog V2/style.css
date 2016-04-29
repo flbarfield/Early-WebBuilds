@@ -1,3 +1,9 @@
+button:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 10px;
+}
+
 body {
     margin: 1em;
     background-color: rgb(251, 244, 217)	
@@ -6,25 +12,24 @@ body {
 /*NAVIGATION*/
 
 nav {
-
-}
-
-nav ul {
     white-space: nowrap;
+    background-color: rgb(170, 166, 147);
+    padding: .5em;
+    text-align: center;
 }
 
-nav li {
+button {
     display: inline-block;
-    margin: 0 .5%;
     font-size: .8em;
     padding: .4em;
+    margin-right: 2%;
     background-color: rgb(252, 229, 142);
-    color: rgb(127, 116, 72);
     font-weight: 600;
     border-radius: .3em;
+    color: rgb(127, 116, 72);
 }
 
-nav li:hover {
+button:hover {
     background-color: rgb(255, 248, 220);
 }
 
@@ -42,9 +47,14 @@ nav li:hover {
     text-align: center;
 }
 
+#logo h1 {
+    font-size: 4em;
+    margin-bottom: 0
+}
+
 #logo h2 {
-    margin-top: -1.2em;
-    font-size: .8em
+    margin-top: 0;
+    font-size: .9em;
 } 
 
 /*ENTRIES*/
@@ -71,7 +81,7 @@ nav li:hover {
     border-bottom-style: ridge;
     border-width: thin;
     border-color: black;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
