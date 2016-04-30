@@ -3,6 +3,7 @@
     <head>
         <link href='../normalize.css' rel='stylesheet'/>
         <link href='../unsemantic-grid-responsive.css' rel='stylesheet'/>
+        <link href='../font-awesome-4.6.1/css/font-awesome.min.css' rel='stylesheet'/>
         <link href='style.css' rel='stylesheet'/>
     </head>
     <body class='grid-container'>
@@ -16,10 +17,13 @@
                 <li><img src="Images/PoolTable.jpg"/></li>
             </ul>
         </div>
-        <aside class='mobile-grid-30 grid-30'>
+        <aside id='min-right-panel' class='mobile-grid-5 grid-5'>
+            <a class='fa fa-bars fa-rotate-90'></a>
+        </aside>
+        <aside id='right-panel' class='mobile-grid-30 grid-30'>
             <div id='nav-items'>
-                <button>ARROW</button>
-                <button>Home Icon</button>
+                <a class='fa fa-arrow-right'></a>
+                <a class='fa fa-home'></a>
                 <a href='projects.html'>Projects</a>
                 <a href='who.html'>Who we are</a>
                 <a href='why.html'>Why choose us?</a>
@@ -31,6 +35,16 @@
                 <p>BLD9495</p>
             </div>
             <div id='sharing-icons'>
+                <div class='row-1'>
+                    <a class='fa fa-envelope'></a>
+                    <a class='fa fa-facebook'></a>
+                    <a class='fa fa-twitter'></a>
+                </div>
+                <div class='row-2'>
+                    <a class='fa fa-linkedin'></a>
+                    <a class='fa fa-instagram'></a>
+                    <a class='fa fa-houzz'></a>
+                </div>
 <!--                email, facebook, twitter, linkd in, instagram, houzz-->
             </div>
         </aside>

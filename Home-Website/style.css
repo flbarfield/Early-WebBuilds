@@ -13,6 +13,11 @@
 .main-slides .active {
     display: block;
     width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /*
@@ -32,14 +37,18 @@
 aside {
     background-color: rgb(255, 224, 0);
     padding: 2em;
-    height: 100em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 186px;
+    max-width: 340px;
 }
 
-aside button {
+#nav-items .fa {
     display: block;
-    margin-bottom: 1em;
+    font-size: 2em;
 }
-
 
 aside a {
     display: block;
@@ -51,6 +60,17 @@ aside a {
     
 }
 
+#sharing-icons {
+    position: absolute;
+    bottom: 5em;
+}
+
+#sharing-icons a {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
 #footer-info {
     position: absolute;
     bottom: 0;
@@ -59,4 +79,21 @@ aside a {
 aside p {
     margin: 0;
 }
+
+#min-right-panel {
+    background-color: rgb(255, 224, 0);
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1%;
+    display: none;
+}
+
+/*
+#right-panel {
+    display: none;
+}
+*/
 
