@@ -2,22 +2,22 @@
     display: none;
 }
 
+/*LEFT SIDE ELEMENTS*/
+
+html {
+    background-image: url('Images/FirePlace.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
 .main-slides img {
     display: none;
 }
 
 .main-slides ul {
     list-style: none;
-}
-
-.main-slides .active {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 /*
@@ -43,6 +43,7 @@ aside {
     top: 0;
     min-width: 186px;
     max-width: 340px;
+    min-height: 380px;
 }
 
 #nav-items .fa {
