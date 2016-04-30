@@ -6,6 +6,15 @@
     display: none;
 }
 
+.main-slides ul {
+    list-style: none;
+}
+
+.main-slides .active {
+    display: block;
+    width: 100%;
+}
+
 /*
 .main-slides .active{
     display: block;
@@ -17,3 +26,37 @@
     background-repeat: no-repeat;
     background-size: cover;
 }*/
+
+/*NAV ITEMS*/
+
+aside {
+    background-color: rgb(255, 224, 0);
+    padding: 2em;
+    height: 100em;
+}
+
+aside button {
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+aside a {
+    display: block;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: .3em;
+    text-decoration: none;
+    
+}
+
+#footer-info {
+    position: absolute;
+    bottom: 0;
+}
+
+aside p {
+    margin: 0;
+}
+
