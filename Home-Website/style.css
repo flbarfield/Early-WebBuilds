@@ -24,17 +24,6 @@ html {
 #more-info {
     display: block;
 }
-/*
-.main-slides .active{
-    display: block;
-    height: 100%;
-    width: 100%;
-    max-width: 3000px;
-    position: absolute;
-    background-image: url(Images/FirePlace.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 /*****NAV ITEMS*******/
 
@@ -42,7 +31,7 @@ html {
 
 #right-panel {
     background-color: rgb(255, 224, 0);
-    padding: 2em;
+    padding-top: .5em;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -64,6 +53,7 @@ html {
     font-weight: 600;
     margin-bottom: .3em;
     text-decoration: none;
+    white-space: nowrap;
     
 }
 
