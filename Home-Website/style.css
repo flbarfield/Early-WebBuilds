@@ -9,6 +9,7 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment:local;
     height: 100%;
 }
 
@@ -20,6 +21,9 @@ html {
     list-style: none;
 }
 
+#more-info {
+    display: block;
+}
 /*
 .main-slides .active{
     display: block;
@@ -32,9 +36,11 @@ html {
     background-size: cover;
 }*/
 
-/*NAV ITEMS*/
+/*****NAV ITEMS*******/
 
-aside {
+/*OPEN PANEL*/
+
+#right-panel {
     background-color: rgb(255, 224, 0);
     padding: 2em;
     position: absolute;
@@ -51,7 +57,7 @@ aside {
     font-size: 2em;
 }
 
-aside a {
+#right-panel a {
     display: block;
     color: black;
     font-size: 1.3em;
@@ -67,6 +73,7 @@ aside a {
 }
 
 #sharing-icons a {
+    display: inline-block;
     margin-right: 1em;
     margin-bottom: 1em;
     font-size: 1.3em;
@@ -81,20 +88,25 @@ aside p {
     margin: 0;
 }
 
+/*Closed PANEL*/
+
 #min-right-panel {
     background-color: rgb(255, 224, 0);
     text-align: center;
     font-size: 1.5em;
     position: absolute;
     right: 0;
-    bottom: 0;
-    width: 1%;
-    display: none;
+    width: 2em;
+    height: 100%;
+    padding-top: 1em;
+    padding-right: 1.2em;
 }
 
-/*
-#right-panel {
+#min-right-panel .fa {
+    padding: .2em;
+}
+
+.hide {
     display: none;
 }
-*/
 
