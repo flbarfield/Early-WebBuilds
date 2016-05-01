@@ -9,6 +9,10 @@ but isn't that part of the journey?
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
+* Home Website: Recreating a seen layout that has a ton of functionality - it had a slideshow in the background on the mainpage, clicking on images brought you to a different portion of the page, and the navigation menu would move in cool ways as you moused over and clicked through it. Also used a lot of icons. I've not yet done these things all within one layout, so I'm giving it a shot! 
+
+* Version 2 of the blog was added within the blog folder. Wanted to take the same sort of concept layout but improve on it a bit. Succeeded - though I think it's a design that looks better completely flat (no popping buttons). Decided to move on to more exciting things instead of toying with this for now
+
 * BoringPortfolioSample: This actually wasn't as boring as I expected! Creating another single-page template, but decided to approuch it from a mobile-first angle for the first time. After this - all sites made after this will have different viewports considered for responsive web development.
 
 * Recalling Javascript: Exercises done along with the Javascript and Jquery book by Jon as a refresher. !!! Later decided to just make this it's own repository. It has a lot of potential to grow in content until I get to the point where I can regularly integrate it into templates and what not.
