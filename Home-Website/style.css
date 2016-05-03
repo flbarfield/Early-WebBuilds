@@ -2,8 +2,9 @@
     display: none;
 }
 
-/*LEFT SIDE ELEMENTS*/
+/***LEFT SIDE ELEMENTS***/
 
+/*BACKGROUND*/
 html {
     background-image: url('Images/FirePlace.jpg');
     background-repeat: no-repeat;
@@ -24,6 +25,27 @@ html {
 #more-info {
     display: block;
 }
+
+/*INTERACTIVE IMAGES*/
+
+#projects {
+    position: absolute;
+    top: 100%;
+    right: 0em;
+    width: 100%;
+    background-color: rgb(255, 224, 0);
+}
+
+#projects img {
+    display: block;
+    width: 100%;
+/*    max-height: 210px;*/
+    max-width: 683px;
+    margin: 0 auto;
+}
+
+/*****SUBSCRIPTION BOX*******/
+
 
 /*****NAV ITEMS*******/
 
