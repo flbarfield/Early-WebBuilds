@@ -60,6 +60,7 @@ html {
     max-width: 683px;
     margin: 0 auto;
     font-size: 4vmin;
+    background-color: rgba(0, 0 ,0 , .6)
 }
 
 #txt-1 {
