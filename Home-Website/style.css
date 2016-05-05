@@ -60,30 +60,27 @@ html {
     max-width: 683px;
     margin: 0 auto;
     font-size: 4vmin;
-    background-color: rgba(0, 0 ,0 , .6)
+    background-color: rgba(0, 0 ,0 , .6);
 }
 
 #txt-1 {
     position: relative;
-    bottom: 10em;
+    bottom: 8.5em;
+    margin-bottom: -3.34em;
 }
 
-#pro-2{
-    margin-top: -5.6em;
-}
 
 #txt-2 {
     position: relative;
-    bottom: 10em;
+    bottom: 9em;
+    margin-bottom: -2.4em;
 }
 
-#pro-3 {
-    margin-top: -5.6em;
-}
 
 #txt-3{
     position: relative;
-    bottom: 10em;
+    bottom: 8.5em;
+    margin-bottom: -5em;
 }
 
 
