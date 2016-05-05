@@ -163,3 +163,40 @@ aside p {
     display: none;
 }
 
+@media(min-width: 670px) {
+    #projects {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #projects img {
+        width: 33.3%;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    .hover-text {
+        width: 23%;
+        font-size: 1em;
+    }
+    
+    #txt-1 {
+        position: absolute;
+        bottom: 5em;
+        width: 33.3%;
+    }
+    
+    #txt-2 {
+        position: absolute;
+        width: 33.3%;
+        left: 33.4%;
+        bottom: 5em;
+    }
+    
+    #txt-3 {
+        position: absolute;
+        width: 33.3%;
+        left: 66.5%;
+    }
+}
