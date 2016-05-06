@@ -87,6 +87,22 @@ html {
 
 /*****SUBSCRIPTION BOX*******/
 
+#submit-form {
+    background-color: black;
+    color: rgb(255, 224, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+.user-input {
+    display: block;
+    margin: 0 auto 1em;
+    color: black;
+}
+
+#submit-form button {
+    color: black;
+}
 
 /*****NAV ITEMS*******/
 
@@ -183,7 +199,7 @@ aside p {
     
     #txt-1 {
         position: absolute;
-        bottom: 5em;
+        bottom: 25em;
         width: 33.3%;
     }
     
@@ -191,12 +207,17 @@ aside p {
         position: absolute;
         width: 33.3%;
         left: 33.4%;
-        bottom: 5em;
+        bottom: 25em;
     }
     
     #txt-3 {
         position: absolute;
         width: 33.3%;
         left: 66.5%;
+        bottom: 27em;
+    }
+    
+    #submit-form {
+        padding: 1em;
     }
 }
