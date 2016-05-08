@@ -66,7 +66,7 @@ nav h1 {
 /*****ARTICLES*****/
 
 #articles {
-    padding: 1em;
+    padding: 2em;
 }
 
 #articles h1 {
@@ -83,4 +83,96 @@ nav h1 {
 
 .next-botton {
     color: rgb(0, 174, 211);
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    color: rgb(0, 174, 211);
+    font-weight: 500;
+}
+
+article p {
+    font-weight: 200;
+}
+
+/*****BILL PAY*****/
+
+#bills, #weather, #city-directory, #newsletter {
+    padding: 2em;
+}
+
+#bills h1, #weather h1, #newsletter h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: rgb(216, 216,	216);
+    color: rgb(49, 57, 68);
+}
+
+#bill-icons {
+    margin: 0 auto;
+}
+
+#bills i {
+    font-size: 2.5em;
+    background-color: rgb(0, 174, 211);
+    color: white;
+    padding: .5em;
+    margin: .2em;
+    display: inline-block;
+    white-space:normal;
+}
+
+#bills .fa-globe {
+    padding: .5em .57em
+}
+
+#bills .fa-spoon {
+    padding: .5em .75em
+}
+
+#bills .fa-child {
+    padding: .5em .6em;
+}
+
+#bills .fa-bus, #bills .fa-music {
+    padding: .5em .56em
+}
+
+/*****Weather*****/
+
+/*****NewsLetter*****/
+
+#sub-box {
+    background-color: rgb(241, 241, 241);
+    padding: 1em;
+    text-align: center;
+}
+
+#newsletter button {
+    background-color: rgb(0, 174, 211);	
+    padding: .4em 1em;
+    margin: .5em auto;
+    color: white;
+    border: none;
+    box-shadow: none;
+    display: block;
+}
+
+/*****Footer*****/
+
+footer {
+    background-color: rgb(241, 241, 241);
+}
+
+footer p {
+    color: white;
+    background-color: rgb(212, 212, 212);
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 0;
 }
