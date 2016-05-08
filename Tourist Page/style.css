@@ -39,6 +39,7 @@ nav h1 {
     padding-left: 2em;
     border: none;
     font-size: .9em;
+    width: 60%;
 }
 
 #search-bar i {
@@ -54,4 +55,32 @@ nav h1 {
     font-size: 2.5em;
     background-color: rgb(237, 237, 237);
     color: rgb(97, 97, 97);
+}
+
+/*****SLIDESHOW*****/
+
+#slideshow img {
+    width: 100%;
+}
+
+/*****ARTICLES*****/
+
+#articles {
+    padding: 1em;
+}
+
+#articles h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.prev-button {
+    margin-right: .5em;
+    color: rgb(245, 122, 44);
+}
+
+.next-botton {
+    color: rgb(0, 174, 211);
 }
