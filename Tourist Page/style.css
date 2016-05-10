@@ -40,6 +40,7 @@ nav h1 {
     border: none;
     font-size: .9em;
     width: 60%;
+    max-width: 430px;
 }
 
 #search-bar i {
@@ -57,10 +58,34 @@ nav h1 {
     color: rgb(97, 97, 97);
 }
 
+.hide {
+    display: none;
+}
+
+#max-menu {
+    text-align: left;
+    padding-left: .4em;
+}
+#max-menu a, #max-menu i{
+    margin-right: 1em;
+}
+
+#max-menu a {
+    font-size: .6em;
+    position: relative;
+    bottom: .3em;
+}
+
 /*****SLIDESHOW*****/
 
 #slideshow img {
     width: 100%;
+}
+
+/*****Interactive Content*****/
+
+#read-portion {
+    max-width: 365px;
 }
 
 /*****ARTICLES*****/
@@ -175,4 +200,35 @@ footer p {
     padding: 1em;
     text-align: center;
     margin-bottom: 0;
+}
+
+@media (min-width: 1015px) {
+
+    /*    NAV*/
+    
+    .logo {
+        float: left;
+        margin-top: .5em;
+        font-size: 2.5em;
+    }
+    
+    #social-media {
+        display: inline-block;
+        position: relative;
+        bottom: 3em;
+    }
+    
+    #search-bar {
+        display: inline-block;
+        position: relative;
+        bottom: 3em;
+    }
+    
+/*    ARTICLES*/
+    
+/*
+    #articles {
+        max-width: 365px;
+    }
+*/
 }
