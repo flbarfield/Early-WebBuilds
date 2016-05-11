@@ -83,9 +83,14 @@ nav h1 {
 }
 
 /*****Interactive Content*****/
+#read-portion{
+    width: 100%;
+}
 
-#read-portion {
+#articles, #bills, #weather, #newsletter, #city-directory {
     max-width: 365px;
+    margin: 0 auto;
+/*    display: inline-block;*/
 }
 
 /*****ARTICLES*****/
@@ -129,7 +134,7 @@ article p {
     padding: 2em;
 }
 
-#bills h1, #weather h1, #newsletter h1 {
+#bills h1, #weather h1, #newsletter h1, #city-directory h1 {
     font-size: 1.5em;
     font-weight: 400;
     border-bottom-style: solid;
@@ -138,11 +143,14 @@ article p {
     color: rgb(49, 57, 68);
 }
 
-#bill-icons {
+/*****ALL ICONS*****/
+
+#bill-icons, #city-icons {
     margin: 0 auto;
+    text-align: center;
 }
 
-#bills i {
+#bills i, #city-directory i {
     font-size: 2.5em;
     background-color: rgb(0, 174, 211);
     color: white;
@@ -166,6 +174,18 @@ article p {
 
 #bills .fa-bus, #bills .fa-music {
     padding: .5em .56em
+}
+
+#city-directory .fa-wrench {
+    padding-right: .74em;
+}
+
+#city-directory .fa-shopping-cart {
+    padding-right: .67em;
+}
+
+#city-directory .fa-heart {
+    padding-right: .57em;
 }
 
 /*****Weather*****/
@@ -206,11 +226,12 @@ footer p {
 
     /*    NAV*/
     
-    .logo {
+    nav .logo {
         float: left;
         margin-top: .5em;
         font-size: 2.5em;
     }
+    
     
     #social-media {
         display: inline-block;
@@ -231,4 +252,5 @@ footer p {
         max-width: 365px;
     }
 */
+
 }
