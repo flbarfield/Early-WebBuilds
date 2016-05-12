@@ -150,6 +150,11 @@ article p {
     text-align: center;
 }
 
+#bill-icons div, #city-icons div {
+    display: inline-block;
+}
+
+
 #bills i, #city-directory i {
     font-size: 2.5em;
     background-color: rgb(0, 174, 211);
@@ -159,6 +164,22 @@ article p {
     display: inline-block;
     white-space:normal;
 }
+
+/*
+#bills p, #city-directory p {
+    display: inline;
+    position: absolute;
+    left: em;
+}
+*/
+
+/*
+#bill-icons i:hover, #city-icons i:hover {
+    background-color: white;
+    color: rgb(245, 122, 44);
+}
+*/
+
 
 #bills .fa-globe {
     padding: .5em .57em
@@ -244,6 +265,7 @@ footer p {
         position: relative;
         bottom: 3em;
     }
+    
     
 /*    ARTICLES*/
     
