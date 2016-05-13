@@ -78,6 +78,10 @@ nav h1 {
 
 /*****SLIDESHOW*****/
 
+#slideshow {
+    display: none;
+}
+
 #slideshow img {
     width: 100%;
 }
