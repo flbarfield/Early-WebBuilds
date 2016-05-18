@@ -108,7 +108,7 @@ nav h1 {
     font-size: 1.5em;
     font-weight: 400;
     display: inline-block;
-    margin-right: 1em;
+    margin-right: .5em;
 }
 
 .prev-button {
@@ -121,12 +121,12 @@ nav h1 {
 }
 
 article {
-    padding-right: -5em;
+/*    padding-right: -5em;*/
 }
 
 article img {
-    width: 380px;
-    height: 250px;
+    width: 100%;
+    max-height: 250px;
     margin-top: 2em;
 }
 
@@ -137,7 +137,7 @@ article h2 {
 
 article p {
     font-weight: 200;
-    width: 380px;
+    width: 100%;
 }
 
 /*****BILL PAY*****/
@@ -174,6 +174,10 @@ article p {
     padding: .5em;
     margin: .2em;
     display: inline-block;
+}
+
+#bill-icons {
+    max-width: 15em;
 }
 
 /*
@@ -222,10 +226,6 @@ article p {
 
 /*****Weather*****/
 
-#weather {
-/*    min-width: 310px;*/
-/*    display: block;*/
-}
 
 /*****NewsLetter*****/
 
@@ -237,6 +237,14 @@ article p {
 
 #newsletter label, #newsletter h1 {
     white-space: nowrap;
+}
+
+#newsletter label {
+    display: block;
+}
+
+#newsletter input {
+    width: 50%;
 }
 
 #newsletter button {
