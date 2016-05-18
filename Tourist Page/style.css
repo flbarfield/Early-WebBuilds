@@ -92,7 +92,8 @@ nav h1 {
 }
 
 #articles, #bills, #weather, #newsletter, #city-directory {
-    max-width: 365px;
+/*    max-width: 365px;*/
+    max-height: 300px;
     margin: 0 auto;
 /*    display: inline-block;*/
 }
@@ -119,8 +120,14 @@ nav h1 {
     color: rgb(0, 174, 211);
 }
 
+article {
+    padding-right: -5em;
+}
+
 article img {
-    width: 100%;
+    width: 380px;
+    height: 250px;
+    margin-top: 2em;
 }
 
 article h2 {
@@ -130,6 +137,7 @@ article h2 {
 
 article p {
     font-weight: 200;
+    width: 380px;
 }
 
 /*****BILL PAY*****/
@@ -160,13 +168,12 @@ article p {
 
 
 #bills i, #city-directory i {
-    font-size: 2.5em;
+    font-size: 2em;
     background-color: rgb(0, 174, 211);
     color: white;
     padding: .5em;
     margin: .2em;
     display: inline-block;
-    white-space:normal;
 }
 
 /*
@@ -198,7 +205,7 @@ article p {
 }
 
 #bills .fa-bus, #bills .fa-music {
-    padding: .5em .56em
+    padding: .5em .56em;
 }
 
 #city-directory .fa-wrench {
@@ -215,12 +222,21 @@ article p {
 
 /*****Weather*****/
 
+#weather {
+/*    min-width: 310px;*/
+/*    display: block;*/
+}
+
 /*****NewsLetter*****/
 
 #sub-box {
     background-color: rgb(241, 241, 241);
     padding: 1em;
     text-align: center;
+}
+
+#newsletter label, #newsletter h1 {
+    white-space: nowrap;
 }
 
 #newsletter button {

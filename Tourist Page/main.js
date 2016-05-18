@@ -15,6 +15,9 @@ $('#slideshow').slidesjs({
     pagination: {active: false}
 });
 
+//COLUMN BEHAIVIOR
+
+
 // ICON BEHAIVIOR
 
 //$('#bill-icons i, #city-directory i').on({
