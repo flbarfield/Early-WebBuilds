@@ -121,12 +121,12 @@ nav h1 {
 }
 
 article {
-/*    padding-right: -5em;*/
+/*    DELETE*/
 }
 
 article img {
     width: 100%;
-    max-height: 250px;
+    height: 220px;
     margin-top: 2em;
 }
 
@@ -137,7 +137,7 @@ article h2 {
 
 article p {
     font-weight: 200;
-    width: 100%;
+/*    width: 100%;*/
 }
 
 /*****BILL PAY*****/
