@@ -1,3 +1,8 @@
+//NAV BEHAIVIOR
+//$('#fa-bars').on('click', function (){
+//    
+//})
+
 //SLIDESHOW BEHAIVIOR
 
 $('#slideshow').slidesjs({
