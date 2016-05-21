@@ -1,9 +1,14 @@
+.hide {
+    display: none;
+}
+
 /*****NAV*****/
 
 nav {
     padding: 2em;
     white-space: nowrap;
     text-align: right;
+    
 } 
 
 nav h1 {
@@ -74,6 +79,24 @@ nav h1 {
     font-size: .6em;
     position: relative;
     bottom: .3em;
+}
+
+/*****NAV SELECTIONS*****/
+
+#selections {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+#selections li, #selections h1 {
+    color: rgb(0, 174, 211);
+}
+
+li {
+    list-style: none;
 }
 
 /*****SLIDESHOW*****/
