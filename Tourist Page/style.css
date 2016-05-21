@@ -276,6 +276,7 @@ footer p {
     margin-bottom: 0;
 }
 
+
 @media (min-width: 1015px) {
 
     /*    NAV*/
@@ -298,14 +299,4 @@ footer p {
         position: relative;
         bottom: 3em;
     }
-    
-    
-/*    ARTICLES*/
-    
-/*
-    #articles {
-        max-width: 365px;
-    }
-*/
-
 }
