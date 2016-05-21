@@ -100,11 +100,12 @@ nav h1 {
 
 /*****ARTICLES*****/
 
-#articles {
+#read-portion {
     padding: 2em;
+    overflow: scroll
 }
 
-#articles h1 {
+#read-portion h1 {
     font-size: 1.5em;
     font-weight: 400;
     display: inline-block;
@@ -178,6 +179,10 @@ article p {
 
 #bill-icons {
     max-width: 15em;
+}
+
+#city-icons {
+    max-width: 20em;
 }
 
 /*
