@@ -96,6 +96,19 @@ nav h1 {
     color: rgb(0, 174, 211);
 }
 
+#selections h1, #selections h2 {
+    padding-left: .5em
+}
+
+#selections h1 {
+    font-size: 1.5em;
+    margin-right: 2.5em;
+}
+
+#selections h2 {
+    font-size: 1.3em;
+}
+
 ul {
     padding: 0;
 }
