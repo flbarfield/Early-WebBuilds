@@ -2,6 +2,12 @@
     display: none;
 }
 
+/*
+#fade {
+    z-index: 1;
+}
+*/
+
 /*****NAV*****/
 
 nav {
@@ -82,6 +88,10 @@ nav h1 {
 }
 
 /*****NAV SELECTIONS*****/
+
+.fa-bars {
+    padding: .2em .3em;
+}
 
 #selections {
     position: fixed;
