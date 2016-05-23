@@ -84,19 +84,28 @@ nav h1 {
 /*****NAV SELECTIONS*****/
 
 #selections {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: white;
     z-index: 1;
+    height: 100%;
 }
 
 #selections li, #selections h1 {
     color: rgb(0, 174, 211);
 }
 
+ul {
+    padding: 0;
+}
+
 li {
     list-style: none;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: thin;
+    padding: .2em 1em;
 }
 
 /*****SLIDESHOW*****/

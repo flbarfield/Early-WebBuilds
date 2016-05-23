@@ -7,7 +7,7 @@
 
 $('#slideshow').slidesjs({
     width: 100,
-    height: 20,
+    height: 30,
     play: {
         active: false,
         effect: 'fade',
