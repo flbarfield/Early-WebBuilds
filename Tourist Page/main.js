@@ -1,7 +1,26 @@
+var mobileMenu = $('#selections');
+
 //NAV BEHAIVIOR
-//$('#fa-bars').on('click', function (){
-//    
-//})
+$('.fa-bars').on({
+    'click': function () {
+        'use strict';
+        $('#fade').css({
+            'background': 'gray',
+            'opacity': '.5'
+        });
+        $('#selections').css({'background': 'white'});
+        mobileMenu.css('width', '0');
+        mobileMenu.show().animate({width: '15em'});
+    },
+    'mouseenter': function () {
+        'use strict';
+        $('.fa-bars').css('color', 'rgb(245, 122, 44)');
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.fa-bars').css('color', 'rgb(97, 97, 97)');
+    }
+});
 
 //SLIDESHOW BEHAIVIOR
 
