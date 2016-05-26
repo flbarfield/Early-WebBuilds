@@ -21,11 +21,12 @@ $('.fa-bars').on({
     }
 });
 
-if (mobileMenu.hasClass('hide') === false) {
-    $('html').click(function () {
+if (!mobileMenu.hasclass('hide')) {
+    $('#fade').on('click', function () {
         'use strict';
         mobileMenu.animate({width: '0'});
         $('#fade').removeAttr('style');
+        mobileMenu.addClass('hide');
     });
 //    $('#selections').click(function (e) {
 //        e.stopPropagation();
