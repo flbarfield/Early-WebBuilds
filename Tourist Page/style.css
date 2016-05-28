@@ -89,6 +89,8 @@ nav h1 {
 
 /*****NAV SELECTIONS*****/
 
+/*min selections*/
+
 .fa-bars {
     padding: .2em .3em;
 }
@@ -131,6 +133,28 @@ li {
     border-width: thin;
     padding: .2em 1em;
 }
+
+/*max selections*/
+
+#max-selections {
+    position: absolute;
+    top: 12.6em;
+    width: 100%;
+    height: 13em;
+    z-index: 1;
+    background-color: white;
+}
+
+#max-selections h1 {
+    font-size: 1.5em;
+}
+
+.town h1 {
+    color: rgb(245, 122, 44);
+}
+
+#max-selections
+
 
 /*****SLIDESHOW*****/
 
