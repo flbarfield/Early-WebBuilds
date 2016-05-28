@@ -1,6 +1,9 @@
 var mobileMenu = $('#selections');
 
 //NAV BEHAIVIOR
+
+//mobile nav
+
 $('.fa-bars').on({
     'click': function () {
         'use strict';
@@ -12,7 +15,7 @@ $('.fa-bars').on({
         mobileMenu.removeClass('hide').animate({width: '15em'});
         setTimeout(function () {
             if (!mobileMenu.hasClass('hide')) {
-                $('body').not(mobileMenu).on('click', function () {
+                $('html').not(mobileMenu).on('click', function () {
                     mobileMenu.animate({width: '0'});
                     $('#fade').removeAttr('style');
                 });
@@ -28,6 +31,8 @@ $('.fa-bars').on({
         $('.fa-bars').css('color', 'rgb(97, 97, 97)');
     }
 });
+
+//max nav
 
 
 //SLIDESHOW BEHAIVIOR
