@@ -45,15 +45,14 @@ $('.fa-home').on({
     }
 });
 
-$('.town').on({
+$('.town, .town-selections').on({
     'mouseenter': function () {
         'use strict';
         $('.town').css({
-            'background-color': 'rgb(245, 122, 44',
+            'background-color': 'rgb(245, 122, 44)',
             'color': 'white'
         });
         $('#max-selections, .town-selections').fadeIn();
-//        $('.town-selections').show();
     },
     'mouseleave': function () {
         'use strict';
@@ -64,51 +63,57 @@ $('.town').on({
     }
 });
 
-$('.discover').on({
+$('.discover, .discover-selections').on({
     'mouseenter': function () {
         'use strict';
         $('.discover').css({
             'background-color': 'rgb(93, 186, 93)',
             'color': 'white'
         });
+        $('#max-selections, .discover-selections').fadeIn();
     },
     'mouseleave': function () {
         'use strict';
         $('.discover').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
+        $('#max-selections, .discover-selections').fadeOut();
     }
 });
 
-$('.quick').on({
+$('.quick, .quick-selections').on({
     'mouseenter': function () {
         'use strict';
         $('.quick').css({
             'background-color': 'rgb(232, 76, 61)',
             'color': 'white'
         });
+        $('#max-selections, .quick-selections').fadeIn();
     },
     'mouseleave': function () {
         'use strict';
         $('.quick').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
+        $('#max-selections, .quick-selections').fadeOut();
     }
 });
 
-$('.live').on({
+$('.live, .live-selections').on({
     'mouseenter': function () {
         'use strict';
         $('.live').css({
             'background-color': 'rgb(0, 174, 211)',
             'color': 'white'
         });
+        $('#max-selections, .live-selections').fadeIn();
     },
     'mouseleave': function () {
         'use strict';
         $('.live').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
+        $('#max-selections, .live-selections').fadeOut();
     }
 });
 
