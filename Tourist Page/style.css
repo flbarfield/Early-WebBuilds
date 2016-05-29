@@ -154,12 +154,20 @@ li {
     font-size: 1.5em;
 }
 
-.town h1 {
+.town-selections h1 {
     color: rgb(245, 122, 44);
 }
 
-.discover h1 {
+.discover-selections h1 {
     color: rgb(93, 186, 93);
+}
+
+.quick-selections h1 {
+    color: rgb(232, 76, 61);
+}
+
+.live-selections h1 {
+    color: rgb(0, 174, 211);
 }
 
 

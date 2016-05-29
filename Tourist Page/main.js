@@ -52,12 +52,15 @@ $('.town').on({
             'background-color': 'rgb(245, 122, 44',
             'color': 'white'
         });
+        $('#max-selections, .town-selections').fadeIn();
+//        $('.town-selections').show();
     },
     'mouseleave': function () {
         'use strict';
         $('.town').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
+        $('#max-selections, .town-selections').fadeOut();
     }
 });
 
@@ -72,6 +75,38 @@ $('.discover').on({
     'mouseleave': function () {
         'use strict';
         $('.discover').css({'color': 'rgb(97, 97, 97)',
+                        'background-color': 'rgb(237, 237, 237)'
+                       });
+    }
+});
+
+$('.quick').on({
+    'mouseenter': function () {
+        'use strict';
+        $('.quick').css({
+            'background-color': 'rgb(232, 76, 61)',
+            'color': 'white'
+        });
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.quick').css({'color': 'rgb(97, 97, 97)',
+                        'background-color': 'rgb(237, 237, 237)'
+                       });
+    }
+});
+
+$('.live').on({
+    'mouseenter': function () {
+        'use strict';
+        $('.live').css({
+            'background-color': 'rgb(0, 174, 211)',
+            'color': 'white'
+        });
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.live').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
     }
