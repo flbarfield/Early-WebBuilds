@@ -34,6 +34,48 @@ $('.fa-bars').on({
 
 //max nav
 
+$('.fa-home').on({
+    'mouseenter': function () {
+        'use strict';
+        $('.fa-home').css('color', 'rgb(0, 174, 211)');
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.fa-home').css('color', 'rgb(97, 97, 97)');
+    }
+});
+
+$('.town').on({
+    'mouseenter': function () {
+        'use strict';
+        $('.town').css({
+            'background-color': 'rgb(245, 122, 44',
+            'color': 'white'
+        });
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.town').css({'color': 'rgb(97, 97, 97)',
+                        'background-color': 'rgb(237, 237, 237)'
+                       });
+    }
+});
+
+$('.discover').on({
+    'mouseenter': function () {
+        'use strict';
+        $('.discover').css({
+            'background-color': 'rgb(93, 186, 93)',
+            'color': 'white'
+        });
+    },
+    'mouseleave': function () {
+        'use strict';
+        $('.discover').css({'color': 'rgb(97, 97, 97)',
+                        'background-color': 'rgb(237, 237, 237)'
+                       });
+    }
+});
 
 //SLIDESHOW BEHAIVIOR
 
