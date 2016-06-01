@@ -173,11 +173,13 @@ $('#slideshow').slidesjs({
 
 // ICON BEHAIVIOR
 
-//$('#bill-icons i, #city-directory i').on({
-//    'mouseenter': function () {
-//        'use strict';
-//    },
-//    'mouseleave': function () {
-//        'use strict';
-//    }
-//}
+$('#bill-icons i, #city-directory i').on({
+    'mouseenter': function () {
+        'use strict';
+        $(this).animate({backgroundColor: 'white', color: 'rgb(0, 174, 211)'});
+    },
+    'mouseleave': function () {
+        'use strict';
+        $(this).animate({backgroundColor: 'rgb(0, 174, 211)', color: 'white'});
+    }
+});
