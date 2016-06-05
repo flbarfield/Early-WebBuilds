@@ -144,10 +144,11 @@ li {
 #max-selections {
     position: absolute;
     width: 100%;
-    height: 13em;
+    height: 9em;
     z-index: 1;
     background-color: rgb(237, 237, 237);
     opacity: .9;
+    overflow: hidden;
 }
 
 #max-selections ul {

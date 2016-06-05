@@ -68,6 +68,8 @@ $('.fa-bars').on({
 
 //max nav
 
+$('#max-selections').hide();
+
 $('.fa-home').on({
     'mouseenter': function () {
         'use strict';
@@ -86,14 +88,14 @@ $('.town, .town-selections').on({
             'background-color': 'rgb(245, 122, 44)',
             'color': 'white'
         });
-        $('#max-selections, .town-selections').show();
+        $('#max-selections, .town-selections').fadeIn();
     },
     'mouseleave': function () {
         'use strict';
         $('.town').css({'color': 'rgb(97, 97, 97)',
                         'background-color': 'rgb(237, 237, 237)'
                        });
-        $('#max-selections, .town-selections').hide();
+        $('#max-selections, .town-selections').fadeOut();
     }
 });
 
