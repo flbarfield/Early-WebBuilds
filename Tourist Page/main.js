@@ -88,6 +88,12 @@ $('.town, .town-selections').on({
             'background-color': 'rgb(245, 122, 44)',
             'color': 'white'
         });
+        $('.town-selections li').on({
+            'mouseenter': function () {
+                $(this).css('color', 'rgb(245, 122, 44)');
+            },
+            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+        });
         $('#max-selections, .town-selections').fadeIn();
     },
     'mouseleave': function () {
@@ -152,6 +158,7 @@ $('.live, .live-selections').on({
         $('#max-selections, .live-selections').fadeOut();
     }
 });
+
 
 //SLIDESHOW BEHAIVIOR
 
