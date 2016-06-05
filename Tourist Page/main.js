@@ -112,6 +112,12 @@ $('.discover, .discover-selections').on({
             'background-color': 'rgb(93, 186, 93)',
             'color': 'white'
         });
+        $('.discover-selections li').on({
+            'mouseenter': function () {
+                $(this).css('color', 'rgb(93, 186, 93)');
+            },
+            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+        });
         $('#max-selections, .discover-selections').fadeIn();
     },
     'mouseleave': function () {
@@ -130,6 +136,12 @@ $('.quick, .quick-selections').on({
             'background-color': 'rgb(232, 76, 61)',
             'color': 'white'
         });
+        $('.quick-selections li').on({
+            'mouseenter': function () {
+                $(this).css('color', 'rgb(232, 76, 61)');
+            },
+            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+        });
         $('#max-selections, .quick-selections').fadeIn();
     },
     'mouseleave': function () {
@@ -147,6 +159,12 @@ $('.live, .live-selections').on({
         $('.live').css({
             'background-color': 'rgb(0, 174, 211)',
             'color': 'white'
+        });
+        $('.live-selections li').on({
+            'mouseenter': function () {
+                $(this).css('color', 'rgb(0, 174, 211');
+            },
+            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
         });
         $('#max-selections, .live-selections').fadeIn();
     },
