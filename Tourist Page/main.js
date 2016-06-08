@@ -47,6 +47,14 @@ $('.fa-bars').on({
         });
         mobileMenu.css('width', '0');
         mobileMenu.removeClass('hide').animate({width: '15em'});
+        $('#selections li').on({
+            'mouseenter': function () {
+                $(this).css('color, rgb(245, 122, 44)');
+            },
+            'mouseleave': function () {
+                $(this).css('color, rgb(0, 174, 211)');
+            }
+        });
         setTimeout(function () {
             if (!mobileMenu.hasClass('hide')) {
                 $('html').not(mobileMenu).on('click', function () {
