@@ -41,28 +41,31 @@ $('.fa-twitter').on({
 $('.fa-bars').on({
     'click': function () {
         'use strict';
-        $('#fade').css({
-            'background-image': 'url(../grey.png)',
-            'opacity': '.4'
-        });
-        mobileMenu.css('width', '0');
-        mobileMenu.removeClass('hide').animate({width: '15em'});
-        $('#selections li').on({
-            'mouseenter': function () {
-                $(this).css('color, rgb(245, 122, 44)');
-            },
-            'mouseleave': function () {
-                $(this).css('color, rgb(0, 174, 211)');
-            }
-        });
-        setTimeout(function () {
-            if (!mobileMenu.hasClass('hide')) {
-                $('html').not(mobileMenu).on('click', function () {
+        if (mobileMenu.hasClass('hide')) {
+            $('#fade').css({
+                'background-image': 'url(../grey.png)',
+                'opacity': '.4'
+            });
+            mobileMenu.css('width', '0');
+            mobileMenu.removeClass('hide').animate({width: '15em'});
+            setTimeout(function () {
+                $(document).on('click', function () {
                     mobileMenu.animate({width: '0'});
                     $('#fade').removeAttr('style');
-                });
-            }
-        }, 1000);
+                    setTimeout(function () {
+                        mobileMenu.addClass('hide');
+                    }, 1000);
+                }, 1000);
+            });
+            $('#selections li').on({
+                'mouseenter': function () {
+                    $(this).css('color, rgb(245, 122, 44)');
+                },
+                'mouseleave': function () {
+                    $(this).css('color, rgb(0, 174, 211)');
+                }
+            });
+        }
     },
     'mouseenter': function () {
         'use strict';
