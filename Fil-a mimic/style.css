@@ -1,0 +1,15 @@
+h1, i {
+    color: rgb(226, 8, 48);
+}
+
+#mobile-menu {
+    border-bottom-style: solid;
+    border-color: rgb(226, 8, 48);
+}
+
+
+#mobile-menu i {
+    font-size: 1.5em;
+    padding: .1em .2em;
+    margin-top: 1em;
+}
