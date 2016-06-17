@@ -1,5 +1,6 @@
-h1, i {
+h1, i, a {
     color: rgb(226, 8, 48);
+    text-decoration: none;
 }
 
 p {
@@ -24,6 +25,7 @@ p {
 
 /*desktop*/
 
+
 #desk-menu h1 {
     text-align: center;
 }
@@ -32,14 +34,28 @@ p {
     list-style: none;
     padding: 0;
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #desk-menu li {
     display: inline-block;
     margin-bottom: 2em;
+    margin-right: .9em;
+    padding: .5em;
+    border-right-style: solid;
+    border-color: rgb(177, 207,	226);
+    font-weight: 600;
 }
 
+#desk-menu .last {
+    border-right-style: none;
+}
+
+/***CONTENT***/
+
 .image-wrapper {
+    margin-top: 6em;
     text-align: center;
 }
 
