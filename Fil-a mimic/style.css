@@ -122,3 +122,41 @@ img {
     font-size: 1.5em;
     font-weight: 400;
 }
+
+/*FINAL CHOICES*/
+
+#final-choices ul {
+    margin-top: 4em;
+    list-style: none;
+    padding: 2em;
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgb(226, 8, 48);
+    border-width: thin;
+}
+
+#final-choices li {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color: rgb(226, 8, 48);
+    border-width: thick;
+}
+
+/***FOOTER***/
+
+footer {
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(226, 8, 48);
+}
+
+footer i {
+/*    increase size*/
+}
