@@ -11,6 +11,10 @@ img {
     width: 90%;
 }
 
+.hide {
+    display: none;
+}
+
 /***NAV***/
 
 /*mobile*/
@@ -86,7 +90,7 @@ img {
 /*NEWS*/
 
 #news h1 {
-    color: black;
+    color: white;
     position: relative;
     bottom: 1.4em;
     font-size: 1.3em;
@@ -158,5 +162,26 @@ footer p {
 }
 
 footer i {
-/*    increase size*/
+    margin-top: 1em;
+    
 }
+
+.fa-facebook {
+    padding: .3em .5em;
+    background-color: rgb(80, 124, 190);
+    color: white;
+}
+
+.fa-twitter {
+    padding: .3em .4em;
+    background-color: rgb(99, 205, 241);
+    color: white;
+}
+
+.fa-instagram {
+    padding: .3em .4em;
+    background-color: rgb(199, 197,	179);
+    color: white;
+}
+
+
