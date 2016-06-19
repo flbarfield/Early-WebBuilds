@@ -61,6 +61,11 @@ img {
     color: rgb(128, 128, 128);
 }
 
+#last-min-nav {
+    border-width: medium;
+    border-color: rgb(226, 8, 48);
+}
+
 
 /*desktop*/
 
