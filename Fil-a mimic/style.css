@@ -48,11 +48,13 @@ img {
 }
 
 .open-min-nav li i {
-    float: right;
     border-left-style: solid;
     border-width: thin;
     border-color: rgb(128, 128, 128);
-    color: rgb(128, 128, 128);;
+    color: rgb(128, 128, 128);
+    padding-left: .55em;
+    position: absolute;
+    left: 95%;
 }
 
 .open-min-nav a {
