@@ -96,8 +96,7 @@ img {
 
 #desk-menu li {
     display: inline-block;
-    margin-bottom: 2em;
-    margin-right: .9em;
+/*    margin-right: .9em;*/
     padding: .5em;
     border-right-style: solid;
     border-color: rgb(177, 207,	226);
@@ -124,6 +123,15 @@ img {
     margin-top: -2em;
 }
 
+#how .img-text {
+    font-size: 4vw;
+    text-align: left;
+    position: relative;
+    bottom: 5em;
+    left: 1.5em;
+    color: white;
+}
+
 #how h1 {
     font-size: 1.5em;
     font-weight: 500;
@@ -139,6 +147,14 @@ img {
 }
 
 /*NEWS*/
+
+#news  {
+    max-width: 372px;
+}
+
+#upcoming, #in-news {
+    display: inline;
+}
 
 #news h1 {
     color: white;
@@ -159,6 +175,7 @@ img {
     margin: 0 auto -4em;
 }
 
+
 /*GIVING BACK*/
 
 #giving-back .image-wrapper {
@@ -171,6 +188,24 @@ img {
     border-radius: 400px;
     border-style: solid;
     border-color: rgb(226, 8, 48);
+}
+
+.mouseover-text {
+    background-color: red;
+    width: 280px;
+    height: 280px;
+    border-radius: 400px;
+    opacity: .5;
+    position: relative;
+    bottom: 19.8em;
+    left: 8.91em;
+}
+
+.mouseover-text p {
+    color: white;
+    font-size: 2em;
+    position: relative;
+    top: 3em;
 }
 
 #giving-back h1 {
