@@ -69,9 +69,20 @@ img {
 
 /*desktop*/
 
+.line {
+    background-color: red;
+    height: .2em;
+    position: relative;
+    top: 2.5em;
+    z-index: -999;
+}
 
 #desk-menu h1 {
     text-align: center;
+    background-color: white;
+    display: inline-block;
+    padding: 0 2em;
+    margin-left: 40%;
 }
 
 #desk-menu ul {
@@ -107,6 +118,10 @@ img {
 
 #how {
     margin: 2em 0;
+}
+
+#how img {
+    margin-top: -2em;
 }
 
 #how h1 {
