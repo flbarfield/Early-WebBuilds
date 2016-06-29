@@ -9,6 +9,10 @@ but isn't that part of the journey?
 -------------------------------------------------------------------
 Below is a list of things I've attempted to make. Decending order from the project I've most recently added to:
 
+*Fil-a-Mimc: Attempting to recreate the chickafila webpage because it has a lot of interesting animations done with each element on the main page. How words and images will pop up at the user as they scroll down to the right areas. Still a work in progress and will probably be continued within the revised repository
+
+*Tourist Page: This was created to demonstrate my ability to build a more minimalistic website with some visually appealing functionality. This Project was great for also learning how to use a lot of externally acquired tools and widgets
+
 * Home Website: Recreating a seen layout that has a ton of functionality - it had a slideshow in the background on the mainpage, clicking on images brought you to a different portion of the page, and the navigation menu would move in cool ways as you moused over and clicked through it. Also used a lot of icons. I've not yet done these things all within one layout, so I'm giving it a shot! 
 
 * Version 2 of the blog was added within the blog folder. Wanted to take the same sort of concept layout but improve on it a bit. Succeeded - though I think it's a design that looks better completely flat (no popping buttons). Decided to move on to more exciting things instead of toying with this for now
