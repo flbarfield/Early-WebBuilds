@@ -5,9 +5,29 @@
 }
 
 .fa-github, .fa-envelope{
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 #links, #about {
-	margin-top: 2em
+	margin-top: 4em;
+}
+
+.portfolio h1 {
+	margin-bottom: 2em;
+}
+
+.navbar {
+	margin-bottom: 0
+}
+
+.ricky {
+	height: 10em;
+	float: left;
+	margin-right: 1em;
+}
+
+@media (max-width: 990px) {
+	.portfolio img {
+		margin-bottom: 10em;
+	}
 }
