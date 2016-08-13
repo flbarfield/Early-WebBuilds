@@ -8,6 +8,7 @@
 
 .fa-github, .fa-envelope{
 	font-size: 1.5em;
+	color: #AB46EB;
 }
 
 /*Alignment*/
@@ -39,6 +40,17 @@
 footer {
 	
 }
+
+/*color*/
+
+.jumbotron {
+	color: #EEBB5F;
+}
+
+.jumbotron h1 {
+	color: #AB46EB;
+}
+
 
 @media (max-width: 990px) {
 	.portfolio img {
