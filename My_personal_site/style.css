@@ -11,14 +11,31 @@
 	color: #AB46EB;
 }
 
+.fa-github:hover, .fa-envelope:hover {
+	
+}
+
 /*Alignment*/
 
 #links, #about {
-	margin-top: 4em;
+	margin-top: 4em; 
 }
 
-.portfolio h1 {
-	margin-bottom: 2em;
+#portfolio-heading {
+	margin: 1em 1em 1em;
+}
+
+.portfolio {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding-top: .01em;
+	margin-top: -2em;
+}
+
+.tourist {
+	position: realitive;
+	top: 4em;
 }
 
 .navbar {
@@ -38,23 +55,50 @@
 }
 
 footer {
-	
+	background-color: rgb(238,238, 238);
+	display: inline-block
+}
+
+#about {
+	border-right-style: solid;
+	margin: 0;
+	padding-top: 2em;
+}
+
+#links {
+	margin: 0;
+	padding-top: 2em;
 }
 
 /*color*/
 
 .jumbotron {
-	color: #EEBB5F;
+	background-color: aba8ac;
 }
 
 .jumbotron h1 {
 	color: #AB46EB;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	color: #AB46EB;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #AB46EB;
+}
 
 @media (max-width: 990px) {
 	.portfolio img {
 		margin-bottom: 10em;
+	}
+	
+	#about {
+		border-style: none;
+	}
+	
+	#links {
+		text-align: center;
 	}
 	
 /*
