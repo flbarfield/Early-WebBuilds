@@ -7,8 +7,19 @@
 }
 
 .fa-github, .fa-envelope{
-	font-size: 1.5em;
-	color: #AB46EB;
+	font-size: 2.5em;
+/*	color: #AB46EB;*/
+	color: white;
+	float: left;
+}
+
+.fa-github {
+	margin: 0 .5em 1em 0;
+}
+
+.fa-envelope {
+	margin-right: .5em;
+	margin-bottom: 10%
 }
 
 .fa-github:hover, .fa-envelope:hover {
@@ -67,10 +78,24 @@ footer {
 	padding-top: 2em;
 }
 
+/*
+#about p {
+	max-width: 700px;
+}
+*/
+
 #links {
 	margin: 0;
 	padding-top: 2em;
-	height: 12.7em;
+	
+/*	height: 12.7em;*/
+}
+
+.contact-wrapper {
+}
+
+.git-wrapper {
+	
 }
 
 /*color*/
@@ -104,12 +129,4 @@ footer {
 		text-align: center;
 		height: auto;
 	}
-	
-/*
-	.tourist {
-		position: static;
-		top: 2em; 
-	}
-*/
-	
 }
