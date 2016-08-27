@@ -1,3 +1,7 @@
+.hide {
+	display: none;
+}
+
 /*icon fixes*/
 
 .fa-circle {
@@ -43,6 +47,11 @@
 	padding-top: .01em;
 	margin-top: -2.2em;
 	padding-bottom: 5em;
+}
+
+.project-wrapper .mouseover-text {
+	position: relative;
+	bottom: 
 }
 
 .tourist {
@@ -101,15 +110,16 @@ footer {
 /*color*/
 
 .jumbotron {
-	background-color: #8508D5;
+	background-color: #0E0E87;
 }
 
 .jumbotron h1 {
-	color: #FFD61F;
+	color: #FFEB25;
+	font-family: 'Merriweather', serif;
 }
 
 .jumbotron h2, .jumbotron h3 {
-	color: #B4F71E;
+	color: #EBB000;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
@@ -118,6 +128,19 @@ footer {
 
 .navbar-header .navbar-toggle:hover {
 	background-color: #AB46EB;
+}
+
+.portfolio {
+	background-color: gray;
+}
+
+#about {
+	background-color: #3232B7;
+	color: ghostwhite;
+}
+
+#links {
+	background-color: #EBB000;
 }
 
 @media (max-width: 990px) {
