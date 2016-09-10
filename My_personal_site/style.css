@@ -12,7 +12,6 @@
 
 .fa-github, .fa-envelope{
 	font-size: 2.5em;
-/*	color: #AB46EB;*/
 	color: white;
 	float: left;
 }
@@ -49,9 +48,15 @@
 	padding-bottom: 5em;
 }
 
-.project-wrapper .mouseover-text {
-	position: relative;
-	bottom: 
+#fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
+	display: inline-block;
+	visibility: hidden;
+	float: left;
+}
+
+
+#fila:hover .mouseover-text {
+	visibility: visible;
 }
 
 .tourist {
@@ -60,7 +65,8 @@
 }
 
 .navbar {
-	margin-bottom: 0
+	margin-bottom: 0;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
 #links {
@@ -87,25 +93,15 @@ footer {
 	padding-top: 2em;
 }
 
-/*
-#about p {
-	max-width: 700px;
+.footer-bar {
+	background-color: black;
 }
-*/
 
 #links {
 	margin: 0;
 	padding-top: 2em;
-	
-/*	height: 12.7em;*/
 }
 
-.contact-wrapper {
-}
-
-.git-wrapper {
-	
-}
 
 /*color*/
 
@@ -115,15 +111,17 @@ footer {
 
 .jumbotron h1 {
 	color: #FFEB25;
-	font-family: 'Merriweather', serif;
+	font-family: 'Alegreya', serif;
 }
 
 .jumbotron h2, .jumbotron h3 {
 	color: #EBB000;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 1.4em;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
-	color: #AB46EB;
+	color: #EBB000;
 }
 
 .navbar-header .navbar-toggle:hover {
@@ -132,6 +130,11 @@ footer {
 
 .portfolio {
 	background-color: gray;
+}
+
+.portfolio h1 {
+	font-family: 'Alegreya', serif;
+	font-size: 4em;
 }
 
 #about {
@@ -144,6 +147,11 @@ footer {
 }
 
 @media (max-width: 990px) {
+	
+	.portfolio {
+		padding-bottom: 0;
+	}
+	
 	.portfolio img {
 		margin-bottom: 10em;
 	}
@@ -153,7 +161,13 @@ footer {
 		padding-bottom: .5em
 	}
 	
-	#links {
-		text-align: cente;
+	#links p {
+		position: relative;
+		top: 1em;
 	}
+	
+	#fila .mouseover-text {
+	position: relative;
+	bottom: 11.5em;
+}
 }
