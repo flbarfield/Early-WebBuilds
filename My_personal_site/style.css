@@ -14,6 +14,7 @@
 	font-size: 2.5em;
 	color: white;
 	float: left;
+	color: #002BEB;
 }
 
 .fa-github {
@@ -41,8 +42,6 @@
 
 .portfolio {
 	display: inline-block;
-	background-color: black;
-	color: white;
 	padding-top: .01em;
 	margin-top: -2.2em;
 	padding-bottom: 5em;
@@ -100,6 +99,7 @@ footer {
 #links {
 	margin: 0;
 	padding-top: 2em;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
 
@@ -125,11 +125,11 @@ footer {
 }
 
 .navbar-header .navbar-toggle:hover {
-	background-color: #AB46EB;
+	background-color: #EBB000;
 }
 
 .portfolio {
-	background-color: gray;
+	background-color: lightgrey;
 }
 
 .portfolio h1 {
@@ -139,11 +139,13 @@ footer {
 
 #about {
 	background-color: #3232B7;
-	color: ghostwhite;
+	color: #EBB000;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
 #links {
 	background-color: #EBB000;
+	color: #002BEB;
 }
 
 @media (max-width: 990px) {
