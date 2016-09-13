@@ -30,80 +30,7 @@
 	color: purple;
 }
 
-/*Alignment*/
-
-#links, #about {
-	margin-top: 4em; 
-}
-
-#portfolio-heading {
-	margin: 1em 1em 1em;
-}
-
-.portfolio {
-	display: inline-block;
-	padding-top: .01em;
-	margin-top: -2.2em;
-	padding-bottom: 5em;
-}
-
-#fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
-	display: inline-block;
-	visibility: hidden;
-	float: left;
-}
-
-
-#fila:hover .mouseover-text {
-	visibility: visible;
-}
-
-.tourist {
-	position: relative;
-	top: 4em;
-}
-
-.navbar {
-	margin-bottom: 0;
-	font-family: 'Baloo Bhaina', cursive;
-}
-
-#links {
-	background-color: gray;
-	color: white;
-}
-
-/*photo and footer alignments */
-
-.ricky {
-	height: 8em;
-	float: left;
-	margin-right: 1em;
-}
-
-footer {
-	background-color: rgb(238,238, 238);
-	display: inline-block;
-}
-
-#about {
-	border-right-style: solid;
-	margin: 0;
-	padding-top: 2em;
-}
-
-.footer-bar {
-	background-color: black;
-}
-
-#links {
-	margin: 0;
-	padding-top: 2em;
-	font-family: 'Baloo Bhaina', cursive;
-}
-
-
-/*color*/
+/*TOP PORTION. NAV AND JUMBOTRON*/
 
 .jumbotron {
 	background-color: #0E0E87;
@@ -128,8 +55,19 @@ footer {
 	background-color: #EBB000;
 }
 
+
+/*MIDDLE PORTION, PORTFOLIO BITS*/
+
+#portfolio-heading {
+	margin: 1em 1em 1em;
+}
+
 .portfolio {
+	display: inline-block;
 	background-color: lightgrey;
+	padding-top: .01em;
+	margin-top: -2.2em;
+	padding-bottom: 5em;
 }
 
 .portfolio h1 {
@@ -137,13 +75,54 @@ footer {
 	font-size: 4em;
 }
 
+#fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
+	display: inline-block;
+	visibility: hidden;
+	float: left;
+}
+
+
+#fila:hover .mouseover-text {
+	visibility: visible;
+}
+
+.tourist {
+	position: relative;
+	top: 4em;
+}
+
+.navbar {
+	margin-bottom: 0;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+/*BOTTOM PORTION OF PAGE*/
+
+footer {
+	background-color: rgb(238,238, 238);
+	display: inline-block;
+}
+
+/*My photo*/
+.ricky {
+	height: 8em;
+	float: left;
+	margin-right: 1em;
+}
+
 #about {
+	border-right-style: solid;
+	margin: 0;
+	padding-top: 2em;
 	background-color: #3232B7;
 	color: #EBB000;
 	font-family: 'Baloo Bhaina', cursive;
 }
 
 #links {
+	margin: 0;
+	padding-top: 2em;
+	font-family: 'Baloo Bhaina', cursive;
 	background-color: #EBB000;
 	color: #002BEB;
 }
