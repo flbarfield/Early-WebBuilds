@@ -27,13 +27,14 @@
 }
 
 .fa-github:hover, .fa-envelope:hover {
-	color: purple;
+	color: white;
 }
 
 /*TOP PORTION. NAV AND JUMBOTRON*/
 
 .jumbotron {
 	background-color: #0E0E87;
+	text-align: left;
 }
 
 .jumbotron h1 {
@@ -64,7 +65,7 @@
 
 .portfolio {
 	display: inline-block;
-	background-color: lightgrey;
+	background-color: lightblue;
 	padding-top: .01em;
 	margin-top: -2.2em;
 	padding-bottom: 5em;
@@ -101,6 +102,7 @@
 footer {
 	background-color: rgb(238,238, 238);
 	display: inline-block;
+	background-color: #EBB000;
 }
 
 /*My photo*/
@@ -113,6 +115,7 @@ footer {
 #about {
 	border-right-style: solid;
 	margin: 0;
+	min-height: 210px;
 	padding-top: 2em;
 	background-color: #3232B7;
 	color: #EBB000;
@@ -125,7 +128,10 @@ footer {
 	font-family: 'Baloo Bhaina', cursive;
 	background-color: #EBB000;
 	color: #002BEB;
+	height: 100%;
 }
+
+
 
 @media (max-width: 990px) {
 	
@@ -141,7 +147,7 @@ footer {
 		border-style: none;
 		padding-bottom: .5em
 	}
-	
+
 	#links p {
 		position: relative;
 		top: 1em;
