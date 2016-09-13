@@ -60,7 +60,9 @@
 /*MIDDLE PORTION, PORTFOLIO BITS*/
 
 #portfolio-heading {
-	margin: 1em 1em 1em;
+	padding: 1em 1em 1em;
+	white-space: nowrap;
+	font-size: 3vw;
 }
 
 .portfolio {
@@ -141,6 +143,10 @@ footer {
 	
 	.portfolio img {
 		margin-bottom: 10em;
+	}
+	
+	.portfolio h1 {
+		font-family: 'Baloo Bhaina', cursive;
 	}
 	
 	#about {
