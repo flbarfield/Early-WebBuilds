@@ -39,13 +39,18 @@
 
 .jumbotron h1 {
 	color: #FFEB25;
-	font-family: 'Alegreya', serif;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
 .jumbotron h2, .jumbotron h3 {
 	color: #EBB000;
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Lato', sans-serif;
 	font-size: 1.4em;
+}
+
+.navbar {
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
@@ -63,11 +68,13 @@
 	padding: 1em 1em 1em;
 	white-space: nowrap;
 	font-size: 3vw;
+	color: white;
+	font-family: 'Baloo Bhaina', cursive;
 }
 
 .portfolio {
 	display: inline-block;
-	background-color: lightblue;
+	background-image: url(Images/congruent_outline.png);
 	padding-top: .01em;
 	margin-top: -2.2em;
 	padding-bottom: 5em;
@@ -94,11 +101,6 @@
 	top: 4em;
 }
 
-.navbar {
-	margin-bottom: 0;
-	font-family: 'Baloo Bhaina', cursive;
-}
-
 /*BOTTOM PORTION OF PAGE*/
 
 footer {
@@ -108,6 +110,11 @@ footer {
 }
 
 /*My photo*/
+
+footer {
+	margin-bottom: -1em;
+}
+
 .ricky {
 	height: 8em;
 	float: left;
@@ -121,18 +128,22 @@ footer {
 	padding-top: 2em;
 	background-color: #3232B7;
 	color: #EBB000;
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Lato', sans-serif;
 }
 
 #links {
 	margin: 0;
 	padding-top: 2em;
-	font-family: 'Baloo Bhaina', cursive;
+	font-family: 'Lato', sans-serif;
 	background-color: #EBB000;
 	color: #002BEB;
 	height: 100%;
 }
 
+.footer-bar {
+	height: 50px;
+	background-color: rgb(34,34,34);
+}
 
 
 @media (max-width: 990px) {
