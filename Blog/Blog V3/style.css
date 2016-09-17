@@ -21,7 +21,6 @@ h1 {
 /*main content*/
 
 
-
 .feat-article {
 	background-color: rgb(255,255,255)
 }
@@ -39,8 +38,26 @@ h1 {
 .submission{
 	padding-left: 1em;
 	padding-right: 1em;
+	border-style:solid;;
+	border-width:thin;
+	border-color: lightgrey;
 }
 
 .submission img {
-	width: 40%;
+	margin-bottom: 2em
+}
+
+.submission p {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 2em
+}
+
+.submission button {
+	margin-left: 10%;
+}
+
+.submission-options {
+	float: right;
+	margin-right: 10%
 }
