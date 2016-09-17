@@ -4,10 +4,13 @@
 		<link href='Tools/normalize.css' rel='stylesheet'/>
 		<link href='Tools/font-awesome-4.6.1/' rel='stylesheet'/>
 		<link href='Tools/bootstrap.min.css' rel='stylesheet'/>
+		<link href='style.css' rel='stylesheet'/>
+		<link href="https://fonts.googleapis.com/css?family=Dosis|Roboto" rel="stylesheet">
 	</head>
 	<body>
-		<nav class='navbar navbar-default'>
+		<nav class='navbar navbar-default navbar-fixed-top'>
 			<div class='container-fluid'>
+				<!--For min screen-->
 				<div class='navbar-header'>
 					<button type='button'class='navbar-toggle collapsed' data-toggle='collapse' data-target='bs-example-navbar-collapse-1' aria-expanded='false'>
 						<span class='sr-only'>Toggle Navigation</span>
@@ -17,6 +20,7 @@
 					</button>
 					<a class='navbar-brand' href='#'>Some Blog</a>
 				</div>
+				<!--nav links and other content for toggling-->
 				<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
 					<ul class='nav navbar-nav'>
 						<li><a href='#'>Option 1</a></li>
@@ -26,6 +30,54 @@
 				</div>
 			</div>
 		</nav>
+		<div id='content' class='container-fluid'>
+			<aside class='col-md-4 col-xs-0'>
+				<div class='aside-head'>
+					<h1>Some Blog</h1>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+				</div>
+				<div class='past-articles'>
+					<div class='past1'></div>
+					<div class='past2'></div>
+					<div class='past3'></div>
+					<div class='past4'></div>
+				</div>
+				<div class='small-artlinks'>
+					<div class='small-past1'></div>
+					<div class='small-past2'></div>
+					<div class='small-past3'></div>
+					<div class='small-past4'></div>
+					<div class='small-past5'></div>
+				</div>
+				<div class='about'>
+					<p></p>
+					<button>LEARN MORE</button>
+				</div>
+			</aside>
+			<div class='featured-art col-md-8'>
+				<div class='feat-article art-1'>
+					<div class='art-info fluid-container'>
+						<div class='headings col-md-8'>
+							<h1 class='title'>Fusce rhoncus sapien in blandit dapibus.</h1>
+							<h2 class='subtitle'>Sed rhoncus, ante ut hendrerit facilisis</h2>
+							</div>
+						<div class='meta col-md-4'>
+							<p class='date'>October 25th 2012</p>
+							<p class='author'>By: <a>Fredrick Barfield</a></p>
+						</div>
+					</div>
+					<div class='submission'>
+						<p><img src="images/green%20mountains.jpg">Aenean elementum eget elit et venenatis. Cras elementum aliquet convallis. Etiam fermentum, enim non laoreet malesuada, nisi urna aliquam tellus, at euismod mi est sit amet felis. Curabitur rutrum sem leo, iaculis condimentum eros finibus sit amet. Praesent nec arcu vitae mi convallis fringilla nec gravida tellus. Suspendisse potenti. Pellentesque a eros eget quam congue blandit. Proin pulvinar odio id leo pellentesque, quis dignissim velit luctus. Mauris in laoreet nunc. Fusce venenatis massa id pellentesque cursus. Sed fringilla risus id gravida tincidunt.</p>
+					</div>
+				</div>
+				<div class='feat-article art-1'></div>
+				<div class='feat-article art-1'></div>
+				<div class='featured-control'>
+					<button>PREVIOUS PAGE</button>
+					<button>NEXT PAGE</button>
+				</div>
+			</div>
+		</div>
 	</body>
 	<script src='Tools/jquery-1.12.3.min.js'></script>
 	<script src='Tools/bootstrap.min.js'></script>
