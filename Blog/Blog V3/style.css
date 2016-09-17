@@ -1,0 +1,46 @@
+body {
+	background-image:url(images/seamless_paper_texture.png);
+	font-family: 'Roboto', sans-serif;
+	color: rgb(60, 59, 59)
+} 
+
+#content {
+	margin-top: 7em;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+.aside-head h2 {
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+/*main content*/
+
+
+
+.feat-article {
+	background-color: rgb(255,255,255)
+}
+
+.featured-art h2 {
+	font-size: 1.5em;
+	margin-top: 0
+}
+
+.meta {
+	padding-top: 2em;
+	margin-bottom: 1em
+}
+
+.submission{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.submission img {
+	width: 40%;
+}
