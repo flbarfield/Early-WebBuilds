@@ -66,3 +66,34 @@ h1 {
 	float: right;
 	margin-right: 10%
 }
+
+/*ASIDE*/
+
+.aside-head {
+	padding-bottom: 2em;
+	border-bottom-style: solid;
+	margin-bottom: 2em;
+}
+
+.past-art-post {
+	margin-bottom: 2em;
+}
+
+.past-articles img {
+	width: 100%;
+}
+
+.past-info {
+	background-color: white;
+	padding: 1em;
+}
+
+.past-info h1 {
+	font-size: 2em;
+	margin: 0 0 .5em 0;
+}
+
+.past-info h2 {
+	font-size: 1em;
+	margin: 0;
+}
