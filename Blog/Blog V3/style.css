@@ -20,6 +20,9 @@ h1 {
 
 /*main content*/
 
+.featured-art {
+	float: right;
+}
 
 .feat-article {
 	background-color: rgb(255,255,255);
@@ -76,6 +79,7 @@ h1 {
 }
 
 .past-art-post {
+/*	max-width: 300px;*/
 	margin-bottom: 2em;
 }
 
@@ -127,4 +131,9 @@ h1 {
 	position: relative;
 	bottom: 1.4em;
 	
+}
+
+.about button {
+	margin-left: 1em;
+	margin-bottom: 2em;
 }
