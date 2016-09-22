@@ -97,3 +97,34 @@ h1 {
 	font-size: 1em;
 	margin: 0;
 }
+
+/*SMALL ASIDE LINKS*/
+
+.small-past {
+	margin-bottom: 1em;
+}
+
+.small-artlinks img {
+	max-height: 65px;
+	max-width: 130px;
+}
+
+.small-past-info {
+	padding: 0;
+	
+}
+
+.small-artlinks h1 {
+	font-size: 1em;
+	margin: 0 0 .5;
+	position: relative;
+	bottom: 1.4em;
+}
+
+.small-artlinks h2 {
+	font-size: 1em;
+	margin: 0;
+	position: relative;
+	bottom: 1.4em;
+	
+}
