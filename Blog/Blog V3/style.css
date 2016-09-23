@@ -31,7 +31,7 @@ h1 {
 
 .featured-art h2 {
 	font-size: 1.5em;
-	margin-top: 0
+	margin-top: 0;
 }
 
 .meta {
@@ -42,13 +42,14 @@ h1 {
 .submission{
 	padding-left: 1em;
 	padding-right: 1em;
-	border-style:solid;;
-	border-width:thin;
+	border-style: solid;
+	border-width: thin;
 	border-color: lightgrey;
 }
 
 .submission img {
-	margin-bottom: 2em
+	margin-bottom: 2em;
+	padding-top: 2em;
 }
 
 .submission p {
@@ -68,6 +69,11 @@ h1 {
 .right-sub-options {
 	float: right;
 	margin-right: 10%
+}
+
+.right-sub-options a {
+	
+	margin-right: 1em;
 }
 
 /*ASIDE*/
@@ -93,7 +99,7 @@ h1 {
 }
 
 .past-info h1 {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 0 0 .5em 0;
 }
 
@@ -136,4 +142,14 @@ h1 {
 .about button {
 	margin-left: 1em;
 	margin-bottom: 2em;
+}
+
+.social-links {
+	padding-left: 1em;
+}
+
+.social-links i {
+	font-size: 1.5em;
+	padding: .5em;
+	margin: 0 1em 2em 0em; 
 }
