@@ -4,6 +4,10 @@ body {
 	color: rgb(60, 59, 59)
 } 
 
+button {
+	border: none !important;
+}
+
 #content {
 	margin-top: 7em;
 }
@@ -25,7 +29,7 @@ h1 {
 }
 
 .feat-article {
-	background-color: rgb(255,255,255);
+	background-color: rgb(241, 241, 241);
 	margin-bottom: 4em;
 }
 
@@ -72,8 +76,22 @@ h1 {
 }
 
 .right-sub-options a {
-	
 	margin-right: 1em;
+	color: rgb(187, 186, 189);
+}
+
+.right-sub-options a:hover {
+	color: rgb(121, 113, 125);
+	text-decoration: none;
+}
+
+.featured-control button {
+	margin-right: 1em;
+	margin-top: -3em;
+}
+
+.fa-angle-left, .fa-angle-right {
+	font-weight: 500;
 }
 
 /*ASIDE*/
@@ -85,7 +103,6 @@ h1 {
 }
 
 .past-art-post {
-/*	max-width: 300px;*/
 	margin-bottom: 2em;
 }
 
@@ -94,7 +111,7 @@ h1 {
 }
 
 .past-info {
-	background-color: white;
+	background-color: rgb(241, 241, 241);
 	padding: 1em;
 }
 
@@ -152,4 +169,9 @@ h1 {
 	font-size: 1.5em;
 	padding: .5em;
 	margin: 0 1em 2em 0em; 
+	color: rgb(187, 186, 189);
+}
+
+.social-links i:hover {
+	color: rgb(121, 113, 125);
 }
