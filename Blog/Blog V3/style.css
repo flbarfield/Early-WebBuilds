@@ -24,13 +24,10 @@ h1 {
 
 /*main content*/
 
-.featured-art {
-	float: right;
-}
-
 .feat-article {
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(121, 113, 125);
 	margin-bottom: 4em;
+	color: white;;
 }
 
 .featured-art h2 {
@@ -96,18 +93,26 @@ h1 {
 
 /*ASIDE*/
 
+aside {
+	margin-left: 3em !important;
+	margin-right: 2em !important;
+	background-color: rgb(241, 241, 241);
+}
+
 .aside-head {
 	padding-bottom: 2em;
 	border-bottom-style: solid;
 	margin-bottom: 2em;
 }
 
-.past-art-post {
-	margin-bottom: 2em;
+.past-articles {
+	padding: 2em 0 .5em 0;
+/*	background-color: rgb(154, 149, 125);*/
 }
 
-.past-articles img {
-	width: 100%;
+.past-art-post {
+	max-width: 15em;
+	margin: 0 auto 2em;
 }
 
 .past-info {
@@ -174,4 +179,10 @@ h1 {
 
 .social-links i:hover {
 	color: rgb(121, 113, 125);
+}
+
+/*TESTING*/
+
+.past-art-post {
+	
 }
