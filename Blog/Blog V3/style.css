@@ -109,6 +109,7 @@ aside {
 	margin-left: 3em !important;
 	margin-right: 2em !important;
 	background-color: rgb(241, 241, 241);
+/*	position: absolute;*/
 }
 
 .aside-head {
@@ -121,6 +122,15 @@ aside {
 .past-articles {
 	padding: 2em 0 .5em 0;
 /*	background-color: rgb(154, 149, 125);*/
+}
+
+.past-articles a {
+	color: rgb(60, 59, 59);
+}
+
+.past-articles a:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .past-art-post {
@@ -147,6 +157,11 @@ aside {
 
 .small-past {
 	margin-bottom: 1em;
+	color: rgb(60, 59, 59);
+}
+
+.small-past:hover {
+	background-color: darkgrey;
 }
 
 .small-artlinks img {
