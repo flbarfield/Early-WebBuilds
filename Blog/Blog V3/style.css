@@ -25,9 +25,15 @@ h1 {
 /*main content*/
 
 .feat-article {
-	background-color: rgb(121, 113, 125);
+	background-color: rgb(120, 117, 129);
 	margin-bottom: 4em;
-	color: white;;
+	color: rgb(241, 240, 241);
+}
+
+.art-info .headings, .meta {
+	background-color: rgb(241, 241, 241);
+	color: grey;
+
 }
 
 .featured-art h2 {
@@ -37,7 +43,13 @@ h1 {
 
 .meta {
 	padding-top: 2em;
-	margin-bottom: 1em
+	margin-bottom: 1em;
+	height: 7.3em;
+}
+
+.meta a {
+	color: grey;
+	font-weight: bold
 }
 
 .submission{
@@ -78,7 +90,7 @@ h1 {
 }
 
 .right-sub-options a:hover {
-	color: rgb(121, 113, 125);
+	color: white;
 	text-decoration: none;
 }
 
@@ -103,6 +115,7 @@ aside {
 	padding-bottom: 2em;
 	border-bottom-style: solid;
 	margin-bottom: 2em;
+	color: grey;
 }
 
 .past-articles {
@@ -116,7 +129,7 @@ aside {
 }
 
 .past-info {
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(187, 186, 189);
 	padding: 1em;
 }
 
