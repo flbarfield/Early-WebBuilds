@@ -85,6 +85,14 @@
 	font-size: 4em;
 }
 
+.project-wrapper img {
+	padding: 1em;
+}
+
+.project-wrapper img:hover {
+	background-color: #EBB000;
+}
+
 #fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
 	display: inline-block;
 	visibility: hidden;
