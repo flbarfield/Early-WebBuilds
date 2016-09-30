@@ -1,3 +1,5 @@
+/*******HOME PAGE*****/
+
 .hide {
 	display: none;
 }
@@ -111,7 +113,7 @@
 
 /*BOTTOM PORTION OF PAGE*/
 
-footer {
+.main-footer {
 	background-color: rgb(238,238, 238);
 	display: inline-block;
 	background-color: #EBB000;
@@ -119,7 +121,7 @@ footer {
 
 /*My photo*/
 
-footer {
+.main-footer {
 	margin-bottom: -1em;
 }
 
@@ -151,6 +153,36 @@ footer {
 .footer-bar {
 	height: 50px;
 	background-color: rgb(34,34,34);
+}
+
+/****ADJUSTMENTS FOR DETAILED PROJECT INFO PAGES*******/
+
+.other-projects ul {
+	list-style-type: none;
+	padding: 0
+}
+
+.project-info-content {
+	margin-bottom: 2em;
+	background-image: url(Images/congruent_outline.png);
+	color: white;
+}
+
+.project-info img {
+	padding-bottom: 2em;
+}
+
+.other-projects {
+	padding-bottom: 2em;
+} 
+
+
+.project-info-footer {
+	
+}
+
+.project-info-about {
+	
 }
 
 
