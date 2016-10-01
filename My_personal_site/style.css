@@ -171,6 +171,15 @@
 	font-size: 1.2em;
 }
 
+.explaination-list {
+	margin-left: 1em;
+}
+
+.explaination-list li{
+	font-size: 1.2em;
+	margin-bottom: 1em
+}
+
 .other-projects {
 	padding-bottom: 2em;
 } 
@@ -194,7 +203,7 @@
 	color: #EBB000;
 	font-family: 'Lato', sans-serif;
 	padding-top: 2em;
-	margin-left: -1em;
+	margin-left: -1.1em;
 }
 
 .project-info-links {
@@ -202,10 +211,6 @@
 	color: #002BEB;
 	font-family: 'Lato', sans-serif;
 	padding-top: 2em;
-}
-
-.git-wrapper, .fa-wrapper {
-
 }
 
 
