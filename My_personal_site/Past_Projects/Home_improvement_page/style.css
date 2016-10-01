@@ -1,3 +1,11 @@
+h1, label, a {
+	font-family: 'David Libre', serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
 #loading-page {
     display: none;
 }
