@@ -101,7 +101,7 @@ html {
 /*****SUBSCRIPTION BOX*******/
 
 #submit-form {
-    background-color: black;
+	background-image: url(Images/footer_lodyas.png);
     color: rgb(255, 224, 0);
     text-align: center;
     padding: 1em;
