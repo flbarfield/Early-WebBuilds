@@ -167,8 +167,6 @@
 	padding-bottom: 2em;
 }
 
-.proj-text {}
-
 .project-info p {
 	font-size: 1.2em;
 }
@@ -216,6 +214,10 @@
 	padding-top: 2em;
 }
 
+.footer-bar-project {
+	height: 50px;
+	background-color: rgb(34,34,34);
+}
 
 @media (max-width: 990px) {
 	
