@@ -95,21 +95,20 @@
 	background-color: #EBB000;
 }
 
+/*
 #fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
 	display: inline-block;
 	visibility: hidden;
 	float: left;
 }
+*/
 
 
+/*
 #fila:hover .mouseover-text {
 	visibility: visible;
 }
-
-.tourist {
-	position: relative;
-	top: 4em;
-}
+*/
 
 /*BOTTOM PORTION OF PAGE*/
 
@@ -161,6 +160,7 @@
 	background-image: url(Images/congruent_outline.png);
 	color: white;
 	padding-top: 3em;
+	padding-bottom: 4em;
 }
 
 .project-info img {
@@ -206,6 +206,7 @@
 	font-family: 'Lato', sans-serif;
 	padding-top: 2em;
 	margin-left: -1.1em;
+	max-width: 31em;
 }
 
 .project-info-links {
