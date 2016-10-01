@@ -185,13 +185,27 @@
 	text-decoration: none;
 }
 
-
 .project-info-footer {
-	
+	background-color: #EBB000;
 }
 
 .project-info-about {
-	
+	background-color: #3232B7;
+	color: #EBB000;
+	font-family: 'Lato', sans-serif;
+	padding-top: 2em;
+	margin-left: -1em;
+}
+
+.project-info-links {
+	background-color: #EBB000;
+	color: #002BEB;
+	font-family: 'Lato', sans-serif;
+	padding-top: 2em;
+}
+
+.git-wrapper, .fa-wrapper {
+
 }
 
 
