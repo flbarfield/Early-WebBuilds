@@ -167,12 +167,14 @@
 	padding-bottom: 2em;
 }
 
+.proj-text {}
+
 .project-info p {
 	font-size: 1.2em;
 }
 
 .explaination-list {
-	margin-left: 1em;
+ 	padding-left: 1em;
 }
 
 .explaination-list li{
