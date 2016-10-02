@@ -145,6 +145,11 @@
 	width: 100%;
 }
 
+.mobile-clicky {
+	text-align: center;
+	font-size: 3em;
+}
+
 .project-info p {
 	font-size: 1.2em;
 }
