@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/cheap_diagonal_fabric.png);
+	background-image: url('images/cheap_diagonal_fabric.png');
 }
 
 h1 {
@@ -129,13 +129,6 @@ img {
 
 /*desktop*/
 
-.line {
-    background-color: red;
-    height: .2em;
-    position: relative;
-    top: 2.5em;
-    z-index: -999;
-}
 
 #desk-menu h1 {
     background-image: url(images/cheap_diagonal_fabric.png);
@@ -370,5 +363,3 @@ footer i {
     background-color: rgb(199, 197,	179);
     color: white;
 }
-
-
