@@ -37,6 +37,7 @@
 .jumbotron {
 	background-color: #0E0E87;
 	text-align: left;
+	padding-left: 2em;
 }
 
 .jumbotron h1 {
@@ -120,39 +121,15 @@
 
 /*My photo*/
 
-.main-footer {
-	margin-bottom: -1em;
-}
 
 .ricky {
 	height: 8em;
 	float: left;
 	margin-right: 1em;
+	margin-bottom: .5em;
 }
 
-#about {
-	border-right-style: solid;
-	margin: 0;
-	min-height: 210px;
-	padding-top: 2em;
-	background-color: #3232B7;
-	color: #EBB000;
-	font-family: 'Lato', sans-serif;
-}
-
-#links {
-	margin: 0;
-	padding-top: 2em;
-	font-family: 'Lato', sans-serif;
-	background-color: #EBB000;
-	color: #002BEB;
-	height: 100%;
-}
-
-.footer-bar {
-	height: 50px;
-	background-color: rgb(34,34,34);
-}
+/*DID FOOTERS BETTER DOWN LOW*/
 
 /****ADJUSTMENTS FOR DETAILED PROJECT INFO PAGES*******/
 
@@ -163,8 +140,9 @@
 	padding-bottom: 4em;
 }
 
-.project-info img {
+.proj-pic-wrapper img {
 	padding-bottom: 2em;
+	width: 100%;
 }
 
 .project-info p {
@@ -206,6 +184,7 @@
 	margin-left: -1.1em;
 	max-width: 31em;
 }
+
 
 .project-info-links {
 	background-color: #EBB000;
