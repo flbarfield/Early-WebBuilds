@@ -97,6 +97,12 @@ html {
 	bottom: 16em;
 }
 
+/*
+#pro-1:hover~=#txt-1{
+	display: block;
+}
+*/
+
 /*****SUBSCRIPTION BOX*******/
 
 #submit-form {
