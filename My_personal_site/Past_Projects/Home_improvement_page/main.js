@@ -1,3 +1,8 @@
+$(window).load(function () {
+	'use strict';
+	$('#loading-page').hide();
+});
+
 var backgrounds = [
     'url(Images/Fireplace.jpg)',
     'url(Images/MiscRoom.jpg)',
@@ -8,7 +13,7 @@ var backgrounds = [
 
 //SlideShow
 
-function changeBackground () {
+function changeBackground() {
     'use strict';
     clearTimeout(timeoutVar);
     $('html').css('background-image', function () {
