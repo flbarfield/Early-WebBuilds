@@ -1,3 +1,15 @@
+h1, h2 {
+	font-family: 'Actor', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.updatable-content {
+	margin-top: 3.6em;
+}
+
 .front-slideshow {
 	height: 25em;
 	width: 25em;
@@ -38,3 +50,26 @@
   width: 100%;
   border: 0;
   }
+
+
+@media (min-width: 768px) {
+	body {
+		background-color: rgb(34,34,34);
+	}
+	
+	nav {
+		width: 15em;
+		height: 100%;
+		min-height: 100%;
+		padding-top: 2em;
+		float: left;
+		position: fixed;
+		bottom: 0;
+	}
+	
+	.updatable-content {
+		margin-left: 15em;
+		background-color: white;
+		margin-top: 0;
+	}
+}
