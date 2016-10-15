@@ -1,6 +1,9 @@
+'use strict';
+	
 $(function () {
-	$('#slides').slidesjs( {
-		width: 940,
-		height: 300
+	$('.rslides').responsiveSlides({
+		auto: true,
+		speed: 500,
+		timeout: 4000
 	});
 });
