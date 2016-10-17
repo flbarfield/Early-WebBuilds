@@ -43,17 +43,23 @@ a {
 }
 
 /***Index***/
-
-.front-slideshow {
-	height: 25em;
-	width: 25em;
-	float: right;
-	margin-top: 2em;
-	margin-left: 1em;
+.intro-title-img{
+	background: url(images/Index_collage/collage.jpg) no-repeat center center;
+	background-size: contain;
+	color: white;
+	width: 100%;
+	max-width: 2000px;
+	padding: 5em 0;
 }
 
-#slides img {
-	height: 25em;
+.title-text {
+	color: rgb(177, 202, 101);
+	font-weight: bold;
+	text-align: center;
+	background-color: grey;
+	opacity: .9;
+	max-width: 665px;
+	margin: auto;
 }
 
 
