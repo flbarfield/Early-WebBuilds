@@ -31,6 +31,7 @@ a {
 .featured {
 	background-color: white;
 	padding: 2em;
+	margin-top: 3em;
 }
 
 .feat-p {
@@ -88,7 +89,7 @@ a {
 
 .vid-section iframe {
 	margin-top: 1em;
-	height: 40%;
+	height: 20%;
 }
 
 .map {
@@ -116,10 +117,18 @@ a {
 		bottom: 0;
 	}
 	
+	.featured {
+		margin-top: 0;
+	}
+	
 	#updatable-content {
 		margin-left: 15em;
 		background-color: white;
 		margin-top: 0;
+	}
+	
+	.vid-section iframe {
+		height: 40%;
 	}
 	
 	.title-text {
