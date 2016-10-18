@@ -6,7 +6,7 @@ h1 {
 	color: rgb(177, 202, 101);
 }
 
-p {
+p, li {
 	font-family: 'Raleway', sans-serif;
 	color: rgb(154,154,154);
 }
@@ -47,9 +47,15 @@ a {
 	color: rgb(177, 202, 101);
 }
 
+.imp-bold {
+	color: rgb(177, 202, 101);
+}
+
 .subheads {
 	background-color: white;
 	padding: 2em;
+	float: right;
+	padding-left: 15em;
 }
 
 .subheads h2 {
@@ -87,7 +93,16 @@ a {
 	height: 40%;
 }
 
+.map {
+	margin: 0 auto 1em;
+	height: 60%;
+}
 
+@media (max-width: 768px){
+	.subheads{
+		padding-left: 0
+	}
+}
 @media (min-width: 768px) {
 	body {
 		background-color: rgb(34,34,34);
