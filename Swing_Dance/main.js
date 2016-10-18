@@ -1,35 +1,62 @@
 'use strict';
 
-function GetData() {
-	$('#updatablecontent').load('pages/front.html');
+var xhr;
+
+if (window.XMLHttpRequest) {
+	xhr = new XMLHttpRequest();
+} else if (window.ActiveXObject) {
+	xhr = new ActiveXObject('MSXM12.XMLHTTP');
+} else {
+	throw new Error('Ajax is not supported by your browser');
 }
 
-$('#about').click(function () {$('#updatable-content').load('front.html'); });
-$('#contact').click(function () {$('#updatable-content').load('locate_contact.html'); });
-$('#membership').click(function () {$('#updatable-content').load('membership.html'); });
-$('#resources').click(function () {$('#updatable-content').load('resources.html'); });
+xhr.onreadystatechange = function () {
+	if (xhr.readyState < 4) {
+		document.getElementById('updatable-content').innerHTML = 'Loading...';
+	} else if (xhr.readyState === 4) {
+		if (xhr.status === 200 && xhr.status < 300) {
+			document.getElementById('updatable-content').innerHTML = xhr.responseText;
+		}
+	}
+};
 
-GetData();
 
-
-//var xhr;
-//
-//if (window.XMLHttpRequest) {
-//	xhr = new XMLHttpRequest();
-//} else if (window.ActiveXOject) {
-//	xhr = new ActiveXObject('Msxm122.XMLHTTP');
-//} else {
-//	throw new Error('Ajax is not supported by your browser');
-//}
-//
-//xhr.onreadystatechange = function () {
-//	if (xhr.readyState < 4) {
-//		document.getElementById('updatable-content').innerHTML = 'Loading...';
-//	} else if (xhr.readystate === 4) {
-//		if (xhr.status === 200 && xhr.status < 300) {
-//			document.getElementById('updatable-content').innerHTML = xhr.responseText;
-//		}
-//	}
-//	xhr.open('GET', 'front.html');
-//	xhr.send(null);
+//xhr.onload = function () {
+//	$('#updatable-content').load('pages/front.html');
 //};
+
+$('#about').click(function (e) {
+	$('#updatable-content').load('pages/front.html');
+	if (!$(this).hasClass('active')) {
+		$('ul.nav > li').removeClass('active');
+		$(this).addClass('active');
+	}
+	e.preventDefault();
+});
+
+$('#contact').click(function (e) {
+	$('#updatable-content').load('pages/locate_contact.html');
+	if (!$(this).hasClass('active')) {
+		$('ul.nav > li').removeClass('active');
+		$(this).addClass('active');
+	}
+	e.preventDefault();
+});
+
+$('#membership').click(function (e) {
+	$('#updatable-content').load('pages/membership.html');
+	if (!$(this).hasClass('active')) {
+		$('ul.nav > li').removeClass('active');
+		$(this).addClass('active');
+	}
+	e.preventDefault();
+});
+
+$('#resources').click(function (e) {
+	$('#updatable-content').load('pages/resources.html');
+	if (!$(this).hasClass('active')) {
+		$('ul.nav > li').removeClass('active');
+		$(this).addClass('active');
+	}
+	e.preventDefault();
+});
