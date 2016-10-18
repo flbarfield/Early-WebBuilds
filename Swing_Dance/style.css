@@ -86,6 +86,8 @@ a {
 .vid-section {
 	margin-bottom: 2em;
 	text-align: center;
+	background-image: url(images/stardust.png);
+	padding: 0 2em 3em 2em;
 }
 
 .vid-section iframe {
