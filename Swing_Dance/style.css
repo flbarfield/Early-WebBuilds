@@ -118,7 +118,7 @@ a {
 		bottom: 0;
 	}
 	
-	.updatable-content {
+	#updatable-content {
 		margin-left: 15em;
 		background-color: white;
 		margin-top: 0;
