@@ -23,13 +23,9 @@ a {
 
 
 .nav-pills > li.active > a,
-.nav-pills > li.active > a:hover {
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
 	background-color: rgb(61, 81, 0);
-}
-
-.updatable-content {
-	margin-top: 3.6em;
-	background-image: url(images/stardust.png);
 }
 
 .featured {
@@ -75,7 +71,7 @@ a {
 
 .title-text {
 	color: rgb(177, 202, 101);
-	background-color: white;
+/*	background-color: white;*/
 	font-weight: bold;
 	text-align: center;
 	font-size: 1.5em;
