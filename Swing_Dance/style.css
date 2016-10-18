@@ -3,7 +3,7 @@ h1, h2 {
 }
 
 h1 {
-	color: rgb (177, 202, 101)
+	color: rgb(177, 202, 101);
 }
 
 p {
@@ -37,29 +37,54 @@ a {
 	padding: 2em;
 }
 
+.feat-p {
+	margin: 2em auto;
+	font-size: 1.5em;
+	max-width: 45em;
+}
+
+.feat-p b {
+	color: rgb(177, 202, 101);
+}
+
 .subheads {
-	background-color: lightblue;
+	background-color: white;
 	padding: 2em;
+}
+
+.subheads h2 {
+	font-size: 1.5em
 }
 
 /***Index***/
 .intro-title-img{
 	background: url(images/Index_collage/collage.jpg) no-repeat center center;
-	background-size: contain;
+	background-size: cover;
 	color: white;
 	width: 100%;
 	max-width: 2000px;
-	padding: 5em 0;
+	padding: 10% 0;
+	opacity: 
 }
 
 .title-text {
 	color: rgb(177, 202, 101);
+	background-color: white;
 	font-weight: bold;
 	text-align: center;
-	background-color: grey;
-	opacity: .9;
-	max-width: 665px;
+	font-size: 1.5em;
+	max-width: 8em;
 	margin: auto;
+}
+
+.vid-section {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.vid-section iframe {
+	margin-top: 1em;
+	height: 40%;
 }
 
 
@@ -82,5 +107,10 @@ a {
 		margin-left: 15em;
 		background-color: white;
 		margin-top: 0;
+	}
+	
+	.title-text {
+		font-size: 3em;
+/*		background-color: transparent;*/
 	}
 }
