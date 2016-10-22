@@ -1,0 +1,55 @@
+button {
+	background-color: white;
+	border-width: thin;
+	border-radius: 3px;
+/*	Get rid of box shadow*/
+}
+
+.jumbotron {
+	background-image: url('Images/cityscape.jpg');
+}
+
+
+#about-right img {
+	width: 10em;
+	border-radius: 10em;
+}
+
+#product-header {
+	text-align: center;
+}
+
+#product-info {
+	background-color: grey;
+	text-align: center;
+}
+
+#product-info section {
+	background-color: white;
+}
+
+#product-info button {
+/*	CENTER THIS*/
+}
+
+
+#fin {
+	text-align: center;
+}
+
+footer {
+	background-image: url(Images/cityscape.jpg);
+	height: 10em;
+}
+
+.hoz-links li {
+	display: inline-block;
+}
+
+.hoz-icons ul {
+	
+}
+
+.hoz-icons li{
+	display: inline-block;
+}
