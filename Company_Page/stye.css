@@ -148,25 +148,91 @@ nav ul {
 	margin-bottom: 2em
 }
 
+/*FEATURED*/
+
+#feat-products section{
+	border-bottom-style: solid;
+	border-bottom-color: light-grey;
+	border-width: thin;
+	padding: 1em 1em 2em;
+}
+
+.feat-img-wrap {
+	text-align: center;
+}
+
+#feat-products img {
+	width: 100%;
+	height: auto;
+	padding: 2em;
+/*	margin: 0 auto;*/
+}
+
+.feat-text h1 {
+	font-size: 1.5em;
+}
+
+#feat-products p {
+	max-height: 10em;
+	overflow: scroll;
+}
+
+/*LAST SECTION*/
 
 #fin {
 	text-align: center;
+	background-color: lightgray;
+	padding: 3em 3em 5em;
 }
+
+
+#fin button {
+	background-color: lightgreen;
+	color: white;
+	padding: .5em 3em;
+	margin-top: 1em;
+}
+
+/*FOOTER*/
 
 footer {
 	background-image: url(Images/planes.jpg);
 	background-position: bottom;
 	height: 10em;
+	padding: 3em;
+}
+
+footer a {
+	color: purple;
+	font-size: 1em;
+}
+
+footer ul {
+	padding: 0;
+}
+
+.seperator {
+	height: 1em;
+	width: .1em;
+	background-color: purple;
+}
+
+#foot-left {
+	text-align: center;
+}
+
+#foot-right {
+	text-align: center;
 }
 
 .hoz-links li {
 	display: inline-block;
+	margin-right: .5em;
 }
 
-.hoz-icons ul {
-	
-}
 
 .hoz-icons li{
 	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.5em;
 }
