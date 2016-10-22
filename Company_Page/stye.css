@@ -5,8 +5,33 @@ button {
 /*	Get rid of box shadow*/
 }
 
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.menu-options {
+	background-color: white;
+	height: 100%;
+	padding: 1em;
+	z-index: 999;
+/*	position: absolute;*/
+}
+
 .jumbotron {
 	background-image: url('Images/cityscape.jpg');
+}
+
+.jumbotron i {
+	float: right;
+	font-size: 2em;
+	padding: .5em;
+	color: white;
 }
 
 
@@ -24,8 +49,13 @@ button {
 	text-align: center;
 }
 
+
 #product-info section {
 	background-color: white;
+}
+
+#product-info i {
+	font-size: 2em;
 }
 
 #product-info button {
