@@ -76,6 +76,13 @@ nav .second-button {
 	border-color: lightgrey;
 }
 
+nav button:hover{
+	
+}
+
+nav .second-button:hover{
+	background-color: lightgrey;
+}
 
 /*JUMBOTRON*/
 
@@ -91,6 +98,7 @@ nav .second-button {
 	font-size: 2em;
 	padding: .5em;
 	color: white;
+	text-align: center;
 }
 
 .jumb-right {
@@ -114,6 +122,18 @@ nav .second-button {
 	border-color: white;
 }
 
+.jumb-right button:hover, .jumb-right button:focus, nav button:hover, nav button:focus, #fin button:hover, #fin button:focus {
+	background-color: green;
+	color: white;
+}
+
+.fa-navicon:hover, .fa-navicon:focus {
+	color: lightgreen;
+}
+
+#jumb-sec-button:hover, #jumb-sec-button:focus, nav .second-button:hover, nav .second-button:focus, #about button:focus, #about button:hover {
+	background-color: lightgrey;
+}
 /*ABOUT*/
 
 #ab-txt-wrap {
@@ -192,6 +212,10 @@ nav .second-button {
 	border-color: darkgrey;
 	border-width: thin;
 	margin-bottom: 2em
+}
+
+#product-info button:hover {
+	background-color: white;
 }
 
 /*FEATURED*/
