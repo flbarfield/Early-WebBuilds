@@ -24,7 +24,7 @@ nav ul {
 }
 
 .jumbotron {
-	background-image: url('Images/cityscape.jpg');
+	background-image: url('Images/planes.jpg');
 }
 
 .jumbotron i {
@@ -36,7 +36,8 @@ nav ul {
 
 
 #about-right img {
-	width: 10em;
+	width: 6em;
+	height: 6em;
 	border-radius: 10em;
 }
 
@@ -68,7 +69,7 @@ nav ul {
 }
 
 footer {
-	background-image: url(Images/cityscape.jpg);
+	background-image: url(Images/planes.jpg);
 	height: 10em;
 }
 
