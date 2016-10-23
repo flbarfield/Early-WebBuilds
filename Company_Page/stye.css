@@ -200,6 +200,7 @@ nav .second-button:hover{
 #product-header {
 	text-align: center;
 	margin-bottom: 2em;
+	margin-top: 3em;
 }
 
 #product-info {
@@ -361,6 +362,10 @@ footer a:hover {
 }
 
 @media only screen and (min-width : 992px) {
+	
+	.jumbotron {
+		background-position: 50% 40%;
+	}
 	
 	#ab-right-wrap img {
 		width: 7em;
