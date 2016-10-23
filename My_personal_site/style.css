@@ -24,7 +24,7 @@ a:hover {
 	color: rgb(252, 232, 54);
 }
 
-p {
+p, li {
 	color: rgb(193,	193,193)	
 }
 
@@ -110,6 +110,11 @@ p {
 
 #updatable-content {
 	margin-bottom: 5em;
+}
+
+
+.imported-content {
+	margin-top: 5em;
 }
 
 .page-heading {
