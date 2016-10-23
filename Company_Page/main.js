@@ -6,6 +6,6 @@ function openNav() {
 }
 
 function closeNav() {
-	document.getElementbyId('hidden-nav').style.width = '0';
+	document.getElementById('hidden-nav').style.width = '0';
 	document.getElementById('main-content').style.marginRight = '0';
 }
