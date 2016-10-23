@@ -27,3 +27,7 @@ $('#fila').click(function (e) {
 $('#blog').click(function (e) {
 	$('#updatable-content').load('Additional_Info/TSDC/about_tsdc.html');
 });
+
+$('#home-link').click(function (e) {
+	$('#updatable-content').load('default.html');
+});
