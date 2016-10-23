@@ -6,6 +6,7 @@ h1 {
 h2, p {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(153,153,153);
+	font-size: .8em;
 }
 
 a:hover {
@@ -362,6 +363,10 @@ footer a:hover {
 }
 
 @media only screen and (min-width : 992px) {
+	
+	h2, p {
+		font-size: 1em;
+	}
 	
 	.jumbotron {
 		background-position: 50% 40%;
