@@ -108,6 +108,10 @@ p {
 
 /*MIDDLE PORTION, UPDATABLE BITS*/
 
+#updatable-content {
+	margin-bottom: 5em;
+}
+
 .page-heading {
 	padding: 1em 1em 1em;
 	white-space: nowrap;
@@ -223,6 +227,10 @@ p {
 		margin-bottom: 7em;
 	}
 	
+	.page-heading {
+		margin-bottom: 2em;
+		font-size: 3em;
+	}
 	
 	#about {
 		border-style: none;
