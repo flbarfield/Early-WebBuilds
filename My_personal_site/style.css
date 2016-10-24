@@ -32,10 +32,6 @@ p, li {
 	color: rgb(193,	193,193)	
 }
 
-#content {
-	transition: margin-right 0.5s;
-}
-
 /****NAVIGATION****/
 
 .navbar {
@@ -241,7 +237,6 @@ p, li {
 	text-decoration: none;
 }
 
-
 @media (min-width: 990px) {
 	.jumbotron-main {
 		margin-top: 4em;
@@ -255,9 +250,5 @@ p, li {
 	.page-heading {
 		margin-bottom: 2em;
 		font-size: 3em;
-	}
-	
-	#hidden-nav {
-		margin-top: -.5em;
 	}
 }

@@ -71,12 +71,10 @@ $('#home-link').click(function (e) {
 
 function openNav() {
 	document.getElementById('hidden-nav').style.width = '22em';
-	document.getElementById('content').style.MarginLeft = '22em';
 	document.getElementById('hidden-nav').style.borderColor = 'rgb(252, 232, 54)';
 }
 
 function closeNav() {
 	document.getElementById('hidden-nav').style.width = '0';
-	document.getElementById('content').style.MarginLeft = '0';
 	document.getElementById('hidden-nav').style.borderColor = 'rgb(34, 34, 34)';
 }
