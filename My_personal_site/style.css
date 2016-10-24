@@ -107,7 +107,7 @@ p, li {
 
 .fa-envelope {
 	margin-right: .5em;
-	margin-bottom: 10%
+	margin-bottom: 10%;
 }
 
 .fa-github:hover, .fa-envelope:hover {
@@ -150,12 +150,6 @@ p, li {
 	width: 70%;
 	margin-bottom: 4em;
 }
-
-/*
-.project-wrapper a, nav a {
-	z-index: 99999;
-}
-*/
 
 .right {
 	float: right;
@@ -202,17 +196,6 @@ p, li {
 
 /****ADJUSTMENTS FOR DETAILED PROJECT INFO PAGES*******/
 
-.project-info-content {
-	background-image: url(Images/congruent_outline.png);
-	color: white;
-	padding-top: 3em;
-	padding-bottom: 4em;
-}
-
-.proj-pic-wrapper img {
-	padding-bottom: 2em;
-	width: 100%;
-}
 
 .mobile-clicky {
 	text-align: center;
@@ -231,20 +214,6 @@ p, li {
 .explaination-list li{
 	font-size: 1.2em;
 	margin-bottom: 1em
-}
-
-.other-projects {
-	padding-bottom: 2em;
-} 
-
-.other-projects ul {
-	list-style-type: none;
-	padding: 0;
-	font-size: 1.2em;
-}
-
-.other-projects a:hover {
-	text-decoration: none;
 }
 
 
