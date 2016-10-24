@@ -5,27 +5,27 @@ var xhr;
 //ABOUT TO WEBPAGES
 
 function toBlog() {
-	window.location.assign('/My_personal_site/Past_Projects/Blog_V3/index.html');
+	window.location.assign('/Past_Projects/Blog_V3/index.html');
 }
 
 function toHome() {
-	window.location.assign('/My_personal_site/Past_Projects/Home_improvement_page/index.html');
+	window.location.assign('/Past_Projects/Home_improvement_page/index.html');
 }
 
 function toTsdc() {
-	window.location.assign('/My_personal_site/Past_Projects/TSDC/index.html');
+	window.location.assign('/Past_Projects/TSDC/index.html');
 }
 
 function toTravel() {
-	window.location.assign('/My_personal_site/Past_Projects/Tourist_page/index.html');
+	window.location.assign('/Past_Projects/Tourist_page/index.html');
 }
 
 function toFila() {
-	window.location.assign('/My_personal_site/Past_Projects/Fil-a-mimic/index.html');
+	window.location.assign('/Past_Projects/Fil-a_mimic/index.html');
 }
 
 function toCompany() {
-	window.location.assign('/My_personal_site/Past_Projects/Company_Page/index.html')
+	window.location.assign('/Past_Projects/Company_Page/index.html');
 }
 
 //AJAX STUFF
@@ -40,31 +40,31 @@ if (window.XMLHttpRequest) {
 //MAIN TO ABOUT PAGES
 
 $('.company').click(function (e) {
-	$('#updatable-content').load('Additional_Info/Company/about_company.html');
+	$('#updatable-content').load('/Additional_Info/Company/about_company.html');
 });
 
 $('.tsdc').click(function (e) {
-	$('#updatable-content').load('Additional_Info/TSDC/about_tsdc.html');
+	$('#updatable-content').load('/Additional_Info/TSDC/about_tsdc.html');
 });
 
 $('.tourist').click(function (e) {
-	$('#updatable-content').load('Additional_Info/travel/about_travel.html');
+	$('#updatable-content').load('/Additional_Info/Travel/about_travel.html');
 });
 
 $('.fila').click(function (e) {
-	$('#updatable-content').load('Additional_Info/fila/about_fila.html');
+	$('#updatable-content').load('/Additional_Info/Fila/about_fila.html');
 });
 
 $('.blog').click(function (e) {
-	$('#updatable-content').load('Additional_info/Blog/about_blog.html');
+	$('#updatable-content').load('/Additional_Info/Blog/about_blog.html');
 });
 
-$('.home').click(function (e) {
-	$('#updatable-content').load('Additional_info/home/about_home.html');
+$('.home-website').click(function (e) {
+	$('#updatable-content').load('/Additional_Info/Home/about_home.html');
 });
 
 $('#home-link').click(function (e) {
-	$('#updatable-content').load('default.html');
+	$('#updatable-content').load('/default.html');
 });
 
 //NAV CONTROLS

@@ -52,7 +52,6 @@ p, li {
 	right: 0;
 	height: 100%;
 	z-index: 99;
-	margin-top: -1em;
 	background-color: rgb(34, 34, 34);
 	transition: .5s;
 	border-left-style: solid;
@@ -151,6 +150,12 @@ p, li {
 	width: 70%;
 	margin-bottom: 4em;
 }
+
+/*
+.project-wrapper a, nav a {
+	z-index: 99999;
+}
+*/
 
 .right {
 	float: right;
@@ -256,5 +261,9 @@ p, li {
 	.page-heading {
 		margin-bottom: 2em;
 		font-size: 3em;
+	}
+	
+	#hidden-nav {
+		margin-top: -.5em;
 	}
 }
