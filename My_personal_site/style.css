@@ -24,31 +24,50 @@ a:hover {
 	color: rgb(252, 232, 54);
 }
 
+a:focus {
+	color: rgb(252, 232, 54);
+}
+
 p, li {
 	color: rgb(193,	193,193)	
+}
+
+#content {
+	transition: margin-right 0.5s;
 }
 
 /****NAVIGATION****/
 
 .navbar {
 	margin-bottom: 0;
-	font-family: 'Lato', sans-serif;
+}
+
+.navbar li {
+	display: inline-block;
 }
 
 #hidden-nav {
-	width: 20em;
+	width: 0;
 	position: fixed;
 	right: 0;
 	height: 100%;
 	z-index: 99;
-	padding: 1em;
 	margin-top: -1em;
-	background-color: rgb(34,34,34);
+	background-color: rgb(34, 34, 34);
+	transition: .5s;
+	border-left-style: solid;
+	border-width: thin;
+	border-color: rgb(34, 34, 34);
+}
+
+#nav-text {
+	padding: 1em;
 }
 
 #hidden-nav ul {
 	list-style: none;
 	padding-left: 1em;
+	margin-top: 2em;
 }
 
 #hidden-nav li {
@@ -104,6 +123,7 @@ p, li {
 	text-align: left;
 	padding-left: 2em;
 	margin-top: 3.5em;
+	margin-bottom: 0;
 }
 
 /*MIDDLE PORTION, UPDATABLE BITS*/
@@ -115,6 +135,7 @@ p, li {
 
 .imported-content {
 	margin-top: 5em;
+	height: 65%;
 }
 
 .page-heading {
@@ -236,15 +257,4 @@ p, li {
 		margin-bottom: 2em;
 		font-size: 3em;
 	}
-	
-	#about {
-		border-style: none;
-		padding-bottom: .5em
-	}
-
-	#links p {
-		position: relative;
-		top: 1em;
-	}
-}
 }
