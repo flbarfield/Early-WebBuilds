@@ -14,34 +14,26 @@
 	<body>
 		<nav class='navbar navbar-inverse navbar-fixed-top'>
 			<div class='container-fluid'>
-				<div class='navbar-header'>
-					<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>
-						<span class='sr-only'>Toggle Navigation</span>
-						<span class='icon-bar'></span>
-						<span class='icon-bar'></span>
-						<span class='icon-bar'></span>
-					</button>
-				</div>
-				<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
-					<ul class='nav navbar-nav'>
-						<li><a id='home-link' href=''>Home</a></li>
-						<li><a id='project-link'href='#'>Project List</a></li>
-						<li><a href='#project-info-aboutme'>About Me</a></li>
-					</ul>
-				</div>
+				<ul class='nav navbar-nav'>
+					<li><a id='home-link' href='#'>Home</a></li>
+					<li><a id='project-link' href='javascript:void(0)' onclick='openNav()'>Project List</a></li>
+					<li><a href='#project-info-aboutme'>About Me</a></li>
+				</ul>
 			</div>
 		</nav>
-		<div id='hidden-nav' class='hidden'>
-			<a><i class='fa fa-close'></i></a>
-			<h1>Other Projects</h1>
-			<ul>
-				<a href='#'><li>Company Page (Layout/CSS centric practice)</li></a>
-				<a href='#'><li>Swing Dance Club (AJAX/Video)</li></a>
-				<a href='#'><li>Travel Page (Intro to Interactivity)</li></a>
-				<a href='#'><li>Intro to scroll based animation</li></a>
-				<a href='#'><li>Home and Furnishing (Intro to image manipulation)</li></a>
-				<a href='#'><li>Blog Layout Practice</li></a>
-			</ul>
+		<div id='hidden-nav'>
+			<a href='javascriot:void(0)' onclick='closeNav()'><i class='fa fa-close'></i></a>
+			<div id='nav-text'>
+				<h1>Other Projects</h1>
+				<ul>
+					<a href='javascript:void(0)' class='company'><li>Company Page (Layout/CSS centric practice)</li></a>
+					<a href='javascript:void(0)' class='tsdc'><li>Swing Dance Club (AJAX/Video)</li></a>
+					<a href='javascript:void(0)' class='tourist'><li>Travel Page (Intro to Interactivity)</li></a>
+					<a href='javascript:void(0)' class='fila'><li>Intro to scroll based animation</li></a>
+					<a href='javascript:void(0)' class='home'><li>Home and Furnishing (Intro to image manipulation)</li></a>
+					<a href='javascript:void(0)' class='blog'><li>Blog Layout Practice</li></a>
+				</ul>
+			</div>
 		</div>
 		<div id='content'>
 		<div id='updatable-content'>
@@ -53,34 +45,34 @@
 			</div>
 			</div>
 				<h1 class='page-heading'>Project Examples</h1>
-			<div id='company' class='project-wrapper col-xs-12'>
+			<div class='project-wrapper col-xs-12'>
 				<div class='main-img-wrap col-xs-12'>
-					<a href='#'><img id='company' class='col-xs-12' src='Images/company_SC.png'></a>
+					<a href='#'><img class='company col-xs-12' src='Images/company_SC.png'></a>
 				</div>
 			</div>
-			<div id='tsdc' class='project-wrapper col-xs-12'>
+			<div id='' class='tsdc project-wrapper col-xs-12'>
 				<div class='main-img-wrap col-xs-12 right'>
-					<a href='#'><img id='tsdc' class='col-xs-12' src='Images/TSDC_SC.png'></a>
+					<a href='#'><img class='tsdc col-xs-12' src='Images/TSDC_SC.png'></a>
 				</div>
 			</div>
-			<div class='project-wrapper'>
+			<div class='tourist project-wrapper'>
 				<div class='main-img-wrap col-xs-12'>
-					<a href='#'><img id='tourist' class='col-xs-12' src='Images/Travel_SC.png'></a>	
-				</div>
-			</div>
-			<div class='project-wrapper'>
-				<div class='main-img-wrap col-xs-12 right'>
-					<a href='#'><img id='fila' class='col-xs-12' src='Images/Fila_SC.png'></a>
-				</div>
-			</div>
-			<div class='project-wrapper'>
-				<div class='main-img-wrap col-xs-12'>
-					<a href='#'><img id='blog' class='col-xs-12' src='Images/Blog_SC.png'></a>
+					<a href='#'><img class='tourist col-xs-12' src='Images/Travel_SC.png'></a>	
 				</div>
 			</div>
 			<div class='project-wrapper'>
 				<div class='main-img-wrap col-xs-12 right'>
-					<a href='#'><img id='home' class='col-xs-12' src='Images/Home_SC.png'></a>
+					<a href='#'><img class='fila col-xs-12' src='Images/Fila_SC.png'></a>
+				</div>
+			</div>
+			<div class='project-wrapper'>
+				<div class='main-img-wrap col-xs-12'>
+					<a href='#'><img class='blog col-xs-12' src='Images/Blog_SC.png'></a>
+				</div>
+			</div>
+			<div class='project-wrapper'>
+				<div class='main-img-wrap col-xs-12 right'>
+					<a href='#'><img class='home col-xs-12' src='Images/Home_SC.png'></a>
 				</div>
 			</div>
 		</div>
@@ -100,8 +92,6 @@
 			</div>
 		</footer>
 		</div>
-		<div class='footer-bar-project col-md-12 col-xs-12'></div>
-		<div class='footer-bar'></div>
 		<script src='Tools/jquery-1.12.3.min.js'></script>
 		<script src='Tools/bootstrap.min.js'></script>
 		<script src='main.js'></script>
