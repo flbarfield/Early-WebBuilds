@@ -112,7 +112,7 @@ nav .second-button:hover{
 	background-size: cover;
 	background-position: center;
 	color: white;
-	max-height: 50%;
+/*	max-height: 50%;*/
 }
 
 .jumbotron p {
@@ -127,6 +127,10 @@ nav .second-button:hover{
 	text-align: center;
 }
 
+.jumbotron h1 {
+	font-size: 1.5em;
+}
+
 .jumb-right {
 	text-align: center;
 }
@@ -137,7 +141,7 @@ nav .second-button:hover{
 	border-width: 3px;
 	border-style: solid;
 	margin-right: 1em;
-	font-size: 1em;
+	font-size: .7em;
 	padding: .5em 2em;
 	margin-top: 3em;
 }
@@ -367,6 +371,10 @@ footer a:hover {
 	
 	.jumbotron {
 		background-position: 50% 40%;
+	}
+	
+	.jumb-right button {
+		font-size: 1em;
 	}
 	
 	#ab-right-wrap img {
