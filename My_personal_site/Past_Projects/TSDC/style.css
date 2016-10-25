@@ -93,7 +93,8 @@ a {
 
 .vid-section iframe {
 	margin-top: 1em;
-	height: 20%;
+	height: 25%;
+	width: 50%;
 }
 
 .map {
@@ -133,7 +134,8 @@ a {
 	}
 	
 	.vid-section iframe {
-		height: 30%;
+		height: 40%;
+		width: 50%;
 	}
 }
 
