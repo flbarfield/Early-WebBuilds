@@ -1,7 +1,3 @@
-body {
-	background-image: url('images/cheap_diagonal_fabric.png');
-}
-
 h1 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -23,6 +19,10 @@ img {
     width: 90%;
 }
 
+a:hover{
+	text-decoration: none;
+} 
+
 .hide {
     display: none;
 }
@@ -31,7 +31,7 @@ img {
 .slide-up  {
 	opacity: 0; 
 	transition: all 400ms ease-out;
-	transform: translate3d(0px, 200, 0px);
+	transform: translate3d(0px, 200px, 0px);
 	backface-visibility: hidden;
 }
 
@@ -43,10 +43,21 @@ img {
 .slide-left {
 	opacity: 0;
 	transition: all 500ms linear;
-	transform: translate3d(-50px, 0px, 0px);
+	transform: translate3d(-500px, 0px, 0px);
 }
 
 .slide-left.in-view {
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.slide-right {
+	opacity 0;
+	transition: all 500ms linear;
+	transform: translate3d(500px, 0px, 0px);
+}
+
+.slide-right.in-view {
 	opacity: 1;
 	transform: translate3d(0px, 0px, 0px);
 }
@@ -129,9 +140,37 @@ img {
 
 /*desktop*/
 
+.nav-logo-wrap {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
+.nav-logo {
+	height: 3em;
+	width: 3em;
+}
+
+.m-nav-logo {
+	height: 3em;
+	width: 3.5em;
+	margin-top: 1em;
+}
+
+.m-nav-text {
+	display: inline-block;
+	margin-top: 2.4em;
+}
+
+nav i {
+	float: right;
+}
+
+#d-nav-options {
+	height: 2.5em;
+	background-color: lightgrey;
+}
 #desk-menu h1 {
-    background-image: url(images/cheap_diagonal_fabric.png);
     text-align: center;
 	display: block;
     padding: 0 2em;
@@ -166,6 +205,19 @@ img {
 
 /***CONTENT***/
 
+.jumbotron {
+	background-image: url(images/snow_riders.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 5em;
+}
+
+.jumbotron p {
+	color: rgb(252, 248, 234);
+	background-color: rgba(74, 73, 68, .6);
+	display: inline-block;
+}
+
 .image-wrapper {
     margin-top: 6em;
     text-align: center;
@@ -173,19 +225,6 @@ img {
 
 #how {
     margin: 2em 0;
-}
-
-#how img {
-    margin-top: -2em;
-}
-
-#how .img-text {
-    font-size: 4vw;
-    text-align: left;
-    position: relative;
-    bottom: 5em;
-    left: 1.5em;
-    color: white;
 }
 
 #how h1 {
@@ -203,6 +242,10 @@ img {
 }
 
 /*NEWS*/
+
+#news {
+	margin-top: -4em;
+}
 
 .news-wrapper-wrapper {
 	text-align: center;
@@ -250,17 +293,64 @@ img {
 
 .wrapper-wrapper {
 	text-align: center;
-	margin-top: 5em;
+	margin-top: 3em;
+	margin-bottom: 4em;
 }
 
 #giving-back .image-wrapper {
-    margin-bottom: -2em;
-	width: 20em;
-	height: 290px;
+/*	width: 20em;*/
+/*	height: 290px;*/
 	display: inline-block;
 	margin-top: 1em;
 	padding-top: 1em;
 	padding-bottom: .5em;
+}
+
+.test-circle {
+	width: 20em;
+	height: 20em;
+	background-image: url('images/cityscape.jpg');
+	border-radius: 20em;
+	border-style: solid;
+	border-color: red;
+	border-width: thick;
+	padding-top: 1em;
+	margin: 1em auto 0;
+}
+
+.test-circle2 {
+	width: 20em;
+	height: 20em;
+	background-image: url('images/airplane.jpg');
+	border-radius: 20em;
+	border-style: solid;
+	border-color: red;
+	border-width: thick;
+	padding-top: 1em;
+	margin: 1em auto 0;
+}
+
+.test-circle3 {
+	width: 20em;
+	height: 20em;
+	background-image: url('images/Welding.jpg');
+	border-radius: 20em;
+	border-style: solid;
+	border-color: red;
+	border-width: thick;
+	padding-top: 1em;
+	margin: 1em auto 0;
+}
+
+
+
+.test-circle p {
+	position: relative;
+	font-size 4em;
+	padding: 7.5em;
+	border-radius: 10em;
+	color: red;
+	font-weight: bolder;
 }
 
 
@@ -270,26 +360,6 @@ img {
     border-radius: 400px;
     border-style: solid;
     border-color: rgb(226, 8, 48);
-}
-
-.mouseover-text {
-    background-color: red;
-    width: 280px;
-    height: 280px;
-    border-radius: 400px;
-    opacity: .5;
-    position: relative;
-    bottom: 17.69em;
-    left: 1.3em;
-	margin-bottom: -12em;
-}
-
-.mouseover-text p {
-    color: white;
-    font-size: 2em;
-    position: absolute;
-    top: 2.2em;
-	left: 2em;
 }
 
 .giv-1:hover .mouseover-text {
@@ -304,6 +374,66 @@ img {
 	display: block;
 }
 
+/*POPOUT LOGO PORTION*/
+
+#pop-out-logo {
+	height: 5em;
+}
+
+#po-static {
+	border-style: solid;
+	border-width: thick;
+	border-color: red;
+	width: 30%;
+	height: 20em;
+	opacity: .6;
+	margin: 0 auto;
+	margin-bottom: -17em;
+	max-width: 20em;
+	display: block;
+}
+
+#po-logo {
+	border-style: solid;
+	border-width: thick;
+	border-color: red;
+	height: 15em;
+	background-color: white;
+	max-width: 25em;
+	margin: 0 auto;
+}
+
+#po-logo img {
+	width: 5em;
+	height: 5em;
+	position: relative;
+	top: 2em;
+	left: 6em;
+}
+
+#po-logo p {
+	font-size: 2em;
+	display: inline-block;
+	position: relative;
+	top: 1.8em;
+	left: 4em;
+}
+
+.pop-out {
+	transform: scale(0);
+	transition: .5s;
+}
+
+.pop-out.in-view {
+	transform: scale(1);
+}
+
+/*MID TEXT SECTION*/
+
+#mid-text-section {
+/*	margin-top: -10em;*/
+/*	float: right;*/
+}
 
 /*FINAL CHOICES*/
 
