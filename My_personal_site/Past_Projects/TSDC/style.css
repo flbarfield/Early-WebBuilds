@@ -31,6 +31,7 @@ a {
 .featured {
 	background-color: white;
 	padding: 2em;
+	margin-top: 4em;
 }
 
 .feat-p {
@@ -56,6 +57,10 @@ a {
 
 .subheads h2 {
 	font-size: 1.5em
+}
+
+.foot-header {
+	font-size: 2em;
 }
 
 /***Index***/
@@ -88,7 +93,7 @@ a {
 
 .vid-section iframe {
 	margin-top: 1em;
-	height: 40%;
+	height: 20%;
 }
 
 .map {
@@ -125,5 +130,17 @@ a {
 	.title-text {
 		font-size: 3em;
 /*		background-color: transparent;*/
+	}
+	
+	.vid-section iframe {
+		height: 30%;
+	}
+}
+
+/*DESKTOPS*/
+
+@media (min-width: 992px) {
+	.vid-section iframe {
+		height: 50%;
 	}
 }
