@@ -168,7 +168,7 @@ nav i {
 
 #d-nav-options {
 	height: 2.5em;
-	background-color: lightgrey;
+	background-color: rgb(247,247,247);
 }
 #desk-menu h1 {
     text-align: center;
@@ -190,7 +190,7 @@ nav i {
 /*    margin-right: .9em;*/
     padding: .5em;
     border-right-style: solid;
-    border-color: rgb(177, 207,	226);
+    border-color: lightgrey;
     font-weight: 600;
     white-space: nowrap;
 }

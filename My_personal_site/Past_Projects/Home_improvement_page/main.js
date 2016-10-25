@@ -4,7 +4,7 @@ window.onload = function () {
 };
 
 var backgrounds = [
-    'url(Images/Fireplace.jpg)',
+    'url(Images/FirePlace.jpg)',
     'url(Images/MiscRoom.jpg)',
     'url(Images/PoolTable.jpg)'],
     
