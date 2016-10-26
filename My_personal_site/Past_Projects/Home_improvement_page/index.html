@@ -6,6 +6,7 @@
         <link href='Tools/normalize.css' rel='stylesheet'/>
         <link href='Tools/unsemantic-grid-responsive.css' rel='stylesheet'/>
         <link href='Tools/font-awesome-4.6.1/css/font-awesome.min.css' rel='stylesheet'/>
+		<link href="Tools/bootstrap.min.css" rel='stylesheet'/>
         <link href='style.css' rel='stylesheet'/>
 		<link href="https://fonts.googleapis.com/css?family=David+Libre|Raleway" rel="stylesheet">
     </head>
@@ -21,19 +22,22 @@
 -->
         <div class='main-slides mobile-grid-70 grid-70'>
         </div>
-        <div id='projects'>
-            <div id='pro-1 grid-33 mobile-grid-100'>
-                <img src='Images/chair.jpg'/>
-                <p id='txt-1' class='hover-text mobile-grid-100 grid 33 hide'>This mock layout was made to hone my skills with image manipulation in a way that looks good with a resizing viewport</p>
-            </div>
-            <div id='pro-2 grid-33 mobile-grid-100'>
-                <img src='Images/kitchen.jpg'/>
-                <p id='txt-2' class='hover-text mobile-grid-100 grid-33 hide'>It's also one of my first attempts at adding Jquery and Javascript to a page</p>
-            </div>
-            <div id='pro-3 grid-33 mobile-grid-100'>
-                <img src='Images/office.jpg'/>
-                <p id='txt-3' class='hover-text mobile-grid-100 grid-33 hide'>While this took a little bit of time to piece together, I'm proud of it's result. I'm excited to see my skills develop in this work in the future.</p>
-            </div>
+        <div id='below-slides'>
+			<div id='pro-1' class='col-xs-12 col-md-4 proj-img'>
+				<div class='pro-text-wrap hid'>
+					<p class='hover-text'>This mock layout was made to hone my skills with image manipulation in a way that looks good with a resizing viewport</p>
+				</div>
+			</div>
+			<div id='pro-2' class='col-xs-12 col-md-4 proj-img'>
+				<div class='pro-text-wrap hide'>
+					<p class='hover-text'>It's also one of my first attempts at adding Jquery and Javascript to a page</p>
+				</div>
+			</div>
+			<div id='pro-3' class='col-xs-12 col-md-4 proj-img'>
+				<div class='pro-text-wrap hide'>
+					<p class='hover-text'>While this took a little bit of time to piece together, I'm proud of it's result. I'm excited to see my skills develop in this work in the future</p>
+				</div>
+			</div>
             <div id='submit-form'>
                 <h1>Subscribe to our newsletter</h1>
                 <label>First Name</label>
@@ -52,9 +56,9 @@
             <div id='nav-items'>
                 <a class='fa fa-arrow-right'></a>
                 <a class='fa fa-home'></a>
-                <a href='projects.html'>Projects</a>
-                <a href='who.html'>Who we are</a>
-                <a href='why.html'>Why choose us?</a>
+                <a href='javascript:void(0)'>Projects</a>
+                <a href='javascript:void(0)'>Who we are</a>
+                <a href='javascript:void(0)'>Why choose us?</a>
             </div>
             <div id='footer-info'>
                 <p>STUDIO</p>
@@ -76,6 +80,7 @@
             </div>
         </aside>
         <script src='Tools/jquery-1.12.3.min.js'></script>
+		<script src='Tools/bootstrap.min.js'></script>
         <script src='main.js'></script>
     </body>
 </html>

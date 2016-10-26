@@ -33,15 +33,7 @@ html {
     background-size: cover;
     background-attachment:local;
     height: 100%;
-}
-
-#logo {
-    display: inline-block;
-    position: absolute;
-    top: 1.5em;
-    left: 1.5em;
-    font-size: 4vmin;
-    font-weight: 600;
+	transition: 2.5s;
 }
 
 .main-slides img {
@@ -58,7 +50,7 @@ html {
 
 /*INTERACTIVE IMAGES*/
 
-#projects {
+#below-slides {
     position: absolute;
     top: 100%;
     right: 0em;
@@ -66,42 +58,43 @@ html {
     background-color: rgb(255, 224, 0);
 }
 
+#pro-1 {
+	background-image: url(Images/chair.jpg);
+	height: 18em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#pro-2 {
+	background-image: url(Images/kitchen.jpg);
+	height: 18em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#pro-3 {
+	background-image: url(Images/office.jpg);
+	height: 18em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.pro-text-wrap {
+	color: yellow;
+	background-color: grey;
+	opacity: .8;
+	position: relative;
+	top: 7em;
+	max-width: 25em;
+	margin: 0 auto;
+}
+
 #projects img {
     width: 100%;
 }
 
-.hover-text {
-    text-align: center;
-    color: white;
-    display: block;
-    max-width: 683px;
-    margin: 0 auto;
-    font-size: 4vw;
-    background-color: rgba(0, 0 ,0 , .6);
-}
-
-#txt-1 {
-    position: absolute;
-	bottom: 50em;
-}
 
 
-#txt-2 {
-    position: absolute;
-	bottom: 35em;
-}
-
-
-#txt-3{
-    position: absolute;
-	bottom: 16em;
-}
-
-/*
-#pro-1:hover~=#txt-1{
-	display: block;
-}
-*/
 
 /*****SUBSCRIPTION BOX*******/
 
@@ -116,10 +109,14 @@ html {
     display: block;
     margin: 0 auto 1em;
     color: black;
+	background-color: #FFF5F7;
 }
 
 #submit-form button {
-    color: black;
+    color: #242223;
+	background-color: #FFF5F7;
+	border-style: none;
+	border-radius: .2em;
 }
 
 /*****NAV ITEMS*******/
@@ -136,6 +133,7 @@ html {
     min-width: 186px;
     max-width: 340px;
     min-height: 380px;
+	z-index: 999;
 }
 
 #nav-items .fa {
@@ -188,6 +186,7 @@ aside p {
     height: 100%;
     padding-top: 1em;
     padding-right: 1.2em;
+	z-index: 999;
 }
 
 #min-right-panel .fa {
@@ -199,44 +198,8 @@ aside p {
 }
 
 @media(min-width: 670px) {
-    #projects {
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-    }
     
-    #projects img {
-        width: 33.3%;
-        margin: 0 auto;
-        float: left;
-    }
-    
-    .hover-text {
-        width: 23%;
-        font-size: 1em;
-    }
-    
-    #txt-1 {
-        position: absolute;
-        bottom: 20em;
-        width: 33.3%;
-    }
-    
-    #txt-2 {
-        position: absolute;
-        width: 33.3%;
-        left: 33.4%;
-        bottom: 20em;
-    }
-    
-    #txt-3 {
-        position: absolute;
-        width: 33.3%;
-        left: 66.5%;
-        bottom: 20em;
-    }
-    
-    #submit-form {
+	#submit-form {
         padding: 1em;
     }
 }
