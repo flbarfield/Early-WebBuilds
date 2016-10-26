@@ -28,23 +28,23 @@ changeBackground();
 
 //Interactive photos
 
-$('#projects img').on({
+$('.proj-img').on({
     'mouseenter': function () {
         'use strict';
-        $(this).siblings('.hide').removeClass('hide');
+        $(this).children('.hide').removeClass('hide');
     },
     'mouseleave': function () {
         'use strict';
-        $(this).siblings().addClass('hide');
+        $(this).children().addClass('hide');
     }
 });
 
-$('#projects img').on('click', function () {
+$('.proj-img').on('click', function () {
     'use strict';
-    if ($(this).siblings().hasClass('hide')) {
-        $(this).siblings('.hide').removeClass('hide');
+    if ($(this).children().hasClass('hide')) {
+        $(this).children('.hide').removeClass('hide');
     } else {
-        $(this).siblings().addClass('hide');
+        $(this).children().addClass('hide');
     }
 });
 
@@ -54,6 +54,7 @@ $('#min-right-panel .fa').on('click', function () {
     'use strict';
     $(this).parent().fadeOut();
     $('#right-panel').fadeIn();
+	$('#right-panel').removeClass('hide');
 });
 
 $('#min-right-panel').on({
