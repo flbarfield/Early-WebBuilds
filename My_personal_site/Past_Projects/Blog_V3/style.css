@@ -1,5 +1,5 @@
 body {
-	background-image:url(images/seamless_paper_texture.png);
+	background-color: rgb(244,244,244);
 	font-family: 'Roboto', sans-serif;
 	color: rgb(60, 59, 59)
 } 
@@ -15,24 +15,83 @@ button {
 h1 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: bold;
+	color: rgb(49, 49, 49);
 }
+
+h2 {
+	font-size: 1em;
+	font-weight: 100;
+	margin-top: 0;
+}
+
+/*
+p {
+	color: rgb(117,117,117)
+}
+*/
 
 .aside-head h2 {
 	font-size: 1.1em;
 	font-style: normal;
 }
 
-/*main content*/
+/*NAV*/
 
-.feat-article {
-	background-color: rgb(120, 117, 129);
-	margin-bottom: 4em;
-	color: rgb(241, 240, 241);
+.nav-logo {
+ 	width: 2.5em;
+	height: 1.5em;
+	margin-left: .5em;
 }
 
+
+/****main content****/
+
+/*Header*/
+
+#phead-wrap {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#phead-wrap img {
+	width: 5em;
+}
+
+#phead-wrap h1 {
+}
+
+
+
+/*ARTICLES*/
+
+.feat-article {
+	margin-bottom: 4em;
+	background-color: white;
+}
+
+/*top of arts*/
+.art-info {
+	text-align: center;
+	padding: 1em;
+}
+
+.date {
+	font-weight: 700;
+}
+
+.profile-pic {
+	width: 3em;
+	height: 3em;
+	border-radius: 3em;
+}
+
+
+
+/*
 .art-info .headings, .meta {
 	background-color: rgb(241, 241, 241);
 	color: grey;
+*/
 
 }
 
