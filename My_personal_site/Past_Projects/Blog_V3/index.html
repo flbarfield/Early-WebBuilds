@@ -20,7 +20,7 @@
 						<span class='icon-bar'></span>
 						<span class='icon-bar'></span>
 					</button>
-					<a class='navbar-brand' href='#'>Some Blog</a>
+					<a class='navbar-brand' href='#'><img class='nav-logo' src='images/blog_logo.png'/></a>
 				</div>
 				<!--nav links and other content for toggling-->
 				<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
@@ -32,12 +32,15 @@
 				</div>
 			</div>
 		</nav>
-		<div id='content' class='container-fluid'>
-			<aside class='col-md-3 hidden-xs container'>
-				<div class='aside-head'>
+		<div id='content'>
+			<div id='page-header' class='col-md-4'>
+				<div id='phead-wrap'>
+					<img src='images/blog_logo.png'/>
 					<h1>Some Blog</h1>
 					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 				</div>
+			</div>
+			<aside class='col-md-3 hidden-xs container'>
 				<div class='past-articles'>
 					<div class='past1 past-art-post'>
 						<a href='#'><img class='img-responsive' src='images/Above%20the%20clouds1.jpg'>
@@ -120,16 +123,17 @@
 					<a href='#'><i class='fa fa-instagram'></i></a>
 				</div>
 			</aside>
-			<div class='featured-art col-md-8 container'>
+			<div class='featured-art'>
 				<div class='feat-article art-1'>
 					<div class='art-info'>
-						<div class='headings col-md-8'>
+						<div class='headings'>
 							<h1 class='title'>Fusce rhoncus sapien.</h1>
 							<h2 class='subtitle'>Sed rhoncus, ante ut hendrerit facilisis</h2>
 							</div>
-						<div class='meta col-md-4'>
-							<p class='date'>November 1st 2012</p>
-							<p class='author'>By: <a href='#'>Fredrick Barfield</a></p>
+						<div class='meta'>
+							<p class='date'>November 1st, 2012</p>
+							<p class='author hidden-xs'>By: <a href='javascript:void(0)'>Sam Queen</a></p>
+							<img class='profile-pic' src='images/extra_small_face.jpg'/>
 						</div>
 					</div>
 					<div class='submission'>
