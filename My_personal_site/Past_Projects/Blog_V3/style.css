@@ -69,7 +69,7 @@ p {
 	background-color: white;
 }
 
-/*top of arts*/
+/*top of articles*/
 .art-info {
 	text-align: center;
 	padding: 1em;
@@ -85,14 +85,16 @@ p {
 	border-radius: 3em;
 }
 
-
-
-/*
-.art-info .headings, .meta {
-	background-color: rgb(241, 241, 241);
-	color: grey;
-*/
-
+/*body of articles*/
+.sub-pic {
+	height: 11em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#sub-pic-1 {
+	background-image: url(images/green%20mountains.jpg);
+	
 }
 
 .featured-art h2 {
@@ -111,6 +113,7 @@ p {
 	font-weight: bold
 }
 
+/*
 .submission{
 	padding-left: 1em;
 	padding-right: 1em;
@@ -118,15 +121,18 @@ p {
 	border-width: thin;
 	border-color: lightgrey;
 }
+*/
 
+/*
 .submission img {
 	margin-bottom: 2em;
 	padding-top: 2em;
 }
+*/
 
 .submission p {
 	width: 80%;
-	margin: auto;
+	margin: 1.5em auto 0;
 	padding-bottom: 2em;
 }
 
@@ -134,14 +140,10 @@ p {
 	margin-bottom: 2em;
 }
 
-.submission button {
-	margin-left: 10%;
+.right-sub-options {
+	text-align: center;
 }
 
-.right-sub-options {
-	float: right;
-	margin-right: 10%
-}
 
 .right-sub-options a {
 	margin-right: 1em;
@@ -151,6 +153,10 @@ p {
 .right-sub-options a:hover {
 	color: white;
 	text-decoration: none;
+}
+
+.submission button {
+	margin: 0 auto;
 }
 
 .featured-control button {
