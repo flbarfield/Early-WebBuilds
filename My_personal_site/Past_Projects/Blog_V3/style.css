@@ -184,8 +184,17 @@ p {
 }
 
 .featured-control button {
-	margin-right: 1em;
-	margin-top: -3em;
+	width: 23em;
+	height: 3.5em;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: light-grey;
+	margin-bottom: 2em;
+}
+
+.feat-ctrl-top {
+	margin-bottom: -1em;
 }
 
 .fa-angle-left, .fa-angle-right {
@@ -194,92 +203,115 @@ p {
 
 /*ASIDE*/
 
-aside {
-	margin-left: 3em !important;
-	margin-right: 2em !important;
-	background-color: rgb(241, 241, 241);
-}
-
-.aside-head {
-	padding-bottom: 2em;
-	border-bottom-style: solid;
-	margin-bottom: 2em;
-	color: grey;
-}
-
-.past-articles {
-	padding: 2em 0 .5em 0;
-/*	background-color: rgb(154, 149, 125);*/
-}
-
-.past-articles a {
-	color: rgb(60, 59, 59);
-}
-
-.past-articles a:hover {
-	color: white;
-	text-decoration: none;
-}
-
-.past-art-post {
-	max-width: 15em;
+.past-feat {
+	height: 18em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	max-width: 26em;
 	margin: 0 auto 2em;
 }
 
-.past-info {
-	background-color: rgb(187, 186, 189);
-	padding: 1em;
+.bot-description {
+	background-color: white;
+	position: relative;
+	padding: 0 1em;
+	top: 12.5em;
 }
 
-.past-info h1 {
+.left-bot-description, .right-bot-description {
+	display: inline-block;
+}
+
+.right-bot-description {
+	float: right;
+	position: relative;
+	top: 1.5em;
+}
+
+.past-title {
 	font-size: 1.5em;
-	margin: 0 0 .5em 0;
 }
 
-.past-info h2 {
-	font-size: 1em;
-	margin: 0;
+.past-date {
+	color: grey;
+}
+
+#past-1 {
+	background-image: url(images/Above%20the%20clouds1.jpg);
+}
+
+#past-2 {
+	background-image: url(images/yellowSweater.jpg);
+}
+
+#past-3 {
+	background-image: url(images/duckies.jpg);
+}
+
+#past-4 {
+	background-image: url(images/cityscape.jpg);
 }
 
 /*SMALL ASIDE LINKS*/
 
-.small-past {
-	margin-bottom: 1em;
-	color: rgb(60, 59, 59);
+.sm-past {
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: lightgrey;
 }
 
-.small-past:hover {
-	background-color: darkgrey;
-}
-
-.small-artlinks img {
-	max-height: 65px;
-	max-width: 130px;
-}
-
-.small-past-info {
-	padding: 0;
-}
-
-.small-artlinks h1 {
-	font-size: 1em;
-	margin: 0 0 .5;
+.sm-past img {
+	width: 4em;
+	height: 4em;
+	margin-right: 1em;
 	position: relative;
-	bottom: 1.4em;
+	bottom: 1em
 }
 
-.small-artlinks h2 {
-	font-size: 1em;
-	margin: 0;
-	position: relative;
-	bottom: 1.4em;
-	
+.small-descript {
+	display: inline-block;
 }
 
-.about button {
-	margin-left: 1em;
+.sm-title {
+	font-size: 1.3em;
+}
+
+.sm-date {
+	color: grey;
+}
+
+/*ABOUT*/
+
+#about h1 {
+	font-size: 1.5em;
+}
+
+#about p {
+	color: grey;
 	margin-bottom: 2em;
 }
+
+#about button {
+	width: 23em;
+	height: 3.5em;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: light-grey;
+	margin-bottom: 2em;
+}
+
+.social-links {
+	margin-bottom: 2em;
+}
+.social-links i {
+	margin-left: 1em;
+	font-size: 1.5em;
+	color: rgb(187, 186, 189);
+}
+
+/*
 
 .social-links {
 	padding-left: 1em;
@@ -295,14 +327,14 @@ aside {
 .social-links i:hover {
 	color: rgb(121, 113, 125);
 }
+*/
 
 @media (max-width: 980px) {
-	aside {
-		display: none;
-	}
 	
+/*
 	.meta {
 		margin-top: -1em;
 	}
+*/
 	
 }
