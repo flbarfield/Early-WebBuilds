@@ -1,18 +1,18 @@
 <!DOCTYPE html/>
 <html>
 	<head>
-		<link href='Tools/normalize.css' rel='stylesheet'/>
-		<link href='Tools/bootstrap.min.css' rel='stylesheet'/>
-		<link href='Tools/font-awesome-4.6.1/css/font-awesome.min.css' rel='stylesheet'/>
-		<link href="style.css" rel='stylesheet'/>
+		<link href='css/normalize.css' rel='stylesheet'/>
+		<link href='bower_components/bootstrap/less/bootstrap.less' rel='stylesheet'/>
+		<link href='font-awesome/css/font-awesome.min.css' rel='stylesheet'/>
+		<link href="css/style.css" rel='stylesheet'/>
 	</head>
 	<body>
-		<nav class='col-xs-12 hidden-md-up'>
-			<div id='mobile-nav'>
+		<nav>
+			<div id='mobile-nav col-xs-12 hidden-md-up'>
 				<span class='logo'>Bob Smith</span>
 				<span class='min-nav-icon fa fa-bars'></span>
 			</div>
-			<div id='desktop-nav' class='hidden-xs'>
+			<div id='desktop-nav col-md-4 hidden-xs' class='hidden-xs'>
 			
 			</div>
 		</nav>
@@ -41,6 +41,9 @@
 			</footer>
 		</div>
 	</body>
-	<script src='Tools/jquery-3.1.1.min.js'></script>
-	<script src='Tools/bootstrap.min.js'></script>
+	<script src='bower_components/jquery/dist/jquery.js'></script>
+	<script src='bower_components/angular/angular.js'></script>
+	<script src='bower_components/backbone/backbone.js'></script>
+	<script src='bower_components/underscore/underscore.js'></script>
+	<script src='bower_components/bootstrap/dist/js/bootstrap.js'></script>
 </html>
