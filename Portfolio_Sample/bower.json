@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_sample",
+  "description": "quick portfolio made in order to practice gulp, sass, and other tools",
+  "main": "index.js",
+  "authors": [
+    "Ricky"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/flbarfield/Early-WebBuilds",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.5.8",
+    "backbone": "^1.3.3",
+    "bootstrap": "^3.3.7",
+    "normalize-strings": "normalize#^1.1.0"
+  }
+}
