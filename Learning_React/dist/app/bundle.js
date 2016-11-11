@@ -57,6 +57,10 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 34);
 	
+	var _Header = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"components/Header\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
+	var _Home = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"components/Home\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -64,6 +68,9 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	//CAN ONLY RETURN ONE ELEMENT AT A TIME WITHIN
+	//RENDER. NESTED ELEMENTS - OK!
 	
 	var App = function (_React$Component) {
 		_inherits(App, _React$Component);
@@ -79,11 +86,24 @@
 			value: function render() {
 				return _react2.default.createElement(
 					"div",
-					null,
+					{ className: "container" },
 					_react2.default.createElement(
-						"h1",
-						null,
-						"Hello!"
+						"div",
+						{ className: "row" },
+						_react2.default.createElement(
+							"div",
+							{ className: "col-xs-10 col-xs-offset-1" },
+							_react2.default.createElement(_Header.Header, null)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "row" },
+						_react2.default.createElement(
+							"div",
+							{ className: "col-xs-10 col-xs-offset-1" },
+							_react2.default.createElement(_Home.Home, null)
+						)
 					)
 				);
 			}
