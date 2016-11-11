@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "npm run build",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --port 3000",
     "build:prod": "webpack -p && cp src/index.html dist/index.html"
   },
   "author": "",
