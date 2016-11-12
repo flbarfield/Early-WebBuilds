@@ -102,7 +102,7 @@
 						_react2.default.createElement(
 							"div",
 							{ className: "col-xs-10 col-xs-offset-1" },
-							_react2.default.createElement(_Home.Home, { name: "Max", age: 27 })
+							_react2.default.createElement(_Home.Home, { name: "Max", initialAge: 27 })
 						)
 					)
 				);
@@ -22093,6 +22093,11 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
+	//state = what happens within a component
+	//prop = what's brought into components
+	//Do not set props to state unless it's an initial value,
+	// and label it as such.
+	
 	var Home = exports.Home = function (_React$Component) {
 		_inherits(Home, _React$Component);
 	
@@ -22102,15 +22107,20 @@
 	
 			var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));
 	
-			_this.age = props.age;
+			_this.state = {
+				age: props.initialAge,
+				status: 0
+			};
 			return _this;
 		}
 	
 		_createClass(Home, [{
 			key: "onMakeOlder",
 			value: function onMakeOlder() {
-				this.age += 3;
-				console.log(this.age);
+				//		setstate triggers update on UI when something changes within
+				this.setState({
+					age: this.state.age + 3
+				});
 			}
 		}, {
 			key: "render",
@@ -22135,7 +22145,13 @@
 						"Your name is ",
 						this.props.name,
 						", your age is ",
-						this.age
+						this.state.age
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						"Status: ",
+						this.state.status
 					),
 					_react2.default.createElement("hr", null),
 					_react2.default.createElement(
