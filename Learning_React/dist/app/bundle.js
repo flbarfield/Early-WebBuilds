@@ -22167,7 +22167,7 @@
 	Home.propTypes = {
 		name: _react2.default.PropTypes.string,
 		age: _react2.default.PropTypes.number,
-		greet: _react2.default.Proptypes.func
+		greet: _react2.default.PropTypes.func
 	};
 
 /***/ }
