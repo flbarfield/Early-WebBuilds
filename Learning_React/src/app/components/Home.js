@@ -1,15 +1,25 @@
 import React from "react";
 
+//state = what happens within a component
+//prop = what's brought into components
+//Do not set props to state unless it's an initial value,
+// and label it as such.
+
 export class Home extends React.Component {
 //	Adding props to classes themselves
 	constructor(props) {
 		super();
-		this.age = props.age;
+		this.state = {
+			age: props.initialAge,
+			status: 0
+		}
 	}
 		
 	onMakeOlder() {
-		this.age += 3;
-		console.log(this.age);
+//		setstate triggers update on UI when something changes within
+		this.setState({
+			age: this.state.age + 3
+		});
 	}
 	
 	render() {
@@ -20,7 +30,8 @@ export class Home extends React.Component {
 		return(
 			<div>
 				<p>In a new Component!</p>
-				<p>Your name is {this.props.name}, your age is {this.age}</p>
+				<p>Your name is {this.props.name}, your age is {this.state.age}</p>
+				<p>Status: {this.state.status}</p>
 				<hr/>
 				<button onClick={() => this.onMakeOlder()} className="btn btn-primary">Make me older!</button>
 			</div>

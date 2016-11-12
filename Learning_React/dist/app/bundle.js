@@ -84,10 +84,6 @@
 		_createClass(App, [{
 			key: "render",
 			value: function render() {
-				var user = {
-					name: "Anna",
-					hobbies: ["Sports", "Reading"]
-				};
 				return _react2.default.createElement(
 					"div",
 					{ className: "container" },
@@ -106,15 +102,7 @@
 						_react2.default.createElement(
 							"div",
 							{ className: "col-xs-10 col-xs-offset-1" },
-							_react2.default.createElement(
-								_Home.Home,
-								{ name: "Max", age: 27, user: user },
-								_react2.default.createElement(
-									"p",
-									null,
-									"This is a paragraph!"
-								)
-							)
+							_react2.default.createElement(_Home.Home, { name: "Max", age: 27 })
 						)
 					)
 				);
@@ -22108,16 +22096,27 @@
 	var Home = exports.Home = function (_React$Component) {
 		_inherits(Home, _React$Component);
 	
-		function Home() {
+		//	Adding props to classes themselves
+		function Home(props) {
 			_classCallCheck(this, Home);
 	
-			return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
+			var _this = _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).call(this));
+	
+			_this.age = props.age;
+			return _this;
 		}
 	
 		_createClass(Home, [{
+			key: "onMakeOlder",
+			value: function onMakeOlder() {
+				this.age += 3;
+				console.log(this.age);
+			}
+		}, {
 			key: "render",
 			value: function render() {
-				var text = "Something!";
+				var _this2 = this;
+	
 				//		A complex check just before the return funct
 				//		is acceptable. The final calc for the answer can
 				//		be IN the return within the {}, but it must be a 
@@ -22133,44 +22132,19 @@
 					_react2.default.createElement(
 						"p",
 						null,
-						text
-					),
-					_react2.default.createElement(
-						"p",
-						null,
 						"Your name is ",
 						this.props.name,
 						", your age is ",
-						this.props.age
-					),
-					_react2.default.createElement(
-						"p",
-						null,
-						"User Object => Name: ",
-						this.props.user.name
-					),
-					_react2.default.createElement(
-						"div",
-						null,
-						_react2.default.createElement(
-							"h4",
-							null,
-							"Hobbies"
-						),
-						_react2.default.createElement(
-							"ul",
-							null,
-							this.props.user.hobbies.map(function (hobby, i) {
-								return _react2.default.createElement(
-									"li",
-									{ key: i },
-									hobby
-								);
-							})
-						)
+						this.age
 					),
 					_react2.default.createElement("hr", null),
-					this.props.children
+					_react2.default.createElement(
+						"button",
+						{ onClick: function onClick() {
+								return _this2.onMakeOlder();
+							}, className: "btn btn-primary" },
+						"Make me older!"
+					)
 				);
 			}
 		}]);
@@ -22182,9 +22156,7 @@
 	
 	Home.propTypes = {
 		name: _react2.default.PropTypes.string,
-		age: _react2.default.PropTypes.number,
-		user: _react2.default.PropTypes.object,
-		children: _react2.default.PropTypes.element.isRequired
+		age: _react2.default.PropTypes.number
 	};
 
 /***/ }
