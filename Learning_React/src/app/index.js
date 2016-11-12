@@ -8,6 +8,10 @@ import {Home} from "./components/Home";
 //RENDER. NESTED ELEMENTS - OK!
 
 class App extends React.Component {
+	onGreet() {
+		alert("Hello!");
+	}
+	
 	render() {
 		return (
 			<div className="container">
@@ -18,7 +22,7 @@ class App extends React.Component {
 				</div>
 				<div className="row">
 					<div className='col-xs-10 col-xs-offset-1'>
-						<Home name={"Max"} initialAge={27}/>
+						<Home name={"Max"} initialAge={27} greet={this.onGreet}/>
 					</div>
 				</div>
 			</div>
