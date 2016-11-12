@@ -78,13 +78,25 @@
 		function App() {
 			_classCallCheck(this, App);
 	
-			return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+			var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
+	
+			_this.state = {
+				homeLink: "Home"
+			};
+			return _this;
 		}
 	
 		_createClass(App, [{
 			key: "onGreet",
 			value: function onGreet() {
 				alert("Hello!");
+			}
+		}, {
+			key: "onChangeLinkName",
+			value: function onChangeLinkName(newName) {
+				this.setState({
+					homeLink: newName
+				});
 			}
 		}, {
 			key: "render",
@@ -98,7 +110,7 @@
 						_react2.default.createElement(
 							"div",
 							{ className: "col-xs-10 col-xs-offset-1" },
-							_react2.default.createElement(_Header.Header, { homeLink: "Home" })
+							_react2.default.createElement(_Header.Header, { homeLink: this.state.homeLink })
 						)
 					),
 					_react2.default.createElement(
@@ -107,7 +119,12 @@
 						_react2.default.createElement(
 							"div",
 							{ className: "col-xs-10 col-xs-offset-1" },
-							_react2.default.createElement(_Home.Home, { name: "Max", initialAge: 27, greet: this.onGreet })
+							_react2.default.createElement(_Home.Home, {
+								name: "Max",
+								initialAge: 27,
+								greet: this.onGreet,
+								changeLink: this.onChangeLinkName.bind(this)
+							})
 						)
 					)
 				);
@@ -22092,7 +22109,8 @@
 	
 			_this.state = {
 				age: props.initialAge,
-				status: 0
+				status: 0,
+				homeLink: "Changed Link"
 			};
 			setTimeout(function () {
 				_this.setState({
@@ -22109,6 +22127,15 @@
 				this.setState({
 					age: this.state.age + 3
 				});
+			}
+	
+			//while this can be made in render, you don't want to have ALL
+			//your logic placed there. Keepin' it clean!
+	
+		}, {
+			key: "onChangeLink",
+			value: function onChangeLink() {
+				this.props.changeLink(this.state.homeLink);
 			}
 		}, {
 			key: "render",
@@ -22154,6 +22181,12 @@
 						"button",
 						{ onClick: this.props.greet, className: "btn btn-primary" },
 						"Greet"
+					),
+					_react2.default.createElement("hr", null),
+					_react2.default.createElement(
+						"button",
+						{ onClick: this.onChangeLink.bind(this), className: "btn btn-primary" },
+						"Change Header Link"
 					)
 				);
 			}
