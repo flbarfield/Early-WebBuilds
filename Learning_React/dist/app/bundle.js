@@ -123,7 +123,8 @@
 								name: "Max",
 								initialAge: 27,
 								greet: this.onGreet,
-								changeLink: this.onChangeLinkName.bind(this)
+								changeLink: this.onChangeLinkName.bind(this),
+								initialLinkName: this.state.homeLink
 							})
 						)
 					)
@@ -22110,7 +22111,7 @@
 			_this.state = {
 				age: props.initialAge,
 				status: 0,
-				homeLink: "Changed Link"
+				homeLink: props.initialLinkName
 			};
 			setTimeout(function () {
 				_this.setState({
@@ -22136,6 +22137,16 @@
 			key: "onChangeLink",
 			value: function onChangeLink() {
 				this.props.changeLink(this.state.homeLink);
+			}
+	
+			//	event target is the input field
+	
+		}, {
+			key: "onHandleChange",
+			value: function onHandleChange(event) {
+				this.setState({
+					homeLink: event.target.value
+				});
 			}
 		}, {
 			key: "render",
@@ -22183,6 +22194,11 @@
 						"Greet"
 					),
 					_react2.default.createElement("hr", null),
+					_react2.default.createElement("input", { type: "text",
+						value: this.state.homeLink,
+						onChange: function onChange(event) {
+							return _this2.onHandleChange(event);
+						} }),
 					_react2.default.createElement(
 						"button",
 						{ onClick: this.onChangeLink.bind(this), className: "btn btn-primary" },
@@ -22200,7 +22216,8 @@
 	Home.propTypes = {
 		name: _react2.default.PropTypes.string,
 		age: _react2.default.PropTypes.number,
-		greet: _react2.default.PropTypes.func
+		greet: _react2.default.PropTypes.func,
+		initialLinkName: _react2.default.PropTypes.string
 	};
 
 /***/ }
