@@ -77,6 +77,9 @@
 	//within the current app. Also makes for beautiful
 	// localhost.com/urls instead of localhost.com/#/urls
 	
+	//editing package.json with --history-api-fallback makes 404s
+	//fall back to the index page, so the frontend can handle the 
+	// .com/url style of url
 	
 	var App = function (_React$Component) {
 		_inherits(App, _React$Component);
@@ -93,7 +96,13 @@
 				return _react2.default.createElement(
 					_reactRouter.Router,
 					{ history: _reactRouter.browserHistory },
-					_react2.default.createElement(_reactRouter.Route, { path: "user", component: _User.User }),
+					_react2.default.createElement(
+						_reactRouter.Route,
+						{ path: "/", component: _Root.Root },
+						_react2.default.createElement(_reactRouter.IndexRoute, { component: _Home.Home }),
+						_react2.default.createElement(_reactRouter.Route, { path: "user", component: _User.User }),
+						_react2.default.createElement(_reactRouter.Route, { path: "home", component: _Home.Home })
+					),
 					_react2.default.createElement(_reactRouter.Route, { path: "home", component: _Home.Home })
 				);
 			}
@@ -27142,6 +27151,8 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Header = exports.Header = function Header(props) {
@@ -27161,8 +27172,8 @@
 							"li",
 							null,
 							_react2.default.createElement(
-								"a",
-								{ href: "" },
+								_reactRouter.Link,
+								{ to: "/home" },
 								"Home"
 							)
 						),
@@ -27170,8 +27181,8 @@
 							"li",
 							null,
 							_react2.default.createElement(
-								"a",
-								{ href: "" },
+								_reactRouter.Link,
+								{ to: "/user" },
 								"User"
 							)
 						)
