@@ -1,37 +1,11 @@
-// import React from "react";
-// import {render} from "react-dom";
-//
-// import { User } from './components/User';
-// import { Main } from './components/Main';
-//
-// class App extends React.Component {
-//     constructor() {
-//         super();
-//         this.state = {
-//             username: "Max"
-//         };
-//     }
-//
-//     changeUsername(newName) {
-//         this.setState({
-//             username: newName
-//         });
-//     }
-//
-//     render() {
-//         return (
-//             <div className="container">
-//                 <Main changeUsername={this.changeUsername.bind(this)}/>
-//                 <User username={this.state.username}/>
-//             </div>
-//         );
-//     }
-// }
-//
-// render(<App />, window.document.getElementById('app'));
-
+import React from "react";
+import {connect} from "react-redux";
+import {render} from "react-dom";
 import {createStore, combineReducers, applyMiddleware} from "redux";
 import logger from "redux-logger";
+import {Provider} from "react-redux";
+// No longer needs curly braces because this is a now a default export
+import App from "./components/App";
 
 ////////combinded this with mathreducer/////
 // const initialState = {
@@ -97,7 +71,7 @@ const myLogger = (store) => (next) => (action) => {
 // mathReducer: mathReducer (mapping) would actually be the proper way to define
 // it here, but es6 only requires it once if the key/values are the same.
 const store = createStore(
-  combineReducers({mathReducer, userReducer}),
+  combineReducers({mathReducer, user: userReducer}),
   {},
   applyMiddleware(logger()));
 
@@ -105,22 +79,8 @@ store.subscribe(() => {
   // console.log("Store updated!", store.getState());
 });
 
-store.dispatch({
-  type: "ADD",
-  payload: 100
-});
-
-store.dispatch({
-  type: "ADD",
-  payload: 22
-});
-
-store.dispatch({
-  type: "SUBTRACT",
-  payload: 80
-});
-
-store.dispatch({
-  type: "SET_AGE",
-  payload: 30
-});
+render(
+  <Provider store={store}>
+    <App/>
+  </Provider>,
+  window.document.getElementById("app"));
