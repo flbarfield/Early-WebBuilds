@@ -30,7 +30,8 @@
 //
 // render(<App />, window.document.getElementById('app'));
 
-import {createStore, combineReducers} from "redux";
+import {createStore, combineReducers, applyMiddleware} from "redux";
+import logger from "redux-logger";
 
 ////////combinded this with mathreducer/////
 // const initialState = {
@@ -83,12 +84,25 @@ const userReducer = (state = {
   return state;
 }
 
+// calling next here is important, else store will not update
+// store = argument and function is taking it as an input
+// next = expectation of redux
+// action = action is taken and then executed so code will run
+
+const myLogger = (store) => (next) => (action) => {
+  console.log("Logged Action: ", action);
+  next(action);
+};
+
 // mathReducer: mathReducer (mapping) would actually be the proper way to define
 // it here, but es6 only requires it once if the key/values are the same.
-const store = createStore(combineReducers({mathReducer, userReducer}));
+const store = createStore(
+  combineReducers({mathReducer, userReducer}),
+  {},
+  applyMiddleware(logger()));
 
 store.subscribe(() => {
-  console.log("Store updated!", store.getState());
+  // console.log("Store updated!", store.getState());
 });
 
 store.dispatch({
