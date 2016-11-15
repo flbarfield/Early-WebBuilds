@@ -1,3 +1,8 @@
-
+.header-elements .head-img {
+  background-image: url(../images/largeband.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50%; }
 
 /*# sourceMappingURL=style.css.map */
