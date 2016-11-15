@@ -1,7 +1,9 @@
+//this component is dumb and for presentation. Component folder.
+//containers folder is for components that are connected to redux
+
 import React from "react";
 
-export class Main extends React.Component {
-    render() {
+export const Main = (props) => {
         return (
             <div>
                 <div className="row">
@@ -13,10 +15,9 @@ export class Main extends React.Component {
                     <div className="col-xs-12">
                         <button
                             className="btn btn-primary"
-                            onClick={() => this.props.changeUsername('Anna')}>Change the Username</button>
+                            onClick={() => props.changeUsername('Anna')}>Change the Username</button>
                     </div>
                 </div>
             </div>
         );
-    }
 }
