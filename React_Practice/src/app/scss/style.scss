@@ -1,2 +1,12 @@
 $primary-color: rgb(38, 39,	40);
 $secondary-color: rgb(29,	30, 31);
+
+.header-elements {
+  .head-img {
+    background-image: url(../images/largeband.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50%;
+  }
+}
