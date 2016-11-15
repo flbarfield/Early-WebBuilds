@@ -1,11 +1,11 @@
 import React from "react";
-import {connect} from "react-redux";
+
 import {render} from "react-dom";
 import {createStore, combineReducers, applyMiddleware} from "redux";
 import logger from "redux-logger";
 import {Provider} from "react-redux";
 // No longer needs curly braces because this is a now a default export
-import App from "./components/App";
+import App from "./container/App";
 
 ////////combinded this with mathreducer/////
 // const initialState = {
