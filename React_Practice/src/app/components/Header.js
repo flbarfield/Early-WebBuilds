@@ -1,6 +1,13 @@
 import React from "react";
 
+import Title from "./Title.js";
+
 export default class Header extends React.Component {
+  handleChange(e) {
+    const title = e.target.value;
+    this.props.changeTitle(title);
+  }
+
   render() {
     return (
       <div className="header-elements">
@@ -17,7 +24,8 @@ export default class Header extends React.Component {
           </div>
         </nav>
         <div className="jumbotron">
-          <h1>Welcome To Musicitude</h1>
+          <Title title={this.props.title} />
+          <input value={this.props.title} onChange={this.handleChange.bind(this)}/>
         </div>
         <div className="head-img">
           <h2>Feed<br/>Your<br/>Creativity</h2>
