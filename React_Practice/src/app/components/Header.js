@@ -13,7 +13,7 @@ export default class Header extends React.Component {
       <div className="header-elements">
         <nav className="navbar navbar-static-top navbar-inverse">
           <div className="container-fluid">
-            <div className="navbar-header">
+            <div className="navbar-header col-xs-12">
               <ul className="nav navbar-nav">
                 <li><a href="#">TEST</a></li>
                 <li><a href="#">TEST</a></li>

@@ -22003,6 +22003,7 @@
 	  }, {
 	    key: "render",
 	    value: function render() {
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
@@ -22244,167 +22245,31 @@
 	  _createClass(Body, [{
 	    key: "render",
 	    value: function render() {
+	      var pan_image = [_react2.default.createElement("img", { src: "/app/images/acoustic.jpg" }), _react2.default.createElement("img", { src: "/app/images/funkydrums.jpg" }), _react2.default.createElement("img", { src: "/app/images/hops.jpg" }), _react2.default.createElement("img", { src: "/app/images/keyboard.jpg" }), _react2.default.createElement("img", { src: "/app/images/saxband.jpg" }), _react2.default.createElement("img", { src: "/app/images/sing.jpg" }), _react2.default.createElement("img", { src: "/app/images/sitacoustic.jpg" }), _react2.default.createElement("img", { src: "/app/images/voice.jpg" }), _react2.default.createElement("img", { src: "/app/images/whitehops.jpg" })];
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "music-choices container-fluid" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "row" },
-	          _react2.default.createElement(_ArtistPanel2.default, null),
-	          _react2.default.createElement(_ArtistPanel2.default, null),
-	          _react2.default.createElement(_ArtistPanel2.default, null)
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[0] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[1] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[2] })
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "row" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/keyboard.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/saxband.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/sing.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          )
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[3] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[4] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[5] })
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "row" },
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/sitacoustic.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/voice.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "artist-panel col-xs-4" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-img-wrap" },
-	              _react2.default.createElement("img", { src: "/app/images/whitehops.jpg" })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "mu-info" },
-	              _react2.default.createElement(
-	                "h3",
-	                { className: "artist" },
-	                "Lorem ipsum dolor"
-	              ),
-	              _react2.default.createElement(
-	                "p",
-	                { className: "song" },
-	                "Nunc sed erat ac diam"
-	              ),
-	              _react2.default.createElement("div", { className: "ctrl-btns" })
-	            )
-	          )
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[6] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[7] }),
+	          _react2.default.createElement(_ArtistPanel2.default, { pan_image: pan_image[8] })
 	        )
 	      );
 	    }
@@ -22434,6 +22299,10 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _Pan_image = __webpack_require__(/*! ./ArtistPanel/Pan_image */ 177);
+	
+	var _Pan_image2 = _interopRequireDefault(_Pan_image);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22441,10 +22310,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Images = ["/app/images/acoustic.jpg", "/app/images/funkydrums.jpg", "/app/images/hops.jpg", "/app/images/keyboard.jpg", "/app/images/saxband.jpg", "/app/images/sing.jpg", "/app/images/sitacoustic.jpg", "/app/images/voice.jpg", "/app/images/whitehops.jpg"].map(function (imgLink, i) {
-	  return _react2.default.createElement("img", { src: imgLink });
-	});
 	
 	var ArtistPanel = function (_React$Component) {
 	  _inherits(ArtistPanel, _React$Component);
@@ -22464,7 +22329,7 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "mu-img-wrap" },
-	          Images[1]
+	          _react2.default.createElement(_Pan_image2.default, { pan_image: this.props.pan_image })
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -22479,7 +22344,15 @@
 	            { className: "song" },
 	            "Nunc sed erat ac diam"
 	          ),
-	          _react2.default.createElement("div", { className: "ctrl-btns" })
+	          _react2.default.createElement(
+	            "div",
+	            { className: "ctrl-btns" },
+	            _react2.default.createElement(
+	              "i",
+	              { className: "fa fa-play" },
+	              "TEST"
+	            )
+	          )
 	        )
 	      );
 	    }
@@ -22489,6 +22362,58 @@
 	}(_react2.default.Component);
 	
 	exports.default = ArtistPanel;
+
+/***/ },
+/* 177 */
+/*!**********************************************************!*\
+  !*** ./src/app/components/Body/ArtistPanel/Pan_image.js ***!
+  \**********************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Pan_image = function (_React$Component) {
+	  _inherits(Pan_image, _React$Component);
+	
+	  function Pan_image() {
+	    _classCallCheck(this, Pan_image);
+	
+	    return _possibleConstructorReturn(this, (Pan_image.__proto__ || Object.getPrototypeOf(Pan_image)).apply(this, arguments));
+	  }
+	
+	  _createClass(Pan_image, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        this.props.pan_image
+	      );
+	    }
+	  }]);
+	
+	  return Pan_image;
+	}(_react2.default.Component);
+	
+	exports.default = Pan_image;
 
 /***/ }
 /******/ ]);
