@@ -1,12 +1,40 @@
-$primary-color: rgb(38, 39,	40);
-$secondary-color: rgb(29,	30, 31);
+$prime-color: rgb(38, 39,	40);
+$sec-color: rgb(29,	30, 31);
+$a-color: rgb(152, 153, 154);
+$h1-col: rgb(214, 214, 214);
 
 .header-elements {
+  nav {
+    background-color: $prime-color;
+    margin: 0;
+  }
+  .jumbotron {
+    background-color: $sec-color;
+    color: $h1-col;
+    margin: 0;
+    text-align: left;
+    padding-left: 2em;
+  }
   .head-img {
     background-image: url(../images/largeband.jpg);
-    background-position: top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    height: 15em;
+    color: $h1-col;
+    text-shadow: -5px -1px 11px $sec-color;
+    font-size: 2em;
+  }
+}
+
+.music-choices {
+  mu-img-wrap {
     height: 50%;
+    width: 50%;
+    text-align: center;
+  }
+
+  img{
+    height: 40%;
   }
 }

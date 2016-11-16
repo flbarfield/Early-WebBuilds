@@ -5,7 +5,7 @@ export default class Header extends React.Component {
     return (
       <div className="header-elements">
         <nav className="navbar navbar-static-top navbar-inverse">
-          <div className="container">
+          <div className="container-fluid">
             <div className="navbar-header">
               <ul className="nav navbar-nav">
                 <li><a href="#">TEST</a></li>
@@ -16,7 +16,12 @@ export default class Header extends React.Component {
             </div>
           </div>
         </nav>
-        <div className="head-img"></div>
+        <div className="jumbotron">
+          <p>Welcome To Musicitude</p>
+        </div>
+        <div className="head-img">
+          <p>Feed<br/>Your<br/>Creativity</p>
+        </div>
       </div>
     );
   }
