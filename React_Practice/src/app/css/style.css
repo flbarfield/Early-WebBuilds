@@ -1,3 +1,9 @@
+p, li {
+  font-family: "Raleway", sans-serif; }
+
+h1, h2 {
+  font-family: "Black Ops One", cursive; }
+
 .header-elements nav {
   background-color: #262728;
   margin: 0; }
@@ -17,11 +23,16 @@
   text-shadow: -5px -1px 11px #1d1e1f;
   font-size: 2em; }
 
-.music-choices mu-img-wrap {
-  height: 50%;
-  width: 50%;
+.music-choices .artist-panel {
+  background-color: grey; }
+.music-choices .row {
+  margin-top: 2em; }
+.music-choices .mu-img-wrap {
+  height: 10em;
+  background-color: purple;
   text-align: center; }
 .music-choices img {
-  height: 40%; }
+  height: 100%;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

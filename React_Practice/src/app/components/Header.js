@@ -17,10 +17,10 @@ export default class Header extends React.Component {
           </div>
         </nav>
         <div className="jumbotron">
-          <p>Welcome To Musicitude</p>
+          <h1>Welcome To Musicitude</h1>
         </div>
         <div className="head-img">
-          <p>Feed<br/>Your<br/>Creativity</p>
+          <h2>Feed<br/>Your<br/>Creativity</h2>
         </div>
       </div>
     );
