@@ -21969,6 +21969,10 @@
 	
 	var _header2 = _interopRequireDefault(_header);
 	
+	var _body = __webpack_require__(/*! ./body */ 174);
+	
+	var _body2 = _interopRequireDefault(_body);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -21992,7 +21996,8 @@
 	      return _react2.default.createElement(
 	        "div",
 	        null,
-	        _react2.default.createElement(_header2.default, null)
+	        _react2.default.createElement(_header2.default, null),
+	        _react2.default.createElement(_body2.default, null)
 	      );
 	    }
 	  }]);
@@ -22049,7 +22054,7 @@
 	          { className: "navbar navbar-static-top navbar-inverse" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "container" },
+	            { className: "container-fluid" },
 	            _react2.default.createElement(
 	              "div",
 	              { className: "navbar-header" },
@@ -22096,7 +22101,28 @@
 	            )
 	          )
 	        ),
-	        _react2.default.createElement("div", { className: "head-img" })
+	        _react2.default.createElement(
+	          "div",
+	          { className: "jumbotron" },
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Welcome To Musicitude"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "head-img" },
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Feed",
+	            _react2.default.createElement("br", null),
+	            "Your",
+	            _react2.default.createElement("br", null),
+	            "Creativity"
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -22105,6 +22131,150 @@
 	}(_react2.default.Component);
 	
 	exports.default = Header;
+
+/***/ },
+/* 174 */
+/*!************************************!*\
+  !*** ./src/app/components/body.js ***!
+  \************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Body = function (_React$Component) {
+	  _inherits(Body, _React$Component);
+	
+	  function Body() {
+	    _classCallCheck(this, Body);
+	
+	    return _possibleConstructorReturn(this, (Body.__proto__ || Object.getPrototypeOf(Body)).apply(this, arguments));
+	  }
+	
+	  _createClass(Body, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "music-choices col-xs-12" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "row col-xs-12" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/acoustic.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/funkydrums.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/hops.jpg" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "row col-xs-12" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/keyboard.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/saxband.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/sing.jpg" })
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "row col-xs-12" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/sitacoustic.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/voice.jpg" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "artist-panel col-xs-4" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-img-wrap" },
+	              _react2.default.createElement("img", { src: "/app/images/whitehops.jpg" })
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Body;
+	}(_react2.default.Component);
+	
+	exports.default = Body;
 
 /***/ }
 /******/ ]);
