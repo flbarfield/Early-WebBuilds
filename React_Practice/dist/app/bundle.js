@@ -21969,7 +21969,7 @@
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _body = __webpack_require__(/*! ./body */ 174);
+	var _body = __webpack_require__(/*! ./body */ 175);
 	
 	var _body2 = _interopRequireDefault(_body);
 	
@@ -21992,11 +21992,20 @@
 	
 	  _createClass(Layout, [{
 	    key: "render",
+	
+	    //   constructor() {
+	    //     super();
+	    //     this.state = {
+	    //       title: "Welcome to Musicitude.",
+	    //   };
+	    // }
 	    value: function render() {
+	      var title = "Welcome to Musicitude.";
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
-	        _react2.default.createElement(_header2.default, null),
+	        _react2.default.createElement(_header2.default, { title: title }),
 	        _react2.default.createElement(_body2.default, null)
 	      );
 	    }
@@ -22025,6 +22034,10 @@
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
+	
+	var _Title = __webpack_require__(/*! ./Title */ 174);
+	
+	var _Title2 = _interopRequireDefault(_Title);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -22104,17 +22117,13 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "jumbotron" },
-	          _react2.default.createElement(
-	            "p",
-	            null,
-	            "Welcome To Musicitude"
-	          )
+	          _react2.default.createElement(_Title2.default, { title: this.props.title })
 	        ),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "head-img" },
 	          _react2.default.createElement(
-	            "p",
+	            "h2",
 	            null,
 	            "Feed",
 	            _react2.default.createElement("br", null),
@@ -22134,6 +22143,58 @@
 
 /***/ },
 /* 174 */
+/*!*************************************!*\
+  !*** ./src/app/components/Title.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Title = function (_React$Componenet) {
+	  _inherits(Title, _React$Componenet);
+	
+	  function Title() {
+	    _classCallCheck(this, Title);
+	
+	    return _possibleConstructorReturn(this, (Title.__proto__ || Object.getPrototypeOf(Title)).apply(this, arguments));
+	  }
+	
+	  _createClass(Title, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "p",
+	        { className: "title" },
+	        this.props.title
+	      );
+	    }
+	  }]);
+	
+	  return Title;
+	}(_react2.default.Componenet);
+	
+	exports.default = Title;
+
+/***/ },
+/* 175 */
 /*!************************************!*\
   !*** ./src/app/components/body.js ***!
   \************************************/
@@ -22173,10 +22234,10 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "music-choices col-xs-12" },
+	        { className: "music-choices container-fluid" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "row col-xs-12" },
+	          { className: "row" },
 	          _react2.default.createElement(
 	            "div",
 	            { className: "artist-panel col-xs-4" },
@@ -22184,6 +22245,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/acoustic.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22193,6 +22269,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/funkydrums.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22200,14 +22291,29 @@
 	            { className: "artist-panel col-xs-4" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "mu-img-wrap-wrap" },
+	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/hops.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "row col-xs-12" },
+	          { className: "row" },
 	          _react2.default.createElement(
 	            "div",
 	            { className: "artist-panel col-xs-4" },
@@ -22215,6 +22321,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/keyboard.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22224,6 +22345,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/saxband.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22233,12 +22369,27 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/sing.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "row col-xs-12" },
+	          { className: "row" },
 	          _react2.default.createElement(
 	            "div",
 	            { className: "artist-panel col-xs-4" },
@@ -22246,6 +22397,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/sitacoustic.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22255,6 +22421,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/voice.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -22264,6 +22445,21 @@
 	              "div",
 	              { className: "mu-img-wrap" },
 	              _react2.default.createElement("img", { src: "/app/images/whitehops.jpg" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "mu-info" },
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "artist" },
+	                "Lorem ipsum dolor"
+	              ),
+	              _react2.default.createElement(
+	                "p",
+	                { className: "song" },
+	                "Nunc sed erat ac diam"
+	              ),
+	              _react2.default.createElement("div", { className: "ctrl-btns" })
 	            )
 	          )
 	        )

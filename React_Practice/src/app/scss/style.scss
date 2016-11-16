@@ -21,7 +21,7 @@ h1, h2 {
   .jumbotron {
     background-color: $sec-color;
     color: $h1-col;
-    margin: 0;
+    margin: 0 0 -1.5em;
     text-align: left;
     padding-left: 2em;
   }
@@ -38,12 +38,14 @@ h1, h2 {
 }
 
 .music-choices {
+  background-color: $prime-color;
+
   .artist-panel {
     background-color: grey;
   }
 
   .row {
-    margin-top: 2em;
+    margin-top: 4em;
   }
 
   .mu-img-wrap {
@@ -56,6 +58,10 @@ h1, h2 {
   img{
     // width: 100%;
     height: 100%;
+    text-align: center;
+  }
+
+  .mu-info {
     text-align: center;
   }
 }

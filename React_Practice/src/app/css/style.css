@@ -10,7 +10,7 @@ h1, h2 {
 .header-elements .jumbotron {
   background-color: #1d1e1f;
   color: #d6d6d6;
-  margin: 0;
+  margin: 0 0 -1.5em;
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
@@ -23,16 +23,20 @@ h1, h2 {
   text-shadow: -5px -1px 11px #1d1e1f;
   font-size: 2em; }
 
-.music-choices .artist-panel {
-  background-color: grey; }
-.music-choices .row {
-  margin-top: 2em; }
-.music-choices .mu-img-wrap {
-  height: 10em;
-  background-color: purple;
-  text-align: center; }
-.music-choices img {
-  height: 100%;
-  text-align: center; }
+.music-choices {
+  background-color: #262728; }
+  .music-choices .artist-panel {
+    background-color: grey; }
+  .music-choices .row {
+    margin-top: 4em; }
+  .music-choices .mu-img-wrap {
+    height: 10em;
+    background-color: purple;
+    text-align: center; }
+  .music-choices img {
+    height: 100%;
+    text-align: center; }
+  .music-choices .mu-info {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
