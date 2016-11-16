@@ -1,8 +1,27 @@
+.header-elements nav {
+  background-color: #262728;
+  margin: 0; }
+.header-elements .jumbotron {
+  background-color: #1d1e1f;
+  color: #d6d6d6;
+  margin: 0;
+  text-align: left;
+  padding-left: 2em; }
 .header-elements .head-img {
   background-image: url(../images/largeband.jpg);
-  background-position: top;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 50%; }
+  height: 15em;
+  color: #d6d6d6;
+  text-shadow: -5px -1px 11px #1d1e1f;
+  font-size: 2em; }
+
+.music-choices mu-img-wrap {
+  height: 50%;
+  width: 50%;
+  text-align: center; }
+.music-choices img {
+  height: 40%; }
 
 /*# sourceMappingURL=style.css.map */
