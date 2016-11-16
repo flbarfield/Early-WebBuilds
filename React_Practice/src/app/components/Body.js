@@ -3,76 +3,34 @@ import ArtistPanel from "./Body/ArtistPanel";
 
 export default class Body extends React.Component {
   render() {
+    const pan_image = [
+      <img src="/app/images/acoustic.jpg"/>,
+      <img src="/app/images/funkydrums.jpg"/>,
+      <img src="/app/images/hops.jpg"/>,
+      <img src="/app/images/keyboard.jpg"/>,
+      <img src="/app/images/saxband.jpg"/>,
+      <img src="/app/images/sing.jpg"/>,
+      <img src="/app/images/sitacoustic.jpg"/>,
+      <img src="/app/images/voice.jpg"/>,
+      <img src="/app/images/whitehops.jpg"/>
+    ]
+
     return (
       <div className="music-choices container-fluid">
         <div className="row">
-          <ArtistPanel/>
-          <ArtistPanel/>
-          <ArtistPanel/>
+          <ArtistPanel pan_image={pan_image[0]}/>
+          <ArtistPanel pan_image={pan_image[1]}/>
+          <ArtistPanel pan_image={pan_image[2]}/>
         </div>
         <div className="row">
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/keyboard.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/saxband.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/sing.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
+          <ArtistPanel pan_image={pan_image[3]}/>
+          <ArtistPanel pan_image={pan_image[4]}/>
+          <ArtistPanel pan_image={pan_image[5]}/>
         </div>
         <div className="row">
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/sitacoustic.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/voice.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
-          <div className="artist-panel col-xs-4">
-            <div className="mu-img-wrap">
-              <img src="/app/images/whitehops.jpg"/>
-            </div>
-            <div className="mu-info">
-              <h3 className="artist">Lorem ipsum dolor</h3>
-              <p className="song">Nunc sed erat ac diam</p>
-              <div className="ctrl-btns"></div>
-            </div>
-          </div>
+          <ArtistPanel pan_image={pan_image[6]}/>
+          <ArtistPanel pan_image={pan_image[7]}/>
+          <ArtistPanel pan_image={pan_image[8]}/>
         </div>
       </div>
     );
