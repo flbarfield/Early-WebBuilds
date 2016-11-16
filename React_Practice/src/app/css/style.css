@@ -7,10 +7,12 @@ h1, h2 {
 .header-elements nav {
   background-color: #262728;
   margin: 0; }
+  .header-elements nav ul {
+    display: inline-flex; }
 .header-elements .jumbotron {
   background-color: #1d1e1f;
   color: #d6d6d6;
-  margin: 0 0 -1.5em;
+  margin: -1em 0 -2em;
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
@@ -22,21 +24,38 @@ h1, h2 {
   color: #d6d6d6;
   text-shadow: -5px -1px 11px #1d1e1f;
   font-size: 2em; }
+  .header-elements .head-img h2 {
+    position: relative;
+    top: 10em;
+    left: .5em; }
 
 .music-choices {
   background-color: #262728; }
   .music-choices .artist-panel {
-    background-color: grey; }
+    background-color: #262728; }
   .music-choices .row {
     margin-top: 4em; }
+  .music-choices .inner-artist-wrap {
+    background-color: #1d1e1f; }
   .music-choices .mu-img-wrap {
-    height: 10em;
-    background-color: purple;
-    text-align: center; }
+    width: 100%;
+    background-color: #1d1e1f; }
   .music-choices img {
-    height: 100%;
-    text-align: center; }
+    width: 100%; }
   .music-choices .mu-info {
-    text-align: center; }
+    padding-left: 1.5em; }
+    .music-choices .mu-info h3 {
+      color: #98999a;
+      margin: .5 0 0;
+      font-size: 1em; }
+    .music-choices .mu-info p {
+      color: #d6d6d6;
+      font-size: 1.5em; }
+    .music-choices .mu-info .ctrl-btn {
+      color: #98999a;
+      margin-bottom: 2em;
+      padding-bottom: 1em; }
+      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {
+        text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
