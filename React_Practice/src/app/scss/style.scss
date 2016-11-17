@@ -13,6 +13,10 @@ h1, h2 {
   font-family: $ops-font;
 }
 
+html {
+  background-color: $prime-color;
+}
+
 .header-elements {
   nav {
     background-color: $prime-color;
@@ -29,7 +33,7 @@ h1, h2 {
     padding-left: 2em;
   }
   .head-img {
-    background-image: url(../images/largeband.jpg);
+    background-image: url(/app/images/largeband.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -47,6 +51,7 @@ h1, h2 {
 
 .music-choices {
   background-color: $prime-color;
+  margin-bottom: 5em;
 
   .artist-panel {
     background-color: $prime-color;

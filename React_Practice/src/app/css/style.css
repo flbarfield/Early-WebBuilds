@@ -4,6 +4,9 @@ p, li {
 h1, h2 {
   font-family: "Black Ops One", cursive; }
 
+html {
+  background-color: #262728; }
+
 .header-elements nav {
   background-color: #262728;
   margin: 0; }
@@ -16,7 +19,7 @@ h1, h2 {
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
-  background-image: url(../images/largeband.jpg);
+  background-image: url(/app/images/largeband.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +33,8 @@ h1, h2 {
     left: .5em; }
 
 .music-choices {
-  background-color: #262728; }
+  background-color: #262728;
+  margin-bottom: 5em; }
   .music-choices .artist-panel {
     background-color: #262728; }
   .music-choices .row {

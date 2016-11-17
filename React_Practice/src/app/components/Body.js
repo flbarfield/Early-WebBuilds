@@ -9,7 +9,7 @@ export default class Body extends React.Component {
       <img src="/app/images/hops.jpg"/>,
       <img src="/app/images/keyboard.jpg"/>,
       <img src="/app/images/saxband.jpg"/>,
-      <img src="/app/images/sing.jpg"/>,
+      <img src="/app/images/fixedsing.jpg"/>,
       <img src="/app/images/sitacoustic.jpg"/>,
       <img src="/app/images/voice.jpg"/>,
       <img src="/app/images/whitehops.jpg"/>
