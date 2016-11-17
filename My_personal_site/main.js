@@ -3,6 +3,9 @@
 var xhr;
 
 //ABOUT TO WEBPAGES
+function ToBand() {
+		window.location.assign('/Past_Projects/Band_stream/dist/index.html')
+}
 
 function toBlog() {
 	window.location.assign('/Past_Projects/Blog_V3/index.html');
@@ -38,6 +41,10 @@ if (window.XMLHttpRequest) {
 }
 
 //MAIN TO ABOUT PAGES
+$('.band').click(function (e) {
+	$('#updatable-content').load('/Additional_Info/Band_stream/about_band.html');
+});
+
 
 $('.company').click(function (e) {
 	$('#updatable-content').load('/Additional_Info/Company/about_company.html');
