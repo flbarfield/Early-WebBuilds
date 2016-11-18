@@ -12,8 +12,10 @@ export default class Header extends React.Component {
   render() {
     const headImgStyle = {
       backgroundImage: "url('./app/images/largeband.jpg')",
+      backgroundSize: "cover",
       backgroundPosition: "center center",
       backgroundAttachment: "fixed",
+      height: "15em"
     };
 
     return (
