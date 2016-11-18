@@ -14,9 +14,9 @@ export default class ArtistPanel extends React.Component {
             <h3 className="artist">Lorem ipsum dolor</h3>
             <p className="song">Nunc sed erat ac diam</p>
             <div className="ctrl-btn">
-              <i className="fa fa-play col-xs-4">Play</i>
+              <i className="fa fa-play col-xs-4"></i>
               <span className="runtime col-xs-4">05:05</span>
-              <i className="fa fa-download col-xs-4">Download</i>
+              <i className="fa fa-download col-xs-4"></i>
             </div>
           </div>
         </div>

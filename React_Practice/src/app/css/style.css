@@ -45,20 +45,25 @@ html {
     background-color: #1d1e1f; }
   .music-choices img {
     width: 100%; }
-  .music-choices .mu-info {
-    padding-left: 1.5em; }
-    .music-choices .mu-info h3 {
-      color: #98999a;
-      margin: .5 0 0;
-      font-size: 1em; }
-    .music-choices .mu-info p {
-      color: #d6d6d6;
+  .music-choices .mu-info h3 {
+    color: #98999a;
+    margin: .5 0 0;
+    font-size: 1em; }
+  .music-choices .mu-info p {
+    color: #d6d6d6;
+    font-size: 1.5em; }
+  .music-choices .mu-info .ctrl-btn {
+    color: #98999a;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: 1em; }
+    .music-choices .mu-info .ctrl-btn i {
       font-size: 1.5em; }
-    .music-choices .mu-info .ctrl-btn {
-      color: #98999a;
-      margin-bottom: 2em;
-      padding-bottom: 1em; }
-      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {
-        text-align: center; }
+    .music-choices .mu-info .ctrl-btn span {
+      text-align: center; }
+    .music-choices .mu-info .ctrl-btn .fa-download {
+      text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

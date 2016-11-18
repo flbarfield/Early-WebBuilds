@@ -1,16 +1,28 @@
-var WebpackStripLoader = require('strip-loader');
-var devConfig = require('./webpack.config.js');
+var Webpack = require('webpack');
+var path = require('path');
+var nodeModulesPath = path.resolve(__dirname, 'node_modules');
+var buildPath = path.resolve(__dirname, 'dist');
+var mainPath = path.resolve(__dirname, 'src');
 
-new webpack.optimize.CommonsChunkPlugin('common.js'),
-new webpack.optimize.DedupePlugin(),
-new webpack.optimize.UglifyJsPlugin(),
-new webpack.optimize.AggressiveMergingPlugin()
+var config = {
 
-var stripLoader = {
- test: [/\.js$/, /\.es6$/],
- exclude: /node_modules/,
- loader: WebpackStripLoader.loader('console.log')
-}
+  // We change to normal source mapping
+  devtool: 'source-map',
+  entry: mainPath + "/app/index.js",
+  output: {
+    path: buildPath + "/app",
+    filename: 'bundle.js'
+  },
+  module: {
+    loaders: [{
+      test: /\.js$/,
+      loader: 'babel',
+      exclude: [nodeModulesPath]
+    },{
+      test: /\.css$/,
+      loader: 'style!css'
+    }]
+  }
+};
 
-devConfig.module.loaders.push(stripLoader);
-module.exports = devConfig;
+module.exports = config;

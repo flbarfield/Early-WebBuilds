@@ -1,0 +1,59 @@
+.music-choices {
+  background-color: $prime-color;
+  margin-bottom: 5em;
+
+  .artist-panel {
+    background-color: $prime-color;
+  }
+
+  .row {
+    margin-top: 4em;
+  }
+
+  .inner-artist-wrap {
+    background-color: $sec-color;
+  }
+
+  .mu-img-wrap {
+    width: 100%;
+    background-color: $sec-color;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .mu-info {
+
+    h3 {
+      color: $a-color;
+      margin: .5 0 0;
+      font-size: 1em;
+    }
+    p {
+      color: $h1-col;
+      font-size: 1.5em;
+    }
+
+    .ctrl-btn {
+      color: $a-color;
+      margin-bottom: 2em;
+      padding-bottom: 1em;
+      margin-left: -1em;
+      margin-right: -1em;
+      margin-top: 1em;
+
+      i {
+        font-size: 1.5em;
+      }
+
+      span {
+        text-align: center;
+      }
+
+      .fa-download {
+        text-align: right;
+      }
+    }
+  }
+}
