@@ -1,6 +1,7 @@
 import React from "react";
-
 import Title from "./Title.js";
+
+// backgroundImage: "url(${Background})"
 
 export default class Header extends React.Component {
   handleChange(e) {
@@ -9,6 +10,12 @@ export default class Header extends React.Component {
   }
 
   render() {
+    const headImgStyle = {
+      backgroundImage: "url('./app/images/largeband.jpg')",
+      backgroundPosition: "center center",
+      backgroundAttachment: "fixed",
+    };
+
     return (
       <div className="header-elements">
         <nav className="navbar navbar-static-top navbar-inverse">
@@ -27,7 +34,7 @@ export default class Header extends React.Component {
           <Title title={this.props.title} />
           <input value={this.props.title} onChange={this.handleChange.bind(this)}/>
         </div>
-        <div className="head-img">
+        <div className="head-img" style={headImgStyle}>
           <h2>Feed<br/>Your<br/>Creativity</h2>
         </div>
       </div>
