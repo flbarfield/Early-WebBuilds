@@ -4,15 +4,16 @@ import ArtistPanel from "./Body/ArtistPanel";
 export default class Body extends React.Component {
   render() {
     const pan_image = [
-      <img src="/app/images/acoustic.jpg"/>,
-      <img src="/app/images/funkydrums.jpg"/>,
-      <img src="/app/images/hops.jpg"/>,
-      <img src="/app/images/keyboard.jpg"/>,
-      <img src="/app/images/saxband.jpg"/>,
-      <img src="/app/images/fixedsing.jpg"/>,
-      <img src="/app/images/sitacoustic.jpg"/>,
-      <img src="/app/images/voice.jpg"/>,
-      <img src="/app/images/whitehops.jpg"/>
+      <img src="./app/images/acoustic.jpg"/>,
+      <img src="./app/images/funkydrums.jpg"/>,
+      <img src="./app/images/hops.jpg"/>,
+      <img src="./app/images/keyboard.jpg"/>,
+      <img src="./app/images/saxband.jpg"/>,
+      <img src="./app/images/fixedsing.jpg"/>,
+      <img src="./app/images/sitacoustic.jpg"/>,
+      <img src="./app/images/voice.jpg"/>,
+      <img src="./app/images/whitehops.jpg"/>,
+      <img src="./app/images/largeband.jpg"/>
     ]
 
     return (

@@ -59,11 +59,13 @@
 	
 	__webpack_require__(/*! ./scss/style.scss */ 172);
 	
-	var _Layout = __webpack_require__(/*! ./components/Layout */ 177);
+	var _Layout = __webpack_require__(/*! ./components/Layout */ 176);
 	
 	var _Layout2 = _interopRequireDefault(_Layout);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	// __webpack_public_path__ = window.location.protocol + "//" + window.location.host + "/"
 	
 	var app = document.getElementById('app');
 	_reactDom2.default.render(_react2.default.createElement(_Layout2.default, null), app);
@@ -21961,7 +21963,7 @@
 	var content = __webpack_require__(/*! !./../../../~/css-loader!./../../../~/sass-loader!./style.scss */ 173);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(/*! ./../../../~/style-loader/addStyles.js */ 176)(content, {});
+	var update = __webpack_require__(/*! ./../../../~/style-loader/addStyles.js */ 175)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -21989,7 +21991,7 @@
 	
 	
 	// module
-	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-image: url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../images/largeband.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info {\n    padding-left: 1.5em; }\n    .music-choices .mu-info h3 {\n      color: #98999a;\n      margin: .5 0 0;\n      font-size: 1em; }\n    .music-choices .mu-info p {\n      color: #d6d6d6;\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn {\n      color: #98999a;\n      margin-bottom: 2em;\n      padding-bottom: 1em; }\n      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {\n        text-align: center; }\n", ""]);
+	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info {\n    padding-left: 1.5em; }\n    .music-choices .mu-info h3 {\n      color: #98999a;\n      margin: .5 0 0;\n      font-size: 1em; }\n    .music-choices .mu-info p {\n      color: #d6d6d6;\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn {\n      color: #98999a;\n      margin-bottom: 2em;\n      padding-bottom: 1em; }\n      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {\n        text-align: center; }\n", ""]);
 	
 	// exports
 
@@ -22054,8 +22056,7 @@
 
 
 /***/ },
-/* 175 */,
-/* 176 */
+/* 175 */
 /*!*************************************!*\
   !*** ./~/style-loader/addStyles.js ***!
   \*************************************/
@@ -22310,7 +22311,7 @@
 
 
 /***/ },
-/* 177 */
+/* 176 */
 /*!**************************************!*\
   !*** ./src/app/components/Layout.js ***!
   \**************************************/
@@ -22328,11 +22329,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _header = __webpack_require__(/*! ./header */ 178);
+	var _header = __webpack_require__(/*! ./header */ 177);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _body = __webpack_require__(/*! ./body */ 180);
+	var _body = __webpack_require__(/*! ./body */ 179);
 	
 	var _body2 = _interopRequireDefault(_body);
 	
@@ -22382,7 +22383,7 @@
 	exports.default = Layout;
 
 /***/ },
-/* 178 */
+/* 177 */
 /*!**************************************!*\
   !*** ./src/app/components/header.js ***!
   \**************************************/
@@ -22400,7 +22401,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Title = __webpack_require__(/*! ./Title.js */ 179);
+	var _Title = __webpack_require__(/*! ./Title.js */ 178);
 	
 	var _Title2 = _interopRequireDefault(_Title);
 	
@@ -22411,6 +22412,8 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	// backgroundImage: "url(${Background})"
 	
 	var Header = function (_React$Component) {
 	  _inherits(Header, _React$Component);
@@ -22430,6 +22433,14 @@
 	  }, {
 	    key: "render",
 	    value: function render() {
+	      var headImgStyle = {
+	        backgroundImage: "url('./app/images/largeband.jpg')",
+	        backgroundSize: "cover",
+	        backgroundPosition: "center center",
+	        backgroundAttachment: "fixed",
+	        height: "15em"
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "header-elements" },
@@ -22493,7 +22504,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { className: "head-img" },
+	          { className: "head-img", style: headImgStyle },
 	          _react2.default.createElement(
 	            "h2",
 	            null,
@@ -22514,7 +22525,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 179 */
+/* 178 */
 /*!*************************************!*\
   !*** ./src/app/components/Title.js ***!
   \*************************************/
@@ -22566,7 +22577,7 @@
 	exports.default = Title;
 
 /***/ },
-/* 180 */
+/* 179 */
 /*!************************************!*\
   !*** ./src/app/components/body.js ***!
   \************************************/
@@ -22584,7 +22595,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ArtistPanel = __webpack_require__(/*! ./Body/ArtistPanel */ 181);
+	var _ArtistPanel = __webpack_require__(/*! ./Body/ArtistPanel */ 180);
 	
 	var _ArtistPanel2 = _interopRequireDefault(_ArtistPanel);
 	
@@ -22608,7 +22619,7 @@
 	  _createClass(Body, [{
 	    key: "render",
 	    value: function render() {
-	      var pan_image = [_react2.default.createElement("img", { src: "/app/images/acoustic.jpg" }), _react2.default.createElement("img", { src: "/app/images/funkydrums.jpg" }), _react2.default.createElement("img", { src: "/app/images/hops.jpg" }), _react2.default.createElement("img", { src: "/app/images/keyboard.jpg" }), _react2.default.createElement("img", { src: "/app/images/saxband.jpg" }), _react2.default.createElement("img", { src: "/app/images/fixedsing.jpg" }), _react2.default.createElement("img", { src: "/app/images/sitacoustic.jpg" }), _react2.default.createElement("img", { src: "/app/images/voice.jpg" }), _react2.default.createElement("img", { src: "/app/images/whitehops.jpg" })];
+	      var pan_image = [_react2.default.createElement("img", { src: "./app/images/acoustic.jpg" }), _react2.default.createElement("img", { src: "./app/images/funkydrums.jpg" }), _react2.default.createElement("img", { src: "./app/images/hops.jpg" }), _react2.default.createElement("img", { src: "./app/images/keyboard.jpg" }), _react2.default.createElement("img", { src: "./app/images/saxband.jpg" }), _react2.default.createElement("img", { src: "./app/images/fixedsing.jpg" }), _react2.default.createElement("img", { src: "./app/images/sitacoustic.jpg" }), _react2.default.createElement("img", { src: "./app/images/voice.jpg" }), _react2.default.createElement("img", { src: "./app/images/whitehops.jpg" }), _react2.default.createElement("img", { src: "./app/images/largeband.jpg" })];
 	
 	      return _react2.default.createElement(
 	        "div",
@@ -22644,7 +22655,7 @@
 	exports.default = Body;
 
 /***/ },
-/* 181 */
+/* 180 */
 /*!************************************************!*\
   !*** ./src/app/components/Body/ArtistPanel.js ***!
   \************************************************/
@@ -22662,7 +22673,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Pan_image = __webpack_require__(/*! ./ArtistPanel/Pan_image */ 182);
+	var _Pan_image = __webpack_require__(/*! ./ArtistPanel/Pan_image */ 181);
 	
 	var _Pan_image2 = _interopRequireDefault(_Pan_image);
 	
@@ -22741,7 +22752,7 @@
 	exports.default = ArtistPanel;
 
 /***/ },
-/* 182 */
+/* 181 */
 /*!**********************************************************!*\
   !*** ./src/app/components/Body/ArtistPanel/Pan_image.js ***!
   \**********************************************************/

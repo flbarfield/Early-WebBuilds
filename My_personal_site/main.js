@@ -3,7 +3,7 @@
 var xhr;
 
 //ABOUT TO WEBPAGES
-function ToBand() {
+function toBand() {
 		window.location.assign('/Past_Projects/Band_stream/dist/index.html')
 }
 
