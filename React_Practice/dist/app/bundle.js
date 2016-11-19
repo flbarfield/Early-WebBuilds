@@ -21990,7 +21990,7 @@
 	
 	
 	// module
-	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info {\n    padding-left: 1.5em; }\n    .music-choices .mu-info h3 {\n      color: #98999a;\n      margin: .5 0 0;\n      font-size: 1em; }\n    .music-choices .mu-info p {\n      color: #d6d6d6;\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn {\n      color: #98999a;\n      margin-bottom: 2em;\n      padding-bottom: 1em; }\n      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {\n        text-align: center; }\n", ""]);
+	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .fa-download {\n      text-align: right; }\n", ""]);
 	
 	// exports
 
@@ -22676,10 +22676,6 @@
 	
 	var _Pan_image2 = _interopRequireDefault(_Pan_image);
 	
-	var _reactFontawesome = __webpack_require__(/*! react-fontawesome */ 182);
-	
-	var _reactFontawesome2 = _interopRequireDefault(_reactFontawesome);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22727,21 +22723,13 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "ctrl-btn" },
-	              _react2.default.createElement(
-	                "i",
-	                { className: "fa fa-play col-xs-4" },
-	                _react2.default.createElement(_reactFontawesome2.default, { name: "play" })
-	              ),
+	              _react2.default.createElement("i", { className: "fa fa-play col-xs-4" }),
 	              _react2.default.createElement(
 	                "span",
 	                { className: "runtime col-xs-4" },
 	                "05:05"
 	              ),
-	              _react2.default.createElement(
-	                "i",
-	                { className: "fa fa-download col-xs-4" },
-	                "Download"
-	              )
+	              _react2.default.createElement("i", { className: "fa fa-download col-xs-4" })
 	            )
 	          )
 	        )
@@ -22805,137 +22793,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = Pan_image;
-
-/***/ },
-/* 182 */
-/*!******************************************!*\
-  !*** ./~/react-fontawesome/lib/index.js ***!
-  \******************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.srOnlyStyle = undefined;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-	
-	var srOnlyStyle = exports.srOnlyStyle = {
-	  position: 'absolute',
-	  width: '1px',
-	  height: '1px',
-	  padding: '0px',
-	  margin: '-1px',
-	  overflow: 'hidden',
-	  clip: 'rect(0px, 0px, 0px, 0px)',
-	  border: '0px'
-	};
-	
-	/**
-	 * A React component for the font-awesome icon library.
-	 *
-	 *
-	 * @param {String} [ariaLabel] An extra accessibility label to put on the icon
-	 * @param {Boolean} [border=false] Whether or not to show a border radius
-	 * @param {String} [className] An extra set of CSS classes to add to the component
-	 * @param {Object} [cssModule] Option to pass FontAwesome CSS as a module
-	 * @param {Boolean} [fixedWidth=false] Make buttons fixed width
-	 * @param {String} [flip=false] Flip the icon's orientation.
-	 * @param {Boolean} [inverse=false]Inverse the icon's color
-	 * @param {String} name Name of the icon to use
-	 * @param {Boolean} [pulse=false] Rotate icon with 8 steps (rather than smoothly)
-	 * @param {Number} [rotate] The degress to rotate the icon by
-	 * @param {String} [size] The icon scaling size
-	 * @param {Boolean} [spin=false] Spin the icon
-	 * @param {String} [stack] Stack an icon on top of another
-	 * @param {String} [tag=span] The HTML tag to use as a string (eg 'i' or 'em')
-	 * @module FontAwesome
-	 * @type {ReactClass}
-	 */
-	exports.default = _react2.default.createClass({
-	
-	  displayName: 'FontAwesome',
-	
-	  propTypes: {
-	    ariaLabel: _react2.default.PropTypes.string,
-	    border: _react2.default.PropTypes.bool,
-	    className: _react2.default.PropTypes.string,
-	    cssModule: _react2.default.PropTypes.object,
-	    fixedWidth: _react2.default.PropTypes.bool,
-	    flip: _react2.default.PropTypes.oneOf(['horizontal', 'vertical']),
-	    inverse: _react2.default.PropTypes.bool,
-	    name: _react2.default.PropTypes.string.isRequired,
-	    pulse: _react2.default.PropTypes.bool,
-	    rotate: _react2.default.PropTypes.oneOf([90, 180, 270]),
-	    size: _react2.default.PropTypes.oneOf(['lg', '2x', '3x', '4x', '5x']),
-	    spin: _react2.default.PropTypes.bool,
-	    stack: _react2.default.PropTypes.oneOf(['1x', '2x']),
-	    tag: _react2.default.PropTypes.string
-	  },
-	
-	  render: function render() {
-	    var _props = this.props;
-	    var border = _props.border;
-	    var cssModule = _props.cssModule;
-	    var className = _props.className;
-	    var fixedWidth = _props.fixedWidth;
-	    var flip = _props.flip;
-	    var inverse = _props.inverse;
-	    var name = _props.name;
-	    var pulse = _props.pulse;
-	    var rotate = _props.rotate;
-	    var size = _props.size;
-	    var spin = _props.spin;
-	    var stack = _props.stack;
-	    var _props$tag = _props.tag;
-	    var tag = _props$tag === undefined ? 'span' : _props$tag;
-	    var ariaLabel = _props.ariaLabel;
-	
-	    var props = _objectWithoutProperties(_props, ['border', 'cssModule', 'className', 'fixedWidth', 'flip', 'inverse', 'name', 'pulse', 'rotate', 'size', 'spin', 'stack', 'tag', 'ariaLabel']);
-	
-	    var classNames = [];
-	
-	    if (cssModule) {
-	      classNames.push(cssModule['fa']);
-	      classNames.push(cssModule['fa-' + name]);
-	      size && classNames.push(cssModule['fa-' + size]);
-	      spin && classNames.push(cssModule['fa-spin']);
-	      pulse && classNames.push(cssModule['fa-pulse']);
-	      border && classNames.push(cssModule['fa-border']);
-	      fixedWidth && classNames.push(cssModule['fa-fw']);
-	      inverse && classNames.push(cssModule['fa-inverse']);
-	      flip && classNames.push(cssModule['fa-flip-' + flip]);
-	      rotate && classNames.push(cssModule['fa-rotate-' + rotate]);
-	      stack && classNames.push(cssModule['fa-stack-' + stack]);
-	    } else {
-	      classNames.push('fa');
-	      classNames.push('fa-' + name);
-	      size && classNames.push('fa-' + size);
-	      spin && classNames.push('fa-spin');
-	      pulse && classNames.push('fa-pulse');
-	      border && classNames.push('fa-border');
-	      fixedWidth && classNames.push('fa-fw');
-	      inverse && classNames.push('fa-inverse');
-	      flip && classNames.push('fa-flip-' + flip);
-	      rotate && classNames.push('fa-rotate-' + rotate);
-	      stack && classNames.push('fa-stack-' + stack);
-	    }
-	
-	    // Add any custom class names at the end.
-	    className && classNames.push(className);
-	    return _react2.default.createElement(tag, _extends({}, props, { 'aria-hidden': true, className: classNames.join(' ') }), ariaLabel ? _react2.default.createElement('span', { style: srOnlyStyle }, ariaLabel) : null);
-	  }
-	});
 
 /***/ }
 /******/ ]);

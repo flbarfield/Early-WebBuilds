@@ -1,7 +1,6 @@
 import React from "react";
 import Pan_image from "./ArtistPanel/Pan_image"
 
-
 export default class ArtistPanel extends React.Component {
   render() {
     return (
@@ -14,9 +13,13 @@ export default class ArtistPanel extends React.Component {
             <h3 className="artist">Lorem ipsum dolor</h3>
             <p className="song">Nunc sed erat ac diam</p>
             <div className="ctrl-btn">
-              <i className="fa fa-play col-xs-4"></i>
+              <div className="col-xs-4">
+                <i className="fa fa-play"></i>
+              </div>
               <span className="runtime col-xs-4">05:05</span>
-              <i className="fa fa-download col-xs-4"></i>
+              <div className="col-xs-4 right-btn-wrap">
+                <i className="fa fa-download"></i>
+              </div>
             </div>
           </div>
         </div>
