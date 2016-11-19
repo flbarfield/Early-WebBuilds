@@ -1,0 +1,36 @@
+.song {
+  margin-bottom: 4em;
+  height: 15em;
+  text-align: center;
+  background-color: $sec-color;
+
+  .so_img {
+    height: 80%;
+    max-width: 100%;
+    position: relative;
+    top: 1.5em;
+  }
+  .wave{
+    width: 100%;
+    position: relative;
+    top: 1.5em;
+  }
+  .song-bot{
+    text-align: left;
+    color: $a-color;
+    font-size: 1.3em;
+    margin-top: 4.4em;
+    i {
+      margin-right: .5em;
+      transition: .3s;
+    }
+    i:hover {
+      color: $h1-col;
+      cursor: pointer;
+    }
+
+    span {
+      margin-right: 3em;
+    }
+  }
+}
