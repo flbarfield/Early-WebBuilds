@@ -75,4 +75,39 @@ html {
     .music-choices .mu-info .ctrl-btn .right-btn-wrap {
       text-align: right; }
 
+.song {
+  margin-bottom: 4em;
+  height: 15em;
+  text-align: center;
+  background-color: #1d1e1f; }
+  .song .so_img {
+    height: 80%;
+    max-width: 100%;
+    position: relative;
+    top: 1.5em; }
+  .song .wave {
+    width: 100%;
+    position: relative;
+    top: 1.5em; }
+  .song .song-bot {
+    text-align: left;
+    color: #98999a;
+    font-size: 1.3em;
+    margin-top: 4.4em; }
+    .song .song-bot i {
+      margin-right: .5em;
+      transition: .3s; }
+    .song .song-bot i:hover {
+      color: #d6d6d6;
+      cursor: pointer; }
+    .song .song-bot span {
+      margin-right: 3em; }
+
+.foot-mu {
+  width: 100%;
+  background-color: #1d1e1f;
+  margin-top: -5em; }
+  .foot-mu audio {
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */

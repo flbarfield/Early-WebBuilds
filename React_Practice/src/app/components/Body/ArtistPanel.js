@@ -11,7 +11,7 @@ export default class ArtistPanel extends React.Component {
           </div>
           <div className="mu-info col-xs-12">
             <h3 className="artist">Lorem ipsum dolor</h3>
-            <p className="song">Nunc sed erat ac diam</p>
+            <p className="title">Nunc sed erat ac diam</p>
             <div className="ctrl-btn">
               <div className="col-xs-4">
                 <i className="fa fa-play"></i>

@@ -21990,7 +21990,7 @@
 	
 	
 	// module
-	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .fa-download {\n      text-align: right; }\n", ""]);
+	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f;\n    padding-top: 2em; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap:hover img {\n    transform: scale(1.1);\n    cursor: pointer; }\n  .music-choices img {\n    width: 100%;\n    transition: .5s ease-in; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em;\n      transition: .3s; }\n    .music-choices .mu-info .ctrl-btn i:hover {\n      color: #d6d6d6;\n      cursor: pointer; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .right-btn-wrap {\n      text-align: right; }\n\n.song {\n  margin-bottom: 4em;\n  height: 15em;\n  text-align: center; }\n  .song .so_img {\n    height: 100%;\n    max-width: 100%; }\n  .song .wave {\n    width: 100%; }\n  .song .song-bot {\n    text-align: left;\n    color: #98999a;\n    font-size: 1.5em;\n    margin-top: 2em; }\n\n.foot-mu {\n  width: 100%;\n  background-color: #1d1e1f;\n  margin-top: -5em; }\n  .foot-mu audio {\n    width: 100%; }\n", ""]);
 	
 	// exports
 
@@ -22336,6 +22336,14 @@
 	
 	var _body2 = _interopRequireDefault(_body);
 	
+	var _FootMusicBar = __webpack_require__(/*! ./FootMusicBar */ 182);
+	
+	var _FootMusicBar2 = _interopRequireDefault(_FootMusicBar);
+	
+	var _SongList = __webpack_require__(/*! ./SongList */ 183);
+	
+	var _SongList2 = _interopRequireDefault(_SongList);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22371,7 +22379,8 @@
 	        "div",
 	        null,
 	        _react2.default.createElement(_header2.default, { changeTitle: this.changeTitle.bind(this), title: this.state.title }),
-	        _react2.default.createElement(_body2.default, null)
+	        _react2.default.createElement(_body2.default, null),
+	        _react2.default.createElement(_SongList2.default, null)
 	      );
 	    }
 	  }]);
@@ -22717,19 +22726,27 @@
 	            ),
 	            _react2.default.createElement(
 	              "p",
-	              { className: "song" },
+	              { className: "title" },
 	              "Nunc sed erat ac diam"
 	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "ctrl-btn" },
-	              _react2.default.createElement("i", { className: "fa fa-play col-xs-4" }),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-4" },
+	                _react2.default.createElement("i", { className: "fa fa-play" })
+	              ),
 	              _react2.default.createElement(
 	                "span",
 	                { className: "runtime col-xs-4" },
 	                "05:05"
 	              ),
-	              _react2.default.createElement("i", { className: "fa fa-download col-xs-4" })
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-4 right-btn-wrap" },
+	                _react2.default.createElement("i", { className: "fa fa-download" })
+	              )
 	            )
 	          )
 	        )
@@ -22793,6 +22810,202 @@
 	}(_react2.default.Component);
 	
 	exports.default = Pan_image;
+
+/***/ },
+/* 182 */
+/*!********************************************!*\
+  !*** ./src/app/components/FootMusicBar.js ***!
+  \********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var FootMusicBar = function (_React$Component) {
+	  _inherits(FootMusicBar, _React$Component);
+	
+	  function FootMusicBar() {
+	    _classCallCheck(this, FootMusicBar);
+	
+	    return _possibleConstructorReturn(this, (FootMusicBar.__proto__ || Object.getPrototypeOf(FootMusicBar)).apply(this, arguments));
+	  }
+	
+	  _createClass(FootMusicBar, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "foot-mu" },
+	        _react2.default.createElement("audio", { controls: "controls" })
+	      );
+	    }
+	  }]);
+	
+	  return FootMusicBar;
+	}(_react2.default.Component);
+	
+	exports.default = FootMusicBar;
+
+/***/ },
+/* 183 */
+/*!****************************************!*\
+  !*** ./src/app/components/SongList.js ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _SLSong = __webpack_require__(/*! ./SongList/SLSong */ 184);
+	
+	var _SLSong2 = _interopRequireDefault(_SLSong);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var SongList = function (_React$Component) {
+	  _inherits(SongList, _React$Component);
+	
+	  function SongList() {
+	    _classCallCheck(this, SongList);
+	
+	    return _possibleConstructorReturn(this, (SongList.__proto__ || Object.getPrototypeOf(SongList)).apply(this, arguments));
+	  }
+	
+	  _createClass(SongList, [{
+	    key: "render",
+	    value: function render() {
+	      var so_img_list = [_react2.default.createElement("img", { className: "so_img", src: "./app/images/crazy_colors.jpg" }), _react2.default.createElement("img", { className: "so_img", src: "./app/images/cyclops.jpg" }), _react2.default.createElement("img", { className: "so_img", src: "./app/images/grumps.jpg" }), _react2.default.createElement("img", { className: "so_img", src: "./app/images/masked_animals.jpg" })];
+	
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(_SLSong2.default, { sl_song: so_img_list[0] }),
+	        _react2.default.createElement(_SLSong2.default, { sl_song: so_img_list[1] }),
+	        _react2.default.createElement(_SLSong2.default, { sl_song: so_img_list[2] }),
+	        _react2.default.createElement(_SLSong2.default, { sl_song: so_img_list[3] })
+	      );
+	    }
+	  }]);
+	
+	  return SongList;
+	}(_react2.default.Component);
+	
+	exports.default = SongList;
+
+/***/ },
+/* 184 */
+/*!***********************************************!*\
+  !*** ./src/app/components/SongList/SLSong.js ***!
+  \***********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var SLSong = function (_React$Component) {
+	  _inherits(SLSong, _React$Component);
+	
+	  function SLSong() {
+	    _classCallCheck(this, SLSong);
+	
+	    return _possibleConstructorReturn(this, (SLSong.__proto__ || Object.getPrototypeOf(SLSong)).apply(this, arguments));
+	  }
+	
+	  _createClass(SLSong, [{
+	    key: "render",
+	    value: function render() {
+	      var wave_img = _react2.default.createElement("img", { className: "wave", src: "./app/images/wave.png" });
+	
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "song col-xs-12" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "so-img-wrap col-xs-3" },
+	          this.props.sl_song
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "so-playbar col-xs-8" },
+	          wave_img,
+	          _react2.default.createElement(
+	            "div",
+	            { className: "song-bot col-xs-12" },
+	            _react2.default.createElement(
+	              "i",
+	              { className: "fa fa-play" },
+	              "5:53"
+	            ),
+	            _react2.default.createElement(
+	              "i",
+	              { className: "fa fa-headphones" },
+	              "958,985"
+	            ),
+	            _react2.default.createElement(
+	              "i",
+	              { className: "fa fa-heart" },
+	              "1,345"
+	            ),
+	            _react2.default.createElement("i", { className: "fa fa-download" })
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return SLSong;
+	}(_react2.default.Component);
+	
+	exports.default = SLSong;
 
 /***/ }
 /******/ ]);
