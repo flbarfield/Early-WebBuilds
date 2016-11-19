@@ -77,22 +77,22 @@ html {
 
 .song {
   margin-bottom: 4em;
-  height: 15em;
+  height: 25em;
   text-align: center;
   background-color: #1d1e1f; }
   .song .so_img {
-    height: 80%;
+    height: 50%;
     max-width: 100%;
     position: relative;
     top: 1.5em; }
   .song .wave {
     width: 100%;
     position: relative;
-    top: 1.5em; }
+    top: 2.5em; }
   .song .song-bot {
-    text-align: left;
+    text-align: center;
     color: #98999a;
-    font-size: 1.3em;
+    font-size: 1em;
     margin-top: 4.4em; }
     .song .song-bot i {
       margin-right: .5em;
@@ -101,8 +101,24 @@ html {
       color: #d6d6d6;
       cursor: pointer; }
     .song .song-bot span {
-      margin-right: 3em; }
+      margin-right: 1.5em; }
 
+@media (min-width: 992px) {
+  .song {
+    margin-bottom: 4em;
+    height: 15em;
+    text-align: center; }
+    .song .so_img {
+      height: 80%; }
+    .song .wave {
+      width: 100%;
+      position: relative;
+      top: 1.5em; }
+    .song .song-bot {
+      font-size: 1.3em;
+      text-align: left; }
+      .song .song-bot span {
+        margin-right: 3em; } }
 .foot-mu {
   width: 100%;
   background-color: #1d1e1f;
