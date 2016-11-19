@@ -65,10 +65,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	// __webpack_public_path__ = window.location.protocol + "//" + window.location.host + "/"
+	var app = document.getElementById('app'); // __webpack_public_path__ = window.location.protocol + "//" + window.location.host + "/"
 	
-	var app = document.getElementById('app');
-	_reactDom2.default.render(_react2.default.createElement(_Layout2.default, null), app);
+	(0, _reactDom.render)(_react2.default.createElement(_Layout2.default, null), app);
 
 /***/ },
 /* 1 */
@@ -21991,7 +21990,7 @@
 	
 	
 	// module
-	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info {\n    padding-left: 1.5em; }\n    .music-choices .mu-info h3 {\n      color: #98999a;\n      margin: .5 0 0;\n      font-size: 1em; }\n    .music-choices .mu-info p {\n      color: #d6d6d6;\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn {\n      color: #98999a;\n      margin-bottom: 2em;\n      padding-bottom: 1em; }\n      .music-choices .mu-info .ctrl-btn i, .music-choices .mu-info .ctrl-btn span {\n        text-align: center; }\n", ""]);
+	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nhtml {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: -1em 0 -2em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices img {\n    width: 100%; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .fa-download {\n      text-align: right; }\n", ""]);
 	
 	// exports
 
@@ -22724,21 +22723,13 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "ctrl-btn" },
-	              _react2.default.createElement(
-	                "i",
-	                { className: "fa fa-play col-xs-4" },
-	                "Play"
-	              ),
+	              _react2.default.createElement("i", { className: "fa fa-play col-xs-4" }),
 	              _react2.default.createElement(
 	                "span",
 	                { className: "runtime col-xs-4" },
 	                "05:05"
 	              ),
-	              _react2.default.createElement(
-	                "i",
-	                { className: "fa fa-download col-xs-4" },
-	                "Download"
-	              )
+	              _react2.default.createElement("i", { className: "fa fa-download col-xs-4" })
 	            )
 	          )
 	        )
