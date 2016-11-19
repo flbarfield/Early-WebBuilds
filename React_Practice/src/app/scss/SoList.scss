@@ -1,24 +1,25 @@
 .song {
   margin-bottom: 4em;
-  height: 15em;
+  height: 25em;
   text-align: center;
   background-color: $sec-color;
 
   .so_img {
-    height: 80%;
+    height: 50%;
     max-width: 100%;
     position: relative;
     top: 1.5em;
   }
+
   .wave{
     width: 100%;
     position: relative;
-    top: 1.5em;
+    top: 2.5em;
   }
   .song-bot{
-    text-align: left;
+    text-align: center;
     color: $a-color;
-    font-size: 1.3em;
+    font-size: 1em;
     margin-top: 4.4em;
     i {
       margin-right: .5em;
@@ -30,7 +31,33 @@
     }
 
     span {
-      margin-right: 3em;
+      margin-right: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .song {
+    margin-bottom: 4em;
+    height: 15em;
+    text-align: center;
+
+    .so_img {
+      height: 80%;
+    }
+
+    .wave{
+      width: 100%;
+      position: relative;
+      top: 1.5em;
+    }
+
+    .song-bot {
+      font-size: 1.3em;
+      text-align: left;
+      span {
+        margin-right: 3em;
+      }
     }
   }
 }
