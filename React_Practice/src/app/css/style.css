@@ -17,7 +17,7 @@ body {
 .header-elements .jumbotron {
   background-color: #1d1e1f;
   color: #d6d6d6;
-  margin: -1em 0 -2em;
+  margin: 0 0 -3em;
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
@@ -33,6 +33,9 @@ body {
     top: 10em;
     left: .5em; }
 
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 4em; } }
 .music-choices {
   background-color: #262728;
   margin-bottom: 5em; }
@@ -119,7 +122,8 @@ body {
       top: 1.5em; }
     .song .song-bot {
       font-size: 1.3em;
-      text-align: left; }
+      text-align: left;
+      top: 3em; }
       .song .song-bot span {
         margin-right: 3em; } }
 .foot-mu {
