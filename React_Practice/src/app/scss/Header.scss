@@ -5,6 +5,9 @@
     ul {
       display: inline-flex;
     }
+    link .active {
+      color: $h1-col;
+    }
   }
   .jumbotron {
     background-color: $sec-color;

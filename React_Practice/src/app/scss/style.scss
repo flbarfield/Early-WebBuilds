@@ -13,7 +13,7 @@ h1, h2 {
   font-family: $ops-font;
 }
 
-html {
+body {
   background-color: $prime-color;
 }
 
@@ -21,8 +21,3 @@ html {
 @import "Body";
 @import "SoList";
 @import "FootMusicBar";
-
-
-@media (min-width: 992px) {
-
-}

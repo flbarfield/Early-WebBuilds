@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "./Title.js";
+import {Link} from "react-router";
 
 // backgroundImage: "url(${Background})"
 
@@ -24,10 +25,8 @@ export default class Header extends React.Component {
           <div className="container-fluid">
             <div className="navbar-header col-xs-12">
               <ul className="nav navbar-nav">
-                <li><a href="#">TEST</a></li>
-                <li><a href="#">TEST</a></li>
-                <li><a href="#">TEST</a></li>
-                <li><a href="#">TEST</a></li>
+                <li><Link to={"/"} activeClassName={"active"}>Home</Link></li>
+                <li><Link to={"songs"} activeClassName={"active"}>Song Archive</Link></li>
               </ul>
             </div>
           </div>
@@ -39,6 +38,7 @@ export default class Header extends React.Component {
         <div className="head-img" style={headImgStyle}>
           <h2>Feed<br/>Your<br/>Creativity</h2>
         </div>
+        {this.props.children}
       </div>
     );
   }

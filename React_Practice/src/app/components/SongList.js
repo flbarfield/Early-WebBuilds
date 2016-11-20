@@ -11,7 +11,7 @@ export default class SongList extends React.Component {
     ]
 
     return(
-      <div>
+      <div id='song_list'>
         <SLSong sl_song={so_img_list[0]}/>
         <SLSong sl_song={so_img_list[1]}/>
         <SLSong sl_song={so_img_list[2]}/>
