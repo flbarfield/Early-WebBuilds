@@ -1,6 +1,10 @@
 import React from "react";
 import SLSong from "./SongList/SLSong";
 
+// for live: /Past_Projects/Band_stream/dist/app/
+// also live: /Past_Projects/Band_stream/dist/app/audio/
+// for local:  .app/
+
 export default class SongList extends React.Component {
   render() {
     const so_img_list = [

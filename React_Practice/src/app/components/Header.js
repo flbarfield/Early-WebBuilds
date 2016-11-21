@@ -1,6 +1,11 @@
 import React from "react";
 import {Link} from "react-router";
 
+// const icon = {
+//   <i src="./app/images/rockin.jpg"></i>
+// }
+
+
 export default class Header extends React.Component {
   render() {
     const headImgStyle = {
@@ -11,6 +16,7 @@ export default class Header extends React.Component {
       height: "25em"
     };
 
+
     return (
       <div className="header-elements">
         <nav className="navbar navbar-fixed-top navbar-inverse">
@@ -18,7 +24,7 @@ export default class Header extends React.Component {
             <div className="navbar-header col-xs-12">
               <ul className="nav navbar-nav">
                 <li><Link to={"/"} activeClassName={"active"}>Home</Link></li>
-                <li><Link to={"songs"} activeClassName={"active"}>Song Archive</Link></li>
+                <li><Link to={"/songs"} activeClassName={"active"}>Song Archive</Link></li>
               </ul>
             </div>
           </div>
