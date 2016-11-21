@@ -21990,7 +21990,7 @@
 	
 	
 	// module
-	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nbody {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n  .header-elements nav link .active {\n    color: #d6d6d6; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: 0 0 -3em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n@media (min-width: 992px) {\n  .jumbotron h1 {\n    font-size: 4em; } }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f;\n    padding-top: 2em; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap:hover img {\n    transform: scale(1.1);\n    cursor: pointer; }\n  .music-choices img {\n    width: 100%;\n    transition: .5s ease-in; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em;\n      transition: .3s; }\n    .music-choices .mu-info .ctrl-btn i:hover {\n      color: #d6d6d6;\n      cursor: pointer; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .right-btn-wrap {\n      text-align: right; }\n\n.song {\n  margin-bottom: 4em;\n  height: 25em;\n  text-align: center;\n  background-color: #1d1e1f; }\n  .song .so_img {\n    height: 50%;\n    max-width: 100%;\n    position: relative;\n    top: 1.5em; }\n  .song .wave {\n    width: 100%;\n    position: relative;\n    top: 2.5em; }\n  .song .song-bot {\n    text-align: center;\n    color: #98999a;\n    font-size: 1em;\n    margin-top: 4.4em; }\n    .song .song-bot i {\n      margin-right: .5em;\n      transition: .3s; }\n    .song .song-bot i:hover {\n      color: #d6d6d6;\n      cursor: pointer; }\n    .song .song-bot span {\n      margin-right: 1.5em; }\n\n@media (min-width: 992px) {\n  .song {\n    margin-bottom: 4em;\n    height: 15em;\n    text-align: center; }\n    .song .so_img {\n      height: 80%; }\n    .song .wave {\n      width: 100%;\n      max-height: 6.5em;\n      position: relative;\n      top: 1.5em; }\n    .song .song-bot {\n      font-size: 1.3em;\n      text-align: left;\n      top: 3em; }\n      .song .song-bot span {\n        margin-right: 3em; } }\n\n.foot-mu {\n  width: 100%;\n  background-color: #1d1e1f;\n  margin-top: -5em; }\n  .foot-mu audio {\n    width: 100%; }\n", ""]);
+	exports.push([module.id, "p, li {\n  font-family: \"Raleway\", sans-serif; }\n\nh1, h2 {\n  font-family: \"Black Ops One\", cursive; }\n\nbody {\n  background-color: #262728; }\n\n.header-elements nav {\n  background-color: #262728;\n  margin: 0; }\n  .header-elements nav ul {\n    display: inline-flex; }\n  .header-elements nav link .active {\n    color: #d6d6d6; }\n\n.header-elements .jumbotron {\n  background-color: #1d1e1f;\n  color: #d6d6d6;\n  margin: 0 0 -3em;\n  text-align: left;\n  padding-left: 2em; }\n\n.header-elements .head-img {\n  background-position: center center;\n  background-size: cover;\n  background-attachment: fixed;\n  height: 15em;\n  color: #d6d6d6;\n  text-shadow: -5px -1px 11px #1d1e1f;\n  font-size: 2em; }\n  .header-elements .head-img h2 {\n    position: relative;\n    top: 10em;\n    left: .5em; }\n\n@media (min-width: 992px) {\n  .jumbotron h1 {\n    font-size: 4em; } }\n\n.music-choices {\n  background-color: #262728;\n  margin-bottom: 5em; }\n  .music-choices .artist-panel {\n    background-color: #262728; }\n  .music-choices .row {\n    margin-top: 4em; }\n  .music-choices .inner-artist-wrap {\n    background-color: #1d1e1f;\n    padding-top: 2em; }\n  .music-choices .mu-img-wrap {\n    width: 100%;\n    background-color: #1d1e1f; }\n  .music-choices .mu-img-wrap:hover img {\n    transform: scale(1.1);\n    cursor: pointer; }\n  .music-choices img {\n    width: 100%;\n    transition: .5s ease-in; }\n  .music-choices .mu-info h3 {\n    color: #98999a;\n    margin: .5 0 0;\n    font-size: 1em; }\n  .music-choices .mu-info p {\n    color: #d6d6d6;\n    font-size: 1.5em; }\n  .music-choices .mu-info .ctrl-btn {\n    color: #98999a;\n    margin-bottom: 2em;\n    padding-bottom: 1em;\n    margin-left: -1em;\n    margin-right: -1em;\n    margin-top: 1em; }\n    .music-choices .mu-info .ctrl-btn i {\n      font-size: 1.5em;\n      transition: .3s; }\n    .music-choices .mu-info .ctrl-btn i:hover {\n      color: #d6d6d6;\n      cursor: pointer; }\n    .music-choices .mu-info .ctrl-btn span {\n      text-align: center; }\n    .music-choices .mu-info .ctrl-btn .right-btn-wrap {\n      text-align: right; }\n\n.song {\n  margin-bottom: 4em;\n  height: 25em;\n  text-align: center;\n  background-color: #1d1e1f; }\n  .song .so_img {\n    height: 50%;\n    max-width: 100%;\n    position: relative;\n    top: 1.5em; }\n  .song .wave {\n    width: 100%;\n    position: relative;\n    top: 2.5em; }\n  .song .song-bot {\n    text-align: center;\n    color: #98999a;\n    font-size: 1em;\n    margin-top: 4.4em; }\n    .song .song-bot i {\n      margin-right: .5em;\n      transition: .3s; }\n    .song .song-bot i:hover {\n      color: #d6d6d6;\n      cursor: pointer; }\n    .song .song-bot span {\n      margin-right: 1.5em; }\n\n@media (min-width: 992px) {\n  .song {\n    margin-bottom: 4em;\n    height: 15em;\n    text-align: center; }\n    .song .so_img {\n      height: 80%; }\n    .song .wave {\n      width: 100%;\n      max-height: 6.5em;\n      position: relative;\n      top: 1.5em; }\n    .song .song-bot {\n      font-size: 1.3em;\n      text-align: left;\n      top: 3em; }\n      .song .song-bot span {\n        margin-right: 3em; } }\n\n.foot-wrap .progress-bar {\n  height: .5em;\n  width: 100%;\n  background-color: #98999a; }\n  .foot-wrap .progress-bar .filling-bar {\n    background-color: #d6d6d6; }\n\n.foot-wrap .default-bar {\n  width: 100%;\n  height: 5em;\n  background-color: #1d1e1f;\n  color: #98999a;\n  padding: 1.3em 1em; }\n  .foot-wrap .default-bar i, .foot-wrap .default-bar span {\n    font-size: 1.5em;\n    transition: .5s; }\n  .foot-wrap .default-bar i:hover {\n    color: #d6d6d6;\n    cursor: pointer; }\n  .foot-wrap .default-bar .foot-mu-btns, .foot-wrap .default-bar .foot-mu-info, .foot-wrap .default-bar .foot-mu-vol {\n    display: inline-block; }\n  .foot-wrap .default-bar .foot-mu-vol {\n    float: right;\n    margin-right: 5em;\n    cursor: pointer; }\n  .foot-wrap .default-bar .foot-mu-vol:hover {\n    color: #d6d6d6; }\n", ""]);
 	
 	// exports
 
@@ -22380,6 +22380,7 @@
 	          _reactRouter.Route,
 	          { path: "/", component: _header2.default },
 	          _react2.default.createElement(_reactRouter.IndexRoute, { component: _body2.default }),
+	          _react2.default.createElement(_reactRouter.Route, { path: "/foot-mu", component: _FootMusicBar2.default }),
 	          _react2.default.createElement(_reactRouter.Route, { path: "/songs", component: _SongList2.default })
 	        )
 	      );
@@ -27861,7 +27862,63 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "foot-mu" },
-	        _react2.default.createElement("audio", { controls: "controls" })
+	        _react2.default.createElement(
+	          "audio",
+	          { className: "my-track" },
+	          _react2.default.createElement("source", { src: "./app/audio/Nymphaeum-part1-2.mp3", type: "audio/mp3" })
+	        ),
+	        _react2.default.createElement(
+	          "nav",
+	          { className: "foot-wrap" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "progress-bar" },
+	            _react2.default.createElement("div", { className: "filling-bar" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "default-bar col-xs-12" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "foot-mu-btns col-xs-12 col-md-4" },
+	              _react2.default.createElement("i", { className: "fa fa-backward" }),
+	              _react2.default.createElement("i", { className: "fa fa-play" }),
+	              _react2.default.createElement("i", { className: "fa fa-fast-forward" })
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "foot-mu-info col-xs-4" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "foot-time-info" },
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "foot-time" },
+	                  "0:00 /"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "foot-time-duration" },
+	                  "0:00"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "foot-title col-xs-4" },
+	                "Title"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "foot-mu-vol col-xs-4" },
+	              _react2.default.createElement(
+	                "span",
+	                { className: "foot-vol" },
+	                "5"
+	              )
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);

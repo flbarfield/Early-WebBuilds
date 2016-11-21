@@ -1,51 +1,40 @@
 .foot-wrap{
-  .progress-bar{
-    height: .5em;
-    width: 100%;
-    background-color: $a-color;
-    .filling-bar {
-      // height: .5em;
-      background-color: $h1-col;
-      // width: 50%;
-    }
-  }
   .default-bar {
-    width: 100%;
-    height: 5em;
+    height: 6em;
+    max-width: 50em;
     background-color: $sec-color;
     color: $a-color;
-    padding: 1.3em 1em;
 
-      i, span {
-        font-size: 1.5em;
-        transition: .5s;
-      }
-
-      i {
-        // margin-right: 2em;
-      }
-
-      i:hover{
-        color: $h1-col;
-        cursor: pointer;
-      }
-
-    .foot-mu-btns, .foot-mu-info, .foot-mu-vol {
-      display: inline-block;
+    i, span {
+      font-size: 1.5em;
+      transition: .5s;
     }
 
-    .foot-mu-info {
-      span {
-        // margin-right: 4em;
+    i:hover{
+      color: $h1-col;
+      cursor: pointer;
       }
-      .foot-time-duration{
-        // margin-left: -3.75em;
+
+    .progress-bar{
+      margin: 0 auto;
+      height: .5em;
+      width: 100%;
+      background-color: $a-color;
+      .filling-bar {
+        // height: .5em;
+        background-color: $h1-col;
+        // width: 50%;
       }
+    }
+
+    .foot-mu-btns {
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
 
     .foot-mu-vol {
       float: right;
-      margin-right: 5em;
       cursor: pointer;
     }
 
