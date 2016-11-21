@@ -126,29 +126,30 @@ body {
       top: 3em; }
       .song .song-bot span {
         margin-right: 3em; } }
-.foot-wrap .progress-bar {
-  height: .5em;
-  width: 100%;
-  background-color: #98999a; }
-  .foot-wrap .progress-bar .filling-bar {
-    background-color: #d6d6d6; }
 .foot-wrap .default-bar {
-  width: 100%;
-  height: 5em;
+  height: 6em;
+  max-width: 50em;
   background-color: #1d1e1f;
-  color: #98999a;
-  padding: 1.3em 1em; }
+  color: #98999a; }
   .foot-wrap .default-bar i, .foot-wrap .default-bar span {
     font-size: 1.5em;
     transition: .5s; }
   .foot-wrap .default-bar i:hover {
     color: #d6d6d6;
     cursor: pointer; }
-  .foot-wrap .default-bar .foot-mu-btns, .foot-wrap .default-bar .foot-mu-info, .foot-wrap .default-bar .foot-mu-vol {
-    display: inline-block; }
+  .foot-wrap .default-bar .progress-bar {
+    margin: 0 auto;
+    height: .5em;
+    width: 100%;
+    background-color: #98999a; }
+    .foot-wrap .default-bar .progress-bar .filling-bar {
+      background-color: #d6d6d6; }
+  .foot-wrap .default-bar .foot-mu-btns {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em; }
   .foot-wrap .default-bar .foot-mu-vol {
     float: right;
-    margin-right: 5em;
     cursor: pointer; }
   .foot-wrap .default-bar .foot-mu-vol:hover {
     color: #d6d6d6; }
