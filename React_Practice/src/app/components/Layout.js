@@ -5,29 +5,21 @@ import FootMusicBar from "./FootMusicBar";
 import {Router, Route, browserHistory, IndexRoute} from "react-router";
 import SongList from "./SongList";
 
-export default class Layout extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      title: "Welcome to Musicitude.",
-  };
-}
+// route path needs to be "/"" for local
+// songs for local
 
-  changeTitle(title) {
-    this.setState({title});
-  }
-//// code previously in return ////
-// <div>
-//   <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title} />
-//   <Body/>
-// </div>
+// for live, "/Past_Projects/Band_stream/dist/index.html" for header
+// "/Past_Projects/Band_stream/dist/index.html/songs" for SL
+
+export default class Layout extends React.Component {
   render() {
 
     return (
       <Router history={browserHistory}>
         <Route path={"/"} component={Header}>
           <IndexRoute component={Body}/>
-          <Route path={"songs"} component={SongList}/>
+          <Route path={"/foot-mu"} component={FootMusicBar}/>
+          <Route path={"/songs"} component={SongList}/>
         </Route>
       </Router>
     );

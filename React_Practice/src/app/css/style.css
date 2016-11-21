@@ -17,7 +17,7 @@ body {
 .header-elements .jumbotron {
   background-color: #1d1e1f;
   color: #d6d6d6;
-  margin: -1em 0 -2em;
+  margin: 0 0 -3em;
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
@@ -33,6 +33,9 @@ body {
     top: 10em;
     left: .5em; }
 
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 4em; } }
 .music-choices {
   background-color: #262728;
   margin-bottom: 5em; }
@@ -119,14 +122,35 @@ body {
       top: 1.5em; }
     .song .song-bot {
       font-size: 1.3em;
-      text-align: left; }
+      text-align: left;
+      top: 3em; }
       .song .song-bot span {
         margin-right: 3em; } }
-.foot-mu {
+.foot-wrap .progress-bar {
+  height: .5em;
   width: 100%;
+  background-color: #98999a; }
+  .foot-wrap .progress-bar .filling-bar {
+    background-color: #d6d6d6; }
+.foot-wrap .default-bar {
+  width: 100%;
+  height: 5em;
   background-color: #1d1e1f;
-  margin-top: -5em; }
-  .foot-mu audio {
-    width: 100%; }
+  color: #98999a;
+  padding: 1.3em 1em; }
+  .foot-wrap .default-bar i, .foot-wrap .default-bar span {
+    font-size: 1.5em;
+    transition: .5s; }
+  .foot-wrap .default-bar i:hover {
+    color: #d6d6d6;
+    cursor: pointer; }
+  .foot-wrap .default-bar .foot-mu-btns, .foot-wrap .default-bar .foot-mu-info, .foot-wrap .default-bar .foot-mu-vol {
+    display: inline-block; }
+  .foot-wrap .default-bar .foot-mu-vol {
+    float: right;
+    margin-right: 5em;
+    cursor: pointer; }
+  .foot-wrap .default-bar .foot-mu-vol:hover {
+    color: #d6d6d6; }
 
 /*# sourceMappingURL=style.css.map */

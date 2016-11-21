@@ -7,10 +7,12 @@ export default class SLSong extends React.Component {
     return(
       <div className="song col-xs-12">
         <div className="so-img-wrap col-xs-12 col-md-3">
-          {this.props.sl_song}
+          {this.props.sl_img}
         </div>
         <div className="so-playbar col-md-8">
-          {wave_img}
+          <audio controls className="wave">
+            {this.props.sl_song}
+          </audio>
           <div className="song-bot col-md-12">
             <i className="fa fa-play"></i><span>5:53</span>
             <i className="fa fa-headphones"></i><span>958,985</span>

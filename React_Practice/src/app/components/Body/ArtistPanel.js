@@ -2,6 +2,8 @@ import React from "react";
 import Pan_image from "./ArtistPanel/Pan_image"
 import {Link} from "react-router";
 
+// link needs to be /Past_Projects/Band_stream/dist/index.html for live
+
 export default class ArtistPanel extends React.Component {
   render() {
     return (
