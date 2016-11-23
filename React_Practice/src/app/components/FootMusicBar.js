@@ -2,9 +2,10 @@ import React from "react";
 
 export default class FootMusicBar extends React.Component {
   render() {
+
     return(
       <div className="foot-mu">
-        <audio className="my-track">
+        <audio id="current-track">
           <source src="./app/audio/Nymphaeum-part1-2.mp3" type="audio/mp3"></source>
         </audio>
         <nav className="foot-wrap">

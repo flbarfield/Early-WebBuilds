@@ -21,9 +21,11 @@
       width: 100%;
       background-color: $a-color;
       .filling-bar {
-        // height: .5em;
+        position: absolute;
+        max-width: 56em;
+        width: 10%;
+        height: .5em;
         background-color: $h1-col;
-        // width: 50%;
       }
     }
 

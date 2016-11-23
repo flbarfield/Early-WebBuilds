@@ -85,15 +85,27 @@ body {
   height: 25em;
   text-align: center;
   background-color: #1d1e1f; }
+  .song .song-info {
+    position: relative;
+    top: 2em; }
+    .song .song-info h1 {
+      font-size: .7em;
+      margin: 0;
+      color: #98999a; }
+    .song .song-info h2 {
+      font-size: 1em;
+      margin: 0;
+      color: #d6d6d6; }
   .song .so_img {
     height: 50%;
     max-width: 100%;
     position: relative;
     top: 1.5em; }
-  .song .wave {
+  .song .audio-controls {
     width: 100%;
     position: relative;
-    top: 2.5em; }
+    top: 2.5em;
+    max-width: 19.2em; }
   .song .song-bot {
     text-align: center;
     color: #98999a;
@@ -111,19 +123,32 @@ body {
 @media (min-width: 992px) {
   .song {
     margin-bottom: 4em;
-    height: 15em;
-    text-align: center; }
+    height: 15em; }
+    .song .so-content-wrap {
+      position: relative;
+      left: 19%; }
     .song .so_img {
       height: 80%; }
-    .song .wave {
+    .song .song-info {
+      text-align: left; }
+      .song .song-info h1 {
+        font-size: 1em; }
+    .song .so-playbar {
+      text-align: left; }
+    .song .audio-controls {
       width: 100%;
+      min-width: 405px;
+      max-width: 405px;
       max-height: 6.5em;
       position: relative;
-      top: 1.5em; }
+      top: 5em;
+      right: 1em; }
     .song .song-bot {
       font-size: 1.3em;
       text-align: left;
-      top: 3em; }
+      top: 1.5em;
+      right: 1.5em;
+      white-space: nowrap; }
       .song .song-bot span {
         margin-right: 3em; } }
 .foot-wrap .default-bar {
@@ -143,6 +168,10 @@ body {
     width: 100%;
     background-color: #98999a; }
     .foot-wrap .default-bar .progress-bar .filling-bar {
+      position: absolute;
+      max-width: 56em;
+      width: 10%;
+      height: .5em;
       background-color: #d6d6d6; }
   .foot-wrap .default-bar .foot-mu-btns {
     text-align: center;
