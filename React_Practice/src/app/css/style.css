@@ -17,7 +17,7 @@ body {
 .header-elements .jumbotron {
   background-color: #1d1e1f;
   color: #d6d6d6;
-  margin: 0 0 -3em;
+  margin: 1.5em 0 -3em;
   text-align: left;
   padding-left: 2em; }
 .header-elements .head-img {
@@ -110,7 +110,8 @@ body {
     text-align: center;
     color: #98999a;
     font-size: 1em;
-    margin-top: 4.4em; }
+    margin-top: 4.4em;
+    white-space: nowrap; }
     .song .song-bot i {
       margin-right: .5em;
       transition: .3s; }
