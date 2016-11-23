@@ -8,17 +8,17 @@ import SLSong from "./SongList/SLSong";
 export default class SongList extends React.Component {
   render() {
     const so_img_list = [
-      <img className="so_img" src="./app/images/crazy_colors.jpg"/>,
-      <img className="so_img" src="./app/images/cyclops.jpg"/>,
-      <img className="so_img" src="./app/images/grumps.jpg"/>,
-      <img className="so_img" src="./app/images/masked_animals.jpg"/>
+      <img className="so_img" src="/Past_Projects/Band_stream/dist/app/images/crazy_colors.jpg"/>,
+      <img className="so_img" src="/Past_Projects/Band_stream/dist/app/images/cyclops.jpg"/>,
+      <img className="so_img" src="/Past_Projects/Band_stream/dist/app/images/grumps.jpg"/>,
+      <img className="so_img" src="/Past_Projects/Band_stream/dist/app/images/masked_animals.jpg"/>
     ]
 
     const so_audio_list = [
-      <source src="./app/audio/Nymphaeum-part1-2.mp3"></source>,
-      <source src="./app/audio/Extremes.mp3"></source>,
-      <source src="./app/audio/Stargazer.mp3"></source>,
-      <source src="./app/audio/theCalling.mp3"></source>
+      <source src="/Past_Projects/Band_stream/dist/app/audio/Nymphaeum-part1-2.mp3"></source>,
+      <source src="/Past_Projects/Band_stream/dist/app/audio/Extremes.mp3"></source>,
+      <source src="/Past_Projects/Band_stream/dist/app/audio/Stargazer.mp3"></source>,
+      <source src="/Past_Projects/Band_stream/dist/app/audio/theCalling.mp3"></source>
     ]
 
     return(
