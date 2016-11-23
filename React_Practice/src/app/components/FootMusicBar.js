@@ -1,8 +1,13 @@
 import React from "react";
 
-export default class FootMusicBar extends React.Component {
-  render() {
 
+
+export default class FootMusicBar extends React.Component {
+  onPlay() {
+    console.log("Clicked!");
+  }
+
+  render() {
     return(
       <div className="foot-mu">
         <audio id="current-track">
@@ -15,7 +20,7 @@ export default class FootMusicBar extends React.Component {
             </div>
             <div className="foot-mu-btns col-xs-12">
               <i className="fa fa-backward col-xs-4"></i>
-              <i className="fa fa-play col-xs-4"></i>
+              <i onClick={this._onPlay} className="fa fa-play col-xs-4"></i>
               <i className="fa fa-fast-forward col-xs-4"></i>
             </div>
             <div className="foot-mu-info col-xs-8">

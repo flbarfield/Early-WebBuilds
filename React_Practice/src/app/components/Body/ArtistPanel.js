@@ -9,7 +9,7 @@ export default class ArtistPanel extends React.Component {
     return (
       <div className="artist-panel col-xs-12 col-md-4">
         <div className="inner-artist-wrap col-xs-12">
-          <div className="mu-img-wrap col-xs-12"><Link to={"/songs"}>
+          <div className="mu-img-wrap col-xs-12"><Link to={"/Past_Projects/Band_stream/dist/index.html/songs"}>
             <Pan_image pan_image={this.props.pan_image}/>
           </Link></div>
           <div className="mu-info col-xs-12">
