@@ -16,10 +16,10 @@ export default class Layout extends React.Component {
 
     return (
       <Router history={browserHistory}>
-        <Route path={"/Past_Projects/Band_stream/dist/index.html"} component={Header}>
+        <Route path={"/"} component={Header}>
           <IndexRoute component={Body}/>
-          <Route path={"/Past_Projects/Band_stream/dist/index.html/foot-mu"} component={FootMusicBar}/>
-          <Route path={"/Past_Projects/Band_stream/dist/index.html/songs"} component={SongList}/>
+          <Route path={"/foot-mu"} component={FootMusicBar}/>
+          <Route path={"/songs"} component={SongList}/>
         </Route>
       </Router>
     );
