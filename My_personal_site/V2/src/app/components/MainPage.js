@@ -1,5 +1,6 @@
 import React from 'react';
 import WebImageProject from './MainPage/WebImageProject';
+import Footer from './Footer';
 
   // <WebImageProject topic="company" direction="left" imgSrc="./app/Images/company_SC.png"/>
 
@@ -49,6 +50,7 @@ const MainPage = () => (
         <a href='#' className='home-website'><img className='col-xs-12 col-sm-12 col-md-12' src='./app/Images/Home_SC.png'/></a>
       </div>
     </div>
+    <Footer/>
   </div>
 )
 

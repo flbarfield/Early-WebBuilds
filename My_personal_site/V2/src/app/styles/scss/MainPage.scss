@@ -33,3 +33,19 @@
 	background-color: #EBB000;
 	transition: .5s;
 }
+
+@media (min-width: 990px) {
+	.jumbotron-main {
+		margin-top: 4em;
+	}
+
+	.main-img-wrap {
+		width: 60%;
+		margin-bottom: 7em;
+	}
+
+	.page-heading {
+		margin-bottom: 2em;
+		font-size: 3em;
+	}
+}

@@ -27523,141 +27523,144 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Nav = function Nav() {
-	  return _react2.default.createElement(
-	    "div",
-	    null,
-	    _react2.default.createElement(
+	var Nav = _react2.default.createClass({
+	  displayName: "Nav",
+	  render: function render() {
+	    return _react2.default.createElement(
 	      "div",
 	      null,
 	      _react2.default.createElement(
-	        "nav",
-	        { className: "navbar navbar-inverse navbar-fixed-top" },
+	        "div",
+	        null,
 	        _react2.default.createElement(
-	          "div",
-	          { className: "container-fluid" },
+	          "nav",
+	          { className: "navbar navbar-inverse navbar-fixed-top" },
 	          _react2.default.createElement(
-	            "ul",
-	            { className: "nav navbar-nav" },
+	            "div",
+	            { className: "container-fluid" },
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "ul",
+	              { className: "nav navbar-nav" },
 	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: "/", activeClassName: "active" },
-	                "Home"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  _reactRouter.Link,
+	                  { to: "/", activeClassName: "active" },
+	                  "Home"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "a",
-	                { id: "project-link", href: "javascript:void(0)" },
-	                "Project List"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "li",
-	              null,
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { id: "project-link", href: "javascript:void(0)" },
+	                  "Project List"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "a",
-	                { href: "#project-info-aboutme" },
-	                "About Me"
+	                "li",
+	                null,
+	                _react2.default.createElement(
+	                  "a",
+	                  { href: "#project-info-aboutme" },
+	                  "About Me"
+	                )
 	              )
 	            )
 	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { id: "hidden-nav" },
-	        _react2.default.createElement(
-	          "a",
-	          { href: "javascriot:void(0)" },
-	          _react2.default.createElement("i", { className: "fa fa-close" })
 	        ),
 	        _react2.default.createElement(
 	          "div",
-	          { id: "nav-text" },
+	          { id: "hidden-nav" },
 	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Other Projects"
+	            "a",
+	            { href: "javascriot:void(0)" },
+	            _react2.default.createElement("i", { className: "fa fa-close" })
 	          ),
 	          _react2.default.createElement(
-	            "ul",
-	            null,
+	            "div",
+	            { id: "nav-text" },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "company" },
-	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Company Page (Layout/CSS centric practice)"
-	              )
+	              "h1",
+	              null,
+	              "Other Projects"
 	            ),
 	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "tsdc" },
+	              "ul",
+	              null,
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Swing Dance Club (AJAX/Video)"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "band" },
+	                "a",
+	                { href: "#", className: "company" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Company Page (Layout/CSS centric practice)"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Band Stream (React/webpack/Sass)"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "tourist" },
+	                "a",
+	                { href: "#", className: "tsdc" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Swing Dance Club (AJAX/Video)"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Travel Page (Intro to Interactivity)"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "fila" },
+	                "a",
+	                { href: "#", className: "band" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Band Stream (React/webpack/Sass)"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Intro to scroll based animation"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "home-website" },
+	                "a",
+	                { href: "#", className: "tourist" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Travel Page (Intro to Interactivity)"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Home and Furnishing (Intro to image manipulation)"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", className: "blog" },
+	                "a",
+	                { href: "#", className: "fila" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Intro to scroll based animation"
+	                )
+	              ),
 	              _react2.default.createElement(
-	                "li",
-	                null,
-	                "Blog Layout Practice"
+	                "a",
+	                { href: "#", className: "home-website" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Home and Furnishing (Intro to image manipulation)"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { href: "#", className: "blog" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  "Blog Layout Practice"
+	                )
 	              )
 	            )
 	          )
-	        )
-	      ),
-	      undefined.props.children
-	    )
-	  );
-	};
+	        ),
+	        this.props.children
+	      )
+	    );
+	  }
+	});
 	
 	exports.default = Nav;
 
