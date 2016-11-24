@@ -1,28 +1,28 @@
 import React from "react";
+import MuInfo from "./FootMusicBar/MuInfo";
 
 export default class FootMusicBar extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      footTimeDuration: "0:00",
+      footTime: "0:00 / ",
+      title: "N/A",
+      vol: "0"
+    };
+  }
 
-  onPlayOrPause(){
+  componentDidMount() {
     let currentTrack = document.getElementById("current-track");
+    let footDuration = document.getElementById("footTimeDuration");
 
-    if (!currentTrack.paused && !currentTrack.ended) {
-      currentTrack.pause();
-      currentTrack.classList.remove("fa-play");
-      currentTrack.classList.add("fa-pause");
-    } else {
-      currentTrack.play();
-      currentTrack.classList.remove("fa-pause");
-      currentTrack.classList.add("fa-play");
-    }
+    let totalTrackTime = (parseInt(currentTrack.duration/60) + ":" + parseInt(currentTrack.duration%60)).toString();
+
+    this.setState({
+      footTimeDuration: "0:00"
+    });
   }
 
-  soDuration() {
-    let duration = document.getElementById("footTimeDuration");
-  }
-
-  soTime() {
-    let time = document.getElementById("footTime");
-  }
 
   render() {
 
@@ -36,22 +36,7 @@ export default class FootMusicBar extends React.Component {
             <div className="progress-bar">
               <div className="filling-bar"></div>
             </div>
-            <div className="foot-mu-btns col-xs-12">
-              <i className="fa fa-backward col-xs-4"></i>
-              <i onClick={this.onPlayOrPause.bind(this)} className="fa fa-play col-xs-4"></i>
-              <i className="fa fa-fast-forward col-xs-4"></i>
-            </div>
-            <div className="foot-mu-info col-xs-8">
-              <div className="foot-time-info col-xs-8">
-                <span id="footTime" className="foot-time">0:00 /</span>
-                <span id="footTimeDuration" className="foot-time-duration"> 0:00</span>
-              </div>
-              <span className="foot-title col-xs-3">Title</span>
-            </div>
-            <div className="foot-mu-vol col-xs-3">
-              <span className="foot-vol-title">Vol: </span>
-              <span className="foot-vol">5</span>
-            </div>
+            <MuInfo footTime={this.state.footTime} footTimeDuration={this.state.footTimeDuration} title={this.state.title} vol={this.state.vol}/>
           </div>
         </nav>
       </div>
