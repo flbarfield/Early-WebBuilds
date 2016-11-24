@@ -1,0 +1,49 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+#hidden-nav {
+	width: 0;
+	position: fixed;
+	right: 0;
+	height: 100%;
+	z-index: 99;
+	background-color: $pri-col;
+	transition: .5s;
+	border-left-style: solid;
+	border-width: thin;
+	border-color: $pri-col;
+}
+
+#nav-text {
+	padding: 1em;
+}
+
+#hidden-nav ul {
+	list-style: none;
+	padding-left: 1em;
+	margin-top: 2em;
+}
+
+#hidden-nav li {
+	margin-bottom: 1.5em;
+}
+
+#hidden-nav .fa-close{
+	font-size: 2em;
+	padding: .3em .4em;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	color: $hov-col;
+	transition: .2s;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: $hov-col;
+	transition: .2s;
+}
