@@ -1,10 +1,16 @@
 import React from "react";
 import {Router, Route, browserHistory, IndexRoute} from "react-router";
+import Nav from "./Navbar";
+import MainPage from "./MainPage.js";
 
 export default class Layout extends React.Component {
   render() {
     return(
-      <h1>HI</h1>
+      <Router history={browserHistory}>
+        <Route path={"/"} component={Nav}>
+          <IndexRoute component={MainPage}/>
+        </Route>
+      </Router>
     );
   }
 }

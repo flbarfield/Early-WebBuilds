@@ -1,0 +1,48 @@
+$pri-col: rgb(34, 34, 34);
+$h1-col: rgb(155, 115, 0);
+$h1-ff: 'Permanent Marker', cursive;
+$h2-col: rgb(193,	193,193);
+$h2-ff: 'Open Sans', sans-serif;
+$hov-col: rgb(252, 232, 54);
+$p-col: rgb(193,	193,193);
+$i-hov: white;
+
+body {
+	background: $pri-col;
+}
+
+.jumbotron-main h1, h1 {
+	font-family: $h1-ff;
+	color: $h1-col;
+}
+
+h2, h3 {
+	font-family: $h2-ff;
+	font-size: 1.4em;
+	color: $h2-col;
+}
+
+a, i {
+	color: $h1-col;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $hov-col;
+}
+
+a:focus {
+	color: $hov-col;
+}
+
+p, li {
+	color: $p-col;
+}
+
+.important {
+		color: $h1-col;
+}
+
+@import "Nav";
+@import "MainPage";
+@import "Icons";
