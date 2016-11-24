@@ -22047,7 +22047,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  background: #222222; }\n\n.jumbotron-main h1, h1 {\n  font-family: \"Permanent Marker\", cursive;\n  color: #9b7300; }\n\nh2, h3 {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 1.4em;\n  color: #c1c1c1; }\n\na, i {\n  color: #9b7300; }\n\na:hover {\n  text-decoration: none;\n  color: #fce836; }\n\na:focus {\n  color: #fce836; }\n\np, li {\n  color: #c1c1c1; }\n\n.important {\n  color: #9b7300; }\n\n.navbar {\n  margin-bottom: 0; }\n\n.navbar li {\n  display: inline-block; }\n\n#hidden-nav {\n  width: 0;\n  position: fixed;\n  right: 0;\n  height: 100%;\n  z-index: 99;\n  background-color: #222222;\n  transition: .5s;\n  border-left-style: solid;\n  border-width: thin;\n  border-color: #222222; }\n\n#nav-text {\n  padding: 1em; }\n\n#hidden-nav ul {\n  list-style: none;\n  padding-left: 1em;\n  margin-top: 2em; }\n\n#hidden-nav li {\n  margin-bottom: 1.5em; }\n\n#hidden-nav .fa-close {\n  font-size: 2em;\n  padding: .3em .4em; }\n\n.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {\n  color: #fce836;\n  transition: .2s; }\n\n.navbar-header .navbar-toggle:hover {\n  background-color: #fce836;\n  transition: .2s; }\n\n.jumbotron-main {\n  background-color: #222222;\n  text-align: left;\n  padding-left: 2em;\n  margin-top: 3.5em;\n  margin-bottom: 0; }\n\n.page-heading {\n  padding: 1em 1em 1em;\n  white-space: nowrap;\n  color: black;\n  font-size: 2em;\n  color: #c1c1c1;\n  text-align: center; }\n\n.main-img-wrap {\n  width: 70%;\n  margin-bottom: 4em; }\n\n.right {\n  float: right; }\n\n.project-wrapper img {\n  padding: 1em;\n  background-color: #5e5e5e; }\n\n.project-wrapper img:hover {\n  background-color: #EBB000;\n  transition: .5s; }\n\n.fa-circle {\n  font-size: .4em;\n  position: relative;\n  bottom: .5em; }\n\n.fa-github, .fa-envelope {\n  font-size: 2.5em;\n  float: left; }\n\n.fa-github {\n  margin: 0 .5em 1em 0; }\n\n.fa-envelope {\n  margin-right: .5em;\n  margin-bottom: 10%; }\n\n.fa-github:hover, .fa-envelope:hover {\n  color: white;\n  transition: .2s; }\n", ""]);
+	exports.push([module.id, "body {\n  background: #222222; }\n\n.jumbotron-main h1, h1 {\n  font-family: \"Permanent Marker\", cursive;\n  color: #9b7300; }\n\nh2, h3 {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 1.4em;\n  color: #c1c1c1; }\n\na, i {\n  color: #9b7300; }\n\na:hover {\n  text-decoration: none;\n  color: #fce836; }\n\na:focus {\n  color: #fce836; }\n\np, li {\n  color: #c1c1c1; }\n\n.important {\n  color: #9b7300; }\n\n.navbar {\n  margin-bottom: 0; }\n\n.navbar li {\n  display: inline-block; }\n\n#hidden-nav {\n  width: 0;\n  position: fixed;\n  right: 0;\n  height: 100%;\n  z-index: 99;\n  background-color: #222222;\n  transition: .5s;\n  border-left-style: solid;\n  border-width: thin;\n  border-color: #222222; }\n\n#nav-text {\n  padding: 1em; }\n\n#hidden-nav ul {\n  list-style: none;\n  padding-left: 1em;\n  margin-top: 2em; }\n\n#hidden-nav li {\n  margin-bottom: 1.5em; }\n\n#hidden-nav .fa-close {\n  font-size: 2em;\n  padding: .3em .4em; }\n\n.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {\n  color: #fce836;\n  transition: .2s; }\n\n.navbar-header .navbar-toggle:hover {\n  background-color: #fce836;\n  transition: .2s; }\n\n.jumbotron-main {\n  background-color: #222222;\n  text-align: left;\n  padding-left: 2em;\n  margin-top: 3.5em;\n  margin-bottom: 0; }\n\n.page-heading {\n  padding: 1em 1em 1em;\n  white-space: nowrap;\n  color: black;\n  font-size: 2em;\n  color: #c1c1c1;\n  text-align: center; }\n\n.main-img-wrap {\n  width: 70%;\n  margin-bottom: 4em; }\n\n.right {\n  float: right; }\n\n.project-wrapper img {\n  padding: 1em;\n  background-color: #5e5e5e; }\n\n.project-wrapper img:hover {\n  background-color: #EBB000;\n  transition: .5s; }\n\n@media (min-width: 990px) {\n  .jumbotron-main {\n    margin-top: 4em; }\n  .main-img-wrap {\n    width: 60%;\n    margin-bottom: 7em; }\n  .page-heading {\n    margin-bottom: 2em;\n    font-size: 3em; } }\n\n.fa-circle {\n  font-size: .4em;\n  position: relative;\n  bottom: .5em; }\n\n.fa-github, .fa-envelope {\n  font-size: 2.5em;\n  float: left; }\n\n.fa-github {\n  margin: 0 .5em 1em 0; }\n\n.fa-envelope {\n  margin-right: .5em;\n  margin-bottom: 10%; }\n\n.fa-github:hover, .fa-envelope:hover {\n  color: white;\n  transition: .2s; }\n\n.project-info-about {\n  background-color: #585858;\n  padding-top: 2em;\n  padding-bottom: 1em; }\n\n.project-info-about p {\n  max-width: 45em;\n  margin: 0 auto 1em; }\n\n.project-info-links {\n  background-color: #222222;\n  padding-top: 2em; }\n\n/*My photo*/\n.ricky {\n  height: 8em;\n  float: left;\n  margin-right: 1em;\n  margin-bottom: .5em; }\n\n.project-info-content {\n  color: white;\n  padding-top: 3em;\n  padding-bottom: 4em; }\n\n.proj-pic-wrapper img {\n  padding-bottom: 2em;\n  width: 100%; }\n\n.mobile-clicky {\n  text-align: center;\n  font-size: 3em;\n  margin-bottom: 2em; }\n\n.project-info p {\n  font-size: 1.2em; }\n\n.explaination-list {\n  padding-left: 1em; }\n\n.explaination-list li {\n  font-size: 1.2em;\n  margin-bottom: 1em; }\n\n.other-projects {\n  padding-bottom: 2em; }\n\n.other-projects ul {\n  list-style-type: none;\n  padding: 0;\n  font-size: 1.2em; }\n\n.other-projects a:hover {\n  text-decoration: none; }\n", ""]);
 	
 	// exports
 
@@ -27685,6 +27685,10 @@
 	
 	var _WebImageProject2 = _interopRequireDefault(_WebImageProject);
 	
+	var _Footer = __webpack_require__(/*! ./Footer */ 241);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	// <WebImageProject topic="company" direction="left" imgSrc="./app/Images/company_SC.png"/>
@@ -27815,7 +27819,8 @@
 	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Home_SC.png' })
 	        )
 	      )
-	    )
+	    ),
+	    _react2.default.createElement(_Footer2.default, null)
 	  );
 	};
 	
@@ -27860,6 +27865,84 @@
 	};
 	
 	exports.default = WebImageProject;
+
+/***/ },
+/* 241 */
+/*!**************************************!*\
+  !*** ./src/app/components/Footer.js ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Footer = function Footer() {
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'footer',
+	      { className: 'project-info-footer' },
+	      _react2.default.createElement(
+	        'div',
+	        { id: 'project-info-aboutme', className: 'project-info-about col-xs-12 col-md-6' },
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          _react2.default.createElement('img', { className: 'ricky', src: './app/Images/Ricky.jpg' }),
+	          'Fredrick is a passionate Self-Starter that has learned a variety of different IT technologies from HTML and Javascript to Python through textbook, documentation, and experimental programming on his own free time. ',
+	          _react2.default.createElement('br', null),
+	          ' ',
+	          _react2.default.createElement('br', null),
+	          ' Previous years of work within the hospitality industry also gives him exceptional skills at quickly adapting to a client\'s needs as well as instilling the idea that communication should be of utmost priority within any project. '
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'project-info-links col-xs-12 col-md-6' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'git-wrapper col-xs-6' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/flbarfield' },
+	            _react2.default.createElement('i', { className: 'fa fa-github' })
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            '@flbarfield on GitHub'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'mail-wrapper col-xs-6' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'mailto:flbarfield@yahoo.com' },
+	            _react2.default.createElement('i', { className: 'fa fa-envelope' })
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'Message Fredrick'
+	          )
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);
