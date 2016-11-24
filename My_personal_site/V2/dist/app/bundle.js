@@ -22047,7 +22047,7 @@
 	
 	
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, "body {\n  background: #222222; }\n\n.jumbotron-main h1, h1 {\n  font-family: \"Permanent Marker\", cursive;\n  color: #9b7300; }\n\nh2, h3 {\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 1.4em;\n  color: #c1c1c1; }\n\na, i {\n  color: #9b7300; }\n\na:hover {\n  text-decoration: none;\n  color: #fce836; }\n\na:focus {\n  color: #fce836; }\n\np, li {\n  color: #c1c1c1; }\n\n.important {\n  color: #9b7300; }\n\n.navbar {\n  margin-bottom: 0; }\n\n.navbar li {\n  display: inline-block; }\n\n#hidden-nav {\n  width: 0;\n  position: fixed;\n  right: 0;\n  height: 100%;\n  z-index: 99;\n  background-color: #222222;\n  transition: .5s;\n  border-left-style: solid;\n  border-width: thin;\n  border-color: #222222; }\n\n#nav-text {\n  padding: 1em; }\n\n#hidden-nav ul {\n  list-style: none;\n  padding-left: 1em;\n  margin-top: 2em; }\n\n#hidden-nav li {\n  margin-bottom: 1.5em; }\n\n#hidden-nav .fa-close {\n  font-size: 2em;\n  padding: .3em .4em; }\n\n.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {\n  color: #fce836;\n  transition: .2s; }\n\n.navbar-header .navbar-toggle:hover {\n  background-color: #fce836;\n  transition: .2s; }\n\n.jumbotron-main {\n  background-color: #222222;\n  text-align: left;\n  padding-left: 2em;\n  margin-top: 3.5em;\n  margin-bottom: 0; }\n\n.page-heading {\n  padding: 1em 1em 1em;\n  white-space: nowrap;\n  color: black;\n  font-size: 2em;\n  color: #c1c1c1;\n  text-align: center; }\n\n.main-img-wrap {\n  width: 70%;\n  margin-bottom: 4em; }\n\n.right {\n  float: right; }\n\n.project-wrapper img {\n  padding: 1em;\n  background-color: #5e5e5e; }\n\n.project-wrapper img:hover {\n  background-color: #EBB000;\n  transition: .5s; }\n\n.fa-circle {\n  font-size: .4em;\n  position: relative;\n  bottom: .5em; }\n\n.fa-github, .fa-envelope {\n  font-size: 2.5em;\n  float: left; }\n\n.fa-github {\n  margin: 0 .5em 1em 0; }\n\n.fa-envelope {\n  margin-right: .5em;\n  margin-bottom: 10%; }\n\n.fa-github:hover, .fa-envelope:hover {\n  color: white;\n  transition: .2s; }\n", ""]);
 	
 	// exports
 
@@ -22387,6 +22387,14 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 183);
 	
+	var _Navbar = __webpack_require__(/*! ./Navbar */ 238);
+	
+	var _Navbar2 = _interopRequireDefault(_Navbar);
+	
+	var _MainPage = __webpack_require__(/*! ./MainPage.js */ 239);
+	
+	var _MainPage2 = _interopRequireDefault(_MainPage);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22408,9 +22416,13 @@
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "h1",
-	        null,
-	        "HI"
+	        _reactRouter.Router,
+	        { history: _reactRouter.browserHistory },
+	        _react2.default.createElement(
+	          _reactRouter.Route,
+	          { path: "/", component: _Navbar2.default },
+	          _react2.default.createElement(_reactRouter.IndexRoute, { component: _MainPage2.default })
+	        )
 	      );
 	    }
 	  }]);
@@ -27489,6 +27501,362 @@
 	  });
 	};
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./~/process/browser.js */ 3)))
+
+/***/ },
+/* 238 */
+/*!**************************************!*\
+  !*** ./src/app/components/Navbar.js ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 183);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Nav = function Nav() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "div",
+	      null,
+	      _react2.default.createElement(
+	        "nav",
+	        { className: "navbar navbar-inverse navbar-fixed-top" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "container-fluid" },
+	          _react2.default.createElement(
+	            "ul",
+	            { className: "nav navbar-nav" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: "/", activeClassName: "active" },
+	                "Home"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                "a",
+	                { id: "project-link", href: "javascript:void(0)" },
+	                "Project List"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                "a",
+	                { href: "#project-info-aboutme" },
+	                "About Me"
+	              )
+	            )
+	          )
+	        )
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { id: "hidden-nav" },
+	        _react2.default.createElement(
+	          "a",
+	          { href: "javascriot:void(0)" },
+	          _react2.default.createElement("i", { className: "fa fa-close" })
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { id: "nav-text" },
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "Other Projects"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "company" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Company Page (Layout/CSS centric practice)"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "tsdc" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Swing Dance Club (AJAX/Video)"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "band" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Band Stream (React/webpack/Sass)"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "tourist" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Travel Page (Intro to Interactivity)"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "fila" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Intro to scroll based animation"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "home-website" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Home and Furnishing (Intro to image manipulation)"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", className: "blog" },
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Blog Layout Practice"
+	              )
+	            )
+	          )
+	        )
+	      ),
+	      undefined.props.children
+	    )
+	  );
+	};
+	
+	exports.default = Nav;
+
+/***/ },
+/* 239 */
+/*!****************************************!*\
+  !*** ./src/app/components/MainPage.js ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _WebImageProject = __webpack_require__(/*! ./MainPage/WebImageProject */ 240);
+	
+	var _WebImageProject2 = _interopRequireDefault(_WebImageProject);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	// <WebImageProject topic="company" direction="left" imgSrc="./app/Images/company_SC.png"/>
+	
+	var MainPage = function MainPage() {
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'jumbotron jumbotron-main' },
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Fredrick Barfield'
+	        ),
+	        _react2.default.createElement(
+	          'h2',
+	          null,
+	          'Front End Web Development'
+	        ),
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'HTML ',
+	          _react2.default.createElement('span', { className: 'fa fa-circle' }),
+	          ' CSS ',
+	          _react2.default.createElement('span', { className: 'fa fa-circle' }),
+	          ' JavaScript'
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'h1',
+	      { className: 'page-heading' },
+	      'Project Examples'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'company' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/company_SC.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12 right' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'tsdc' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/TSDC_SC.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'band' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Bandstream.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12 right' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'tourist' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Travel_SC.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'fila' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Fila_SC.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12 right' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'blog' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Blog_SC.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'project-wrapper' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'main-img-wrap col-xs-12 col-sm-12 col-md-12' },
+	        _react2.default.createElement(
+	          'a',
+	          { href: '#', className: 'home-website' },
+	          _react2.default.createElement('img', { className: 'col-xs-12 col-sm-12 col-md-12', src: './app/Images/Home_SC.png' })
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = MainPage;
+
+/***/ },
+/* 240 */
+/*!********************************************************!*\
+  !*** ./src/app/components/MainPage/WebImageProject.js ***!
+  \********************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var WebImageProject = function WebImageProject(_ref) {
+	  var topic = _ref.topic,
+	      direction = _ref.direction,
+	      imageSrc = _ref.imageSrc;
+	  return _react2.default.createElement(
+	    'div',
+	    { 'class': 'project-wrapper' },
+	    _react2.default.createElement(
+	      'div',
+	      { 'class': 'main-img-wrap col-xs-12 col-sm-12 col-md-12' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: '#', 'class': undefined.props.topic },
+	        _react2.default.createElement('img', { 'class': 'col-xs-12 col-sm-12 col-md-12 {this.props.direction}', src: undefined.props.imageSrc })
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = WebImageProject;
 
 /***/ }
 /******/ ]);
