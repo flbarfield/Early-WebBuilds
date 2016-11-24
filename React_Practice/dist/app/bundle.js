@@ -27839,10 +27839,6 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _jquery = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"jquery\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-	
-	var _jquery2 = _interopRequireDefault(_jquery);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27864,9 +27860,26 @@
 	    key: "onPlayOrPause",
 	    value: function onPlayOrPause() {
 	      var currentTrack = document.getElementById("current-track");
-	      currentTrack.play();
-	      this.removeClass("fa-play");
-	      this.addClass("fa-pause");
+	
+	      if (!currentTrack.paused && !currentTrack.ended) {
+	        currentTrack.pause();
+	        currentTrack.classList.remove("fa-play");
+	        currentTrack.classList.add("fa-pause");
+	      } else {
+	        currentTrack.play();
+	        currentTrack.classList.remove("fa-pause");
+	        currentTrack.classList.add("fa-play");
+	      }
+	    }
+	  }, {
+	    key: "soDuration",
+	    value: function soDuration() {
+	      var duration = document.getElementById("footTimeDuration");
+	    }
+	  }, {
+	    key: "soTime",
+	    value: function soTime() {
+	      var time = document.getElementById("footTime");
 	    }
 	  }, {
 	    key: "render",
@@ -27906,12 +27919,12 @@
 	                { className: "foot-time-info col-xs-8" },
 	                _react2.default.createElement(
 	                  "span",
-	                  { className: "foot-time" },
+	                  { id: "footTime", className: "foot-time" },
 	                  "0:00 /"
 	                ),
 	                _react2.default.createElement(
 	                  "span",
-	                  { className: "foot-time-duration" },
+	                  { id: "footTimeDuration", className: "foot-time-duration" },
 	                  " 0:00"
 	                )
 	              ),
