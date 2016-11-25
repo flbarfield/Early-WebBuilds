@@ -1,3 +1,4 @@
+import AboutProj from "./AboutProj";
 import allReducers from "../reducers/reIndex";
 import {createStore} from "redux";
 import MainPage from "./MainPage.js";
@@ -14,6 +15,7 @@ const Layout = () => (
     <Router history={browserHistory}>
       <Route path={"/"} component={Nav}>
         <IndexRoute component={MainPage}/>
+        <Route path={"/about"} component={AboutProj}/>
       </Route>
     </Router>
   </Provider>
