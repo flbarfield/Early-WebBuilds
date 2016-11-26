@@ -1,4 +1,4 @@
-import AboutProj from "./AboutProj";
+import AboutProj from "../containers/AboutProj";
 import allReducers from "../reducers/reIndex";
 import {createStore} from "redux";
 import MainPage from "./MainPage.js";
