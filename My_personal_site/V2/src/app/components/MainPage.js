@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutProj from "../containers/AboutProj";
 import WebImageProjectList from '../containers/WebImageProject';
 import Footer from './Footer';
 
@@ -15,6 +16,7 @@ const MainPage = () => (
     </div>
     <h1 className='page-heading'>Project Examples</h1>
     <WebImageProjectList/>
+    <AboutProj/>
     <Footer/>
   </div>
 )

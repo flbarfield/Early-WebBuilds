@@ -1,10 +1,10 @@
 import {combineReducers} from "redux";
 import ProjectListReducer from "./ProjectList";
-import AboutProj from "./AboutList";
+import ActiveProj from "./ActiveProj";
 
 const allReducers = combineReducers({
   projList: ProjectListReducer,
-  aboutProj: AboutProj
+  activeProj: ActiveProj
 });
 
 export default allReducers;
