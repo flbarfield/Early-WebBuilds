@@ -10,8 +10,8 @@ export default class Layout extends React.Component {
     return (
       <Router history={browserHistory}>
         <Route path={"/"} component={Root}/>
-        <Route path={"./machine"} component={Machine}/>
-        <Route path={"./twoplayers"} component={TwoP}/>
+        <Route path={"/machine"} component={Machine}/>
+        <Route path={"/twoplayers"} component={TwoP}/>
       </Router>
     );
   }
