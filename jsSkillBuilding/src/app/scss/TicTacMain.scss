@@ -1,23 +1,33 @@
-.mainPageContainer {
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  background-color: $box-col;
-  padding-bottom: 2em;
-  h1 {
-    font-size: 4em;
-  }
-  .machine {
-    margin: 2em 0 2em;
-    font-size: 1em;
-    &:hover{
-      color: $highlights;
+.ticMain {
+  background-color: $back-color;
+  height: 100%;
+  position: relative;
+  .mainPageContainer {
+    background-color: $box-col;
+    max-width: 30em;
+    margin: 0 auto;
+    padding: 2em 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    h1 {
+      font-size: 4em;
     }
-  }
-  .human {
-    font-size: 1.3em;
-    &:hover{
-      color:$highlights;
+    .machine {
+      margin: 2em 0 2em;
+      font-size: 1em;
+      &:hover{
+        color: $highlights;
+      }
+    }
+    .human {
+      font-size: 1.3em;
+      &:hover{
+        color:$highlights;
+      }
     }
   }
 }
