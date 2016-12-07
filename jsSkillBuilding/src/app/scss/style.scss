@@ -1,0 +1,26 @@
+///// For Welcome/////
+$w-prime: 5D6CC5;
+$w-sec: FF5519;
+$w-third: 0025FF;
+$w-fourth: 62CC14;
+$w-fifth: 51B209;
+
+////// For TicTac /////
+$back-color: 5DC5A3;
+$highlights: D819FF;
+$sec-col: CC9914;
+$box-col: lightgrey;
+$mac-font: "Press Start 2P", cursive;
+$hu-font: 'Waiting for the Sunrise', cursive;
+$o-font: 'Open Sans', sans-serif;
+
+.human {font-family: $hu-font}
+.machine {font-family: $mac-font}
+p, h1, h2 {font-family: $o-font}
+
+body {
+  margin-top: 3.5em;
+}
+
+@import "Welcome";
+@import "TicTacMain";
