@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  padding: 1em;\n  height: 18em; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1; }\n  .welcomePage .ticTac h2 {\n    bottom: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9; }\n\n.mainPageContainer {\n  text-align: center;\n  position: absolute;\n  top: 25%;\n  background-color: lightgrey;\n  padding-bottom: 2em; }\n  .mainPageContainer h1 {\n    font-size: 4em; }\n  .mainPageContainer .machine {\n    margin: 2em 0 2em;\n    font-size: 1em; }\n    .mainPageContainer .machine:hover {\n      color: D819FF; }\n  .mainPageContainer .human {\n    font-size: 1.3em; }\n    .mainPageContainer .human:hover {\n      color: D819FF; }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n.mainPageContainer {\n  text-align: center;\n  position: absolute;\n  top: 25%;\n  background-color: lightgrey;\n  padding-bottom: 2em; }\n  .mainPageContainer h1 {\n    font-size: 4em; }\n  .mainPageContainer .machine {\n    margin: 2em 0 2em;\n    font-size: 1em; }\n    .mainPageContainer .machine:hover {\n      color: D819FF; }\n  .mainPageContainer .human {\n    font-size: 1.3em; }\n    .mainPageContainer .human:hover {\n      color: D819FF; }\n", ""]);
 	
 	// exports
 
@@ -22396,7 +22396,11 @@
 	
 	var _Root2 = _interopRequireDefault(_Root);
 	
-	var _TwoP = __webpack_require__(/*! ./TwoP.js */ 243);
+	var _TicTac = __webpack_require__(/*! ../components/TicTac.js */ 243);
+	
+	var _TicTac2 = _interopRequireDefault(_TicTac);
+	
+	var _TwoP = __webpack_require__(/*! ./TwoP.js */ 244);
 	
 	var _TwoP2 = _interopRequireDefault(_TwoP);
 	
@@ -22425,6 +22429,7 @@
 	        _reactRouter.Router,
 	        { history: _reactRouter.browserHistory },
 	        _react2.default.createElement(_reactRouter.Route, { path: "/", component: _Root2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: "/ticTacToe", component: _TicTac2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/machine", component: _Machine2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/twoplayers", component: _TwoP2.default })
 	      );
@@ -27577,7 +27582,7 @@
 	
 	var _Welcome2 = _interopRequireDefault(_Welcome);
 	
-	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 242);
+	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 243);
 	
 	var _TicTac2 = _interopRequireDefault(_TicTac);
 	
@@ -27625,11 +27630,17 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
+	var _Footer = __webpack_require__(/*! ../components/Footer.js */ 241);
+	
+	var _Footer2 = _interopRequireDefault(_Footer);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 184);
+	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _NavBar = __webpack_require__(/*! ../components/NavBar.js */ 241);
+	var _NavBar = __webpack_require__(/*! ../components/NavBar.js */ 242);
 	
 	var _NavBar2 = _interopRequireDefault(_NavBar);
 	
@@ -27672,20 +27683,25 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          "div",
-	          { className: "ticTac welProject" },
+	          _reactRouter.Link,
+	          { to: "/ticTacToe" },
 	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Tic Tac Toe"
-	          ),
-	          _react2.default.createElement(
-	            "h2",
-	            null,
-	            "Play against the AI or with a friend!"
-	          ),
-	          _react2.default.createElement("div", { className: "welOverlay" })
-	        )
+	            "div",
+	            { className: "ticTac welProject" },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              "Tic Tac Toe"
+	            ),
+	            _react2.default.createElement(
+	              "h2",
+	              null,
+	              "Play against the AI or with a friend!"
+	            ),
+	            _react2.default.createElement("div", { className: "welOverlay" })
+	          )
+	        ),
+	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
 	  }]);
@@ -27697,6 +27713,67 @@
 
 /***/ },
 /* 241 */
+/*!**************************************!*\
+  !*** ./src/app/components/Footer.js ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Footer = function (_React$Component) {
+	  _inherits(Footer, _React$Component);
+	
+	  function Footer() {
+	    _classCallCheck(this, Footer);
+	
+	    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+	  }
+	
+	  _createClass(Footer, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "welFooter" },
+	        _react2.default.createElement(
+	          "h1",
+	          null,
+	          "Lorem ipsum"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet enim eget justo ornare, non laoreet libero pellentesque. Praesent diam odio, dictum non porta sodales, bibendum et lacus. Curabitur diam lacus, pretium eu ipsum vitae, mollis rhoncus elit. In semper id urna vestibulum blandit. Suspendisse luctus dui nisi, quis sagittis lorem accumsan sit amet. Vivamus sed nibh sodales, rhoncus lectus sit amet, semper odio. Vivamus quis nulla vitae tortor lacinia pharetra. Duis ipsum nisl, lobortis eu vulputate faucibus, blandit id purus. Phasellus sapien nulla, ullamcorper at vehicula quis, malesuada nec quam. In eros nisl, varius sed mollis non, consectetur laoreet eros. Aliquam purus ipsum, posuere non risus vel, tempus auctor tortor. Pellentesque pellentesque eget risus quis euismod."
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Footer;
+	}(_react2.default.Component);
+	
+	exports.default = Footer;
+
+/***/ },
+/* 242 */
 /*!**************************************!*\
   !*** ./src/app/components/NavBar.js ***!
   \**************************************/
@@ -27932,7 +28009,7 @@
 	exports.default = NavBar;
 
 /***/ },
-/* 242 */
+/* 243 */
 /*!**************************************!*\
   !*** ./src/app/components/TicTac.js ***!
   \**************************************/
@@ -28012,7 +28089,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 243 */
+/* 244 */
 /*!************************************!*\
   !*** ./src/app/components/TwoP.js ***!
   \************************************/
