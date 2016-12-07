@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  background-color: 5DC5A3; }\n\n.mainPageContainer {\n  text-align: center;\n  position: absolute;\n  top: 25%;\n  background-color: lightgrey;\n  padding-bottom: 2em; }\n  .mainPageContainer h1 {\n    font-size: 4em; }\n  .mainPageContainer .machine {\n    margin: 2em 0 2em;\n    font-size: 1em; }\n    .mainPageContainer .machine:hover {\n      color: D819FF; }\n  .mainPageContainer .human {\n    font-size: 1.3em; }\n    .mainPageContainer .human:hover {\n      color: D819FF; }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  padding: 1em;\n  height: 18em; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1; }\n  .welcomePage .ticTac h2 {\n    bottom: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9; }\n\n.mainPageContainer {\n  text-align: center;\n  position: absolute;\n  top: 25%;\n  background-color: lightgrey;\n  padding-bottom: 2em; }\n  .mainPageContainer h1 {\n    font-size: 4em; }\n  .mainPageContainer .machine {\n    margin: 2em 0 2em;\n    font-size: 1em; }\n    .mainPageContainer .machine:hover {\n      color: D819FF; }\n  .mainPageContainer .human {\n    font-size: 1.3em; }\n    .mainPageContainer .human:hover {\n      color: D819FF; }\n", ""]);
 	
 	// exports
 
@@ -22396,7 +22396,7 @@
 	
 	var _Root2 = _interopRequireDefault(_Root);
 	
-	var _TwoP = __webpack_require__(/*! ./TwoP.js */ 241);
+	var _TwoP = __webpack_require__(/*! ./TwoP.js */ 243);
 	
 	var _TwoP2 = _interopRequireDefault(_TwoP);
 	
@@ -27573,11 +27573,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Welcome = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \".components/Welcome\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _Welcome = __webpack_require__(/*! ../containers/Welcome.js */ 240);
 	
 	var _Welcome2 = _interopRequireDefault(_Welcome);
 	
-	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 240);
+	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 242);
 	
 	var _TicTac2 = _interopRequireDefault(_TicTac);
 	
@@ -27612,6 +27612,327 @@
 
 /***/ },
 /* 240 */
+/*!***************************************!*\
+  !*** ./src/app/containers/Welcome.js ***!
+  \***************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _NavBar = __webpack_require__(/*! ../components/NavBar.js */ 241);
+	
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Welcome = function (_React$Component) {
+	  _inherits(Welcome, _React$Component);
+	
+	  function Welcome() {
+	    _classCallCheck(this, Welcome);
+	
+	    return _possibleConstructorReturn(this, (Welcome.__proto__ || Object.getPrototypeOf(Welcome)).apply(this, arguments));
+	  }
+	
+	  _createClass(Welcome, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "welcomePage" },
+	        _react2.default.createElement(_NavBar2.default, null),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "welIntro" },
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "Welcome!"
+	          ),
+	          _react2.default.createElement(
+	            "h2",
+	            { className: "welAbout" },
+	            "This is an application where I plan to showcase miniature projects that I've created specifically for the purpose of brushing up on my Javascript skills. No jQuery at all was used in the production of this page!"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "ticTac welProject" },
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "Tic Tac Toe"
+	          ),
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Play against the AI or with a friend!"
+	          ),
+	          _react2.default.createElement("div", { className: "welOverlay" })
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Welcome;
+	}(_react2.default.Component);
+	
+	exports.default = Welcome;
+
+/***/ },
+/* 241 */
+/*!**************************************!*\
+  !*** ./src/app/components/NavBar.js ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var NavBar = function (_React$Component) {
+	  _inherits(NavBar, _React$Component);
+	
+	  function NavBar() {
+	    _classCallCheck(this, NavBar);
+	
+	    return _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).apply(this, arguments));
+	  }
+	
+	  _createClass(NavBar, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "nav",
+	          { className: "navbar navbar-default navbar-fixed-top" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-fluid" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "navbar-header" },
+	              _react2.default.createElement(
+	                "button",
+	                { type: "button", className: "navbar-toggle collapsed", "data-toggle": "collapse", "data-target": "#bs-example-navbar-collapse-1", "aria-expanded": "false" },
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "sr-only" },
+	                  "Toggle navigation"
+	                ),
+	                _react2.default.createElement("span", { className: "icon-bar" }),
+	                _react2.default.createElement("span", { className: "icon-bar" }),
+	                _react2.default.createElement("span", { className: "icon-bar" })
+	              ),
+	              _react2.default.createElement(
+	                "a",
+	                { className: "navbar-brand", href: "#" },
+	                "JS practice!"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "collapse navbar-collapse", id: "bs-example-navbar-collapse-1" },
+	              _react2.default.createElement(
+	                "ul",
+	                { className: "nav navbar-nav" },
+	                _react2.default.createElement(
+	                  "li",
+	                  { className: "active" },
+	                  _react2.default.createElement(
+	                    "a",
+	                    { href: "#" },
+	                    "Link ",
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "sr-only" },
+	                      "(current)"
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  _react2.default.createElement(
+	                    "a",
+	                    { href: "#" },
+	                    "Link"
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  { className: "dropdown" },
+	                  _react2.default.createElement(
+	                    "a",
+	                    { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+	                    "Dropdown ",
+	                    _react2.default.createElement("span", { className: "caret" })
+	                  ),
+	                  _react2.default.createElement(
+	                    "ul",
+	                    { className: "dropdown-menu" },
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Action"
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Another action"
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Something else here"
+	                      )
+	                    ),
+	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Separated link"
+	                      )
+	                    ),
+	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "One more separated link"
+	                      )
+	                    )
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "ul",
+	                { className: "nav navbar-nav navbar-right" },
+	                _react2.default.createElement(
+	                  "li",
+	                  null,
+	                  _react2.default.createElement(
+	                    "a",
+	                    { href: "#" },
+	                    "Link"
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  "li",
+	                  { className: "dropdown" },
+	                  _react2.default.createElement(
+	                    "a",
+	                    { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
+	                    "Dropdown ",
+	                    _react2.default.createElement("span", { className: "caret" })
+	                  ),
+	                  _react2.default.createElement(
+	                    "ul",
+	                    { className: "dropdown-menu" },
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Action"
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Another action"
+	                      )
+	                    ),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Something else here"
+	                      )
+	                    ),
+	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
+	                    _react2.default.createElement(
+	                      "li",
+	                      null,
+	                      _react2.default.createElement(
+	                        "a",
+	                        { href: "#" },
+	                        "Separated link"
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return NavBar;
+	}(_react2.default.Component);
+	
+	exports.default = NavBar;
+
+/***/ },
+/* 242 */
 /*!**************************************!*\
   !*** ./src/app/components/TicTac.js ***!
   \**************************************/
@@ -27691,7 +28012,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 241 */
+/* 243 */
 /*!************************************!*\
   !*** ./src/app/components/TwoP.js ***!
   \************************************/

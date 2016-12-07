@@ -14,24 +14,50 @@
   }
 
   .ticTac {
+    color: black;
+    cursor: pointer;
     background-image: url("/app/images/ticTacToe.png");
     background-position: center;
     background-size: cover;
     background-origin:content-box;
     background-repeat: no-repeat;
-    padding: 1em;
     height: 18em;
+    position: relative;
+    transition: .2s;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
       h1, h2 {
         position: absolute;
         z-index: 1;
+        padding: 0 .5em;
       }
       h2 {
-        bottom: 5em;
+        top: 5em;
       }
     .welOverlay {
       background-color: $w-fourth;
       height: 18em;
       opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  .welFooter {
+    background-color: $w-prime;
+    padding: 1em;
+    color: white;
+    h1 {
+      border-bottom-style: solid;
+      padding-bottom: .5em;
+    }
+    p {
+      padding-top: 1em;
     }
   }
 }
