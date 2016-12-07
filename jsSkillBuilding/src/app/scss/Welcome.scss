@@ -1,0 +1,37 @@
+.welcomePage {
+  .welIntro {
+    background-color: $w-prime;
+    padding: 1em 1em 2em;
+    color: white;
+    h1 {
+      padding-bottom: .5em;
+      border-bottom-style: solid;
+      border-bottom-color: white;
+    }
+    .welAbout {
+      font-size: 1em;
+    }
+  }
+
+  .ticTac {
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    padding: 1em;
+    height: 18em;
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+      }
+      h2 {
+        bottom: 5em;
+      }
+    .welOverlay {
+      background-color: $w-fourth;
+      height: 18em;
+      opacity: .9;
+    }
+  }
+}
