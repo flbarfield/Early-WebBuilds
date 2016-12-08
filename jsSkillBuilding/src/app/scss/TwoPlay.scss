@@ -10,8 +10,12 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 25em;
+    height: 27em;
     text-align: center;
+    .playerTurn {
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
     .row {
       font-size: 2em;
       color: $highlights;

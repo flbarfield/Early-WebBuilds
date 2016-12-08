@@ -4,6 +4,9 @@
   background-size: cover;
   height: 100%;
   position: relative;
+  .playerTurn {
+    display:none;
+  }
   .ticPlayArea {
     background-color: rgba(220,220,220,.8);
     position: absolute;
