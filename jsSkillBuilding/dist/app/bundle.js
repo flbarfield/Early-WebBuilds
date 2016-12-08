@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n.mainPageContainer {\n  text-align: center;\n  position: absolute;\n  top: 25%;\n  background-color: lightgrey;\n  padding-bottom: 2em; }\n  .mainPageContainer h1 {\n    font-size: 4em; }\n  .mainPageContainer .machine {\n    margin: 2em 0 2em;\n    font-size: 1em; }\n    .mainPageContainer .machine:hover {\n      color: D819FF; }\n  .mainPageContainer .human {\n    font-size: 1.3em; }\n    .mainPageContainer .human:hover {\n      color: D819FF; }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n", ""]);
 	
 	// exports
 
@@ -22382,7 +22382,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _Machine = __webpack_require__(/*! ./Machine.js */ 183);
+	var _Machine = __webpack_require__(/*! ./TicTac/Machine.js */ 183);
 	
 	var _Machine2 = _interopRequireDefault(_Machine);
 	
@@ -22400,7 +22400,7 @@
 	
 	var _TicTac2 = _interopRequireDefault(_TicTac);
 	
-	var _TwoP = __webpack_require__(/*! ./TwoP.js */ 244);
+	var _TwoP = __webpack_require__(/*! ./TicTac/TwoP.js */ 244);
 	
 	var _TwoP2 = _interopRequireDefault(_TwoP);
 	
@@ -22443,9 +22443,9 @@
 
 /***/ },
 /* 183 */
-/*!***************************************!*\
-  !*** ./src/app/components/Machine.js ***!
-  \***************************************/
+/*!**********************************************!*\
+  !*** ./src/app/components/TicTac/Machine.js ***!
+  \**********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28023,11 +28023,15 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
+	var _reactRouter = __webpack_require__(/*! react-router */ 184);
+	
+	var _NavBar = __webpack_require__(/*! ./NavBar */ 242);
+	
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 184);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -28051,7 +28055,8 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        null,
+	        { className: "ticMain container-fluid" },
+	        _react2.default.createElement(_NavBar2.default, null),
 	        _react2.default.createElement(
 	          "div",
 	          { className: "mainPageContainer" },
@@ -28090,9 +28095,9 @@
 
 /***/ },
 /* 244 */
-/*!************************************!*\
-  !*** ./src/app/components/TwoP.js ***!
-  \************************************/
+/*!*******************************************!*\
+  !*** ./src/app/components/TicTac/TwoP.js ***!
+  \*******************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

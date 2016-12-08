@@ -1,0 +1,30 @@
+.machinePlay {
+  background-color: $back-color;
+  background-image: url(/app/images/sadRobo.png);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  .ticPlayArea {
+    background-color: $box-col;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .9;
+    height: 20em;
+    text-align: center;
+    .row {
+      padding: 1em;
+      font-size: 2em;
+      z-index: 3;
+      color: $highlights;
+      border-color: black;
+      .squares:not(:last-child){
+        border-right-style: solid;
+        border-color: black;
+      }
+      &:not(:last-child) {
+        border-bottom-style: solid;
+      }
+    }
+  }
+}
