@@ -27,6 +27,11 @@
         margin-bottom: 1em;
         display: inline-block;
         position: relative;
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+          border-color: white;
+        }
         span {
           position: absolute;
           top: 50%;
