@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .ticPlayArea {\n    background-color: lightgrey;\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    opacity: .9;\n    height: 20em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      padding: 1em;\n      font-size: 2em;\n      z-index: 3;\n      color: D819FF;\n      border-color: black; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        border-right-style: solid;\n        border-color: black; }\n      .machinePlay .ticPlayArea .row:not(:last-child) {\n        border-bottom-style: solid; }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: cover;\n  background-position: center;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 25em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 25em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
 	
 	// exports
 
@@ -22785,94 +22785,86 @@
 	          { className: "ticPlayArea col-xs-12" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "rowOne row col-xs-12" },
+	            { className: "innerPlay" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "squares sq1 col-xs-4" },
+	              { className: "rowOne row col-xs-12" },
 	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
+	                "div",
+	                { className: "squares sq1 xPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "X"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "squares sq2 xPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "X"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "squares sq3 xPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "X"
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "squares sq2 col-xs-4" },
+	              { className: "rowTwo row col-xs-12" },
 	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
+	                "div",
+	                { className: "squares sq4 oPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "O"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "squares sq5 oPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "O"
+	                )
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "squares sq6 oPlayer" },
+	                _react2.default.createElement(
+	                  "span",
+	                  null,
+	                  "O"
+	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "squares sq3 col-xs-4" },
+	              { className: "rowThree row col-xs-12" },
 	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "rowTwo row col-xs-12" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq4 col-xs-4" },
+	                "div",
+	                { className: "squares sq7 noPlayer" },
+	                _react2.default.createElement("span", null)
+	              ),
 	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq5 col-xs-4" },
+	                "div",
+	                { className: "squares sq8 noPlayer" },
+	                _react2.default.createElement("span", null)
+	              ),
 	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq6 col-xs-4" },
-	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "rowThree row col-xs-12" },
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq7 col-xs-4" },
-	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq8 col-xs-4" },
-	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "squares sq9 col-xs-4" },
-	              _react2.default.createElement(
-	                "span",
-	                null,
-	                "X"
+	                "div",
+	                { className: "squares sq9 noPlayer" },
+	                _react2.default.createElement("span", null)
 	              )
 	            )
 	          )
