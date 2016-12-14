@@ -9,7 +9,8 @@
       border-bottom-color: white;
     }
     .welAbout {
-      font-size: 1em;
+      font-size: 1.3em;
+      max-width: 35em;
     }
   }
 
@@ -24,6 +25,7 @@
     height: 18em;
     position: relative;
     transition: .2s;
+    margin-left: 1em;
       &:hover {
         border-style: solid;
         border-color: white;
@@ -48,6 +50,187 @@
     }
   }
 
+  .proj2 {
+    color: black;
+    cursor: pointer;
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    height: 18em;
+    position: relative;
+    transition: .2s;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 .5em;
+      }
+      h2 {
+        top: 5em;
+      }
+    .welOverlay {
+      background-color: $w-sec;
+      height: 18em;
+      opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  .proj3 {
+    color: black;
+    cursor: pointer;
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    height: 18em;
+    position: relative;
+    transition: .2s;
+    margin-left: 1em;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 .5em;
+      }
+      h2 {
+        top: 5em;
+      }
+    .welOverlay {
+      background-color: $w-third;
+      height: 18em;
+      opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+
+  .proj4 {
+    color: black;
+    cursor: pointer;
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    height: 18em;
+    position: relative;
+    transition: .2s;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 .5em;
+      }
+      h2 {
+        top: 5em;
+      }
+    .welOverlay {
+      background-color: $w-fifth;
+      height: 18em;
+      opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+
+  .proj5 {
+    color: black;
+    cursor: pointer;
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    height: 18em;
+    position: relative;
+    transition: .2s;
+    margin-left: 1em;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 .5em;
+      }
+      h2 {
+        top: 5em;
+      }
+    .welOverlay {
+      background-color: $w-prime;
+      height: 18em;
+      opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+
+  .proj6 {
+    color: black;
+    cursor: pointer;
+    background-image: url("/app/images/ticTacToe.png");
+    background-position: center;
+    background-size: cover;
+    background-origin:content-box;
+    background-repeat: no-repeat;
+    height: 18em;
+    position: relative;
+    transition: .2s;
+      &:hover {
+        border-style: solid;
+        border-color: white;
+        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
+      }
+      h1, h2 {
+        position: absolute;
+        z-index: 1;
+        padding: 0 .5em;
+      }
+      h2 {
+        top: 5em;
+      }
+    .welOverlay {
+      background-color: $w-sec;
+      height: 18em;
+      opacity: .9;
+      transition: .5s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+
   .welFooter {
     background-color: $w-prime;
     padding: 1em;
@@ -59,5 +242,11 @@
     p {
       padding-top: 1em;
     }
+  }
+}
+
+@media(min-width : 992px) {
+  .welIntro h1{
+    font-size: 4em;
   }
 }
