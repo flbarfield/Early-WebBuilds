@@ -21,27 +21,27 @@ export default class Welcome extends React.Component {
             <div className="welOverlay"></div>
           </div></Link>
           <div className="welProject proj2 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
-            <h1>Unimplemented Project</h1>
+            <h1>Dots and Boxes</h1>
             <h2>Coming Soon!</h2>
             <div className="welOverlay"></div>
           </div>
           <div className="welProject proj3 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
-            <h1>Unimplemented Project</h1>
+            <h1>CrossWord Puzzle</h1>
             <h2>Coming Soon!</h2>
             <div className="welOverlay"></div>
           </div>
           <div className="welProject proj4 col-xs-12 col-md-6 col-lg-8 row-no-padding row">
-            <h1>Unimplemented Project</h1>
+            <h1>Invaders!</h1>
             <h2>Coming Soon!</h2>
             <div className="welOverlay"></div>
           </div>
           <div className="welProject proj5 col-xs-12 col-md-6 col-lg-8 row-no-padding row">
-            <h1>Unimplemented Project</h1>
+            <h1>Adventures!</h1>
             <h2>Coming Soon!</h2>
             <div className="welOverlay"></div>
           </div>
           <div className="welProject proj6 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
-            <h1>Unimplemented Project</h1>
+            <h1>Ping Pong</h1>
             <h2>Coming Soon!</h2>
             <div className="welOverlay"></div>
           </div>
