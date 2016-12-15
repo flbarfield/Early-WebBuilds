@@ -9,7 +9,8 @@
     background-color: rgba(220,220,220,.8);
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 27em;
     text-align: center;
     .playerTurn {
@@ -63,7 +64,7 @@
 }
 
 .innerPlay {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
 }

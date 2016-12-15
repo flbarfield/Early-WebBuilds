@@ -245,6 +245,24 @@
   }
 }
 
+@media (max-width: 992px) {
+  .welProject {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .ticTac, .proj3, .proj5 {
+    position: relative;
+    right: 1em;
+  }
+}
+
+.gameList {
+  background-color: $w-prime;
+  height: 100%;
+}
+
 @media(min-width : 992px) {
   .welIntro h1{
     font-size: 4em;
