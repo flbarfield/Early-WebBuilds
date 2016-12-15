@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.navbar i {\n  font-size: 2em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1.3em;\n    max-width: 35em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj2 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj2:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj2 h2 {\n    top: 5em; }\n  .welcomePage .proj2 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj2 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj3 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj3:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj3 h2 {\n    top: 5em; }\n  .welcomePage .proj3 .welOverlay {\n    background-color: 25FF;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj3 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj4 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj4:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj4 h2 {\n    top: 5em; }\n  .welcomePage .proj4 .welOverlay {\n    background-color: 51B209;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj4 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj5 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj5:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj5 h2 {\n    top: 5em; }\n  .welcomePage .proj5 .welOverlay {\n    background-color: 5D6CC5;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj5 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj6 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj6:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj6 h2 {\n    top: 5em; }\n  .welcomePage .proj6 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj6 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: cover;\n  background-position: center;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 25em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.navbar i {\n  font-size: 2em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1.3em;\n    max-width: 35em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj2 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj2:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj2 h2 {\n    top: 5em; }\n  .welcomePage .proj2 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj2 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj3 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj3:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj3 h2 {\n    top: 5em; }\n  .welcomePage .proj3 .welOverlay {\n    background-color: 25FF;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj3 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj4 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj4:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj4 h2 {\n    top: 5em; }\n  .welcomePage .proj4 .welOverlay {\n    background-color: 51B209;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj4 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj5 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj5:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj5 h2 {\n    top: 5em; }\n  .welcomePage .proj5 .welOverlay {\n    background-color: 5D6CC5;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj5 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj6 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj6:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj6 h2 {\n    top: 5em; }\n  .welcomePage .proj6 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj6 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n@media (max-width: 992px) {\n  .welProject {\n    display: block;\n    width: 100%;\n    padding: 0;\n    margin: 0 auto; }\n  .ticTac, .proj3, .proj5 {\n    position: relative;\n    right: 1em; } }\n\n.gameList {\n  background-color: 5D6CC5;\n  height: 54em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: cover;\n  background-position: center;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: relative;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 28em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
 	
 	// exports
 
@@ -22392,15 +22392,15 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 185);
 	
-	var _Root = __webpack_require__(/*! ../containers/Root.js */ 241);
+	var _Root = __webpack_require__(/*! ../containers/Root.js */ 242);
 	
 	var _Root2 = _interopRequireDefault(_Root);
 	
-	var _TicTac = __webpack_require__(/*! ../components/TicTac.js */ 244);
+	var _TicTac = __webpack_require__(/*! ../components/TicTac.js */ 245);
 	
 	var _TicTac2 = _interopRequireDefault(_TicTac);
 	
-	var _TwoP = __webpack_require__(/*! ./TicTac/TwoP.js */ 245);
+	var _TwoP = __webpack_require__(/*! ./TicTac/TwoP.js */ 246);
 	
 	var _TwoP2 = _interopRequireDefault(_TwoP);
 	
@@ -27829,6 +27829,10 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _Squares = __webpack_require__(/*! ./PlayArea/Squares.js */ 241);
+	
+	var _Squares2 = _interopRequireDefault(_Squares);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27846,18 +27850,12 @@
 	    var _this = _possibleConstructorReturn(this, (PlayArea.__proto__ || Object.getPrototypeOf(PlayArea)).call(this));
 	
 	    _this.state = {
-	      playerSelection: "O",
-	      playerTurn: "X"
+	      squares: Array(9).fill(null)
 	    };
 	    return _this;
 	  }
 	
 	  _createClass(PlayArea, [{
-	    key: "selectSquare",
-	    value: function selectSquare() {
-	      this.setState({ playerSelection: "X" });
-	    }
-	  }, {
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -27879,95 +27877,23 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "rowOne row col-xs-12" },
-	              _react2.default.createElement(
-	                "div",
-	                { onClick: this.selectSquare.bind(this), className: "squares sq1 xPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq2 xPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq3 xPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              )
+	              _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "rowTwo row col-xs-12" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq4 oPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq5 oPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq6 oPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              )
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
 	              { className: "rowThree row col-xs-12" },
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq7 noPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq8 noPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "div",
-	                { className: "squares sq9 noPlayer" },
-	                _react2.default.createElement(
-	                  "span",
-	                  null,
-	                  this.state.playerSelection
-	                )
-	              )
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
+	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
 	            )
 	          )
 	        )
@@ -27981,11 +27907,15 @@
 	exports.default = PlayArea;
 	
 	
-	var WIN_CONDITIONS = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 6], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]];
+	var WIN_CONDITIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 5], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
 	
-	var BOARD = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+	var BOARD = [[0, 1, 2], [3, 4, 5], [6, 7, 8]];
 	
-	function checkWin() {
+	function checkWinX() {
+	  null;
+	}
+	
+	function checkWinO() {
 	  null;
 	}
 	
@@ -27995,6 +27925,78 @@
 
 /***/ },
 /* 241 */
+/*!*******************************************************!*\
+  !*** ./src/app/components/TicTac/PlayArea/Squares.js ***!
+  \*******************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Square = function (_React$Component) {
+	  _inherits(Square, _React$Component);
+	
+	  function Square() {
+	    _classCallCheck(this, Square);
+	
+	    var _this = _possibleConstructorReturn(this, (Square.__proto__ || Object.getPrototypeOf(Square)).call(this));
+	
+	    _this.state = { value: null };
+	    return _this;
+	  }
+	
+	  _createClass(Square, [{
+	    key: "onSelection",
+	    value: function onSelection() {
+	      this.setState({ value: "X" });
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      var _this2 = this;
+	
+	      return _react2.default.createElement(
+	        "div",
+	        { className: this.props.currentPlayerClass, onClick: function onClick() {
+	            return _this2.setState({ value: "X" });
+	          } },
+	        _react2.default.createElement(
+	          "div",
+	          null,
+	          _react2.default.createElement(
+	            "span",
+	            null,
+	            this.state.value
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Square;
+	}(_react2.default.Component);
+	
+	exports.default = Square;
+
+/***/ },
+/* 242 */
 /*!************************************!*\
   !*** ./src/app/containers/Root.js ***!
   \************************************/
@@ -28012,11 +28014,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Welcome = __webpack_require__(/*! ../containers/Welcome.js */ 242);
+	var _Welcome = __webpack_require__(/*! ../containers/Welcome.js */ 243);
 	
 	var _Welcome2 = _interopRequireDefault(_Welcome);
 	
-	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 244);
+	var _TicTac = __webpack_require__(/*! ../components/TicTac */ 245);
 	
 	var _TicTac2 = _interopRequireDefault(_TicTac);
 	
@@ -28050,7 +28052,7 @@
 	exports.default = Root;
 
 /***/ },
-/* 242 */
+/* 243 */
 /*!***************************************!*\
   !*** ./src/app/containers/Welcome.js ***!
   \***************************************/
@@ -28064,7 +28066,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _Footer = __webpack_require__(/*! ../components/Footer.js */ 243);
+	var _Footer = __webpack_require__(/*! ../components/Footer.js */ 244);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
@@ -28144,7 +28146,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Unimplemented Project"
+	              "Dots and Boxes"
 	            ),
 	            _react2.default.createElement(
 	              "h2",
@@ -28159,7 +28161,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Unimplemented Project"
+	              "CrossWord Puzzle"
 	            ),
 	            _react2.default.createElement(
 	              "h2",
@@ -28174,7 +28176,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Unimplemented Project"
+	              "Invaders!"
 	            ),
 	            _react2.default.createElement(
 	              "h2",
@@ -28189,7 +28191,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Unimplemented Project"
+	              "Adventures!"
 	            ),
 	            _react2.default.createElement(
 	              "h2",
@@ -28204,7 +28206,7 @@
 	            _react2.default.createElement(
 	              "h1",
 	              null,
-	              "Unimplemented Project"
+	              "Ping Pong"
 	            ),
 	            _react2.default.createElement(
 	              "h2",
@@ -28225,7 +28227,7 @@
 	exports.default = Welcome;
 
 /***/ },
-/* 243 */
+/* 244 */
 /*!**************************************!*\
   !*** ./src/app/components/Footer.js ***!
   \**************************************/
@@ -28265,7 +28267,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "welFooter" },
+	        { className: "welFooter col-xs-12" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
@@ -28286,7 +28288,7 @@
 	exports.default = Footer;
 
 /***/ },
-/* 244 */
+/* 245 */
 /*!**************************************!*\
   !*** ./src/app/components/TicTac.js ***!
   \**************************************/
@@ -28371,7 +28373,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 245 */
+/* 246 */
 /*!*******************************************!*\
   !*** ./src/app/components/TicTac/TwoP.js ***!
   \*******************************************/

@@ -1,15 +1,12 @@
 import React from "react";
+import Square from "./PlayArea/Squares.js";
 
 export default class PlayArea extends React.Component{
   constructor() {
     super();
     this.state={
-      playerSelection: "O",
-      playerTurn: "X"
+      squares: Array(9).fill(null),
     };
-  }
-  selectSquare() {
-    this.setState({playerSelection: "X"})
   }
 
   render() {
@@ -19,19 +16,19 @@ export default class PlayArea extends React.Component{
           <div className="innerPlay">
             <p className="playerTurn">It's {this.state.playerTurn}'s turn!</p>
             <div className="rowOne row col-xs-12">
-              <div onClick={this.selectSquare.bind(this)} className="squares sq1 xPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq2 xPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq3 xPlayer"><span>{this.state.playerSelection}</span></div>
+              <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
             </div>
             <div className="rowTwo row col-xs-12">
-              <div className="squares sq4 oPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq5 oPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq6 oPlayer"><span>{this.state.playerSelection}</span></div>
+              <Square currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
             </div>
             <div className="rowThree row col-xs-12">
-              <div className="squares sq7 noPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq8 noPlayer"><span>{this.state.playerSelection}</span></div>
-              <div className="squares sq9 noPlayer"><span>{this.state.playerSelection}</span></div>
+              <Square currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
+              <Square currentPlayerClass="squares noPlayer"/>
             </div>
           </div>
         </div>
@@ -40,24 +37,30 @@ export default class PlayArea extends React.Component{
   }
 }
 
+
+
 const WIN_CONDITIONS = [
-  [1,2,3],
-  [4,5,6],
-  [7,8,9],
-  [1,4,6],
+  [0,1,2],
+  [3,4,5],
+  [6,7,8],
+  [0,3,5],
+  [1,4,7],
   [2,5,8],
-  [3,6,9],
-  [1,5,9],
-  [3,5,7]
+  [0,4,8],
+  [2,4,6]
 ]
 
 const BOARD = [
-  [1,2,3],
-  [4,5,6],
-  [7,8,9]
+  [0,1,2],
+  [3,4,5],
+  [6,7,8]
 ]
 
-function checkWin () {
+function checkWinX () {
+  null
+}
+
+function checkWinO() {
   null
 }
 
