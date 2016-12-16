@@ -18,7 +18,10 @@ nav {
     display: inline-block;
     font-size: 2em;
     cursor: pointer;
-    white-space: nowrap; }
+    white-space: nowrap;
+    transition: .5s; }
+    nav li:hover {
+      color: #15f593; }
     nav li:not(:last-child) {
       margin-right: 2em; }
 
@@ -55,7 +58,11 @@ nav {
         border-style: none;
         height: 2.5em;
         padding-left: 1em;
-        color: white; }
+        color: white;
+        transition: .2s; }
+        .homeBody .page .content input:hover {
+          border-style: solid;
+          border-color: white; }
       .homeBody .page .content button {
         display: block;
         width: 20em;
@@ -65,15 +72,19 @@ nav {
         font-weight: bolder;
         border-style: none;
         margin-bottom: 2em;
-        height: 2.5em; }
+        height: 2.5em;
+        transition: .5s; }
+        .homeBody .page .content button:hover {
+          border-style: solid;
+          border-color: white; }
       .homeBody .page .content .head-icons {
         font-size: 2em;
-        margin-bottom: .5em;
-        cursor: pointer; }
+        margin-bottom: .5em; }
         .homeBody .page .content .head-icons i {
-          margin-right: .5em;
+          cursor: pointer;
+          margin-right: 1em;
           transition: .5s; }
-          .homeBody .page .content .head-icons ihover {
+          .homeBody .page .content .head-icons i:hover {
             color: #15f593; }
 
 /*# sourceMappingURL=Home.css.map */
