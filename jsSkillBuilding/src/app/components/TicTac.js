@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         <NavBar/>
         <div className="mainPageContainer">
           <h1>Tic Tac Toe</h1>
-          <Link to={"/machine"}><button className="machine btn">AGAINST THE MACHINE</button></Link>
+          <Link><button className="machine btn">AGAINST THE MACHINE</button></Link>
           <Link to={"/twoplayers"}><button className="human btn">Against Another Player</button></Link>
         </div>
       </div>

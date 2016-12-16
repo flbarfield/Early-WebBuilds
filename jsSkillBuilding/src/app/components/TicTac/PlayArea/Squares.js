@@ -3,7 +3,9 @@ import React from "react";
 export default class Square extends React.Component {
   constructor () {
     super();
-    this.state = {value: null, currentPlayerClass: "squares noPlayer"};
+    this.state = {
+      value: null,
+      currentPlayerClass: "squares noPlayer"};
   }
 
   onSelection () {

@@ -6,7 +6,18 @@ export default class PlayArea extends React.Component{
     super();
     this.state={
       squares: Array(9).fill(null),
+      playerTurn: "X"
     };
+  }
+
+  trackPlayer () {
+    if (playerTracker === "O" && gameWon === false) {
+      this.setState({playerTurn: "X"});
+      playerTracker = "X";
+    } else if (playerTracker === "X" && gameWon === false){
+      this.setState({playerTurn: "O"});
+      playerTracker = "O";
+    }
   }
 
   render() {
@@ -15,17 +26,17 @@ export default class PlayArea extends React.Component{
         <div className="ticPlayArea col-xs-12">
           <div className="innerPlay">
             <p className="playerTurn">It's {this.state.playerTurn}'s turn!</p>
-            <div className="rowOne row col-xs-12">
+            <div onClick={this.trackPlayer.bind(this)} className="rowOne row col-xs-12">
               <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
             </div>
-            <div className="rowTwo row col-xs-12">
+            <div onClick={this.trackPlayer.bind(this)} className="rowTwo row col-xs-12">
               <Square currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
             </div>
-            <div className="rowThree row col-xs-12">
+            <div onClick={this.trackPlayer.bind(this)} className="rowThree row col-xs-12">
               <Square currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
               <Square currentPlayerClass="squares noPlayer"/>
@@ -37,7 +48,8 @@ export default class PlayArea extends React.Component{
   }
 }
 
-
+var gameWon = false;
+var playerTracker = "X";
 
 const WIN_CONDITIONS = [
   [0,1,2],

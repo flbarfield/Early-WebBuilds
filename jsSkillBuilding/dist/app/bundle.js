@@ -27850,12 +27850,29 @@
 	    var _this = _possibleConstructorReturn(this, (PlayArea.__proto__ || Object.getPrototypeOf(PlayArea)).call(this));
 	
 	    _this.state = {
-	      squares: Array(9).fill(null)
+	      squares: Array(9).fill(null),
+	      playerTurn: "X"
 	    };
 	    return _this;
 	  }
 	
 	  _createClass(PlayArea, [{
+	    key: "trackPlayer",
+	    value: function trackPlayer() {
+	      if (playerTracker === "O" && gameWon === false) {
+	        this.setState({ playerTurn: "X" });
+	        playerTracker = "X";
+	      } else if (playerTracker === "X" && gameWon === false) {
+	        this.setState({ playerTurn: "O" });
+	        playerTracker = "O";
+	      }
+	    }
+	  }, {
+	    key: "alertPlz",
+	    value: function alertPlz() {
+	      alert("AY! IM WORKING!");
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -27876,21 +27893,21 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "rowOne row col-xs-12" },
+	              { onClick: this.trackPlayer.bind(this), className: "rowOne row col-xs-12" },
 	              _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "rowTwo row col-xs-12" },
+	              { onClick: this.trackPlayer.bind(this), className: "rowTwo row col-xs-12" },
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { className: "rowThree row col-xs-12" },
+	              { onClick: this.trackPlayer.bind(this), className: "rowThree row col-xs-12" },
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
 	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
@@ -27906,6 +27923,9 @@
 	
 	exports.default = PlayArea;
 	
+	
+	var gameWon = false;
+	var playerTracker = "X";
 	
 	var WIN_CONDITIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 5], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
 	
@@ -27958,25 +27978,29 @@
 	
 	    var _this = _possibleConstructorReturn(this, (Square.__proto__ || Object.getPrototypeOf(Square)).call(this));
 	
-	    _this.state = { value: null };
+	    _this.state = {
+	      value: null,
+	      currentPlayerClass: "squares noPlayer" };
 	    return _this;
 	  }
 	
 	  _createClass(Square, [{
 	    key: "onSelection",
 	    value: function onSelection() {
-	      this.setState({ value: "X" });
+	      if (this.state.value === null && playerTurn === false) {
+	        this.setState({ value: "X", currentPlayerClass: "squares xPlayer" });
+	        playerTurn = true;
+	      } else if (this.state.value === null && playerTurn === true) {
+	        this.setState({ value: "O", currentPlayerClass: "squares oPlayer" });
+	        playerTurn = false;
+	      }
 	    }
 	  }, {
 	    key: "render",
 	    value: function render() {
-	      var _this2 = this;
-	
 	      return _react2.default.createElement(
 	        "div",
-	        { className: this.props.currentPlayerClass, onClick: function onClick() {
-	            return _this2.setState({ value: "X" });
-	          } },
+	        { className: this.state.currentPlayerClass, onClick: this.onSelection.bind(this) },
 	        _react2.default.createElement(
 	          "div",
 	          null,
@@ -27994,6 +28018,9 @@
 	}(_react2.default.Component);
 	
 	exports.default = Square;
+	
+	
+	var playerTurn = false;
 
 /***/ },
 /* 242 */
