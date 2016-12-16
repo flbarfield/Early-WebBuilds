@@ -22030,6 +22030,10 @@
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
+	var _User = __webpack_require__(/*! ./User.js */ 235);
+	
+	var _User2 = _interopRequireDefault(_User);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -22054,7 +22058,8 @@
 	      return _react2.default.createElement(
 	        _reactRouter.Router,
 	        { history: _reactRouter.browserHistory },
-	        _react2.default.createElement(_reactRouter.Route, { path: "/", component: _Home2.default })
+	        _react2.default.createElement(_reactRouter.Route, { path: "/", component: _Home2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: "/shop", component: _User2.default })
 	      );
 	    }
 	  }]);
@@ -27149,6 +27154,8 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
+	var _reactRouter = __webpack_require__(/*! react-router */ 179);
+	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
@@ -27177,7 +27184,7 @@
 	                "div",
 	                null,
 	                _react2.default.createElement(
-	                    "body",
+	                    "div",
 	                    { className: "homeBody" },
 	                    _react2.default.createElement(
 	                        "div",
@@ -27222,12 +27229,15 @@
 	                                    _react2.default.createElement(
 	                                        "h1",
 	                                        null,
-	                                        "Title"
+	                                        "Welcome"
 	                                    ),
 	                                    _react2.default.createElement(
 	                                        "p",
 	                                        null,
-	                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id felis placerat, porta nibh ac, tristique est. Proin tempus nulla fringilla turpis tincidunt"
+	                                        "This is a web application created for the purpose of learning and practicing SQL. ",
+	                                        _react2.default.createElement("br", null),
+	                                        _react2.default.createElement("br", null),
+	                                        "Press the Sign Up button to continue. You don't have to enter an email."
 	                                    )
 	                                ),
 	                                _react2.default.createElement("input", { type: "text", placeholder: "Email Address" }),
@@ -27265,6 +27275,127 @@
 	}(_react2.default.Component);
 	
 	exports.default = Home;
+
+/***/ },
+/* 235 */
+/*!************************************!*\
+  !*** ./src/app/containers/User.js ***!
+  \************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var User = function (_React$Component) {
+	  _inherits(User, _React$Component);
+	
+	  function User() {
+	    _classCallCheck(this, User);
+	
+	    return _possibleConstructorReturn(this, (User.__proto__ || Object.getPrototypeOf(User)).apply(this, arguments));
+	  }
+	
+	  _createClass(User, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "div",
+	          { className: "shopHeader" },
+	          _react2.default.createElement(
+	            "span",
+	            null,
+	            " Generic Shop Name "
+	          ),
+	          _react2.default.createElement("input", { placeholder: "Search" }),
+	          _react2.default.createElement("i", { className: "fa fa-search" }),
+	          _react2.default.createElement("i", { className: "fa fa-shopping-cart" })
+	        ),
+	        _react2.default.createElement(
+	          "nav",
+	          { className: "shopNav navbar-static navbar-default" },
+	          _react2.default.createElement(
+	            "ul",
+	            null,
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Home"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Sale"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Handbags"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Wallets"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Accessories"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Men's Store"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Shoes"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Vintage"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Services"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Contact Us"
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return User;
+	}(_react2.default.Component);
+	
+	exports.default = User;
 
 /***/ }
 /******/ ]);

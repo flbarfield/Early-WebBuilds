@@ -1,10 +1,11 @@
+import {Link} from "react-router";
 import React from "react";
 
 export default class Home extends React.Component {
   render() {
     return(
       <div>
-        <body className="homeBody">
+        <div className="homeBody">
             <div>
                 <nav className="navbar navbar-default container-fluid">
                     <ul>
@@ -17,15 +18,13 @@ export default class Home extends React.Component {
                 <div className="page container">
                     <div className="content">
                         <div className="header">
-                            <h1>Title</h1>
+                            <h1>Welcome</h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Duis id felis placerat, porta nibh ac, tristique est. Proin
-                                tempus nulla fringilla turpis tincidunt
+                                This is a web application created for the purpose of learning and practicing SQL. <br/><br/>Press the Sign Up button to continue. You don't have to enter an email.
                             </p>
                         </div>
                             <input type="text" placeholder="Email Address"/>
-                            <button>Sign Up</button>
+                            <Link to={"/shop"}><button>Sign Up</button></Link>
                             <div className="head-icons">
                                 <i className="fa fa-twitter"></i>
                                 <i className="fa fa-instagram"></i>
@@ -36,7 +35,7 @@ export default class Home extends React.Component {
                     </div>
                 </div>
             </div>
-        </body>
+        </div>
       </div>
     );
   }
