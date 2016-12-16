@@ -1,0 +1,156 @@
+@keyframes backgroundScroll {
+  50% {
+    background-image: url("/app/images/clouds.jpg"); }
+  75% {
+    background-image: url("/app/images/hills.jpg"); }
+  100% {
+    background-position: right;
+    background-image: url("/app/images/mountains.jpg"); } }
+nav {
+  height: 3em;
+  background-color: lightgrey; }
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    padding-top: .5em; }
+  nav li {
+    display: inline-block;
+    font-size: 2em;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: .5s; }
+    nav li:hover {
+      color: #15f593; }
+    nav li:not(:last-child) {
+      margin-right: 2em; }
+
+.homeBody {
+  background-image: url("/app/images/cityscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  animation-name: backgroundScroll;
+  animation-duration: 50s;
+  animation-iteration-count: infinite; }
+  .homeBody .page {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    padding: 2em;
+    margin-top: -1.5em;
+    width: 100%; }
+    .homeBody .page .content {
+      color: #d4e8eb;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      margin: 0 auto; }
+      .homeBody .page .content input {
+        display: block;
+        width: 20em;
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        background-color: rgba(128, 128, 128, 0.7);
+        border-style: none;
+        height: 2.5em;
+        padding-left: 1em;
+        color: white;
+        transition: .2s;
+        text-decoration: none; }
+        .homeBody .page .content input:hover {
+          border-style: solid;
+          border-color: white;
+          text-decoration: none; }
+      .homeBody .page .content button {
+        display: block;
+        width: 20em;
+        margin: 0 auto;
+        background-color: #15f593;
+        color: white;
+        font-weight: bolder;
+        border-style: none;
+        margin-bottom: 2em;
+        height: 2.5em;
+        transition: .5s; }
+        .homeBody .page .content button:hover {
+          border-style: solid;
+          border-color: white; }
+      .homeBody .page .content .head-icons {
+        font-size: 2em;
+        margin-bottom: .5em; }
+        .homeBody .page .content .head-icons i {
+          cursor: pointer;
+          margin-right: 1em;
+          transition: .5s; }
+          .homeBody .page .content .head-icons i:hover {
+            color: #15f593; }
+
+@keyframes shopHeadScroll {
+  33% {
+    background-image: url("/app/images/displayDress.jpg"); }
+  66% {
+    background-image: url("/app/images/blueshoes.jpg");
+    background-position: center; }
+  100% {
+    background-image: url("/app/images/children.jpg");
+    background-position: right; } }
+.shopHeadImg {
+  background-image: url("/app/images/groupOGuys.jpg");
+  background-position: left;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: block;
+  margin-top: -1.5em;
+  animation: shopHeadScroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite; }
+  .shopHeadImg .drkOverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    position: relative;
+    padding: 1em; }
+  .shopHeadImg h1 {
+    margin: 0;
+    font-size: 3em; }
+  .shopHeadImg h2 {
+    font-size: 1em;
+    font-weight: lighter; }
+  .shopHeadImg button {
+    background-color: #15f593;
+    border-style: solid;
+    border-radius: .3em;
+    border-width: thin;
+    margin-top: 2em;
+    font-size: 1em;
+    padding: .5em 1em; }
+  .shopHeadImg .featured {
+    display: inline-block; }
+
+.userNav .shopHeader {
+  padding: 1em;
+  position: relative; }
+  .userNav .shopHeader span {
+    padding-right: 1em; }
+  .userNav .shopHeader input {
+    border-style: solid;
+    border-width: thin;
+    padding-left: 1.5em; }
+  .userNav .shopHeader .fa-search {
+    position: absolute;
+    right: 13.5em;
+    bottom: 1.5em; }
+  .userNav .shopHeader .fa-shopping-cart {
+    float: right;
+    margin-top: .2em; }
+.userNav .shopNav {
+  background-color: #15f593;
+  color: white; }
+  .userNav .shopNav button {
+    border-color: white; }
+
+/*# sourceMappingURL=style.css.map */

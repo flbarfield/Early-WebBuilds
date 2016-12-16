@@ -1,0 +1,45 @@
+@keyframes shopHeadScroll {
+  33% {background-image: url('/app/images/displayDress.jpg');}
+  66% {background-image: url('/app/images/blueshoes.jpg'); background-position: center;}
+  100% {background-image: url('/app/images/children.jpg'); background-position: right;}
+}
+
+.shopHeadImg {
+  background-image: url('/app/images/groupOGuys.jpg');
+  background-position: left;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: block;
+  margin-top: -1.5em;
+  animation: shopHeadScroll;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  .drkOverlay {
+    background-color: rgba(0,0,0, .7);
+    height: 100%;
+    position: relative;
+    padding: 1em;
+  }
+  h1{
+    margin: 0;
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1em;
+    font-weight: lighter;
+  }
+  button {
+    background-color: $btn-col;
+    border-style: solid;
+    border-radius: .3em;
+    border-width: thin;
+    margin-top: 2em;
+    font-size: 1em;
+    padding: .5em 1em;
+  }
+
+  .featured {
+    display: inline-block;
+  }
+}

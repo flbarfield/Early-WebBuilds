@@ -1,0 +1,31 @@
+.userNav {
+  .shopHeader {
+    padding: 1em;
+    position: relative;
+    span {
+      padding-right: 1em;
+    }
+    input {
+      border-style: solid;
+      border-width: thin;
+      padding-left: 1.5em;
+    }
+    .fa-search {
+      position: absolute;
+      right: 13.5em;
+      bottom: 1.5em;
+    }
+    .fa-shopping-cart {
+      float: right;
+      margin-top: .2em;
+    }
+  }
+
+  .shopNav {
+    background-color: $btn-col;
+    color: white;
+    button {
+      border-color: white;
+    }
+  }
+}
