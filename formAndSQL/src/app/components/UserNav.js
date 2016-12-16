@@ -4,9 +4,9 @@ export default class UserNav extends React.Component {
   render() {
     return(
       <div>
-        <div>
+        <div className="userNav">
           <div className="shopHeader">
-            <span> Generic Shop Name </span>
+            <span>Shop 'n Drop</span>
             <input placeholder="Search"/>
             <i className="fa fa-search"></i>
             <i className="fa fa-shopping-cart"></i>
