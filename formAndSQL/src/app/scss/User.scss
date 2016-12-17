@@ -38,8 +38,16 @@
     font-size: 1em;
     padding: .5em 1em;
   }
-
-  .featured {
-    display: inline-block;
-  }
 }
+
+.featuredRow {
+  display: none;
+}
+// .featured {
+//   display: none;
+//   .featImgWrap {
+//     width: 2em;
+//     height: 2em;
+//     .featImg {height: 100%; width: 100%;}
+//   }
+// }

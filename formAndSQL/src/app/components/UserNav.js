@@ -7,8 +7,9 @@ export default class UserNav extends React.Component {
         <div className="userNav">
           <div className="shopHeader">
             <span>Shop 'n Drop</span>
-            <input placeholder="Search"/>
-            <i className="fa fa-search"></i>
+            <div className="searchBar">
+              <input placeholder="Search..."/>
+            </div>
             <i className="fa fa-shopping-cart"></i>
           </div>
           <nav className="shopNav navbar navbar-default">
