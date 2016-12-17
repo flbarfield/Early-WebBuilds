@@ -5,15 +5,14 @@
     span {
       padding-right: 1em;
     }
-    input {
-      border-style: solid;
-      border-width: thin;
-      padding-left: 1.5em;
-    }
-    .fa-search {
-      position: absolute;
-      right: 13.5em;
-      bottom: 1.5em;
+    .searchBar {
+      display: inline-block;
+      width: 10em;
+      input {
+        border-style: solid;
+        border-width: thin;
+        padding-left: .5em;
+      }
     }
     .fa-shopping-cart {
       float: right;

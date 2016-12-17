@@ -5,7 +5,7 @@ export default class Featured extends React.Component {
     return(
       <div className="featured">
         <div className="featImgWrap">
-          <img src={this.props.itemSRC}/>
+          <img className="featImg" src={this.props.itemSRC}/>
         </div>
         <h1>{this.props.itemName}</h1>
         <button>Add To Cart</button>

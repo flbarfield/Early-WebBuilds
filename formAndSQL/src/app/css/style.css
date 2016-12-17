@@ -47,7 +47,8 @@ nav {
       top: 40%;
       left: 50%;
       transform: translate(-50%, -60%);
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-top: 5em; }
       .homeBody .page .content input {
         display: block;
         width: 20em;
@@ -128,22 +129,22 @@ nav {
     margin-top: 2em;
     font-size: 1em;
     padding: .5em 1em; }
-  .shopHeadImg .featured {
-    display: inline-block; }
+
+.featuredRow {
+  display: none; }
 
 .userNav .shopHeader {
   padding: 1em;
   position: relative; }
   .userNav .shopHeader span {
     padding-right: 1em; }
-  .userNav .shopHeader input {
-    border-style: solid;
-    border-width: thin;
-    padding-left: 1.5em; }
-  .userNav .shopHeader .fa-search {
-    position: absolute;
-    right: 13.5em;
-    bottom: 1.5em; }
+  .userNav .shopHeader .searchBar {
+    display: inline-block;
+    width: 10em; }
+    .userNav .shopHeader .searchBar input {
+      border-style: solid;
+      border-width: thin;
+      padding-left: .5em; }
   .userNav .shopHeader .fa-shopping-cart {
     float: right;
     margin-top: .2em; }
