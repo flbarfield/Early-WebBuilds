@@ -1,3 +1,7 @@
+.footerInfo .copyright {
+  text-align: center;
+  padding: 1em; }
+
 @keyframes backgroundScroll {
   50% {
     background-image: url("/app/images/clouds.jpg"); }
@@ -131,7 +135,47 @@ nav {
     padding: .5em 1em; }
 
 .featuredRow {
-  display: none; }
+  text-align: center;
+  padding: 1em 0; }
+  .featuredRow .featured {
+    display: inline-block; }
+    .featuredRow .featured .featImgWrap {
+      width: 10em; }
+      .featuredRow .featured .featImgWrap img {
+        width: 100%; }
+    .featuredRow .featured h1 {
+      font-size: 1.5em; }
+    .featuredRow .featured button {
+      background-color: #15f593;
+      color: white;
+      border-style: solid;
+      border-radius: .3em;
+      border-width: thin;
+      font-size: 1em;
+      padding: .5em 1em; }
+
+.moreProduct {
+  text-align: center;
+  margin-top: 1em; }
+  .moreProduct .moreBar {
+    text-align: center;
+    background-color: #15f593;
+    color: white;
+    font-weight: thick;
+    padding: .5em 0 .1em; }
+  .moreProduct .moreImgWrap {
+    margin-top: 2em; }
+    .moreProduct .moreImgWrap img {
+      max-height: 20em;
+      border-radius: .2em; }
+  .moreProduct button {
+    background-color: #15f593;
+    color: white;
+    border-style: solid;
+    border-radius: .3em;
+    border-width: thin;
+    font-size: 1em;
+    padding: .5em 1em; }
 
 .userNav .shopHeader {
   padding: 1em;
