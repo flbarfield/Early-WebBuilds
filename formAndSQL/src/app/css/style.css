@@ -1,6 +1,24 @@
-.footerInfo .copyright {
+.footerInfo {
   text-align: center;
-  padding: 1em; }
+  color: white;
+  background-color: #35cc8b; }
+  .footerInfo h1 {
+    font-size: 1.5em;
+    color: white; }
+  .footerInfo ul {
+    list-style: none;
+    padding-left: 0; }
+    .footerInfo ul:last-child {
+      margin-bottom: 2em; }
+    .footerInfo ul li {
+      transition: .5s;
+      cursor: pointer; }
+      .footerInfo ul li:hover {
+        color: black; }
+  .footerInfo .copyright {
+    text-align: center;
+    padding: 1em 0 .5em;
+    background-color: #0ea160; }
 
 @keyframes backgroundScroll {
   50% {
@@ -25,7 +43,7 @@ nav {
     white-space: nowrap;
     transition: .5s; }
     nav li:hover {
-      color: #15f593; }
+      color: #35cc8b; }
     nav li:not(:last-child) {
       margin-right: 2em; }
 
@@ -103,6 +121,12 @@ nav {
   100% {
     background-image: url("/app/images/children.jpg");
     background-position: right; } }
+.userBody {
+  background-color: #dfdfdf; }
+
+h1 {
+  color: #35cc8b; }
+
 .shopHeadImg {
   background-image: url("/app/images/groupOGuys.jpg");
   background-position: left;
@@ -113,7 +137,8 @@ nav {
   margin-top: -1.5em;
   animation: shopHeadScroll;
   animation-duration: 30s;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  position: relative; }
   .shopHeadImg .drkOverlay {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
@@ -121,18 +146,28 @@ nav {
     padding: 1em; }
   .shopHeadImg h1 {
     margin: 0;
-    font-size: 3em; }
+    font-size: 3em;
+    position: absolute;
+    top: 30%; }
   .shopHeadImg h2 {
     font-size: 1em;
-    font-weight: lighter; }
+    font-weight: lighter;
+    position: absolute;
+    top: 45%;
+    max-width: 20em; }
   .shopHeadImg button {
-    background-color: #15f593;
+    background-color: #35cc8b;
     border-style: solid;
     border-radius: .3em;
     border-width: thin;
     margin-top: 2em;
     font-size: 1em;
-    padding: .5em 1em; }
+    padding: .5em 1em;
+    transition: .5s;
+    position: absolute;
+    top: 60%; }
+    .shopHeadImg button:hover {
+      background-color: #0ea160; }
 
 .featuredRow {
   text-align: center;
@@ -146,37 +181,62 @@ nav {
     .featuredRow .featured h1 {
       font-size: 1.5em; }
     .featuredRow .featured button {
-      background-color: #15f593;
+      background-color: #35cc8b;
       color: white;
       border-style: solid;
       border-radius: .3em;
       border-width: thin;
       font-size: 1em;
-      padding: .5em 1em; }
+      padding: .5em 1em;
+      transition: .5s; }
+      .featuredRow .featured button:hover {
+        background-color: #0ea160; }
+
+.moreBar {
+  text-align: center;
+  background-color: #35cc8b;
+  color: white;
+  font-weight: thick;
+  padding: .5em 0 .1em; }
 
 .moreProduct {
   text-align: center;
-  margin-top: 1em; }
-  .moreProduct .moreBar {
-    text-align: center;
-    background-color: #15f593;
-    color: white;
-    font-weight: thick;
-    padding: .5em 0 .1em; }
+  margin-bottom: 3em; }
   .moreProduct .moreImgWrap {
     margin-top: 2em; }
     .moreProduct .moreImgWrap img {
       max-height: 20em;
       border-radius: .2em; }
+  .moreProduct h1 {
+    margin: .5em 0 0; }
+  .moreProduct h2 {
+    margin: 0 0 .5em; }
   .moreProduct button {
-    background-color: #15f593;
+    background-color: #35cc8b;
     color: white;
     border-style: solid;
     border-radius: .3em;
     border-width: thin;
     font-size: 1em;
-    padding: .5em 1em; }
+    padding: .5em 1em;
+    transition: .5s; }
+    .moreProduct button:hover {
+      background-color: #0ea160; }
 
+@media (min-width: 992px) {
+  #pageDescription {
+    font-size: 2em;
+    max-width: 15em; }
+
+  #headBtn {
+    top: 80%; }
+
+  .featuredRow {
+    margin: 2em 0; }
+    .featuredRow .featured {
+      margin-right: 2em; }
+      .featuredRow .featured .featImgWrap {
+        width: 20em; } }
 .userNav .shopHeader {
   padding: 1em;
   position: relative; }
@@ -191,10 +251,24 @@ nav {
       padding-left: .5em; }
   .userNav .shopHeader .fa-shopping-cart {
     float: right;
-    margin-top: .2em; }
+    font-size: 2em;
+    transition: .5s;
+    cursor: pointer; }
+    .userNav .shopHeader .fa-shopping-cart:hover {
+      color: #35cc8b; }
 .userNav .shopNav {
-  background-color: #15f593;
-  color: white; }
+  background-color: #35cc8b;
+  color: white;
+  text-align: center; }
+  .userNav .shopNav .navbar-collapse {
+    max-width: 42em;
+    font-size: 1.3em;
+    margin: 0 auto; }
+  .userNav .shopNav li {
+    font-size: 1em;
+    margin-right: .5em; }
+    .userNav .shopNav li:hover {
+      color: black; }
   .userNav .shopNav button {
     border-color: white; }
 

@@ -1,8 +1,28 @@
 .footerInfo {
+  text-align: center;
+  color: white;
+  background-color: $btn-col;
+  h1 {
+    font-size: 1.5em;
+    color: white;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    &:last-child{
+      margin-bottom: 2em;
+    }
+    li {
+      transition: .5s;
+      cursor: pointer;
+      &:hover {
+        color: black;
+      }
+    }
+  }
   .copyright {
     text-align: center;
-    padding: 1em;
-    // background-color: $btn-col;
-    // color: white;
+    padding: 1em 0 .5em;
+    background-color: rgb(14, 161, 96);
   }
 }

@@ -16,13 +16,31 @@
     }
     .fa-shopping-cart {
       float: right;
-      margin-top: .2em;
+      font-size: 2em;
+      transition: .5s;
+      cursor: pointer;
+      &:hover {
+        color: $btn-col;
+      }
     }
   }
 
   .shopNav {
     background-color: $btn-col;
     color: white;
+    text-align: center;
+    .navbar-collapse {
+      max-width: 42em;
+      font-size: 1.3em;
+      margin: 0 auto;
+    }
+    li {
+      font-size: 1em;
+      margin-right: .5em;
+      &:hover {
+        color: black;
+      }
+    }
     button {
       border-color: white;
     }

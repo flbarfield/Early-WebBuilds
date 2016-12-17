@@ -4,7 +4,7 @@ export default class Featured extends React.Component {
   render() {
     return(
       <div className="featured">
-        <div className="featImgWrap">
+        <div id="feat-img-wrap" className="featImgWrap">
           <img className="featImg" src={this.props.itemSRC}/>
         </div>
         <h1>{this.props.itemName}</h1>
