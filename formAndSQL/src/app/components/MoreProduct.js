@@ -3,7 +3,7 @@ import React from "react";
 export default class MoreProduct extends React.Component {
   render() {
     return(
-      <div>
+      <div className="col-xs-12 col-md-6 col-lg-4">
         <div className="moreImgWrap">
           <img src={this.props.itemSRC}/>
         </div>
