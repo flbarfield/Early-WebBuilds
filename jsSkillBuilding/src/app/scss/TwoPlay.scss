@@ -1,8 +1,9 @@
 .twoPlay {
   background-color: $back-color;
   background-image: url(/app/images/highFive.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
   position: relative;
   .ticPlayArea {
@@ -22,6 +23,11 @@
       color: $highlights;
       border-color: black;
       margin: 0 auto;
+      .selectWrap{
+        display: inline-block;
+        margin-right: .5em;
+        padding: 0;
+      }
       .squares {
         width: 3em;
         height: 3em;

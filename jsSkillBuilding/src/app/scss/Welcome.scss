@@ -1,12 +1,11 @@
 .welcomePage {
+  background-color: $w-prime;
   .welIntro {
     background-color: $w-prime;
-    padding: 1em 1em 2em;
+    padding: 1em 2em 2em;
     color: white;
     h1 {
       padding-bottom: .5em;
-      border-bottom-style: solid;
-      border-bottom-color: white;
     }
     .welAbout {
       font-size: 1.3em;
@@ -15,22 +14,17 @@
   }
 
   .ticTac {
-    color: black;
+    color: white;
     cursor: pointer;
     background-image: url("/app/images/ticTacToe.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-origin:content-box;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
     margin-left: 1em;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -51,21 +45,16 @@
   }
 
   .proj2 {
-    color: black;
+    color: white;
     cursor: pointer;
-    background-image: url("/app/images/ticTacToe.png");
+    background-image: url("/app/images/dotsNBox.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-origin:content-box;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -86,22 +75,17 @@
   }
 
   .proj3 {
-    color: black;
+    color: white;
     cursor: pointer;
-    background-image: url("/app/images/ticTacToe.png");
+    background-image: url("/app/images/think.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-origin:content-box;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
     margin-left: 1em;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -123,21 +107,15 @@
 
 
   .proj4 {
-    color: black;
+    color: white;
     cursor: pointer;
-    background-image: url("/app/images/ticTacToe.png");
+    background-image: url("/app/images/spaceInvader.png");
     background-position: center;
-    background-size: cover;
-    background-origin:content-box;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -159,22 +137,17 @@
 
 
   .proj5 {
-    color: black;
+    color: white;
     cursor: pointer;
-    background-image: url("/app/images/ticTacToe.png");
+    background-image: url("/app/images/hiking.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-origin:content-box;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
     margin-left: 1em;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -196,21 +169,16 @@
 
 
   .proj6 {
-    color: black;
+    color: white;
     cursor: pointer;
-    background-image: url("/app/images/ticTacToe.png");
+    background-image: url("/app/images/pingPong.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-origin:content-box;
     background-repeat: no-repeat;
     height: 18em;
     position: relative;
     transition: .2s;
-      &:hover {
-        border-style: solid;
-        border-color: white;
-        text-shadow: 3px 1px 29px rgba(255, 255, 255, 1);
-      }
       h1, h2 {
         position: absolute;
         z-index: 1;
@@ -235,12 +203,15 @@
     background-color: $w-prime;
     padding: 1em;
     color: white;
+    max-width: 60em;
+    margin: 0 auto;
     h1 {
-      border-bottom-style: solid;
+      // border-bottom-style: solid;
       padding-bottom: .5em;
     }
     p {
       padding-top: 1em;
+      margin: 0 auto;
     }
   }
 }
@@ -266,5 +237,17 @@
 @media(min-width : 992px) {
   .welIntro h1{
     font-size: 4em;
+  }
+  .welFooter {
+    padding: 5em;
+    h1 {
+      padding: .5em;
+      max-width: 45em;
+    }
+    p {
+      font-size: 1.5em;
+      padding: 1em;
+      max-width: 45em;
+    }
   }
 }

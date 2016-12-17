@@ -26,20 +26,38 @@ export default class PlayArea extends React.Component{
         <div className="ticPlayArea col-xs-12">
           <div className="innerPlay">
             <p className="playerTurn">It's {this.state.playerTurn}'s turn!</p>
-            <div onClick={this.trackPlayer.bind(this)} className="rowOne row col-xs-12">
-              <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
+            <div  className="rowOne row col-xs-12">
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square currentPlayerClass="squares noPlayer"/>
+              </div>
             </div>
-            <div onClick={this.trackPlayer.bind(this)} className="rowTwo row col-xs-12">
-              <Square currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
+            <div className="rowTwo row col-xs-12">
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
             </div>
-            <div onClick={this.trackPlayer.bind(this)} className="rowThree row col-xs-12">
-              <Square currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
-              <Square currentPlayerClass="squares noPlayer"/>
+            <div className="rowThree row col-xs-12">
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
+              <div className="selectWrap" onClick={this.trackPlayer.bind(this)}>
+                <Square playerSelection="X" currentPlayerClass="squares noPlayer"/>
+              </div>
             </div>
           </div>
         </div>
