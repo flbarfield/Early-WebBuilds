@@ -27360,47 +27360,47 @@
 	              ),
 	              _react2.default.createElement(
 	                "button",
-	                { href: "#shop" },
+	                { className: "headBtn", href: "#shop" },
 	                "SHOP NOW"
 	              )
 	            )
-	          ),
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "featuredRow row" },
+	          _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[0].name, itemSRC: PRODUCTS[0].source }),
+	          _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[1].name, itemSRC: PRODUCTS[1].source }),
+	          _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[2].name, itemSRC: PRODUCTS[2].source })
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "moreProduct" },
 	          _react2.default.createElement(
 	            "div",
-	            { className: "featuredRow row" },
-	            _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[0].name, itemSRC: PRODUCTS[0].src }),
-	            _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[1].name, itemSRC: PRODUCTS[1].src }),
-	            _react2.default.createElement(_Featured2.default, { itemName: PRODUCTS[2].name, itemSRC: PRODUCTS[2].src })
-	          ),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "moreProduct" },
+	            { className: "moreBar" },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "moreBar" },
-	              _react2.default.createElement(
-	                "p",
-	                null,
-	                "What's on sale?"
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "moreProductRow1" },
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[3].name, itemSRC: PRODUCTS[3].src, itemPrice: PRODUCTS[3].itemPrice }),
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[4].name, itemSRC: PRODUCTS[4].src, itemPrice: PRODUCTS[4].itemPrice }),
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[5].name, itemSRC: PRODUCTS[5].src, itemPrice: PRODUCTS[5].itemPrice })
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "moreProductRow2" },
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[6].name, itemSRC: PRODUCTS[6].src, itemPrice: PRODUCTS[6].itemPrice }),
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[7].name, itemSRC: PRODUCTS[7].src, itemPrice: PRODUCTS[7].itemPrice }),
-	              _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[9].name, itemSRC: PRODUCTS[9].src, itemPrice: PRODUCTS[8].itemPrice })
+	              "p",
+	              null,
+	              "What's on sale?"
 	            )
 	          ),
-	          _react2.default.createElement(_Footer2.default, null)
-	        )
+	          _react2.default.createElement(
+	            "div",
+	            { className: "moreProductRow1" },
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[3].name, itemSRC: PRODUCTS[3].source, itemPrice: "$" + PRODUCTS[3].itemPrice }),
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[8].name, itemSRC: PRODUCTS[8].source, itemPrice: "$" + PRODUCTS[8].itemPrice }),
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[5].name, itemSRC: PRODUCTS[5].source, itemPrice: "$" + PRODUCTS[5].itemPrice })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "moreProductRow2" },
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[6].name, itemSRC: PRODUCTS[6].source, itemPrice: "$" + PRODUCTS[6].itemPrice }),
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[7].name, itemSRC: PRODUCTS[7].source, itemPrice: "$" + PRODUCTS[7].itemPrice }),
+	            _react2.default.createElement(_MoreProduct2.default, { itemName: PRODUCTS[9].name, itemSRC: PRODUCTS[9].source, itemPrice: "$" + PRODUCTS[9].itemPrice })
+	          )
+	        ),
+	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
 	  }]);
@@ -27411,16 +27411,16 @@
 	exports.default = User;
 	
 	
-	var PRODUCTS = [{ name: "cloCombo1", src: "/app/images/cloCombo1.jpg", itemPrice: 150 }, //0
-	{ name: "cloCombo2", src: "/app/images/cloCombo2.jpg", itemPrice: 150 }, //1
-	{ name: "cloCombo3", src: "/app/images/cloCombo3.jpg", itemPrice: 150 }, //2
-	{ name: "cloCombo4", src: "/app/images/cloCombo1.jpg", itemPrice: 150 }, //3
-	{ name: "jackets", src: "/app/images/jackets.jpg", itemPrice: 150 }, //4
-	{ name: "batman", src: "/app/images/batman.jpg", itemPrice: 150 }, //5
-	{ name: "dress", src: "/app/images/galNDress.jpg", itemPrice: 150 }, //6
-	{ name: "dress2", src: "/app/images/boredress.jpg", itemPrice: 150 }, // 7
-	{ name: "headphones", src: "/app/images/goofyHeadphones.jpg", itemPrice: 150 }, //8
-	{ name: "skirt", src: "/app/images/jeansNSkirt.jpg", itemPrice: 150 } //9
+	var PRODUCTS = [{ name: "cloCombo1", source: "/app/images/cloCombo1.jpg", itemPrice: 300 }, //0
+	{ name: "cloCombo2", source: "/app/images/cloCombo2.jpg", itemPrice: 250 }, //1
+	{ name: "cloCombo3", source: "/app/images/cloCombo3.jpg", itemPrice: 520 }, //2
+	{ name: "Sweater", source: "/app/images/sweater.jpg", itemPrice: 75 }, //3
+	{ name: "Jackets", source: "/app/images/jackets.jpg", itemPrice: 150 }, //4
+	{ name: "Batman", source: "/app/images/batman.jpg", itemPrice: 95 }, //5
+	{ name: "Black Dress", source: "/app/images/galNDress.jpg", itemPrice: 150 }, //6
+	{ name: "Tan Dress", source: "/app/images/boredress.jpg", itemPrice: 45 }, // 7
+	{ name: "Headphones", source: "/app/images/goofyHeadphones.jpg", itemPrice: 25 }, //8
+	{ name: "Outfit", source: "/app/images/jeansNSkirt.jpg", itemPrice: 85 } //9
 	];
 
 /***/ },
@@ -27530,10 +27530,10 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        null,
+	        { className: "footerInfo" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "footSale" },
+	          { className: "footSale hidden-xs" },
 	          _react2.default.createElement(
 	            "h1",
 	            null,
@@ -27542,77 +27542,205 @@
 	          _react2.default.createElement(
 	            "ul",
 	            null,
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null)
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "MenStore" },
-	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Men's Store"
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Unimplemented Item"
+	            )
 	          ),
 	          _react2.default.createElement(
-	            "ul",
-	            null,
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null)
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "MenStore" },
-	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Women's Store"
+	            "div",
+	            { className: "MenStore" },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              "Men's Store"
+	            ),
+	            _react2.default.createElement(
+	              "ul",
+	              null,
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              )
+	            )
 	          ),
 	          _react2.default.createElement(
-	            "ul",
-	            null,
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null)
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "MenStore" },
-	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Quick Links"
+	            "div",
+	            { className: "MenStore" },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              "Women's Store"
+	            ),
+	            _react2.default.createElement(
+	              "ul",
+	              null,
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              )
+	            )
 	          ),
 	          _react2.default.createElement(
-	            "ul",
-	            null,
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null),
-	            _react2.default.createElement("li", null)
+	            "div",
+	            { className: "MenStore" },
+	            _react2.default.createElement(
+	              "h1",
+	              null,
+	              "Quick Links"
+	            ),
+	            _react2.default.createElement(
+	              "ul",
+	              null,
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              ),
+	              _react2.default.createElement(
+	                "li",
+	                null,
+	                "Unimplemented Item"
+	              )
+	            )
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -27674,7 +27802,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        null,
+	        { className: "col-xs-12 col-md-6 col-lg-4" },
 	        _react2.default.createElement(
 	          "div",
 	          { className: "moreImgWrap" },
