@@ -1,5 +1,19 @@
 .navbar {
   i {
     font-size: 2em;
+    margin-right: 0em;
+  }
+  .smallNavImgWrap {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    margin-top: 1em;
+    cursor: pointer;
+    margin-right: 1em;
+    &:hover {
+      background-color: $w-prime;
+      border-radius: .2em;
+    }
+    img {height: 100%; width: 100%;}
   }
 }
