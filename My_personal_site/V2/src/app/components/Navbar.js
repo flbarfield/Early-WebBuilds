@@ -1,7 +1,18 @@
 import React from "react";
 import {Link} from "react-router";
 
-const Nav = React.createClass({
+export default class NavBar extends React.Component {
+
+  openNav() {
+  	document.getElementById('hidden-nav').style.width = '22em';
+  	document.getElementById('hidden-nav').style.borderColor = 'rgb(252, 232, 54)';
+  }
+
+  closeNav() {
+  	document.getElementById('hidden-nav').style.width = '0';
+  	document.getElementById('hidden-nav').style.borderColor = 'rgb(34, 34, 34)';
+  }
+
   render() {
     return (
       <div>
@@ -10,13 +21,13 @@ const Nav = React.createClass({
               <div className='container-fluid'>
                 <ul className='nav navbar-nav'>
                   <li><Link to={"/"} activeClassName={"active"}>Home</Link></li>
-                  <li><a id='project-link' href='javascript:void(0)'>Project List</a></li>
+                  <li onClick={this.openNav}><a id='project-link' href='javascript:void(0)'>Project List</a></li>
                   <li><a href='#project-info-aboutme'>About Me</a></li>
                 </ul>
               </div>
             </nav>
             <div id='hidden-nav'>
-              <a href='javascriot:void(0)'><i className='fa fa-close'></i></a>
+              <i onClick={this.closeNav}className='fa fa-close'></i>
               <div id='nav-text'>
                 <h1>Other Projects</h1>
                 <ul>
@@ -30,11 +41,8 @@ const Nav = React.createClass({
                 </ul>
               </div>
             </div>
-          {this.props.children}
         </div>
       </div>
-    )
+    );
   }
-});
-
-export default Nav
+}
