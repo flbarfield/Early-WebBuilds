@@ -11,6 +11,7 @@ export default class NavBar extends React.Component {
             <div className="smallNavImgWrap">
               <img src="/app/images/ticTacToe.png"/>
             </div>
+          </Link>
             <div className="smallNavImgWrap">
               <img src="/app/images/dotsNBox.png"/>
             </div>
@@ -26,7 +27,6 @@ export default class NavBar extends React.Component {
             <div className="smallNavImgWrap">
               <img src="/app/images/pingPong.png"/>
             </div>
-          </Link>
         </nav>
       </div>
     );

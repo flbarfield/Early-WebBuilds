@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.navbar i {\n  font-size: 2em; }\n\n.welcomePage .welIntro {\n  background-color: 5D6CC5;\n  padding: 1em 1em 2em;\n  color: white; }\n  .welcomePage .welIntro h1 {\n    padding-bottom: .5em;\n    border-bottom-style: solid;\n    border-bottom-color: white; }\n  .welcomePage .welIntro .welAbout {\n    font-size: 1.3em;\n    max-width: 35em; }\n\n.welcomePage .ticTac {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .ticTac:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .ticTac h2 {\n    top: 5em; }\n  .welcomePage .ticTac .welOverlay {\n    background-color: 62CC14;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .ticTac .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj2 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj2:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj2 h2 {\n    top: 5em; }\n  .welcomePage .proj2 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj2 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj3 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj3:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj3 h2 {\n    top: 5em; }\n  .welcomePage .proj3 .welOverlay {\n    background-color: 25FF;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj3 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj4 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj4:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj4 h2 {\n    top: 5em; }\n  .welcomePage .proj4 .welOverlay {\n    background-color: 51B209;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj4 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj5 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s;\n  margin-left: 1em; }\n  .welcomePage .proj5:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj5 h2 {\n    top: 5em; }\n  .welcomePage .proj5 .welOverlay {\n    background-color: 5D6CC5;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj5 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .proj6 {\n  color: black;\n  cursor: pointer;\n  background-image: url(\"/app/images/ticTacToe.png\");\n  background-position: center;\n  background-size: cover;\n  background-origin: content-box;\n  background-repeat: no-repeat;\n  height: 18em;\n  position: relative;\n  transition: .2s; }\n  .welcomePage .proj6:hover {\n    border-style: solid;\n    border-color: white;\n    text-shadow: 3px 1px 29px white; }\n  .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n    position: absolute;\n    z-index: 1;\n    padding: 0 .5em; }\n  .welcomePage .proj6 h2 {\n    top: 5em; }\n  .welcomePage .proj6 .welOverlay {\n    background-color: FF5519;\n    height: 18em;\n    opacity: .9;\n    transition: .5s; }\n    .welcomePage .proj6 .welOverlay:hover {\n      opacity: .5; }\n\n.welcomePage .welFooter {\n  background-color: 5D6CC5;\n  padding: 1em;\n  color: white; }\n  .welcomePage .welFooter h1 {\n    border-bottom-style: solid;\n    padding-bottom: .5em; }\n  .welcomePage .welFooter p {\n    padding-top: 1em; }\n\n@media (max-width: 992px) {\n  .welProject {\n    display: block;\n    width: 100%;\n    padding: 0;\n    margin: 0 auto; }\n  .ticTac, .proj3, .proj5 {\n    position: relative;\n    right: 1em; } }\n\n.gameList {\n  background-color: 5D6CC5;\n  height: 54em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em;\n      text-decoration: line-through; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: cover;\n  background-position: center;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  width: 100%; }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 28em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.navbar i {\n  font-size: 2em;\n  margin-right: 0em; }\n\n.navbar .smallNavImgWrap {\n  height: 2em;\n  width: 2em;\n  display: inline-block;\n  margin-top: 1em;\n  cursor: pointer;\n  margin-right: 1em; }\n  .navbar .smallNavImgWrap:hover {\n    background-color: 5D6CC5;\n    border-radius: .2em; }\n  .navbar .smallNavImgWrap img {\n    height: 100%;\n    width: 100%; }\n\n.welcomePage {\n  background-color: 5D6CC5; }\n  .welcomePage .welIntro {\n    background-color: 5D6CC5;\n    padding: 1em 2em 2em;\n    color: white; }\n    .welcomePage .welIntro h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welIntro .welAbout {\n      font-size: 1.3em;\n      max-width: 35em; }\n  .welcomePage .ticTac {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/ticTacToe.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .ticTac h2 {\n      top: 5em; }\n    .welcomePage .ticTac .welOverlay {\n      background-color: 62CC14;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .ticTac .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj2 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/dotsNBox.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj2 h2 {\n      top: 5em; }\n    .welcomePage .proj2 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj2 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj3 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/think.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj3 h2 {\n      top: 5em; }\n    .welcomePage .proj3 .welOverlay {\n      background-color: 25FF;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj3 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj4 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/spaceInvader.png\");\n    background-position: center;\n    background-size: contain;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj4 h2 {\n      top: 5em; }\n    .welcomePage .proj4 .welOverlay {\n      background-color: 51B209;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj4 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj5 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/hiking.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj5 h2 {\n      top: 5em; }\n    .welcomePage .proj5 .welOverlay {\n      background-color: 5D6CC5;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj5 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj6 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/pingPong.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj6 h2 {\n      top: 5em; }\n    .welcomePage .proj6 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj6 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .welFooter {\n    background-color: 5D6CC5;\n    padding: 1em;\n    color: white;\n    max-width: 60em;\n    margin: 0 auto; }\n    .welcomePage .welFooter h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welFooter p {\n      padding-top: 1em;\n      margin: 0 auto; }\n\n@media (max-width: 992px) {\n  .welProject {\n    display: block;\n    width: 100%;\n    padding: 0;\n    margin: 0 auto; }\n  .ticTac, .proj3, .proj5 {\n    position: relative;\n    right: 1em; } }\n\n.gameList {\n  background-color: 5D6CC5;\n  height: 54em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; }\n  .welFooter {\n    padding: 5em; }\n    .welFooter h1 {\n      padding: .5em;\n      max-width: 45em; }\n    .welFooter p {\n      font-size: 1.5em;\n      padding: 1em;\n      max-width: 45em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em;\n      text-decoration: line-through; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: contain;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .selectWrap {\n        display: inline-block;\n        margin-right: .5em;\n        padding: 0; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  width: 100%; }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 28em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
 	
 	// exports
 
@@ -22550,185 +22550,43 @@
 	          "nav",
 	          { className: "navbar navbar-default navbar-fixed-top" },
 	          _react2.default.createElement(
-	            "div",
-	            { className: "container-fluid" },
+	            _reactRouter.Link,
+	            { to: "/" },
+	            _react2.default.createElement("i", { className: "navbar-brand fa fa-home", href: "#" })
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: "/ticTacToe" },
 	            _react2.default.createElement(
 	              "div",
-	              { className: "navbar-header" },
-	              _react2.default.createElement(
-	                "button",
-	                { type: "button", className: "navbar-toggle collapsed", "data-toggle": "collapse", "data-target": "#bs-example-navbar-collapse-1", "aria-expanded": "false" },
-	                _react2.default.createElement(
-	                  "span",
-	                  { className: "sr-only" },
-	                  "Toggle navigation"
-	                ),
-	                _react2.default.createElement("span", { className: "icon-bar" }),
-	                _react2.default.createElement("span", { className: "icon-bar" }),
-	                _react2.default.createElement("span", { className: "icon-bar" })
-	              ),
-	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: "/" },
-	                _react2.default.createElement("i", { className: "navbar-brand fa fa-home", href: "#" })
-	              )
-	            ),
-	            _react2.default.createElement(
-	              "div",
-	              { className: "collapse navbar-collapse", id: "bs-example-navbar-collapse-1" },
-	              _react2.default.createElement(
-	                "ul",
-	                { className: "nav navbar-nav" },
-	                _react2.default.createElement(
-	                  "li",
-	                  { className: "active" },
-	                  _react2.default.createElement(
-	                    "a",
-	                    { href: "#" },
-	                    "Link ",
-	                    _react2.default.createElement(
-	                      "span",
-	                      { className: "sr-only" },
-	                      "(current)"
-	                    )
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  _react2.default.createElement(
-	                    "a",
-	                    { href: "#" },
-	                    "Link"
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  { className: "dropdown" },
-	                  _react2.default.createElement(
-	                    "a",
-	                    { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
-	                    "Dropdown ",
-	                    _react2.default.createElement("span", { className: "caret" })
-	                  ),
-	                  _react2.default.createElement(
-	                    "ul",
-	                    { className: "dropdown-menu" },
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Action"
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Another action"
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Something else here"
-	                      )
-	                    ),
-	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Separated link"
-	                      )
-	                    ),
-	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "One more separated link"
-	                      )
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                "ul",
-	                { className: "nav navbar-nav navbar-right" },
-	                _react2.default.createElement(
-	                  "li",
-	                  null,
-	                  _react2.default.createElement(
-	                    "a",
-	                    { href: "#" },
-	                    "Link"
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  "li",
-	                  { className: "dropdown" },
-	                  _react2.default.createElement(
-	                    "a",
-	                    { href: "#", className: "dropdown-toggle", "data-toggle": "dropdown", role: "button", "aria-haspopup": "true", "aria-expanded": "false" },
-	                    "Dropdown ",
-	                    _react2.default.createElement("span", { className: "caret" })
-	                  ),
-	                  _react2.default.createElement(
-	                    "ul",
-	                    { className: "dropdown-menu" },
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Action"
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Another action"
-	                      )
-	                    ),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Something else here"
-	                      )
-	                    ),
-	                    _react2.default.createElement("li", { role: "separator", className: "divider" }),
-	                    _react2.default.createElement(
-	                      "li",
-	                      null,
-	                      _react2.default.createElement(
-	                        "a",
-	                        { href: "#" },
-	                        "Separated link"
-	                      )
-	                    )
-	                  )
-	                )
-	              )
+	              { className: "smallNavImgWrap" },
+	              _react2.default.createElement("img", { src: "/app/images/ticTacToe.png" })
 	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "smallNavImgWrap" },
+	            _react2.default.createElement("img", { src: "/app/images/dotsNBox.png" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "smallNavImgWrap" },
+	            _react2.default.createElement("img", { src: "/app/images/think.png" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "smallNavImgWrap" },
+	            _react2.default.createElement("img", { src: "/app/images/spaceInvader.png" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "smallNavImgWrap" },
+	            _react2.default.createElement("img", { src: "/app/images/hiking.png" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "smallNavImgWrap" },
+	            _react2.default.createElement("img", { src: "/app/images/pingPong.png" })
 	          )
 	        )
 	      );
@@ -27888,24 +27746,60 @@
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { onClick: this.trackPlayer.bind(this), className: "rowOne row col-xs-12" },
-	              _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
+	              { className: "rowOne row col-xs-12" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
+	              )
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { onClick: this.trackPlayer.bind(this), className: "rowTwo row col-xs-12" },
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
+	              { className: "rowTwo row col-xs-12" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              )
 	            ),
 	            _react2.default.createElement(
 	              "div",
-	              { onClick: this.trackPlayer.bind(this), className: "rowThree row col-xs-12" },
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" }),
-	              _react2.default.createElement(_Squares2.default, { currentPlayerClass: "squares noPlayer" })
+	              { className: "rowThree row col-xs-12" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              ),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "selectWrap", onClick: this.trackPlayer.bind(this) },
+	                _react2.default.createElement(_Squares2.default, { playerSelection: "X", currentPlayerClass: "squares noPlayer" })
+	              )
 	            )
 	          )
 	        )
@@ -28289,16 +28183,17 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "welFooter col-xs-12" },
+	        { className: "welFooter" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
 	          "Lorem ipsum"
 	        ),
+	        _react2.default.createElement("hr", null),
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet enim eget justo ornare, non laoreet libero pellentesque. Praesent diam odio, dictum non porta sodales, bibendum et lacus. Curabitur diam lacus, pretium eu ipsum vitae, mollis rhoncus elit. In semper id urna vestibulum blandit. Suspendisse luctus dui nisi, quis sagittis lorem accumsan sit amet. Vivamus sed nibh sodales, rhoncus lectus sit amet, semper odio. Vivamus quis nulla vitae tortor lacinia pharetra. Duis ipsum nisl, lobortis eu vulputate faucibus, blandit id purus. Phasellus sapien nulla, ullamcorper at vehicula quis, malesuada nec quam. In eros nisl, varius sed mollis non, consectetur laoreet eros. Aliquam purus ipsum, posuere non risus vel, tempus auctor tortor. Pellentesque pellentesque eget risus quis euismod."
+	          "dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet enim eget justo ornare, non laoreet libero pellentesque. Praesent diam odio, dictum non porta sodales, bibendum et lacus. Curabitur diam lacus, pretium eu ipsum vitae, mollis rhoncus elit. In semper id urna vestibulum blandit. Suspendisse luctus dui nisi, quis sagittis lorem accumsan sit amet. Vivamus sed nibh sodales, rhoncus lectus sit amet, semper odio."
 	        )
 	      );
 	    }
