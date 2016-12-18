@@ -22081,7 +22081,7 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutCompany", component: _AboutCompany2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutHome", component: _AboutHome2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutTravel", component: _AboutTravel2.default }),
-	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutTSDC", component: _AboutBand2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutTSDC", component: _AboutTSDC2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/aboutBlog", component: _AboutBlog2.default })
 	      );
 	    }
@@ -22115,6 +22115,8 @@
 	
 	var _Abouts2 = _interopRequireDefault(_Abouts);
 	
+	var _reactRouter = __webpack_require__(/*! react-router */ 181);
+	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
@@ -22137,13 +22139,28 @@
 	  }
 	
 	  _createClass(AboutBand, [{
+	    key: "toBand",
+	    value: function toBand() {
+	      window.location.assign('./app/Past_Projects/Band_stream/dist/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/Bandstream.png",
+	        description: "This features four behind-the-scenes technologies that I have never worked with before: Sass, Webpack, React, Redux. All of these tools help gear me toward working with a team, as most of it includes varioius features that allow you to split your code into seperate and easily reusable components. I also gained the ability to uglify, compress, and keep my code in a virtual DOM that's seperate from the real DOM which that allows for faster render times. My build system also allows me error check and debug my projects before I even put it online."
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toBand },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -22152,12 +22169,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutBand;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/Bandstream.png",
-	  description: "This features four behind-the-scenes technologies that I have never worked with before: Sass, Webpack, React, Redux. All of these tools help gear me toward working with a team, as most of it includes varioius features that allow you to split your code into seperate and easily reusable components. I also gained the ability to uglify, compress, and keep my code in a virtual DOM that's seperate from the real DOM which that allows for faster render times. My build system also allows me error check and debug my projects before I even put it online."
-	};
 
 /***/ },
 /* 180 */
@@ -27607,6 +27618,10 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
+	var _Abouts = __webpack_require__(/*! ../Abouts.js */ 236);
+	
+	var _Abouts2 = _interopRequireDefault(_Abouts);
+	
 	var _Navbar = __webpack_require__(/*! ../Navbar.js */ 180);
 	
 	var _Navbar2 = _interopRequireDefault(_Navbar);
@@ -27633,13 +27648,28 @@
 	  }
 	
 	  _createClass(AboutBlog, [{
+	    key: "toBlog",
+	    value: function toBlog() {
+	      window.location.assign('./app/Past_Projects/Blog_V3/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/Blog_SC.png",
+	        description: "So far, this is merely a small page I created just to familiarize myself further with Bootstrap. Sometime soon, I do hope to add extra functionality such as the ability to actually add and delete comments and posts, account creation, and so on hoping that it will aid in developing my understanding of back-end languages and how they relate to front-end."
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(Abouts, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toBlog },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -27648,12 +27678,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutBlog;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/Blog_SC.png",
-	  description: "So far, this is merely a small page I created just to familiarize myself further with Bootstrap. Sometime soon, I do hope to add extra functionality such as the ability to actually add and delete comments and posts, account creation, and so on hoping that it will aid in developing my understanding of back-end languages and how they relate to front-end."
-	};
 
 /***/ },
 /* 239 */
@@ -27700,13 +27724,28 @@
 	  }
 	
 	  _createClass(AboutCompany, [{
+	    key: "toCompany",
+	    value: function toCompany() {
+	      window.location.assign('./app/Past_Projects/Company_Page/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/company_SC.png",
+	        description: "Aesthetics and polish was the theme of this webpage. Up until now, I was rushing through the creation of all of my pages in order to try the next new technique or technology that I had caught wind of. With this I took the time to really slow down and tweek the little details to create a finished looking result - and it was fun! I'm now inspired to revamp everything else I've done up to this point. This also has surprisingly little javascript involved, before now I had used it for the bulk of my visual effects when simple CSS rules did it easier and faster. Such as transitioning color and creating a dynamic nav menu."
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toCompany },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -27715,12 +27754,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutCompany;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/company_SC.png",
-	  description: "Aesthetics and polish was the theme of this webpage. Up until now, I was rushing through the creation of all of my pages in order to try the next new technique or technology that I had caught wind of. With this I took the time to really slow down and tweek the little details to create a finished looking result - and it was fun! I'm now inspired to revamp everything else I've done up to this point. This also has surprisingly little javascript involved, before now I had used it for the bulk of my visual effects when simple CSS rules did it easier and faster. Such as transitioning color and creating a dynamic nav menu."
-	};
 
 /***/ },
 /* 240 */
@@ -27767,13 +27800,28 @@
 	  }
 	
 	  _createClass(AboutHome, [{
+	    key: "toHome",
+	    value: function toHome() {
+	      window.location.assign('./app/Past_Projects/Home_improvement_page/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/Home_SC.png",
+	        description: "This particular project was the very first I had semi-finished! At the time, this introduced interesting challenges such as figuring out how to use a grid system for element alignment, doing all the animation through my own JavaScript strings because I didn't know much about jquery or plug-ins at all yet, and wrapping my head around how to use iconography. You can also hover over or click the smaller images to display overlaying text"
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toHome },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -27782,12 +27830,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutHome;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/Home_SC.png",
-	  description: "This particular project was the very first I had semi-finished! At the time, this introduced interesting challenges such as figuring out how to use a grid system for element alignment, doing all the animation through my own JavaScript strings because I didn't know much about jquery or plug-ins at all yet, and wrapping my head around how to use iconography. You can also hover over or click the smaller images to display overlaying text"
-	};
 
 /***/ },
 /* 241 */
@@ -27834,13 +27876,28 @@
 	  }
 	
 	  _createClass(AboutTravel, [{
+	    key: "toTravel",
+	    value: function toTravel() {
+	      window.location.assign('./app/Past_Projects/Tourist_page/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/Travel_SC.png",
+	        description: "In this project, I discovered how to embed pre-existing plug-ins into projects. While I understand it may be best practice to not completely rely on them, there's no doubt that it drastically cuts down on development time as well asmistakes made by the novice programmer!Examples are as follows: Slideshow at the top of the page, color transistions for the icons within the city directory, billing, and social icon sections and the widget used to display the local weather."
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toTravel },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -27849,12 +27906,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutTravel;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/Travel_SC.png",
-	  description: "In this project, I discovered how to embed pre-existing plug-ins into projects. While I understand it may be best practice to not completely rely on them, there's no doubt that it drastically cuts down on development time as well asmistakes made by the novice programmer!Examples are as follows: Slideshow at the top of the page, color transistions for the icons within the city directory, billing, and social icon sections and the widget used to display the local weather."
-	};
 
 /***/ },
 /* 242 */
@@ -27901,13 +27952,28 @@
 	  }
 	
 	  _createClass(AboutTsdc, [{
+	    key: "toTsdc",
+	    value: function toTsdc() {
+	      window.location.assign('./app/Past_Projects/TSDC/index.html');
+	    }
+	  }, {
 	    key: "render",
 	    value: function render() {
+	
+	      var SPECIFICS = {
+	        img: "./app/Images/TSDC_SC.png",
+	        description: "This project was mostly about learning how to integrate AJAX into webpages in order to achieve a smooth and seamless user experience as the website is navigated. This is shown within the main body of the page - new information is updated after clicking a navigation link without needing a refresh.Building this website also came with the learning experiences of embedding video into a page as well as discovering how to build an image-based header with mis-aligned starting images. I also successfully learned how to created a properly aligned text-overlay for the header."
+	      };
+	
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null),
-	        _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        _react2.default.createElement(
+	          "div",
+	          { onClick: this.toTsdc },
+	          _react2.default.createElement(_Abouts2.default, { description: SPECIFICS.description, img: SPECIFICS.img })
+	        )
 	      );
 	    }
 	  }]);
@@ -27916,12 +27982,6 @@
 	}(_react2.default.Component);
 	
 	exports.default = AboutTsdc;
-	
-	
-	var SPECIFICS = {
-	  img: "./app/Images/TSDC_SC.png",
-	  description: "This project was mostly about learning how to integrate AJAX into webpages in order to achieve a smooth and seamless user experience as the website is navigated. This is shown within the main body of the page - new information is updated after clicking a navigation link without needing a refresh.Building this website also came with the learning experiences of embedding video into a page as well as discovering how to build an image-based header with mis-aligned starting images. I also successfully learned how to created a properly aligned text-overlay for the header."
-	};
 
 /***/ },
 /* 243 */
