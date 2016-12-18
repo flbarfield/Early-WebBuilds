@@ -1,10 +1,11 @@
 import NavBar from "../Navbar.js";
 import Abouts from "../Abouts.js";
+import {Link} from "react-router";
 import React from 'react';
 
 export default class AboutBand extends React.Component {
-  toBand() {
-  		window.location.assign('./app/Past_Projects/Band_stream/dist/index.html')
+  toBand () {
+    window.location.assign('./app/Past_Projects/Band_stream/dist/index.html');
   }
 
   render() {
@@ -17,7 +18,7 @@ export default class AboutBand extends React.Component {
     return(
       <div>
         <NavBar/>
-        <div to={this.toBand}>
+        <div onClick={this.toBand}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
       </div>
