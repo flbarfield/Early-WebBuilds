@@ -43,10 +43,6 @@ var config = {
 			{
 				test: /\.html$/,
 				loader: "file-loader?name=[path][name].[ext]!extract-loader!html-loader"
-			},
-			{
-				test:/\.jsx$/,
-				loader: "jsx-loader?harmony"
 			}
 		]
 	}

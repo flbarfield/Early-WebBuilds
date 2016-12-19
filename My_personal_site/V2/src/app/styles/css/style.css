@@ -43,7 +43,8 @@ p, li {
   transition: .5s;
   border-left-style: solid;
   border-width: thin;
-  border-color: #222222; }
+  border-color: #222222;
+  overflow: scroll; }
 
 #nav-text {
   padding: 1em; }
@@ -51,7 +52,8 @@ p, li {
 #hidden-nav ul {
   list-style: none;
   padding-left: 1em;
-  margin-top: 2em; }
+  margin-top: 2em;
+  padding-bottom: 2em; }
 
 #hidden-nav li {
   margin-bottom: 1.5em; }
