@@ -39,18 +39,19 @@ const PROJINFO = [
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 1,
-  id: "AboutShopping",
-  img: "/app/Images/Shop.png",
+  id: "AboutTSDC",
+  img: "/app/Images/TSDC_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 2,
-  id: "AboutTSDC",
-  img: "/app/Images/TSDC_SC.png",
-  imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
-}, {
-  key: 3,
   id: "AboutGames",
   img: "/app/Images/Games.png",
+  imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
+}, {
+
+  key: 3,
+  id: "AboutShopping",
+  img: "/app/Images/Shop.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 4,

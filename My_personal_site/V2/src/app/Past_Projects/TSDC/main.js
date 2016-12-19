@@ -26,7 +26,7 @@ xhr.onreadystatechange = function () {
 //};
 
 $('#about').click(function (e) {
-	$('#updatable-content').load('/Past_Projects/TSDC/Pages/front.html');
+	$('#updatable-content').load('/app/Past_Projects/TSDC/Pages/front.html');
 	if (!$(this).hasClass('active')) {
 		$('ul.nav > li').removeClass('active');
 		$(this).addClass('active');
@@ -35,7 +35,7 @@ $('#about').click(function (e) {
 });
 
 $('#contact').click(function (e) {
-	$('#updatable-content').load('/Past_Projects/TSDC/Pages/locate_contact.html');
+	$('#updatable-content').load('/app/Past_Projects/TSDC/Pages/locate_contact.html');
 	if (!$(this).hasClass('active')) {
 		$('ul.nav > li').removeClass('active');
 		$(this).addClass('active');
@@ -44,7 +44,7 @@ $('#contact').click(function (e) {
 });
 
 $('#membership').click(function (e) {
-	$('#updatable-content').load('/Past_Projects/TSDC/Pages/membership.html');
+	$('#updatable-content').load('/app/Past_Projects/TSDC/Pages/membership.html');
 	if (!$(this).hasClass('active')) {
 		$('ul.nav > li').removeClass('active');
 		$(this).addClass('active');
@@ -53,7 +53,7 @@ $('#membership').click(function (e) {
 });
 
 $('#resources').click(function (e) {
-	$('#updatable-content').load('/Past_Projects/TSDC/Pages/resources.html');
+	$('#updatable-content').load('/app/Past_Projects/TSDC/Pages/resources.html');
 	if (!$(this).hasClass('active')) {
 		$('ul.nav > li').removeClass('active');
 		$(this).addClass('active');
