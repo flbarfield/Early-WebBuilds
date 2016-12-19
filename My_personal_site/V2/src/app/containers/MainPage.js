@@ -35,42 +35,42 @@ const PROJINFO = [
 {
   key: 0,
   id: "AboutCompany",
-  img: "./app/Images/company_SC.png",
+  img: "/app/Images/company_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 1,
   id: "AboutShopping",
-  img: "./app/Images/Shop.png",
+  img: "/app/Images/Shop.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 2,
   id: "AboutTSDC",
-  img: "./app/Images/TSDC_SC.png",
+  img: "/app/Images/TSDC_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 3,
   id: "AboutGames",
-  img: "./app/Images/Games.png",
+  img: "/app/Images/Games.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 4,
   id: "AboutBand",
-  img: "./app/Images/Bandstream.png",
+  img: "/app/Images/Bandstream.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 5,
   id: "AboutTravel",
-  img: "./app/Images/Travel_SC.png",
+  img: "/app/Images/Travel_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 6,
   id: "AboutBlog",
-  img: "./app/Images/Blog_SC.png",
+  img: "/app/Images/Blog_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 },{
   key: 7,
   id: "AboutHome",
-  img: "./app/Images/Home_SC.png",
+  img: "/app/Images/Home_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }
 ];

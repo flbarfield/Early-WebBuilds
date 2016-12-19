@@ -31,13 +31,14 @@ export default class NavBar extends React.Component {
               <div id='nav-text'>
                 <h1>Other Projects</h1>
                 <ul>
-                  <a href='#' className='company'><li>Company Page (Layout/CSS centric practice)</li></a>
-                  <a href='#' className='tsdc'><li>Swing Dance Club (AJAX/Video)</li></a>
-                  <a href='#' className='band'><li>Band Stream (React/webpack/Sass)</li></a>
-                  <a href='#' className='tourist'><li>Travel Page (Intro to Interactivity)</li></a>
-                  <a href='#' className='fila'><li>Intro to scroll based animation</li></a>
-                  <a href='#' className='home-website'><li>Home and Furnishing (Intro to image manipulation)</li></a>
-                  <a href='#' className='blog'><li>Blog Layout Practice</li></a>
+                  <Link to={"/aboutCompany"} href='#'><li>Company Page (Layout/CSS centric practice)</li></Link>
+                  <Link to={"/aboutShopping"} href='#'><li>Shop Page (Layout and eventual SQL practice)</li></Link>
+                  <Link to={"/aboutTSDC"} href='#'><li>Swing Dance Club (AJAX/Video)</li></Link>
+                  <Link to={"/aboutGames"} href='#'><li>Games Recreation (Pure Javascript/React Interactivity)</li></Link>
+                  <Link to={"/aboutBand"} href='#'><li>Band Stream (Intro to React/webpack/Sass)</li></Link>
+                  <Link to={"/aboutTravel"} href='#'><li>Travel Page (Intro to CSS interactivity)</li></Link>
+                  <Link to={"/aboutBlog"} href='#'><li>Blog (Layout Practice)</li></Link>
+                  <Link to={"/aboutHome"} href='#'><li>Home and Furnishing (Intro to image manipulation)</li></Link>  
                 </ul>
               </div>
             </div>

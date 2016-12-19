@@ -10,7 +10,7 @@ export default class AboutBlog extends React.Component {
   render() {
 
     const SPECIFICS = {
-      img: "./app/Images/Blog_SC.png",
+      img: "/app/Images/Blog_SC.png",
       description: "So far, this is merely a small page I created just to familiarize myself further with Bootstrap. Sometime soon, I do hope to add extra functionality such as the ability to actually add and delete comments and posts, account creation, and so on hoping that it will aid in developing my understanding of back-end languages and how they relate to front-end."
     }
 

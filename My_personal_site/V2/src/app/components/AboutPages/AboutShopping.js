@@ -11,7 +11,7 @@ export default class AboutShopping extends React.Component {
   render() {
 
     const SPECIFICS = {
-      img: "./app/Images/Shop.png",
+      img: "/app/Images/Shop.png",
       description: "This was created with the goal of eventually linking a database to it to practice my growing SQL skills. But in the process I made a fairly nice layout, and wanted to show it's progress!"
     }
 

@@ -11,7 +11,7 @@ export default class AboutBand extends React.Component {
   render() {
 
     const SPECIFICS = {
-      img: "./app/Images/Bandstream.png",
+      img: "/app/Images/Bandstream.png",
       description: "This features four behind-the-scenes technologies that I have never worked with before: Sass, Webpack, React, Redux. All of these tools help gear me toward working with a team, as most of it includes various features that allow you to split your code into seperate and easily reusable components. I also gained the ability to uglify, compress, and keep my code in a virtual DOM that's seperate from the real DOM which that allows for faster render times. My build system also allows me error check and debug my applications before I even put it online."
     }
 
