@@ -13,7 +13,7 @@ export default class MainPage extends React.Component {
         <div className='jumbotron jumbotron-main'>
         <Navbar/>
           <div>
-            <h1>Fredrick Barfield</h1>
+            <h1>Fredrick Barfield FUCKING DUMB</h1>
             <h2>Front End Web Development</h2>
             <h3>HTML <span className='fa fa-circle'></span> CSS <span className='fa fa-circle'></span> JavaScript</h3>
           </div>
@@ -36,44 +36,44 @@ export default class MainPage extends React.Component {
 const PROJINFO = [
 {
   key: 0,
-  id: "AboutCompany",
-  img: "../static/Images/company_SC.png",
+  id: "/AboutCompany",
+  img: "src/static/Images/company_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 1,
   id: "AboutTSDC",
-  img: "../static/Images/TSDC_SC.png",
+  img: "/src/static/Images/TSDC_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 2,
   id: "AboutGames",
-  img: "../static/Images/Games.png",
+  img: "src/static/Images/Games.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
 
   key: 3,
   id: "AboutShopping",
-  img: "../static/Images/Shop.png",
+  img: "src/static/Images/Shop.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 4,
   id: "AboutBand",
-  img: "../static/Images/Bandstream.png",
+  img: "src/static/Images/Bandstream.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 5,
   id: "AboutTravel",
-  img: "../static/Images/Travel_SC.png",
+  img: "src/static/Images/Travel_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 6,
   id: "AboutBlog",
-  img: "../static/Images/Blog_SC.png",
+  img: "src/static/Images/Blog_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 },{
   key: 7,
   id: "AboutHome",
-  img: "../static/Images/Home_SC.png",
+  img: "src/static/Images/Home_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }
 ];

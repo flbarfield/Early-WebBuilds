@@ -15,14 +15,14 @@ import {Route, IndexRoute} from 'react-router';
 
 const routes = (
   <Route path={"/"} component={MainPage}>
-    <Route path={"aboutBand"} component={AboutBand}/>
-    <Route path={"aboutCompany"} component={AboutCompany}/>
-    <Route path={"aboutGames"} component={AboutGames}/>
-    <Route path={"aboutHome"} component={AboutHome}/>
-    <Route path={"aboutShopping"} component={AboutShopping}/>
-    <Route path={"aboutTravel"} component={AboutTravel}/>
-    <Route path={"aboutTSDC"} component={AboutTsdc}/>
-    <Route path={"aboutBlog"} component={AboutBlog}/>
+    <Route path={"/aboutBand"} component={AboutBand}/>
+    <Route path={"/aboutCompany"} component={AboutCompany}/>
+    <Route path={"/aboutGames"} component={AboutGames}/>
+    <Route path={"/aboutHome"} component={AboutHome}/>
+    <Route path={"/aboutShopping"} component={AboutShopping}/>
+    <Route path={"/aboutTravel"} component={AboutTravel}/>
+    <Route path={"/aboutTSDC"} component={AboutTsdc}/>
+    <Route path={"/aboutBlog"} component={AboutBlog}/>
     <Route path={"*"} componenet={NotFoundPage}/>
   </Route>
 );

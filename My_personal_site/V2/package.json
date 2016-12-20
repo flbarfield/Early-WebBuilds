@@ -14,7 +14,7 @@
   "author": "Ricky",
   "license": "MIT",
   "dependencies": {
-    "babel-cli": "^6.11.4",
+    "babel-cli": "^6.18.0",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.5",
     "babel-plugin-react-html-attrs": "^2.0.0",
