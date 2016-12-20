@@ -1,7 +1,7 @@
 import Footer from '../components/Footer';
 import {Link} from 'react-router';
-import MainIMG from '../components/MainImg.js';
-import Navbar from '../components/Navbar.js';
+import MainIMG from '../components/MainImg';
+import Navbar from '../components/Navbar';
 import React from 'react';
 
 export default class MainPage extends React.Component {
