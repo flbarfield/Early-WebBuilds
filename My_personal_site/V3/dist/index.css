@@ -1,0 +1,192 @@
+body {
+  background: #222222; }
+
+.jumbotron-main h1, h1 {
+  font-family: "Permanent Marker", cursive;
+  color: #9b7300; }
+
+h2, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+  color: #c1c1c1; }
+
+a, i {
+  color: #9b7300; }
+
+a:hover {
+  text-decoration: none;
+  color: #fce836; }
+
+a:focus {
+  color: #fce836; }
+
+p, li {
+  color: #c1c1c1; }
+
+.important {
+  color: #9b7300; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar li {
+  display: inline-block; }
+
+#hidden-nav {
+  width: 0;
+  position: fixed;
+  top: 3.5em;
+  right: 0;
+  height: 100%;
+  z-index: 99;
+  background-color: #222222;
+  transition: .5s;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #222222;
+  overflow: scroll; }
+
+#nav-text {
+  padding: 1em; }
+
+#hidden-nav ul {
+  list-style: none;
+  padding-left: 1em;
+  margin-top: 2em;
+  padding-bottom: 2em; }
+
+#hidden-nav li {
+  margin-bottom: 1.5em; }
+
+#hidden-nav .fa-close {
+  font-size: 2em;
+  padding: .3em .4em; }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #fce836;
+  transition: .2s; }
+
+.navbar-header .navbar-toggle:hover {
+  background-color: #fce836;
+  transition: .2s; }
+
+.jumbotron-main {
+  background-color: #222222;
+  text-align: left;
+  padding-left: 2em;
+  margin-top: 3.5em;
+  margin-bottom: 0; }
+
+.page-heading {
+  padding: 1em 1em 1em;
+  white-space: nowrap;
+  color: black;
+  font-size: 2em;
+  color: #c1c1c1;
+  text-align: center; }
+
+.main-img-wrap {
+  width: 70%;
+  margin-bottom: 4em; }
+
+.right {
+  float: right; }
+
+.project-wrapper img {
+  padding: 1em;
+  background-color: #5e5e5e; }
+
+.project-wrapper img:hover {
+  background-color: #EBB000;
+  transition: .5s; }
+
+@media (min-width: 990px) {
+  .jumbotron-main {
+    margin-top: 4em; }
+
+  .main-img-wrap {
+    width: 60%;
+    margin-bottom: 7em; }
+
+  .page-heading {
+    margin-bottom: 2em;
+    font-size: 3em; } }
+.fa-circle {
+  font-size: .4em;
+  position: relative;
+  bottom: .5em; }
+
+.fa-github, .fa-envelope {
+  font-size: 2.5em;
+  float: left; }
+
+.fa-github {
+  margin: 0 .5em 1em 0; }
+
+.fa-envelope {
+  margin-right: .5em;
+  margin-bottom: 10%; }
+
+.fa-github:hover, .fa-envelope:hover {
+  color: white;
+  transition: .2s; }
+
+.project-info-about {
+  background-color: #585858;
+  padding-top: 2em;
+  padding-bottom: 1em; }
+
+.project-info-about p {
+  max-width: 45em;
+  margin: 0 auto 1em; }
+
+.project-info-links {
+  background-color: #222222;
+  padding-top: 2em; }
+
+/*My photo*/
+.ricky {
+  height: 8em;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: .5em; }
+
+.imported-content {
+  color: white;
+  padding-top: 7em;
+  padding-bottom: 4em; }
+
+.proj-pic-wrapper img {
+  padding-bottom: 2em;
+  width: 100%; }
+
+.mobile-clicky {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 2em; }
+
+.project-info h1 {
+  margin-top: 0; }
+
+.project-info p {
+  font-size: 1.2em; }
+
+.explaination-list {
+  padding-left: 1em; }
+
+.explaination-list li {
+  font-size: 1.2em;
+  margin-bottom: 1em; }
+
+.other-projects {
+  padding-bottom: 2em; }
+
+.other-projects ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em; }
+
+.other-projects a:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
