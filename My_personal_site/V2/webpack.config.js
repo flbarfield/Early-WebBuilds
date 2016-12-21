@@ -29,7 +29,24 @@ module.exports = {
         cacheDirectory: 'babel_cache',
         presets: debug ? ['react', 'es2015', 'react-hmre'] : ['react', 'es2015']
       }
-    }]
+    },
+    {
+      test:/\.scss?/,
+      loaders: ["style", "css", "sass"]
+    },
+    {
+      test: /\.(jpe?g|png|gif|svg)$/,
+      loaders: [
+      "file?hash=sha512&digest=hex&name=[hash].[ext]",
+      "image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false"
+      ],
+      include: "./src/app/images"
+    },
+    {
+      test: /\.html$/,
+      loader: "file-loader?name=[path][name].[ext]!extract-loader!html-loader"
+    }
+    ]
   },
   plugins: debug ? [] : [
     new webpack.DefinePlugin({

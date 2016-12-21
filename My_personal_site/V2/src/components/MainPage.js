@@ -13,7 +13,7 @@ export default class MainPage extends React.Component {
         <div className='jumbotron jumbotron-main'>
         <Navbar/>
           <div>
-            <h1>Fredrick Barfield FUCKING DUMB</h1>
+            <h1>Fredrick Barfield</h1>
             <h2>Front End Web Development</h2>
             <h3>HTML <span className='fa fa-circle'></span> CSS <span className='fa fa-circle'></span> JavaScript</h3>
           </div>
