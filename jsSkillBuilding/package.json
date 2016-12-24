@@ -1,5 +1,5 @@
 {
-  "name": "react_practice",
+  "name": "jsSkillBuild",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,11 +7,18 @@
     "start": "npm run build",
     "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
     "build:prod": "webpack -p && cp src/index.html dist/index.html",
-    "compile": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+    "compile": "NODE_ENV=production webpack -p",
+    "start:prod": "NODE_ENV=production webpack && node dist/server.js",
+    "build:client": "webpack",
+    "build:server": "webpack --config webpack.server.config.js",
+    "buildServer": "npm run build:client && npm run build:server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "if-env": "^1.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.6",

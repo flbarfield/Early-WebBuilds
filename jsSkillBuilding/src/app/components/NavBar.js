@@ -12,9 +12,11 @@ export default class NavBar extends React.Component {
               <img src="/app/images/ticTacToe.png"/>
             </div>
           </Link>
+          <Link to={"DotsAndBox"}>
             <div className="smallNavImgWrap">
               <img src="/app/images/dotsNBox.png"/>
             </div>
+          </Link>
             <div className="smallNavImgWrap">
               <img src="/app/images/think.png"/>
             </div>
