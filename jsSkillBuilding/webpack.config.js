@@ -1,3 +1,5 @@
+"use strict";
+const debug = process.env.NODE_ENV !== "production";
 var webpack = require("webpack");
 var path = require("path");
 
@@ -45,7 +47,21 @@ var config = {
 				loader: "file-loader?name=[path][name].[ext]!extract-loader!html-loader"
 			}
 		]
-	}
+	},
+	plugins: debug ? [] : [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    }),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: { warnings: false },
+      mangle: true,
+      sourcemap: false,
+      beautify: false,
+      dead_code: true
+    }),
+  ]
 };
 
 module.exports = config;

@@ -20,11 +20,11 @@ export default class Welcome extends React.Component {
             <h2>Play against the AI or with a friend!</h2>
             <div className="welOverlay"></div>
           </div></Link>
-          <div className="welProject proj2 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
+          <Link to={"/DotsAndBox"}><div className="welProject proj2 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
             <h1>Dots and Boxes</h1>
-            <h2>Coming Soon!</h2>
+            <h2>Own the most Boxes! Compete with a friend!</h2>
             <div className="welOverlay"></div>
-          </div>
+          </div></Link>
           <div className="welProject proj3 col-xs-12 col-md-6 col-lg-4 row-no-padding row">
             <h1>CrossWord Puzzle</h1>
             <h2>Coming Soon!</h2>
