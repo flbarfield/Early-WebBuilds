@@ -22048,7 +22048,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.DotsPage {\n  background-image: url(/app/images/dark_embroidery.png);\n  height: 100%;\n  position: relative; }\n  .DotsPage .DotsMidContent {\n    background-color: lightgrey;\n    text-align: center;\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n    padding: 0 2em 1em; }\n    .DotsPage .DotsMidContent .mainImgWrap {\n      width: 10em;\n      margin: 2em auto; }\n      .DotsPage .DotsMidContent .mainImgWrap img {\n        width: 100%; }\n    .DotsPage .DotsMidContent button {\n      display: block;\n      margin: 1em auto; }\n\n.navbar i {\n  font-size: 2em;\n  margin-right: 0em; }\n\n.navbar .smallNavImgWrap {\n  height: 2em;\n  width: 2em;\n  display: inline-block;\n  margin-top: 1em;\n  cursor: pointer;\n  margin-right: 1em; }\n  .navbar .smallNavImgWrap:hover {\n    background-color: 5D6CC5;\n    border-radius: .2em; }\n  .navbar .smallNavImgWrap img {\n    height: 100%;\n    width: 100%; }\n\n.welcomePage {\n  background-color: 5D6CC5; }\n  .welcomePage .welIntro {\n    background-color: 5D6CC5;\n    padding: 1em 2em 2em;\n    color: white; }\n    .welcomePage .welIntro h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welIntro .welAbout {\n      font-size: 1.3em;\n      max-width: 35em; }\n  .welcomePage .ticTac {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/ticTacToe.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .ticTac h2 {\n      top: 5em; }\n    .welcomePage .ticTac .welOverlay {\n      background-color: 62CC14;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .ticTac .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj2 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/dotsNBox.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj2 h2 {\n      top: 5em; }\n    .welcomePage .proj2 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj2 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj3 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/think.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj3 h2 {\n      top: 5em; }\n    .welcomePage .proj3 .welOverlay {\n      background-color: 25FF;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj3 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj4 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/spaceInvader.png\");\n    background-position: center;\n    background-size: contain;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj4 h2 {\n      top: 5em; }\n    .welcomePage .proj4 .welOverlay {\n      background-color: 51B209;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj4 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj5 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/hiking.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj5 h2 {\n      top: 5em; }\n    .welcomePage .proj5 .welOverlay {\n      background-color: 5D6CC5;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj5 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj6 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/pingPong.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj6 h2 {\n      top: 5em; }\n    .welcomePage .proj6 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj6 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .welFooter {\n    background-color: 5D6CC5;\n    padding: 1em;\n    color: white;\n    max-width: 60em;\n    margin: 0 auto; }\n    .welcomePage .welFooter h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welFooter p {\n      padding-top: 1em;\n      margin: 0 auto; }\n\n@media (max-width: 992px) {\n  .welProject {\n    display: block;\n    width: 100%;\n    padding: 0;\n    margin: 0 auto; }\n  .ticTac, .proj3, .proj5 {\n    position: relative;\n    right: 1em; } }\n\n.gameList {\n  background-color: 5D6CC5;\n  height: 54em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; }\n  .welFooter {\n    padding: 5em; }\n    .welFooter h1 {\n      padding: .5em;\n      max-width: 45em; }\n    .welFooter p {\n      font-size: 1.5em;\n      padding: 1em;\n      max-width: 45em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em;\n      text-decoration: line-through; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: contain;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .selectWrap {\n        display: inline-block;\n        margin-right: .5em;\n        padding: 0; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  width: 100%; }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 28em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
+	exports.push([module.id, ".human {\n  font-family: \"Waiting for the Sunrise\", cursive; }\n\n.machine {\n  font-family: \"Press Start 2P\", cursive; }\n\np, h1, h2 {\n  font-family: \"Open Sans\", sans-serif; }\n\nbody {\n  margin-top: 3.5em; }\n\n.row-no-padding [class*=\"col-\"] {\n  padding-left: 0 !important;\n  padding-right: 0 !important; }\n\n.DotsPage {\n  background-image: url(/app/images/dark_embroidery.png);\n  height: 100%;\n  position: relative; }\n  .DotsPage .DotsMidContent {\n    background-color: lightgrey;\n    text-align: center;\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n    padding: 0 2em 1em; }\n    .DotsPage .DotsMidContent .mainImgWrap {\n      width: 10em;\n      margin: 2em auto; }\n      .DotsPage .DotsMidContent .mainImgWrap img {\n        width: 100%; }\n    .DotsPage .DotsMidContent button {\n      display: block;\n      margin: 1em auto; }\n    .DotsPage .DotsMidContent .dotsPlayArea {\n      height: 30em;\n      width: 25em;\n      padding: 3em 0; }\n      .DotsPage .DotsMidContent .dotsPlayArea .hLine {\n        width: 5em;\n        height: 1em;\n        background-color: blue;\n        display: inline-block; }\n        .DotsPage .DotsMidContent .dotsPlayArea .hLine:not(:last-child) {\n          margin-right: 1em; }\n      .DotsPage .DotsMidContent .dotsPlayArea .vLine {\n        height: 5em;\n        width: 1em;\n        background-color: red;\n        display: inline-block; }\n        .DotsPage .DotsMidContent .dotsPlayArea .vLine:not(:last-child) {\n          margin-right: 5em; }\n\n.navbar i {\n  font-size: 2em;\n  margin-right: 0em; }\n\n.navbar .smallNavImgWrap {\n  height: 2em;\n  width: 2em;\n  display: inline-block;\n  margin-top: 1em;\n  cursor: pointer;\n  margin-right: 1em; }\n  .navbar .smallNavImgWrap:hover {\n    background-color: 5D6CC5;\n    border-radius: .2em; }\n  .navbar .smallNavImgWrap img {\n    height: 100%;\n    width: 100%; }\n\n.welcomePage {\n  background-color: 5D6CC5; }\n  .welcomePage .welIntro {\n    background-color: 5D6CC5;\n    padding: 1em 2em 2em;\n    color: white; }\n    .welcomePage .welIntro h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welIntro .welAbout {\n      font-size: 1.3em;\n      max-width: 35em; }\n  .welcomePage .ticTac {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/ticTacToe.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .ticTac h1, .welcomePage .ticTac h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .ticTac h2 {\n      top: 5em; }\n    .welcomePage .ticTac .welOverlay {\n      background-color: 62CC14;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .ticTac .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj2 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/dotsNBox.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj2 h1, .welcomePage .proj2 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj2 h2 {\n      top: 5em; }\n    .welcomePage .proj2 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj2 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj3 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/think.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj3 h1, .welcomePage .proj3 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj3 h2 {\n      top: 5em; }\n    .welcomePage .proj3 .welOverlay {\n      background-color: 25FF;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj3 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj4 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/spaceInvader.png\");\n    background-position: center;\n    background-size: contain;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj4 h1, .welcomePage .proj4 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj4 h2 {\n      top: 5em; }\n    .welcomePage .proj4 .welOverlay {\n      background-color: 51B209;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj4 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj5 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/hiking.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s;\n    margin-left: 1em; }\n    .welcomePage .proj5 h1, .welcomePage .proj5 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj5 h2 {\n      top: 5em; }\n    .welcomePage .proj5 .welOverlay {\n      background-color: 5D6CC5;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj5 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .proj6 {\n    color: white;\n    cursor: pointer;\n    background-image: url(\"/app/images/pingPong.png\");\n    background-position: center;\n    background-size: contain;\n    background-origin: content-box;\n    background-repeat: no-repeat;\n    height: 18em;\n    position: relative;\n    transition: .2s; }\n    .welcomePage .proj6 h1, .welcomePage .proj6 h2 {\n      position: absolute;\n      z-index: 1;\n      padding: 0 .5em; }\n    .welcomePage .proj6 h2 {\n      top: 5em; }\n    .welcomePage .proj6 .welOverlay {\n      background-color: FF5519;\n      height: 18em;\n      opacity: .9;\n      transition: .5s; }\n      .welcomePage .proj6 .welOverlay:hover {\n        opacity: .5; }\n  .welcomePage .welFooter {\n    background-color: 5D6CC5;\n    padding: 1em;\n    color: white;\n    max-width: 60em;\n    margin: 0 auto; }\n    .welcomePage .welFooter h1 {\n      padding-bottom: .5em; }\n    .welcomePage .welFooter p {\n      padding-top: 1em;\n      margin: 0 auto; }\n\n@media (max-width: 992px) {\n  .welProject {\n    display: block;\n    width: 100%;\n    padding: 0;\n    margin: 0 auto; }\n  .ticTac, .proj3, .proj5 {\n    position: relative;\n    right: 1em; } }\n\n.gameList {\n  background-color: 5D6CC5;\n  height: 54em; }\n\n@media (min-width: 992px) {\n  .welIntro h1 {\n    font-size: 4em; }\n  .welFooter {\n    padding: 5em; }\n    .welFooter h1 {\n      padding: .5em;\n      max-width: 45em; }\n    .welFooter p {\n      font-size: 1.5em;\n      padding: 1em;\n      max-width: 45em; } }\n\n.ticMain {\n  background-color: 5DC5A3;\n  height: 100%;\n  position: relative; }\n  .ticMain .mainPageContainer {\n    background-color: lightgrey;\n    max-width: 30em;\n    margin: 0 auto;\n    padding: 2em 1.5em;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    text-align: center; }\n    .ticMain .mainPageContainer h1 {\n      font-size: 4em; }\n    .ticMain .mainPageContainer .machine {\n      margin: 2em 0 2em;\n      font-size: 1em;\n      text-decoration: line-through; }\n      .ticMain .mainPageContainer .machine:hover {\n        color: D819FF; }\n    .ticMain .mainPageContainer .human {\n      font-size: 1.3em; }\n      .ticMain .mainPageContainer .human:hover {\n        color: D819FF; }\n\n.twoPlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/highFive.png);\n  background-size: contain;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 100%;\n  position: relative; }\n  .twoPlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    height: 27em;\n    text-align: center; }\n    .twoPlay .ticPlayArea .playerTurn {\n      font-size: 1.5em;\n      margin-top: 1em; }\n    .twoPlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .twoPlay .ticPlayArea .row .selectWrap {\n        display: inline-block;\n        margin-right: .5em;\n        padding: 0; }\n      .twoPlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .twoPlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .twoPlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .twoPlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .twoPlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .twoPlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .twoPlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .twoPlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  width: 100%; }\n\n.machinePlay {\n  background-color: 5DC5A3;\n  background-image: url(/app/images/sadRobo.png);\n  background-size: cover;\n  height: 100%;\n  position: relative; }\n  .machinePlay .playerTurn {\n    display: none; }\n  .machinePlay .ticPlayArea {\n    background-color: rgba(220, 220, 220, 0.8);\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 28em;\n    text-align: center; }\n    .machinePlay .ticPlayArea .row {\n      font-size: 2em;\n      color: D819FF;\n      border-color: black;\n      margin: 0 auto; }\n      .machinePlay .ticPlayArea .row .squares {\n        width: 3em;\n        height: 3em;\n        border-style: solid;\n        border-radius: .5em;\n        margin-bottom: 1em;\n        display: inline-block;\n        position: relative;\n        cursor: pointer;\n        transition: .3s; }\n        .machinePlay .ticPlayArea .row .squares:hover {\n          border-color: white; }\n        .machinePlay .ticPlayArea .row .squares span {\n          position: absolute;\n          top: 50%;\n          left: 50%;\n          transform: translate(-50%, -50%);\n          color: white;\n          font-weight: bolder; }\n      .machinePlay .ticPlayArea .row .squares:not(:last-child) {\n        margin-right: .5em; }\n      .machinePlay .ticPlayArea .row .oPlayer {\n        background-color: CC9914; }\n      .machinePlay .ticPlayArea .row .xPlayer {\n        background-color: 0FFAC; }\n      .machinePlay .ticPlayArea .row .noPlayer {\n        background-color: D819FF; }\n    .machinePlay .ticPlayArea .row:first-child {\n      margin-top: 1em; }\n\n.innerPlay {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%); }\n", ""]);
 	
 	// exports
 
@@ -22440,11 +22440,8 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: "/ticTacToe", component: _TicTac2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/machine", component: _Machine2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: "/twoplayers", component: _TwoP2.default }),
-	        _react2.default.createElement(
-	          _reactRouter.Route,
-	          { path: "/dotsAndBox", component: _DotsAndBox2.default },
-	          _react2.default.createElement(_reactRouter.Route, { path: "/DotsPlay", component: _DotsPlay2.default })
-	        )
+	        _react2.default.createElement(_reactRouter.Route, { path: "/dotsAndBox", component: _DotsAndBox2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: "/DotsPlay", component: _DotsPlay2.default })
 	      );
 	    }
 	  }]);
@@ -22521,7 +22518,7 @@
 	            ),
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: "dotsAndBox/DotsPlay" },
+	              { to: "/DotsPlay" },
 	              _react2.default.createElement(
 	                'button',
 	                null,
@@ -27733,6 +27730,10 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _NavBar = __webpack_require__(/*! ../NavBar */ 239);
+	
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27756,10 +27757,94 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_NavBar2.default, null),
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'BOOP'
+	          'div',
+	          { className: 'DotsPage' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'DotsMidContent' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'dotsPlayArea' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row1' },
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row2' },
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row3' },
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row4' },
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row5' },
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row6' },
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row7' },
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row8' },
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' }),
+	                _react2.default.createElement('div', { className: 'vLine' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'row9' },
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' }),
+	                _react2.default.createElement('div', { className: 'hLine' })
+	              )
+	            )
+	          )
 	        )
 	      );
 	    }
@@ -27767,6 +27852,33 @@
 	
 	  return DotsPlay;
 	}(_react2.default.Component);
+	
+	// Older way of doing the boxes, trying something else.
+	// <div className='row1'>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	// </div>
+	// <div className='row2'>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	// </div>
+	// <div className='row3'>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	// </div>
+	// <div className='row4'>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	//   <div className='square'></div>
+	// </div>
+	
 	
 	exports.default = DotsPlay;
 

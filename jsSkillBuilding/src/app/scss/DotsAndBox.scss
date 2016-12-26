@@ -27,22 +27,37 @@
       height: 30em;
       width: 25em;
       padding: 3em 0;
+      .gamewrap {background-color: black;}
       .hLine {
         width: 5em;
         height: 1em;
-        background-color: blue;
+        // background-color: blue;
+        color: grey;
+        border-style: solid;
         display: inline-block;
+        transition: .3s;
+        cursor: pointer;
         &:not(:last-child) {
           margin-right: 1em;
+        }
+        &:hover {
+          color: white;
         }
       }
       .vLine {
         height: 5em;
         width: 1em;
-        background-color: red;
+        color: grey;
+        // background-color: red;
+        border-style: solid;
         display: inline-block;
+        transition: .3s;
+        cursor: pointer;
         &:not(:last-child) {
           margin-right: 5em;
+        }
+        &:hover {
+          color: white;
         }
       }
     }
