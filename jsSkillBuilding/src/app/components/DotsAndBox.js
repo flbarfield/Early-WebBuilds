@@ -13,7 +13,7 @@ export default class DotsAndBox extends React.Component {
             <div className='mainImgWrap'>
               <img src='/app/images/dotsNBox.png'/>
             </div>
-            <Link to={"dotsAndBox/DotsPlay"}><button>Play!</button></Link>
+            <Link to={"/DotsPlay"}><button>Play!</button></Link>
             <button>How to Play</button>
           </div>
         </div>

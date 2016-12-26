@@ -22,5 +22,44 @@
       display: block;
       margin: 1em auto;
     }
+
+    .dotsPlayArea {
+      height: 30em;
+      width: 25em;
+      padding: 3em 0;
+      .hLine {
+        width: 5em;
+        height: 1em;
+        background-color: blue;
+        display: inline-block;
+        &:not(:last-child) {
+          margin-right: 1em;
+        }
+      }
+      .vLine {
+        height: 5em;
+        width: 1em;
+        background-color: red;
+        display: inline-block;
+        &:not(:last-child) {
+          margin-right: 5em;
+        }
+      }
+    }
+    // .dotsPlayArea {
+    //   height: 20em;
+    //   width: 20em;
+    //   padding: 2em 0;
+    //   margin-bottom: 3em;
+    //   .square {
+    //     height: 5em;
+    //     width: 5em;
+    //     // background-color: blue;
+    //     padding: 0;
+    //     display: inline-block;
+    //     border-style: dotted;
+    //     border-width: thin;
+    //   }
+    // }
   }
 }
