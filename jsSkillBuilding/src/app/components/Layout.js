@@ -16,9 +16,8 @@ export default class Layout extends React.Component {
         <Route path={"/ticTacToe"} component={TicTac}/>
         <Route path={"/machine"} component={Machine}/>
         <Route path={"/twoplayers"} component={TwoP}/>
-        <Route path={"/dotsAndBox"} component={DotsAndBox}>
-          <Route path={"/DotsPlay"} component={DotsPlay}/>
-        </Route>
+        <Route path={"/dotsAndBox"} component={DotsAndBox}/>
+        <Route path={"/DotsPlay"} component={DotsPlay}/>
       </Router>
     );
   }
