@@ -1,8 +1,8 @@
 'use strict';
-
-import NavBar from "../Navbar";
 import Abouts from "../Abouts";
 import React from 'react';
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 export default class AboutTravel extends React.Component {
   toTravel() {
@@ -18,10 +18,11 @@ export default class AboutTravel extends React.Component {
 
     return(
       <div>
-        <NavBar/>
+        <Navbar/>
         <div onClick={this.toTravel}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -1,8 +1,9 @@
 'use strict';
 
 import Abouts from "../Abouts";
-import NavBar from "../Navbar";
 import React from 'react';
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 export default class AboutCompany extends React.Component {
   toCompany() {
@@ -18,10 +19,11 @@ export default class AboutCompany extends React.Component {
 
     return(
       <div>
-        <NavBar/>
+        <Navbar/>
         <div onClick={this.toCompany}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -1,8 +1,8 @@
 'use strict';
-
-import NavBar from "../Navbar";
 import Abouts from "../Abouts";
 import {Link} from "react-router";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 import React from 'react';
 
 export default class AboutBand extends React.Component {
@@ -19,10 +19,11 @@ export default class AboutBand extends React.Component {
 
     return(
       <div>
-        <NavBar/>
-        <div onClick={this.toBand}>
+      <Navbar/>
+        <div className='clickableAbout' onClick={this.toBand}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
+      <Footer/>
       </div>
     );
   }

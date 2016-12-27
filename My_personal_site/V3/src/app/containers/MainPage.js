@@ -9,13 +9,13 @@ import React from 'react';
 export default class MainPage extends React.Component {
   render () {
     return (
-      <div>
+      <div className='mainPage'>
         <div className='jumbotron jumbotron-main'>
         <Navbar/>
           <div>
             <h1>Fredrick Barfield</h1>
             <h2>Front End Web Development</h2>
-            <h3>HTML <span className='fa fa-circle'></span> CSS <span className='fa fa-circle'></span> JavaScript</h3>
+            <h3>HTML <span className='fa fa-circle'></span> CSS <span className='fa fa-circle'></span> JavaScript <span className='fa fa-circle'></span> React </h3>
           </div>
         </div>
         <h1 className='page-heading'>Project Examples</h1>
@@ -50,30 +50,29 @@ const PROJINFO = [
   img: "/app/Images/Games.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
-
   key: 3,
-  id: "AboutShopping",
-  img: "/app/Images/Shop.png",
+  id: "AboutBlog",
+  img: "/app/Images/Blog_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 4,
-  id: "AboutBand",
-  img: "/app/Images/Bandstream.png",
+  id: "AboutHome",
+  img: "/app/Images/Home_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 }, {
   key: 5,
-  id: "AboutTravel",
-  img: "/app/Images/Travel_SC.png",
+  id: "AboutBand",
+  img: "/app/Images/Bandstream.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }, {
   key: 6,
-  id: "AboutBlog",
-  img: "/app/Images/Blog_SC.png",
+  id: "AboutShopping",
+  img: "/app/Images/Shop.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 left",
 },{
   key: 7,
-  id: "AboutHome",
-  img: "/app/Images/Home_SC.png",
+  id: "AboutTravel",
+  img: "/app/Images/Travel_SC.png",
   imageWrapStyling: "main-img-wrap col-xs-12 col-sm-12 col-md-12 right",
 }
 ];
