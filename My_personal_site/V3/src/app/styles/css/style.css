@@ -1,5 +1,6 @@
 body {
-  background: #222222; }
+  background: #222222;
+  height: 100%; }
 
 .jumbotron-main h1, h1 {
   font-family: "Permanent Marker", cursive;
@@ -25,6 +26,9 @@ p, li {
 
 .important {
   color: #9b7300; }
+
+.totalNav {
+  z-index: 9999; }
 
 .navbar {
   margin-bottom: 0; }
@@ -69,6 +73,10 @@ p, li {
 .navbar-header .navbar-toggle:hover {
   background-color: #fce836;
   transition: .2s; }
+
+.main-page {
+  height: 100%;
+  position: relative; }
 
 .jumbotron-main {
   background-color: #222222;
@@ -154,7 +162,8 @@ p, li {
 .imported-content {
   color: white;
   padding-top: 7em;
-  padding-bottom: 4em; }
+  padding-bottom: 4em;
+  min-height: 80%; }
 
 .proj-pic-wrapper img {
   padding-bottom: 2em;
@@ -169,7 +178,8 @@ p, li {
   margin-top: 0; }
 
 .project-info p {
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  padding-bottom: 2em; }
 
 .explaination-list {
   padding-left: 1em; }

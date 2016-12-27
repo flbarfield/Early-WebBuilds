@@ -17,7 +17,7 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='totalNav'>
         <div>
           <nav className='navbar navbar-inverse navbar-fixed-top'>
               <div className='container-fluid'>

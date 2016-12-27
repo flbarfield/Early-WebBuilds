@@ -1,7 +1,8 @@
 'use strict';
-import NavBar from "../Navbar";
 import Abouts from "../Abouts";
 import React from 'react';
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 export default class AboutTsdc extends React.Component {
   toTsdc() {
@@ -17,10 +18,11 @@ export default class AboutTsdc extends React.Component {
 
     return(
       <div>
-        <NavBar/>
+        <Navbar/>
         <div onClick={this.toTsdc}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
+        <Footer/>
       </div>
     );
   }

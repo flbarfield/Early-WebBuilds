@@ -1,9 +1,9 @@
 'use strict';
-
-import NavBar from "../Navbar";
 import Abouts from "../Abouts";
 import {Link} from "react-router";
 import React from 'react';
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 export default class AboutGames extends React.Component {
   toGames () {
@@ -19,10 +19,11 @@ export default class AboutGames extends React.Component {
 
     return(
       <div>
-        <NavBar/>
+        <Navbar/>
         <div onClick={this.toGames}>
           <Abouts description={SPECIFICS.description} img={SPECIFICS.img}/>
         </div>
+        <Footer/>
       </div>
     );
   }
